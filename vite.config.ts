@@ -8,9 +8,12 @@ export default defineConfig({
     SvelteKitPWA({
       strategies: 'generateSW',
       registerType: 'autoUpdate',
-      injectRegister: 'auto',
+      // SvelteKit does not reliably inject Vite PWA's register script into
+      // SSR output, so app.html registers the worker explicitly.
+      injectRegister: false,
       
       manifest: {
+        id: '/',
         name: 'Happy Study 3D',
         short_name: 'HappyStudy3D',
         description: 'Free educational PWA for CXC, CAPE, and Software Engineering',
