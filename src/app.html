@@ -98,10 +98,8 @@
     <script>
       // Keep this explicit for SvelteKit SSR and PWABuilder detection.
       if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js', { scope: '/' }).catch((error) => {
-            console.warn('Service worker registration failed:', error);
-          });
+        navigator.serviceWorker.register('/sw.js', { scope: '/' }).catch((error) => {
+          console.warn('Service worker registration failed:', error);
         });
       }
     </script>
