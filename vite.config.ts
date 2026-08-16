@@ -34,6 +34,18 @@ export default defineConfig({
             type: 'image/png',
             purpose: 'any'
           },
+          {
+            src: '/icons/icon-192-maskable.png',
+            sizes: '192x192',
+            type: 'image/png',
+            purpose: 'maskable'
+          },
+          {
+            src: '/icons/icon-512-maskable.png',
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'maskable'
+          },
         ],
         
         categories: ['education', 'productivity', 'study'],
@@ -63,7 +75,13 @@ export default defineConfig({
       },
       
       workbox: {
-        navigateFallback: '/index.html',
+        // adapter-vercel creates private server/* build files. They are not
+        // public URLs, so precaching them makes Workbox installation fail.
+        globIgnores: ['**/server/**'],
+        // This app is served by SvelteKit, not a static index.html file.
+        // Cache the public root document as the offline app shell instead.
+        additionalManifestEntries: [{ url: '/', revision: null }],
+        navigateFallback: '/',
         cleanupOutdatedCaches: true,
         clientsClaim: true,
         skipWaiting: true,
