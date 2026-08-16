@@ -1,0 +1,899 @@
+{
+  "id": "cxc-pob",
+  "name": "Principles of Business",
+  "level": "CXC",
+  "description": "CXC CSEC Principles of Business - Complete cheatsheet covering all business concepts",
+  "icon": "💼",
+  "syllabusVersion": "2023",
+  "lastVerified": "2026-01-15",
+  "source": "CXC CSEC Principles of Business Syllabus",
+  "units": [
+    {
+      "id": "business-environment",
+      "title": "Business and Its Environment",
+      "description": "Understanding what business is and how it operates",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Define business and its purpose",
+        "Identify types of businesses",
+        "Understand business environment",
+        "Recognize stakeholders"
+      ],
+      "topics": [
+        {
+          "id": "what-is-business",
+          "title": "What is Business?",
+          "summary": "Business is any activity that provides goods or services to satisfy needs and wants for profit",
+          "mustKnow": [
+            "Business provides goods (tangible) and services (intangible)",
+            "Purpose: satisfy consumer needs AND make profit",
+            "Goods = physical items (food, clothes)",
+            "Services = activities (banking, teaching)",
+            "Profit = Revenue - Expenses"
+          ],
+          "keyTerms": [
+            {"term": "Business", "definition": "Organization providing goods/services for profit"},
+            {"term": "Goods", "definition": "Tangible products you can touch"},
+            {"term": "Services", "definition": "Intangible activities provided"},
+            {"term": "Profit", "definition": "Money left after paying expenses"},
+            {"term": "Stakeholder", "definition": "Anyone affected by or interested in business"}
+          ],
+          "examples": [
+            {
+              "question": "Classify: bakery selling bread",
+              "answer": "Goods (bread is tangible)",
+              "explanation": "Physical product = goods"
+            },
+            {
+              "question": "Classify: hair salon",
+              "answer": "Service (haircut is intangible)",
+              "explanation": "Activity performed = service"
+            }
+          ],
+          "formulas": [
+            "Profit = Revenue - Expenses",
+            "Revenue = Price × Quantity Sold"
+          ],
+          "commonMistakes": [
+            "Confusing goods with services",
+            "Forgetting profit motive",
+            "Not identifying all stakeholders"
+          ],
+          "examTips": [
+            "Give Caribbean examples",
+            "Always mention profit motive",
+            "Identify multiple stakeholders"
+          ],
+          "questions": [
+            {
+              "id": "pob-q1",
+              "question": "Which is a service?",
+              "options": ["Haircut", "Bread", "Shoes", "Phone"],
+              "correctAnswer": "Haircut",
+              "explanation": "Haircut is an activity, not a physical item",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            },
+            {
+              "id": "pob-q2",
+              "question": "Main purpose of business?",
+              "options": ["Provide goods/services for profit", "Pay taxes", "Hire people", "Use resources"],
+              "correctAnswer": "Provide goods/services for profit",
+              "explanation": "Business exists to satisfy needs and make profit",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Caribbean business environment",
+            "Types of economic systems"
+          ],
+          "resources": []
+        },
+        {
+          "id": "stakeholders",
+          "title": "Stakeholders",
+          "summary": "Groups with interest in business success",
+          "mustKnow": [
+            "Owners/Shareholders: want profit",
+            "Employees: want fair wages",
+            "Customers: want quality products",
+            "Government: wants taxes and compliance",
+            "Community: wants jobs and no pollution"
+          ],
+          "keyTerms": [
+            {"term": "Stakeholder", "definition": "Person/group with interest in business"},
+            {"term": "Shareholder", "definition": "Owner of company shares"},
+            {"term": "Internal Stakeholder", "definition": "Inside business (owners, employees)"},
+            {"term": "External Stakeholder", "definition": "Outside business (government, community)"}
+          ],
+          "examples": [
+            {
+              "question": "List stakeholders of a school",
+              "answer": "Students, teachers, parents, government, community",
+              "explanation": "All affected by or interested in school"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing stakeholders with shareholders only",
+            "Missing external stakeholders"
+          ],
+          "examTips": [
+            "Identify at least 3 stakeholders",
+            "Explain what each wants"
+          ],
+          "questions": [
+            {
+              "id": "pob-stake-q1",
+              "question": "Which is an external stakeholder?",
+              "options": ["Government", "Manager", "Employee", "Owner"],
+              "correctAnswer": "Government",
+              "explanation": "Government is outside the business",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Stakeholder conflict",
+            "Corporate governance"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "entrepreneurship",
+      "title": "Entrepreneurship",
+      "description": "Starting and running a business",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand entrepreneurship",
+        "Identify entrepreneurial characteristics",
+        "Recognize business opportunities"
+      ],
+      "topics": [
+        {
+          "id": "entrepreneur",
+          "title": "The Entrepreneur",
+          "summary": "Person who takes risks to start and run a business",
+          "mustKnow": [
+            "Entrepreneur takes risks to start business",
+            "Characteristics: innovative, risk-taker, determined",
+            "Sees opportunities where others see problems",
+            "Combines resources to create value",
+            "Drives economic growth"
+          ],
+          "keyTerms": [
+            {"term": "Entrepreneur", "definition": "Person who starts and runs business"},
+            {"term": "Innovation", "definition": "Creating new ideas/products"},
+            {"term": "Risk", "definition": "Possibility of loss"},
+            {"term": "Enterprise", "definition": "Business venture"}
+          ],
+          "examples": [
+            {
+              "question": "Someone opens a new restaurant. What are they?",
+              "answer": "Entrepreneur",
+              "explanation": "Started business taking risk"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing entrepreneur with manager",
+            "Missing risk-taking aspect"
+          ],
+          "examTips": [
+            "List 4+ characteristics",
+            "Give Caribbean examples"
+          ],
+          "questions": [
+            {
+              "id": "pob-ent-q1",
+              "question": "Key characteristic of entrepreneur?",
+              "options": ["Risk-taker", "Avoids challenges", "Works alone", "Hates innovation"],
+              "correctAnswer": "Risk-taker",
+              "explanation": "Entrepreneurs take calculated risks",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Caribbean entrepreneurs",
+            "Business startup process"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "business-ownership",
+      "title": "Business Ownership",
+      "description": "Different forms of business ownership",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Identify forms of ownership",
+        "Compare advantages and disadvantages"
+      ],
+      "topics": [
+        {
+          "id": "forms-of-ownership",
+          "title": "Forms of Business Ownership",
+          "summary": "Different legal structures for businesses",
+          "mustKnow": [
+            "Sole Trader: one owner, unlimited liability",
+            "Partnership: 2-20 owners, share profits",
+            "Company: separate legal entity, limited liability",
+            "Cooperative: owned by members",
+            "Limited liability = owners not personally responsible for debts"
+          ],
+          "keyTerms": [
+            {"term": "Sole Trader", "definition": "Business owned by one person"},
+            {"term": "Partnership", "definition": "Business owned by 2+ people"},
+            {"term": "Limited Liability", "definition": "Owners only lose what they invested"},
+            {"term": "Unlimited Liability", "definition": "Owners responsible for all debts"}
+          ],
+          "examples": [
+            {
+              "question": "Two lawyers start a firm together. What form?",
+              "answer": "Partnership",
+              "explanation": "Two owners sharing business"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing liability types",
+            "Wrong number of partners"
+          ],
+          "examTips": [
+            "Know advantages AND disadvantages",
+            "Compare forms clearly"
+          ],
+          "questions": [
+            {
+              "id": "pob-own-q1",
+              "question": "Limited liability means:",
+              "options": ["Owners only lose investment", "Owners lose everything", "No risk", "Government pays debts"],
+              "correctAnswer": "Owners only lose investment",
+              "explanation": "Limited liability protects personal assets",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Company registration",
+            "Legal structures"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "Management",
+      "description": "Managing business operations",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand management functions",
+        "Identify management levels"
+      ],
+      "topics": [
+        {
+          "id": "management-functions",
+          "title": "Functions of Management",
+          "summary": "Planning, Organizing, Leading, Controlling",
+          "mustKnow": [
+            "Planning: setting goals and strategies",
+            "Organizing: arranging resources",
+            "Leading: motivating and directing",
+            "Controlling: monitoring and correcting",
+            "Management levels: top, middle, lower"
+          ],
+          "keyTerms": [
+            {"term": "Planning", "definition": "Setting objectives and how to achieve them"},
+            {"term": "Organizing", "definition": "Arranging resources and tasks"},
+            {"term": "Leading", "definition": "Motivating and guiding staff"},
+            {"term": "Controlling", "definition": "Monitoring performance"}
+          ],
+          "examples": [
+            {
+              "question": "Manager sets monthly sales target. What function?",
+              "answer": "Planning",
+              "explanation": "Setting goals = planning"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing functions",
+            "Missing controlling function"
+          ],
+          "examTips": [
+            "Memorize: P-O-L-C",
+            "Give examples for each"
+          ],
+          "questions": [
+            {
+              "id": "pob-mgmt-q1",
+              "question": "Motivating employees is which function?",
+              "options": ["Leading", "Planning", "Controlling", "Organizing"],
+              "correctAnswer": "Leading",
+              "explanation": "Motivating is part of leading",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Management styles",
+            "Leadership theories"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "marketing",
+      "title": "Marketing",
+      "description": "Promoting and selling products",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand marketing mix",
+        "Identify marketing strategies"
+      ],
+      "topics": [
+        {
+          "id": "marketing-mix",
+          "title": "The Marketing Mix (4 Ps)",
+          "summary": "Product, Price, Place, Promotion",
+          "mustKnow": [
+            "Product: what you sell",
+            "Price: how much you charge",
+            "Place: where you sell",
+            "Promotion: how you advertise",
+            "Market research guides decisions"
+          ],
+          "keyTerms": [
+            {"term": "Marketing Mix", "definition": "4 Ps of marketing"},
+            {"term": "Target Market", "definition": "Specific group you sell to"},
+            {"term": "Market Research", "definition": "Gathering customer information"}
+          ],
+          "examples": [
+            {
+              "question": "Company decides to advertise on social media. Which P?",
+              "answer": "Promotion",
+              "explanation": "Advertising = promotion"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing 4 Ps",
+            "Missing market research"
+          ],
+          "examTips": [
+            "Memorize 4 Ps",
+            "Apply to real businesses"
+          ],
+          "questions": [
+            {
+              "id": "pob-mkt-q1",
+              "question": "Choosing to sell in supermarkets is which P?",
+              "options": ["Place", "Product", "Price", "Promotion"],
+              "correctAnswer": "Place",
+              "explanation": "Where you sell = place",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Digital marketing",
+            "Consumer behavior"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "production",
+      "title": "Production",
+      "description": "Creating goods and services",
+      "importance": "important",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand production types",
+        "Identify factors of production"
+      ],
+      "topics": [
+        {
+          "id": "factors-of-production",
+          "title": "Factors of Production",
+          "summary": "Resources used to produce goods and services",
+          "mustKnow": [
+            "Land: natural resources",
+            "Labour: human effort",
+            "Capital: machinery and tools",
+            "Enterprise: organizing the other three",
+            "Production = combining factors to create output"
+          ],
+          "keyTerms": [
+            {"term": "Land", "definition": "Natural resources"},
+            {"term": "Labour", "definition": "Human work"},
+            {"term": "Capital", "definition": "Machinery and equipment"},
+            {"term": "Enterprise", "definition": "Organizing production"}
+          ],
+          "examples": [
+            {
+              "question": "Classify: a tractor on a farm",
+              "answer": "Capital",
+              "explanation": "Machinery = capital"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing capital with money only",
+            "Missing enterprise factor"
+          ],
+          "examTips": [
+            "Memorize: L-L-C-E",
+            "Classify examples correctly"
+          ],
+          "questions": [
+            {
+              "id": "pob-prod-q1",
+              "question": "A factory worker is which factor?",
+              "options": ["Labour", "Land", "Capital", "Enterprise"],
+              "correctAnswer": "Labour",
+              "explanation": "Human effort = labour",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Production methods",
+            "Quality control"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "human-resources",
+      "title": "Human Resources",
+      "description": "Managing employees",
+      "importance": "important",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand HR functions",
+        "Identify recruitment process"
+      ],
+      "topics": [
+        {
+          "id": "hr-functions",
+          "title": "HR Functions",
+          "summary": "Recruitment, training, motivation, compensation",
+          "mustKnow": [
+            "Recruitment: attracting candidates",
+            "Selection: choosing best candidate",
+            "Training: developing skills",
+            "Motivation: keeping employees satisfied",
+            "Compensation: wages and benefits"
+          ],
+          "keyTerms": [
+            {"term": "Recruitment", "definition": "Finding job candidates"},
+            {"term": "Training", "definition": "Developing employee skills"},
+            {"term": "Motivation", "definition": "Encouraging good performance"}
+          ],
+          "examples": [
+            {
+              "question": "Company posts job ad online. What HR function?",
+              "answer": "Recruitment",
+              "explanation": "Attracting candidates = recruitment"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing recruitment and selection",
+            "Missing motivation"
+          ],
+          "examTips": [
+            "Know the HR process",
+            "Explain importance of motivation"
+          ],
+          "questions": [
+            {
+              "id": "pob-hr-q1",
+              "question": "Interviewing candidates is:",
+              "options": ["Selection", "Recruitment", "Training", "Motivation"],
+              "correctAnswer": "Selection",
+              "explanation": "Choosing best candidate = selection",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Employment laws",
+            "Performance management"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "title": "Finance",
+      "description": "Managing business money",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand sources of finance",
+        "Identify financial management"
+      ],
+      "topics": [
+        {
+          "id": "sources-of-finance",
+          "title": "Sources of Finance",
+          "summary": "Where businesses get money",
+          "mustKnow": [
+            "Internal: retained profits, owner's savings",
+            "External: loans, overdrafts, shares",
+            "Short-term: overdraft, trade credit",
+            "Long-term: loans, shares, mortgages",
+            "Choose based on cost and purpose"
+          ],
+          "keyTerms": [
+            {"term": "Retained Profit", "definition": "Profit kept in business"},
+            {"term": "Overdraft", "definition": "Short-term borrowing from bank"},
+            {"term": "Share Capital", "definition": "Money from selling shares"},
+            {"term": "Loan", "definition": "Borrowed money with interest"}
+          ],
+          "examples": [
+            {
+              "question": "Business uses last year's profit to expand. What source?",
+              "answer": "Retained profit (internal)",
+              "explanation": "Profit kept in business = internal source"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing internal and external",
+            "Wrong short/long-term classification"
+          ],
+          "examTips": [
+            "Classify sources clearly",
+            "Explain advantages of each"
+          ],
+          "questions": [
+            {
+              "id": "pob-fin-q1",
+              "question": "Which is internal source of finance?",
+              "options": ["Retained profit", "Bank loan", "Overdraft", "Shares"],
+              "correctAnswer": "Retained profit",
+              "explanation": "Retained profit comes from within business",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Financial planning",
+            "Investment decisions"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "business-communication",
+      "title": "Business Communication",
+      "description": "Effective communication in business",
+      "importance": "important",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand communication types",
+        "Identify barriers"
+      ],
+      "topics": [
+        {
+          "id": "communication-types",
+          "title": "Types of Communication",
+          "summary": "Internal, external, formal, informal",
+          "mustKnow": [
+            "Internal: within business",
+            "External: with outside parties",
+            "Formal: official channels",
+            "Informal: casual communication",
+            "Barriers: noise, language, emotion"
+          ],
+          "keyTerms": [
+            {"term": "Internal Communication", "definition": "Within the business"},
+            {"term": "External Communication", "definition": "With outside parties"},
+            {"term": "Barrier", "definition": "Something blocking communication"}
+          ],
+          "examples": [
+            {
+              "question": "Memo to employees. What type?",
+              "answer": "Internal formal",
+              "explanation": "Within business, official channel"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing internal and external",
+            "Missing barriers"
+          ],
+          "examTips": [
+            "Classify communication types",
+            "Identify barriers and solutions"
+          ],
+          "questions": [
+            {
+              "id": "pob-comm-q1",
+              "question": "Letter to supplier is:",
+              "options": ["External communication", "Internal communication", "Informal chat", "Rumor"],
+              "correctAnswer": "External communication",
+              "explanation": "Supplier is outside the business",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Communication skills",
+            "Digital communication"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "government-business",
+      "title": "Government and Business",
+      "description": "How government affects business",
+      "importance": "important",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand government role",
+        "Identify government policies"
+      ],
+      "topics": [
+        {
+          "id": "government-role",
+          "title": "Government's Role in Business",
+          "summary": "Regulation, taxation, support",
+          "mustKnow": [
+            "Government regulates business activities",
+            "Taxes business profits",
+            "Provides infrastructure",
+            "Protects consumers",
+            "Encourages economic development"
+          ],
+          "keyTerms": [
+            {"term": "Regulation", "definition": "Rules businesses must follow"},
+            {"term": "Taxation", "definition": "Money paid to government"},
+            {"term": "Infrastructure", "definition": "Roads, electricity, water"}
+          ],
+          "examples": [
+            {
+              "question": "Government builds roads for businesses. What role?",
+              "answer": "Providing infrastructure",
+              "explanation": "Roads help business operate"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Missing government roles",
+            "Not understanding regulation"
+          ],
+          "examTips": [
+            "List multiple government roles",
+            "Explain impact on business"
+          ],
+          "questions": [
+            {
+              "id": "pob-gov-q1",
+              "question": "Government setting minimum wage is:",
+              "options": ["Regulation", "Taxation", "Infrastructure", "Competition"],
+              "correctAnswer": "Regulation",
+              "explanation": "Setting rules = regulation",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Economic policy",
+            "Business law"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "international-trade",
+      "title": "International Trade",
+      "description": "Trade between countries",
+      "importance": "important",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand international trade",
+        "Identify trade barriers"
+      ],
+      "topics": [
+        {
+          "id": "trade-concepts",
+          "title": "International Trade Concepts",
+          "summary": "Imports, exports, trade barriers",
+          "mustKnow": [
+            "Imports: goods bought from other countries",
+            "Exports: goods sold to other countries",
+            "Tariffs: taxes on imports",
+            "Quotas: limits on imports",
+            "Trade benefits: access to more goods"
+          ],
+          "keyTerms": [
+            {"term": "Import", "definition": "Goods bought from abroad"},
+            {"term": "Export", "definition": "Goods sold abroad"},
+            {"term": "Tariff", "definition": "Tax on imports"},
+            {"term": "Quota", "definition": "Limit on imports"}
+          ],
+          "examples": [
+            {
+              "question": "Jamaica sells coffee to Japan. What is this?",
+              "answer": "Export",
+              "explanation": "Selling to another country = export"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing imports and exports",
+            "Missing trade barriers"
+          ],
+          "examTips": [
+            "Know import vs export",
+            "Explain trade barriers"
+          ],
+          "questions": [
+            {
+              "id": "pob-trade-q1",
+              "question": "Goods bought from other countries are:",
+              "options": ["Imports", "Exports", "Domestic goods", "Services"],
+              "correctAnswer": "Imports",
+              "explanation": "Buying from abroad = import",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "CARICOM",
+            "Globalization"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "business-ethics",
+      "title": "Business Ethics",
+      "description": "Moral principles in business",
+      "importance": "important",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand business ethics",
+        "Identify ethical issues"
+      ],
+      "topics": [
+        {
+          "id": "ethics-concepts",
+          "title": "Ethics and Social Responsibility",
+          "summary": "Doing what is right in business",
+          "mustKnow": [
+            "Ethics: moral principles guiding decisions",
+            "Social responsibility: obligation to society",
+            "Ethical issues: bribery, discrimination, pollution",
+            "CSR: businesses giving back to community",
+            "Ethical behavior builds trust"
+          ],
+          "keyTerms": [
+            {"term": "Ethics", "definition": "Moral principles"},
+            {"term": "Social Responsibility", "definition": "Obligation to society"},
+            {"term": "CSR", "definition": "Corporate Social Responsibility"}
+          ],
+          "examples": [
+            {
+              "question": "Company donates to school. What is this?",
+              "answer": "Social responsibility/CSR",
+              "explanation": "Giving back to community"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing ethics with law",
+            "Missing CSR examples"
+          ],
+          "examTips": [
+            "Give ethical examples",
+            "Explain CSR importance"
+          ],
+          "questions": [
+            {
+              "id": "pob-ethics-q1",
+              "question": "Company reduces pollution voluntarily. This is:",
+              "options": ["Social responsibility", "Tax evasion", "Profit maximization", "Monopoly"],
+              "correctAnswer": "Social responsibility",
+              "explanation": "Acting responsibly = social responsibility",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Corporate governance",
+            "Sustainability"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "e-commerce",
+      "title": "E-Commerce",
+      "description": "Business on the internet",
+      "importance": "important",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand e-commerce",
+        "Identify benefits and challenges"
+      ],
+      "topics": [
+        {
+          "id": "ecommerce-concepts",
+          "title": "E-Commerce Basics",
+          "summary": "Buying and selling online",
+          "mustKnow": [
+            "E-commerce: business conducted online",
+            "Types: B2B, B2C, C2C",
+            "Benefits: reach more customers, lower costs",
+            "Challenges: security, competition",
+            "Examples: Amazon, eBay"
+          ],
+          "keyTerms": [
+            {"term": "E-Commerce", "definition": "Business conducted electronically"},
+            {"term": "B2B", "definition": "Business to Business"},
+            {"term": "B2C", "definition": "Business to Consumer"},
+            {"term": "C2C", "definition": "Consumer to Consumer"}
+          ],
+          "examples": [
+            {
+              "question": "Business sells directly to customers online. What type?",
+              "answer": "B2C",
+              "explanation": "Business to Consumer"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing e-commerce types",
+            "Missing challenges"
+          ],
+          "examTips": [
+            "Know the 3 types",
+            "List benefits AND challenges"
+          ],
+          "questions": [
+            {
+              "id": "pob-ec-q1",
+              "question": "Amazon selling to individual customers is:",
+              "options": ["B2C", "B2B", "C2C", "G2C"],
+              "correctAnswer": "B2C",
+              "explanation": "Business to Consumer",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Digital marketing",
+            "Online security"
+          ],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

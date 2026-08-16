@@ -1,0 +1,510 @@
+{
+  "id": "cxc-office-administration",
+  "name": "Office Administration",
+  "level": "CXC",
+  "description": "CXC CSEC Office Administration - Complete cheatsheet covering office procedures and management",
+  "icon": "📋",
+  "syllabusVersion": "2023",
+  "lastVerified": "2026-01-15",
+  "source": "CXC CSEC Office Administration Syllabus",
+  "units": [
+    {
+      "id": "office-environment",
+      "title": "Office Environment",
+      "description": "Understanding the office setting",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand office environment",
+        "Identify office types"
+      ],
+      "topics": [
+        {
+          "id": "office-basics",
+          "title": "The Office Environment",
+          "summary": "Where administrative work happens",
+          "mustKnow": [
+            "Office: place where administrative work is done",
+            "Types: traditional, open plan, virtual",
+            "Layout: arrangement of furniture and equipment",
+            "Ergonomics: comfortable and efficient workspace",
+            "Office provides support services",
+            "Well-designed office improves productivity"
+          ],
+          "keyTerms": [
+            {"term": "Office", "definition": "Place for administrative work"},
+            {"term": "Open Plan", "definition": "No walls between workers"},
+            {"term": "Virtual Office", "definition": "Work from anywhere"},
+            {"term": "Ergonomics", "definition": "Comfortable workspace design"}
+          ],
+          "examples": [
+            {
+              "question": "Office with no walls between desks is?",
+              "answer": "Open plan",
+              "explanation": "Open plan = no walls"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing office types",
+            "Missing ergonomics"
+          ],
+          "examTips": [
+            "Know office types",
+            "Explain layout importance"
+          ],
+          "questions": [
+            {
+              "id": "oa-q1",
+              "question": "Comfortable workspace design is:",
+              "options": ["Ergonomics", "Economics", "Ecology", "Etymology"],
+              "correctAnswer": "Ergonomics",
+              "explanation": "Ergonomics = comfortable design",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Office design",
+            "Workplace productivity"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "communication",
+      "title": "Communication",
+      "description": "Effective office communication",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand communication types",
+        "Identify communication methods"
+      ],
+      "topics": [
+        {
+          "id": "communication-types",
+          "title": "Office Communication",
+          "summary": "Sharing information in the office",
+          "mustKnow": [
+            "Internal: within the office",
+            "External: with outside parties",
+            "Verbal: spoken communication",
+            "Written: letters, memos, emails",
+            "Electronic: email, phone, video calls",
+            "Effective communication is clear and concise"
+          ],
+          "keyTerms": [
+            {"term": "Internal Communication", "definition": "Within office"},
+            {"term": "External Communication", "definition": "With outside parties"},
+            {"term": "Verbal", "definition": "Spoken"},
+            {"term": "Written", "definition": "In writing"}
+          ],
+          "examples": [
+            {
+              "question": "Email to a customer is?",
+              "answer": "External written communication",
+              "explanation": "Outside party, written format"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong communication type",
+            "Missing methods"
+          ],
+          "examTips": [
+            "Classify communication types",
+            "Know methods"
+          ],
+          "questions": [
+            {
+              "id": "oa-comm-q1",
+              "question": "Memo to staff is:",
+              "options": ["Internal communication", "External communication", "Verbal only", "No communication"],
+              "correctAnswer": "Internal communication",
+              "explanation": "Staff are inside the office",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Business writing",
+            "Communication barriers"
+          ],
+          "resources": []
+        },
+        {
+          "id": "business-correspondence",
+          "title": "Business Correspondence",
+          "summary": "Professional documents",
+          "mustKnow": [
+            "Business letter: formal letter to external party",
+            "Memo: internal communication",
+            "Email: electronic message",
+            "Report: detailed information",
+            "Letter format: sender address, date, recipient, salutation, body, closing",
+            "Professional tone throughout"
+          ],
+          "keyTerms": [
+            {"term": "Business Letter", "definition": "Formal external letter"},
+            {"term": "Memo", "definition": "Internal communication"},
+            {"term": "Email", "definition": "Electronic message"},
+            {"term": "Report", "definition": "Detailed document"}
+          ],
+          "examples": [
+            {
+              "question": "Letter to supplier is?",
+              "answer": "Business letter",
+              "explanation": "External formal communication"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong format",
+            "Unprofessional tone"
+          ],
+          "examTips": [
+            "Know formats",
+            "Practice writing"
+          ],
+          "questions": [
+            {
+              "id": "oa-cor-q1",
+              "question": "Internal communication document:",
+              "options": ["Memo", "Business letter", "External email", "Advertisement"],
+              "correctAnswer": "Memo",
+              "explanation": "Memo is internal",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Business writing",
+            "Document formatting"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "filing-records",
+      "title": "Filing and Records Management",
+      "description": "Organizing office documents",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand filing systems",
+        "Know records management"
+      ],
+      "topics": [
+        {
+          "id": "filing-systems",
+          "title": "Filing Systems",
+          "summary": "Organizing documents",
+          "mustKnow": [
+            "Filing: organizing documents for easy retrieval",
+            "Alphabetical: by name",
+            "Numerical: by number",
+            "Chronological: by date",
+            "Subject: by topic",
+            "Filing equipment: cabinets, folders, binders"
+          ],
+          "keyTerms": [
+            {"term": "Filing", "definition": "Organizing documents"},
+            {"term": "Alphabetical", "definition": "By name A-Z"},
+            {"term": "Numerical", "definition": "By number"},
+            {"term": "Chronological", "definition": "By date"}
+          ],
+          "examples": [
+            {
+              "question": "Filing client files by last name is?",
+              "answer": "Alphabetical",
+              "explanation": "By name A-Z"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong filing method",
+            "Missing systems"
+          ],
+          "examTips": [
+            "Know all filing systems",
+            "Explain each"
+          ],
+          "questions": [
+            {
+              "id": "oa-file-q1",
+              "question": "Filing by date is:",
+              "options": ["Chronological", "Alphabetical", "Numerical", "Subject"],
+              "correctAnswer": "Chronological",
+              "explanation": "By date = chronological",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Electronic filing",
+            "Records retention"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "meetings",
+      "title": "Meetings",
+      "description": "Organizing and managing meetings",
+      "importance": "important",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand meeting types",
+        "Know meeting procedures"
+      ],
+      "topics": [
+        {
+          "id": "meeting-procedures",
+          "title": "Meetings",
+          "summary": "Formal gatherings for discussion",
+          "mustKnow": [
+            "Agenda: list of items to discuss",
+            "Minutes: record of meeting",
+            "Chairperson: leads meeting",
+            "Secretary: records minutes",
+            "Notice: informs attendees",
+            "Quorum: minimum number required"
+          ],
+          "keyTerms": [
+            {"term": "Agenda", "definition": "Items to discuss"},
+            {"term": "Minutes", "definition": "Meeting record"},
+            {"term": "Chairperson", "definition": "Leads meeting"},
+            {"term": "Quorum", "definition": "Minimum attendance"}
+          ],
+          "examples": [
+            {
+              "question": "List of items to discuss is?",
+              "answer": "Agenda",
+              "explanation": "Agenda lists discussion items"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing agenda and minutes",
+            "Missing meeting elements"
+          ],
+          "examTips": [
+            "Know meeting documents",
+            "Understand procedures"
+          ],
+          "questions": [
+            {
+              "id": "oa-meet-q1",
+              "question": "Record of meeting is:",
+              "options": ["Minutes", "Agenda", "Notice", "Quorum"],
+              "correctAnswer": "Minutes",
+              "explanation": "Minutes record meeting",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Meeting management",
+            "Minute taking"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "customer-service",
+      "title": "Customer Service",
+      "description": "Serving customers effectively",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand customer service",
+        "Identify service skills"
+      ],
+      "topics": [
+        {
+          "id": "customer-service",
+          "title": "Customer Service",
+          "summary": "Meeting customer needs",
+          "mustKnow": [
+            "Customer service: meeting customer needs",
+            "Good service: polite, helpful, efficient",
+            "Handle complaints professionally",
+            "Listen actively",
+            "Positive attitude",
+            "Customer satisfaction is priority"
+          ],
+          "keyTerms": [
+            {"term": "Customer Service", "definition": "Meeting customer needs"},
+            {"term": "Active Listening", "definition": "Paying full attention"},
+            {"term": "Complaint", "definition": "Customer dissatisfaction"}
+          ],
+          "examples": [
+            {
+              "question": "Customer has complaint. What to do?",
+              "answer": "Listen, apologize, resolve",
+              "explanation": "Handle professionally"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Poor attitude",
+            "Not listening"
+          ],
+          "examTips": [
+            "Know service skills",
+            "Explain complaint handling"
+          ],
+          "questions": [
+            {
+              "id": "oa-cs-q1",
+              "question": "Meeting customer needs is:",
+              "options": ["Customer service", "Sales", "Marketing", "Production"],
+              "correctAnswer": "Customer service",
+              "explanation": "Customer service meets needs",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Service excellence",
+            "Complaint resolution"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "title": "Technology in the Office",
+      "description": "Using technology for office work",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand office technology",
+        "Know software applications"
+      ],
+      "topics": [
+        {
+          "id": "office-software",
+          "title": "Office Software",
+          "summary": "Software for office tasks",
+          "mustKnow": [
+            "Word processing: documents",
+            "Spreadsheets: calculations",
+            "Databases: data management",
+            "Presentations: slideshows",
+            "Email: communication",
+            "Software improves efficiency"
+          ],
+          "keyTerms": [
+            {"term": "Word Processing", "definition": "Creates documents"},
+            {"term": "Spreadsheet", "definition": "Calculations"},
+            {"term": "Database", "definition": "Data management"},
+            {"term": "Presentation", "definition": "Slideshows"}
+          ],
+          "examples": [
+            {
+              "question": "Excel is what type?",
+              "answer": "Spreadsheet",
+              "explanation": "For calculations"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong software type",
+            "Missing applications"
+          ],
+          "examTips": [
+            "Know software types",
+            "Explain uses"
+          ],
+          "questions": [
+            {
+              "id": "oa-tech-q1",
+              "question": "Microsoft Word is:",
+              "options": ["Word processing", "Spreadsheet", "Database", "Presentation"],
+              "correctAnswer": "Word processing",
+              "explanation": "Word creates documents",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Office automation",
+            "Digital transformation"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "ethics-confidentiality",
+      "title": "Ethics and Confidentiality",
+      "description": "Professional ethics in the office",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand office ethics",
+        "Know confidentiality"
+      ],
+      "topics": [
+        {
+          "id": "ethics",
+          "title": "Office Ethics",
+          "summary": "Professional conduct",
+          "mustKnow": [
+            "Ethics: moral principles at work",
+            "Honesty: truthful in dealings",
+            "Integrity: doing right thing",
+            "Confidentiality: protecting information",
+            "Professionalism: appropriate behavior",
+            "Respect for colleagues and customers"
+          ],
+          "keyTerms": [
+            {"term": "Ethics", "definition": "Moral principles"},
+            {"term": "Confidentiality", "definition": "Protecting information"},
+            {"term": "Integrity", "definition": "Doing right thing"},
+            {"term": "Professionalism", "definition": "Appropriate behavior"}
+          ],
+          "examples": [
+            {
+              "question": "Not sharing customer information is?",
+              "answer": "Confidentiality",
+              "explanation": "Protecting information"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong ethical concepts",
+            "Missing confidentiality"
+          ],
+          "examTips": [
+            "Know ethics",
+            "Explain confidentiality"
+          ],
+          "questions": [
+            {
+              "id": "oa-eth-q1",
+              "question": "Protecting information is:",
+              "options": ["Confidentiality", "Transparency", "Publicity", "Disclosure"],
+              "correctAnswer": "Confidentiality",
+              "explanation": "Confidentiality protects info",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Professional ethics",
+            "Data protection"
+          ],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

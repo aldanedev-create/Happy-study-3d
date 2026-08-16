@@ -1,0 +1,625 @@
+{
+  "id": "cape-caribbean-studies",
+  "name": "Caribbean Studies",
+  "level": "CAPE",
+  "description": "CAPE Caribbean Studies - Complete cheatsheet covering Caribbean society, culture, and development",
+  "icon": "🏝️",
+  "syllabusVersion": "2025",
+  "lastVerified": "2026-01-15",
+  "source": "CXC CAPE Caribbean Studies Syllabus (Amended 2025)",
+  "units": [
+    {
+      "id": "caribbean-society",
+      "title": "Caribbean Society",
+      "description": "Understanding Caribbean society and identity",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Define Caribbean society",
+        "Understand Caribbean identity"
+      ],
+      "topics": [
+        {
+          "id": "caribbean-identity",
+          "title": "Caribbean Identity",
+          "summary": "What makes someone Caribbean",
+          "mustKnow": [
+            "Caribbean: region of islands and coastal territories",
+            "Identity: sense of belonging",
+            "Factors: history, culture, geography",
+            "Diversity: African, European, Indian, Chinese influences",
+            "Creole identity: unique Caribbean mix",
+            "Shared experiences: colonialism, slavery, independence"
+          ],
+          "keyTerms": [
+            {"term": "Caribbean", "definition": "Islands and coastal territories"},
+            {"term": "Identity", "definition": "Sense of belonging"},
+            {"term": "Creole", "definition": "Caribbean-born culture"},
+            {"term": "Diaspora", "definition": "Scattered population"}
+          ],
+          "examples": [
+            {
+              "question": "Trinidad's diverse population shows what?",
+              "answer": "Cultural diversity",
+              "explanation": "Many ethnic groups"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Overlooking diversity",
+            "Missing historical context"
+          ],
+          "examTips": [
+            "Use Caribbean examples",
+            "Explain diversity"
+          ],
+          "questions": [
+            {
+              "id": "cs-q1",
+              "question": "Caribbean identity is shaped by:",
+              "options": ["History, culture, geography", "Geography only", "History only", "None"],
+              "correctAnswer": "History, culture, geography",
+              "explanation": "Multiple factors shape identity",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Caribbean diaspora",
+            "Cultural identity"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "title": "Culture",
+      "description": "Caribbean culture and diversity",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand Caribbean culture",
+        "Identify cultural elements"
+      ],
+      "topics": [
+        {
+          "id": "caribbean-culture",
+          "title": "Caribbean Culture",
+          "summary": "Rich cultural heritage",
+          "mustKnow": [
+            "Culture: shared beliefs, values, customs",
+            "Material: food, clothing, art",
+            "Non-material: language, religion, values",
+            "Influences: African, European, Indian, Chinese",
+            "Festivals: Carnival, Junkanoo, Hosay",
+            "Music: reggae, calypso, soca, steelpan"
+          ],
+          "keyTerms": [
+            {"term": "Culture", "definition": "Shared beliefs and customs"},
+            {"term": "Material Culture", "definition": "Physical objects"},
+            {"term": "Non-material Culture", "definition": "Beliefs and values"},
+            {"term": "Festival", "definition": "Cultural celebration"}
+          ],
+          "examples": [
+            {
+              "question": "Reggae music is what type?",
+              "answer": "Non-material culture (music)",
+              "explanation": "Cultural expression"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Missing cultural influences",
+            "Only knowing festivals"
+          ],
+          "examTips": [
+            "Know cultural elements",
+            "Use Caribbean examples"
+          ],
+          "questions": [
+            {
+              "id": "cs-cult-q1",
+              "question": "Carnival is a:",
+              "options": ["Festival", "Language", "Religion", "Political system"],
+              "correctAnswer": "Festival",
+              "explanation": "Carnival is cultural celebration",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Caribbean festivals",
+            "Cultural preservation"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "history-development",
+      "title": "History and Development",
+      "description": "Historical development of the Caribbean",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand Caribbean history",
+        "Know development stages"
+      ],
+      "topics": [
+        {
+          "id": "caribbean-history",
+          "title": "Caribbean History",
+          "summary": "From colonialism to independence",
+          "mustKnow": [
+            "Indigenous peoples: Arawaks, Caribs",
+            "Colonialism: European control",
+            "Slavery: African enslavement",
+            "Indentureship: Indian and Chinese workers",
+            "Independence: self-government",
+            "Post-independence: nation building"
+          ],
+          "keyTerms": [
+            {"term": "Colonialism", "definition": "European control"},
+            {"term": "Slavery", "definition": "Forced labor"},
+            {"term": "Indentureship", "definition": "Contract labor"},
+            {"term": "Independence", "definition": "Self-government"}
+          ],
+          "examples": [
+            {
+              "question": "Jamaica gained independence in 1962. What is this?",
+              "answer": "Independence from Britain",
+              "explanation": "Self-government"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong historical order",
+            "Missing indentureship"
+          ],
+          "examTips": [
+            "Know timeline",
+            "Explain each period"
+          ],
+          "questions": [
+            {
+              "id": "cs-hist-q1",
+              "question": "Contract labor after slavery was:",
+              "options": ["Indentureship", "Slavery", "Colonialism", "Independence"],
+              "correctAnswer": "Indentureship",
+              "explanation": "Contract labor = indentureship",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Caribbean historiography",
+            "Post-colonial studies"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "social-institutions",
+      "title": "Social Institutions",
+      "description": "Institutions in Caribbean society",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Identify social institutions",
+        "Understand their functions"
+      ],
+      "topics": [
+        {
+          "id": "institutions",
+          "title": "Social Institutions",
+          "summary": "Established social systems",
+          "mustKnow": [
+            "Family: socializes children",
+            "Education: teaches knowledge",
+            "Religion: moral guidance",
+            "Government: maintains order",
+            "Economy: produces and distributes",
+            "Institutions shape society"
+          ],
+          "keyTerms": [
+            {"term": "Institution", "definition": "Established social system"},
+            {"term": "Family", "definition": "Socializes children"},
+            {"term": "Education", "definition": "Teaches knowledge"},
+            {"term": "Religion", "definition": "Moral guidance"}
+          ],
+          "examples": [
+            {
+              "question": "School as institution serves what?",
+              "answer": "Education and socialization",
+              "explanation": "Teaches knowledge and skills"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Missing institutions",
+            "Wrong functions"
+          ],
+          "examTips": [
+            "Know all institutions",
+            "Explain functions"
+          ],
+          "questions": [
+            {
+              "id": "cs-inst-q1",
+              "question": "Which socializes children?",
+              "options": ["Family", "Government", "Economy", "Media"],
+              "correctAnswer": "Family",
+              "explanation": "Family socializes children",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Institutional change",
+            "Social structure"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "economy-politics",
+      "title": "Economy and Politics",
+      "description": "Caribbean economic and political systems",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand Caribbean economy",
+        "Know political systems"
+      ],
+      "topics": [
+        {
+          "id": "caribbean-economy",
+          "title": "Caribbean Economy",
+          "summary": "Economic systems and activities",
+          "mustKnow": [
+            "Primary: agriculture, mining, fishing",
+            "Secondary: manufacturing",
+            "Tertiary: services (tourism)",
+            "Tourism: major industry",
+            "Dependence on imports",
+            "Economic challenges: small economies, natural disasters"
+          ],
+          "keyTerms": [
+            {"term": "Primary Sector", "definition": "Raw materials"},
+            {"term": "Secondary Sector", "definition": "Manufacturing"},
+            {"term": "Tertiary Sector", "definition": "Services"},
+            {"term": "Tourism", "definition": "Major Caribbean industry"}
+          ],
+          "examples": [
+            {
+              "question": "Tourism is which sector?",
+              "answer": "Tertiary",
+              "explanation": "Services"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong sector classification",
+            "Missing challenges"
+          ],
+          "examTips": [
+            "Know sectors",
+            "Explain challenges"
+          ],
+          "questions": [
+            {
+              "id": "cs-econ-q1",
+              "question": "Major Caribbean industry:",
+              "options": ["Tourism", "Manufacturing", "Mining", "Agriculture only"],
+              "correctAnswer": "Tourism",
+              "explanation": "Tourism is major industry",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Economic development",
+            "CARICOM economics"
+          ],
+          "resources": []
+        },
+        {
+          "id": "governance",
+          "title": "Governance",
+          "summary": "Political systems",
+          "mustKnow": [
+            "Parliamentary democracy: elected parliament",
+            "Prime Minister: head of government",
+            "Governor General: represents monarch",
+            "Constitution: supreme law",
+            "Elections: choose representatives",
+            "Separation of powers: executive, legislative, judicial"
+          ],
+          "keyTerms": [
+            {"term": "Democracy", "definition": "Rule by the people"},
+            {"term": "Parliament", "definition": "Law-making body"},
+            {"term": "Constitution", "definition": "Supreme law"},
+            {"term": "Separation of Powers", "definition": "Three branches"}
+          ],
+          "examples": [
+            {
+              "question": "Jamaica's system is?",
+              "answer": "Parliamentary democracy",
+              "explanation": "Elected parliament"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong government type",
+            "Missing separation of powers"
+          ],
+          "examTips": [
+            "Know Caribbean systems",
+            "Explain governance"
+          ],
+          "questions": [
+            {
+              "id": "cs-gov-q1",
+              "question": "Law-making body is:",
+              "options": ["Parliament", "Executive", "Judiciary", "Police"],
+              "correctAnswer": "Parliament",
+              "explanation": "Parliament makes laws",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Caribbean constitutions",
+            "Political systems"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "integration-globalisation",
+      "title": "Integration and Globalisation",
+      "description": "Caribbean cooperation and global connections",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand integration",
+        "Know globalisation effects"
+      ],
+      "topics": [
+        {
+          "id": "caribbean-integration",
+          "title": "Caribbean Integration",
+          "summary": "Regional cooperation",
+          "mustKnow": [
+            "CARICOM: Caribbean Community",
+            "CSME: Single Market and Economy",
+            "OECS: Organisation of Eastern Caribbean States",
+            "Benefits: trade, movement, cooperation",
+            "Challenges: small economies, competition",
+            "Integration strengthens region"
+          ],
+          "keyTerms": [
+            {"term": "CARICOM", "definition": "Caribbean Community"},
+            {"term": "CSME", "definition": "Single Market and Economy"},
+            {"term": "OECS", "definition": "Eastern Caribbean States"}
+          ],
+          "examples": [
+            {
+              "question": "Free movement of CARICOM nationals is?",
+              "answer": "Integration",
+              "explanation": "Regional cooperation"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Not knowing organizations",
+            "Missing benefits"
+          ],
+          "examTips": [
+            "Know all organizations",
+            "Explain benefits"
+          ],
+          "questions": [
+            {
+              "id": "cs-int-q1",
+              "question": "CARICOM stands for:",
+              "options": ["Caribbean Community", "Caribbean Market", "Caribbean Union", "Caribbean Trade"],
+              "correctAnswer": "Caribbean Community",
+              "explanation": "CARICOM = Caribbean Community",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Regional cooperation",
+            "CARICOM development"
+          ],
+          "resources": []
+        },
+        {
+          "id": "globalisation",
+          "title": "Globalisation",
+          "summary": "Global connections",
+          "mustKnow": [
+            "Globalisation: increasing global connections",
+            "Economic: global trade and investment",
+            "Cultural: spread of ideas and values",
+            "Technological: global communication",
+            "Benefits: access to goods, ideas",
+            "Challenges: loss of local culture, competition"
+          ],
+          "keyTerms": [
+            {"term": "Globalisation", "definition": "Increasing global connections"},
+            {"term": "Cultural Exchange", "definition": "Sharing of cultures"},
+            {"term": "Global Economy", "definition": "Interconnected economies"}
+          ],
+          "examples": [
+            {
+              "question": "Caribbean watching American TV shows is?",
+              "answer": "Cultural globalisation",
+              "explanation": "Spread of culture"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Missing challenges",
+            "Only seeing benefits"
+          ],
+          "examTips": [
+            "Know benefits and challenges",
+            "Use Caribbean examples"
+          ],
+          "questions": [
+            {
+              "id": "cs-glob-q1",
+              "question": "Increasing global connections is:",
+              "options": ["Globalisation", "Isolation", "Protectionism", "Localization"],
+              "correctAnswer": "Globalisation",
+              "explanation": "Globalisation connects world",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Global economy",
+            "Cultural identity"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "social-issues",
+      "title": "Social Issues",
+      "description": "Challenges facing the Caribbean",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Identify social issues",
+        "Understand their impact"
+      ],
+      "topics": [
+        {
+          "id": "issues",
+          "title": "Social Issues",
+          "summary": "Challenges in Caribbean society",
+          "mustKnow": [
+            "Migration: movement of people",
+            "Poverty: lack of resources",
+            "Crime: violence and law-breaking",
+            "Unemployment: no jobs",
+            "Health issues: HIV/AIDS, diabetes",
+            "Environmental issues: pollution, climate change"
+          ],
+          "keyTerms": [
+            {"term": "Migration", "definition": "Movement of people"},
+            {"term": "Poverty", "definition": "Lack of resources"},
+            {"term": "Unemployment", "definition": "No jobs"},
+            {"term": "Crime", "definition": "Law-breaking"}
+          ],
+          "examples": [
+            {
+              "question": "Brain drain is what type?",
+              "answer": "Migration",
+              "explanation": "Movement of skilled people"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Missing issues",
+            "Not explaining impact"
+          ],
+          "examTips": [
+            "Know all issues",
+            "Explain causes and effects"
+          ],
+          "questions": [
+            {
+              "id": "cs-issues-q1",
+              "question": "Brain drain refers to:",
+              "options": ["Skilled people leaving", "Water pollution", "Crime", "Poverty"],
+              "correctAnswer": "Skilled people leaving",
+              "explanation": "Brain drain = skilled migration",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Social policy",
+            "Development issues"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "research-methods",
+      "title": "Research Methods",
+      "description": "Conducting research",
+      "importance": "must-know",
+      "difficulty": "advanced",
+      "learningObjectives": [
+        "Understand research methods",
+        "Design research projects"
+      ],
+      "topics": [
+        {
+          "id": "research",
+          "title": "Research Methods",
+          "summary": "How to conduct research",
+          "mustKnow": [
+            "Research: systematic investigation",
+            "Quantitative: numerical data",
+            "Qualitative: descriptive data",
+            "Survey: questionnaire",
+            "Interview: verbal questioning",
+            "Observation: watching and recording",
+            "Analysis: interpreting data"
+          ],
+          "keyTerms": [
+            {"term": "Quantitative", "definition": "Numerical data"},
+            {"term": "Qualitative", "definition": "Descriptive data"},
+            {"term": "Survey", "definition": "Questionnaire"},
+            {"term": "Interview", "definition": "Verbal questioning"}
+          ],
+          "examples": [
+            {
+              "question": "Questionnaire is what method?",
+              "answer": "Survey (quantitative)",
+              "explanation": "Collects numerical data"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing methods",
+            "Poor research design"
+          ],
+          "examTips": [
+            "Know all methods",
+            "Design good research"
+          ],
+          "questions": [
+            {
+              "id": "cs-res-q1",
+              "question": "Numerical data is:",
+              "options": ["Quantitative", "Qualitative", "Both", "Neither"],
+              "correctAnswer": "Quantitative",
+              "explanation": "Quantitative = numerical",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Research design",
+            "Data analysis"
+          ],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

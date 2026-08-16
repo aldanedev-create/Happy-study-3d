@@ -1,0 +1,924 @@
+{
+  "id": "cxc-biology",
+  "name": "Biology",
+  "level": "CXC",
+  "description": "CXC CSEC Biology - Complete cheatsheet covering all biology topics",
+  "icon": "🧬",
+  "syllabusVersion": "2023",
+  "lastVerified": "2026-01-15",
+  "source": "CXC CSEC Biology Syllabus",
+  "units": [
+    {
+      "id": "cell-biology",
+      "title": "Cell Biology",
+      "description": "Understanding cells",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand cell structure",
+        "Identify organelles",
+        "Know cell functions"
+      ],
+      "topics": [
+        {
+          "id": "cell-structure",
+          "title": "Cell Structure",
+          "summary": "Parts of a cell and their functions",
+          "mustKnow": [
+            "Cell: basic unit of life",
+            "Nucleus: contains DNA, controls cell",
+            "Cytoplasm: site of reactions",
+            "Cell membrane: controls entry/exit",
+            "Mitochondria: energy production",
+            "Ribosomes: protein synthesis",
+            "Plant cells: cell wall, chloroplasts, large vacuole",
+            "Animal cells: no cell wall, no chloroplasts"
+          ],
+          "keyTerms": [
+            {"term": "Cell", "definition": "Basic unit of life"},
+            {"term": "Nucleus", "definition": "Contains DNA, controls cell"},
+            {"term": "Mitochondria", "definition": "Energy production"},
+            {"term": "Ribosome", "definition": "Protein synthesis"},
+            {"term": "Chloroplast", "definition": "Photosynthesis (plants only)"}
+          ],
+          "examples": [
+            {
+              "question": "Which organelle produces energy?",
+              "answer": "Mitochondria",
+              "explanation": "Mitochondria is powerhouse"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing plant and animal cells",
+            "Wrong organelle functions"
+          ],
+          "examTips": [
+            "Know all organelles",
+            "Distinguish plant and animal cells"
+          ],
+          "questions": [
+            {
+              "id": "bio-q1",
+              "question": "Which organelle contains DNA?",
+              "options": ["Nucleus", "Mitochondria", "Ribosome", "Membrane"],
+              "correctAnswer": "Nucleus",
+              "explanation": "Nucleus contains DNA",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Cell division",
+            "Microscopy"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "biological-molecules",
+      "title": "Biological Molecules",
+      "description": "Molecules of life",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Identify biological molecules",
+        "Understand their functions"
+      ],
+      "topics": [
+        {
+          "id": "molecules",
+          "title": "Biological Molecules",
+          "summary": "Molecules essential for life",
+          "mustKnow": [
+            "Carbohydrates: energy (glucose, starch)",
+            "Proteins: growth and repair (amino acids)",
+            "Lipids: energy storage (fats, oils)",
+            "Nucleic acids: genetic material (DNA, RNA)",
+            "Water: solvent, transport",
+            "Monomers: building blocks",
+            "Polymers: chains of monomers"
+          ],
+          "keyTerms": [
+            {"term": "Carbohydrate", "definition": "Energy molecule"},
+            {"term": "Protein", "definition": "Growth and repair"},
+            {"term": "Lipid", "definition": "Energy storage"},
+            {"term": "Nucleic Acid", "definition": "Genetic material"},
+            {"term": "Monomer", "definition": "Building block"},
+            {"term": "Polymer", "definition": "Chain of monomers"}
+          ],
+          "examples": [
+            {
+              "question": "Glucose is what type?",
+              "answer": "Carbohydrate",
+              "explanation": "Simple sugar = carbohydrate"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong molecule types",
+            "Missing functions"
+          ],
+          "examTips": [
+            "Know all molecules",
+            "Explain functions"
+          ],
+          "questions": [
+            {
+              "id": "bio-mol-q1",
+              "question": "Building blocks of proteins:",
+              "options": ["Amino acids", "Glucose", "Fatty acids", "Nucleotides"],
+              "correctAnswer": "Amino acids",
+              "explanation": "Amino acids make proteins",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Biochemistry",
+            "Molecular biology"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "enzymes",
+      "title": "Enzymes",
+      "description": "Biological catalysts",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand enzymes",
+        "Identify factors affecting enzymes"
+      ],
+      "topics": [
+        {
+          "id": "enzymes",
+          "title": "Enzymes",
+          "summary": "Biological catalysts",
+          "mustKnow": [
+            "Enzyme: biological catalyst",
+            "Speeds up reactions",
+            "Specific: one enzyme, one substrate",
+            "Lock and key model",
+            "Optimum temperature: 37°C (human)",
+            "Optimum pH: varies by enzyme",
+            "Denatured: loses shape at high temperature"
+          ],
+          "keyTerms": [
+            {"term": "Enzyme", "definition": "Biological catalyst"},
+            {"term": "Substrate", "definition": "Molecule enzyme acts on"},
+            {"term": "Active Site", "definition": "Where substrate binds"},
+            {"term": "Denatured", "definition": "Enzyme loses shape"}
+          ],
+          "examples": [
+            {
+              "question": "Enzyme at very high temperature is?",
+              "answer": "Denatured",
+              "explanation": "Loses shape, stops working"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong optimum conditions",
+            "Missing specificity"
+          ],
+          "examTips": [
+            "Know factors affecting enzymes",
+            "Understand denaturation"
+          ],
+          "questions": [
+            {
+              "id": "bio-enz-q1",
+              "question": "Enzymes are:",
+              "options": ["Biological catalysts", "Hormones", "Vitamins", "Minerals"],
+              "correctAnswer": "Biological catalysts",
+              "explanation": "Enzymes speed reactions",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Enzyme kinetics",
+            "Industrial enzymes"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "cell-division",
+      "title": "Cell Division",
+      "description": "How cells reproduce",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand mitosis and meiosis",
+        "Identify cell division stages"
+      ],
+      "topics": [
+        {
+          "id": "mitosis-meiosis",
+          "title": "Mitosis and Meiosis",
+          "summary": "Two types of cell division",
+          "mustKnow": [
+            "Mitosis: produces identical cells",
+            "Mitosis stages: prophase, metaphase, anaphase, telophase",
+            "Mitosis: growth and repair",
+            "Meiosis: produces gametes (sex cells)",
+            "Meiosis: halves chromosome number",
+            "Meiosis: genetic variation"
+          ],
+          "keyTerms": [
+            {"term": "Mitosis", "definition": "Produces identical cells"},
+            {"term": "Meiosis", "definition": "Produces gametes"},
+            {"term": "Chromosome", "definition": "Contains genes"},
+            {"term": "Gamete", "definition": "Sex cell"}
+          ],
+          "examples": [
+            {
+              "question": "Cell division for growth is?",
+              "answer": "Mitosis",
+              "explanation": "Mitosis produces identical cells"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing mitosis and meiosis",
+            "Wrong chromosome numbers"
+          ],
+          "examTips": [
+            "Know differences",
+            "Understand stages"
+          ],
+          "questions": [
+            {
+              "id": "bio-cd-q1",
+              "question": "Which produces gametes?",
+              "options": ["Meiosis", "Mitosis", "Both", "Neither"],
+              "correctAnswer": "Meiosis",
+              "explanation": "Meiosis produces sex cells",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Cell cycle",
+            "Cancer biology"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "genetics",
+      "title": "Genetics",
+      "description": "Inheritance and DNA",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand DNA and genes",
+        "Know inheritance patterns"
+      ],
+      "topics": [
+        {
+          "id": "dna-genes",
+          "title": "DNA and Genes",
+          "summary": "Genetic material",
+          "mustKnow": [
+            "DNA: deoxyribonucleic acid",
+            "Double helix structure",
+            "Gene: section of DNA",
+            "Chromosome: coiled DNA",
+            "Humans: 46 chromosomes (23 pairs)",
+            "DNA replication: copying DNA"
+          ],
+          "keyTerms": [
+            {"term": "DNA", "definition": "Deoxyribonucleic acid"},
+            {"term": "Gene", "definition": "Section of DNA"},
+            {"term": "Chromosome", "definition": "Coiled DNA"},
+            {"term": "Double Helix", "definition": "DNA structure"}
+          ],
+          "examples": [
+            {
+              "question": "How many chromosomes in humans?",
+              "answer": "46 (23 pairs)",
+              "explanation": "Diploid number"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong chromosome number",
+            "Confusing gene and chromosome"
+          ],
+          "examTips": [
+            "Know DNA structure",
+            "Understand gene-chromosome relationship"
+          ],
+          "questions": [
+            {
+              "id": "bio-dna-q1",
+              "question": "DNA structure is:",
+              "options": ["Double helix", "Single strand", "Triple helix", "Circular only"],
+              "correctAnswer": "Double helix",
+              "explanation": "DNA is double helix",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "DNA replication",
+            "Genetic engineering"
+          ],
+          "resources": []
+        },
+        {
+          "id": "inheritance",
+          "title": "Inheritance",
+          "summary": "How traits are passed on",
+          "mustKnow": [
+            "Dominant: expressed trait (A)",
+            "Recessive: hidden trait (a)",
+            "Genotype: genetic makeup (AA, Aa, aa)",
+            "Phenotype: physical appearance",
+            "Homozygous: same alleles (AA, aa)",
+            "Heterozygous: different alleles (Aa)",
+            "Punnett square: predicts offspring"
+          ],
+          "keyTerms": [
+            {"term": "Dominant", "definition": "Expressed trait"},
+            {"term": "Recessive", "definition": "Hidden trait"},
+            {"term": "Genotype", "definition": "Genetic makeup"},
+            {"term": "Phenotype", "definition": "Physical appearance"},
+            {"term": "Homozygous", "definition": "Same alleles"},
+            {"term": "Heterozygous", "definition": "Different alleles"}
+          ],
+          "examples": [
+            {
+              "question": "Bb is what type?",
+              "answer": "Heterozygous",
+              "explanation": "Different alleles"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing genotype and phenotype",
+            "Wrong Punnett square"
+          ],
+          "examTips": [
+            "Know all terms",
+            "Practice Punnett squares"
+          ],
+          "questions": [
+            {
+              "id": "bio-inh-q1",
+              "question": "Physical appearance is:",
+              "options": ["Phenotype", "Genotype", "Allele", "Chromosome"],
+              "correctAnswer": "Phenotype",
+              "explanation": "Phenotype is appearance",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Mendelian genetics",
+            "Genetic disorders"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "evolution-classification",
+      "title": "Evolution and Classification",
+      "description": "How organisms change and are classified",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand evolution",
+        "Know classification system"
+      ],
+      "topics": [
+        {
+          "id": "evolution",
+          "title": "Evolution",
+          "summary": "Change in organisms over time",
+          "mustKnow": [
+            "Evolution: change over time",
+            "Natural selection: survival of fittest",
+            "Adaptation: trait that helps survival",
+            "Variation: differences between individuals",
+            "Fossils: evidence of evolution",
+            "Species: organisms that can interbreed"
+          ],
+          "keyTerms": [
+            {"term": "Evolution", "definition": "Change over time"},
+            {"term": "Natural Selection", "definition": "Survival of fittest"},
+            {"term": "Adaptation", "definition": "Trait helping survival"},
+            {"term": "Species", "definition": "Can interbreed"}
+          ],
+          "examples": [
+            {
+              "question": "Giraffes with longer necks survive better. This is?",
+              "answer": "Natural selection",
+              "explanation": "Favorable trait survives"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong evolution concepts",
+            "Missing natural selection"
+          ],
+          "examTips": [
+            "Understand natural selection",
+            "Know evidence for evolution"
+          ],
+          "questions": [
+            {
+              "id": "bio-evo-q1",
+              "question": "Survival of fittest is:",
+              "options": ["Natural selection", "Artificial selection", "Mutation", "Migration"],
+              "correctAnswer": "Natural selection",
+              "explanation": "Natural selection = survival of fittest",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Darwin's theory",
+            "Modern synthesis"
+          ],
+          "resources": []
+        },
+        {
+          "id": "classification",
+          "title": "Classification",
+          "summary": "Organizing living things",
+          "mustKnow": [
+            "Classification: organizing organisms",
+            "Kingdom: highest level",
+            "Five kingdoms: Animals, Plants, Fungi, Protists, Bacteria",
+            "Binomial nomenclature: two-part name",
+            "Genus and species",
+            "Example: Homo sapiens"
+          ],
+          "keyTerms": [
+            {"term": "Classification", "definition": "Organizing organisms"},
+            {"term": "Kingdom", "definition": "Highest classification level"},
+            {"term": "Binomial Nomenclature", "definition": "Two-part name"},
+            {"term": "Genus", "definition": "First part of name"},
+            {"term": "Species", "definition": "Second part of name"}
+          ],
+          "examples": [
+            {
+              "question": "Homo sapiens - what is 'Homo'?",
+              "answer": "Genus",
+              "explanation": "First part of scientific name"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong classification levels",
+            "Missing kingdoms"
+          ],
+          "examTips": [
+            "Know five kingdoms",
+            "Understand binomial nomenclature"
+          ],
+          "questions": [
+            {
+              "id": "bio-class-q1",
+              "question": "Highest classification level:",
+              "options": ["Kingdom", "Species", "Genus", "Family"],
+              "correctAnswer": "Kingdom",
+              "explanation": "Kingdom is highest",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Taxonomy",
+            "Biodiversity"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "plant-biology",
+      "title": "Plant Biology",
+      "description": "Understanding plants",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand plant structure",
+        "Know photosynthesis and respiration",
+        "Understand transport"
+      ],
+      "topics": [
+        {
+          "id": "photosynthesis",
+          "title": "Photosynthesis",
+          "summary": "How plants make food",
+          "mustKnow": [
+            "Equation: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂",
+            "Light-dependent reactions",
+            "Light-independent reactions (Calvin cycle)",
+            "Chlorophyll in chloroplasts",
+            "Light, water, CO₂ required",
+            "Produces glucose and oxygen"
+          ],
+          "keyTerms": [
+            {"term": "Photosynthesis", "definition": "Making food using light"},
+            {"term": "Chlorophyll", "definition": "Green pigment"},
+            {"term": "Chloroplast", "definition": "Organelle for photosynthesis"},
+            {"term": "Glucose", "definition": "Food produced"}
+          ],
+          "examples": [
+            {
+              "question": "What gas is absorbed?",
+              "answer": "Carbon dioxide",
+              "explanation": "CO₂ is input"
+            }
+          ],
+          "formulas": [
+            "Photosynthesis: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂"
+          ],
+          "commonMistakes": [
+            "Wrong equation",
+            "Missing conditions"
+          ],
+          "examTips": [
+            "Memorize equation",
+            "Know requirements and products"
+          ],
+          "questions": [
+            {
+              "id": "bio-photo-q1",
+              "question": "Product of photosynthesis:",
+              "options": ["Glucose and oxygen", "CO₂ and water", "Only oxygen", "Only glucose"],
+              "correctAnswer": "Glucose and oxygen",
+              "explanation": "Plants make glucose and release O₂",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Plant physiology",
+            "Crop improvement"
+          ],
+          "resources": []
+        },
+        {
+          "id": "respiration",
+          "title": "Respiration",
+          "summary": "Releasing energy from food",
+          "mustKnow": [
+            "Aerobic: with oxygen",
+            "Aerobic equation: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy",
+            "Anaerobic: without oxygen",
+            "Anaerobic in plants: ethanol + CO₂",
+            "Anaerobic in animals: lactic acid",
+            "Mitochondria: site of respiration"
+          ],
+          "keyTerms": [
+            {"term": "Aerobic", "definition": "With oxygen"},
+            {"term": "Anaerobic", "definition": "Without oxygen"},
+            {"term": "Fermentation", "definition": "Anaerobic respiration"},
+            {"term": "Lactic Acid", "definition": "Anaerobic product in animals"}
+          ],
+          "examples": [
+            {
+              "question": "Respiration with oxygen is?",
+              "answer": "Aerobic",
+              "explanation": "With oxygen = aerobic"
+            }
+          ],
+          "formulas": [
+            "Aerobic: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy"
+          ],
+          "commonMistakes": [
+            "Confusing aerobic and anaerobic",
+            "Wrong products"
+          ],
+          "examTips": [
+            "Know both equations",
+            "Understand differences"
+          ],
+          "questions": [
+            {
+              "id": "bio-resp-q1",
+              "question": "Anaerobic respiration in animals produces:",
+              "options": ["Lactic acid", "Ethanol", "CO₂ only", "Oxygen"],
+              "correctAnswer": "Lactic acid",
+              "explanation": "Animals produce lactic acid",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Cellular respiration",
+            "Energy production"
+          ],
+          "resources": []
+        },
+        {
+          "id": "transport-in-plants",
+          "title": "Transport in Plants",
+          "summary": "How plants move substances",
+          "mustKnow": [
+            "Xylem: transports water and minerals",
+            "Phloem: transports food (sucrose)",
+            "Transpiration: water loss from leaves",
+            "Root pressure: pushes water up",
+            "Capillary action: water moves up narrow tubes",
+            "Stomata: pores for gas exchange"
+          ],
+          "keyTerms": [
+            {"term": "Xylem", "definition": "Transports water"},
+            {"term": "Phloem", "definition": "Transports food"},
+            {"term": "Transpiration", "definition": "Water loss from leaves"},
+            {"term": "Stomata", "definition": "Pores for gas exchange"}
+          ],
+          "examples": [
+            {
+              "question": "Water moves up through?",
+              "answer": "Xylem",
+              "explanation": "Xylem transports water"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing xylem and phloem",
+            "Missing transpiration"
+          ],
+          "examTips": [
+            "Know xylem and phloem",
+            "Understand transpiration"
+          ],
+          "questions": [
+            {
+              "id": "bio-trans-q1",
+              "question": "Which transports food?",
+              "options": ["Phloem", "Xylem", "Stomata", "Root"],
+              "correctAnswer": "Phloem",
+              "explanation": "Phloem transports food",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Plant physiology",
+            "Water relations"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "human-biology",
+      "title": "Human Biology",
+      "description": "Understanding the human body",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand body systems",
+        "Identify their functions"
+      ],
+      "topics": [
+        {
+          "id": "human-systems",
+          "title": "Human Body Systems",
+          "summary": "Systems that keep us alive",
+          "mustKnow": [
+            "Digestive: breaks down food",
+            "Respiratory: gas exchange",
+            "Circulatory: transports blood",
+            "Excretory: removes waste",
+            "Nervous: control and coordination",
+            "Reproductive: produces offspring"
+          ],
+          "keyTerms": [
+            {"term": "Digestion", "definition": "Breaking down food"},
+            {"term": "Respiration", "definition": "Gas exchange"},
+            {"term": "Circulation", "definition": "Blood transport"},
+            {"term": "Excretion", "definition": "Waste removal"}
+          ],
+          "examples": [
+            {
+              "question": "Heart is part of which system?",
+              "answer": "Circulatory",
+              "explanation": "Heart pumps blood"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong system functions",
+            "Missing systems"
+          ],
+          "examTips": [
+            "Know all systems",
+            "Explain functions"
+          ],
+          "questions": [
+            {
+              "id": "bio-hb-q1",
+              "question": "Lungs are part of:",
+              "options": ["Respiratory system", "Digestive", "Circulatory", "Nervous"],
+              "correctAnswer": "Respiratory system",
+              "explanation": "Lungs handle breathing",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Human anatomy",
+            "Physiology"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "ecology",
+      "title": "Ecology",
+      "description": "Organisms and their environment",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand ecosystems",
+        "Identify ecological relationships",
+        "Know biodiversity"
+      ],
+      "topics": [
+        {
+          "id": "ecosystems",
+          "title": "Ecosystems",
+          "summary": "Living things and environment",
+          "mustKnow": [
+            "Ecosystem: living + non-living components",
+            "Habitat: where organisms live",
+            "Population: same species in area",
+            "Community: all populations",
+            "Food chain: energy flow",
+            "Food web: interconnected chains"
+          ],
+          "keyTerms": [
+            {"term": "Ecosystem", "definition": "Living and non-living components"},
+            {"term": "Habitat", "definition": "Where organisms live"},
+            {"term": "Population", "definition": "Same species in area"},
+            {"term": "Community", "definition": "All populations"}
+          ],
+          "examples": [
+            {
+              "question": "All organisms in a pond is?",
+              "answer": "Community",
+              "explanation": "All populations together"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing population and community",
+            "Missing food chains"
+          ],
+          "examTips": [
+            "Know ecological terms",
+            "Understand energy flow"
+          ],
+          "questions": [
+            {
+              "id": "bio-eco-q1",
+              "question": "Same species in an area is:",
+              "options": ["Population", "Community", "Ecosystem", "Habitat"],
+              "correctAnswer": "Population",
+              "explanation": "Population = same species",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Biodiversity",
+            "Conservation"
+          ],
+          "resources": []
+        },
+        {
+          "id": "biodiversity",
+          "title": "Biodiversity",
+          "summary": "Variety of life",
+          "mustKnow": [
+            "Biodiversity: variety of living things",
+            "Species diversity: number of species",
+            "Genetic diversity: variation within species",
+            "Ecosystem diversity: variety of habitats",
+            "Threats: habitat loss, pollution, climate change",
+            "Conservation: protecting biodiversity"
+          ],
+          "keyTerms": [
+            {"term": "Biodiversity", "definition": "Variety of life"},
+            {"term": "Species Diversity", "definition": "Number of species"},
+            {"term": "Conservation", "definition": "Protecting biodiversity"}
+          ],
+          "examples": [
+            {
+              "question": "Rainforest has many species. This is?",
+              "answer": "High biodiversity",
+              "explanation": "Many species = high biodiversity"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong biodiversity types",
+            "Missing threats"
+          ],
+          "examTips": [
+            "Know biodiversity types",
+            "Explain threats and conservation"
+          ],
+          "questions": [
+            {
+              "id": "bio-bio-q1",
+              "question": "Variety of living things is:",
+              "options": ["Biodiversity", "Population", "Community", "Habitat"],
+              "correctAnswer": "Biodiversity",
+              "explanation": "Biodiversity = variety of life",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Conservation biology",
+            "Endangered species"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "biotechnology",
+      "title": "Biotechnology",
+      "description": "Using biology in technology",
+      "importance": "important",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand biotechnology",
+        "Identify applications"
+      ],
+      "topics": [
+        {
+          "id": "biotechnology",
+          "title": "Biotechnology",
+          "summary": "Using living things in technology",
+          "mustKnow": [
+            "Biotechnology: using biology in technology",
+            "Genetic engineering: modifying genes",
+            "GMO: genetically modified organism",
+            "Cloning: creating identical copies",
+            "Applications: medicine, agriculture, industry",
+            "Ethics: concerns about genetic modification"
+          ],
+          "keyTerms": [
+            {"term": "Biotechnology", "definition": "Using biology in technology"},
+            {"term": "Genetic Engineering", "definition": "Modifying genes"},
+            {"term": "GMO", "definition": "Genetically modified organism"},
+            {"term": "Cloning", "definition": "Creating identical copies"}
+          ],
+          "examples": [
+            {
+              "question": "Making insulin using bacteria is?",
+              "answer": "Biotechnology",
+              "explanation": "Using biology for technology"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong applications",
+            "Missing ethics"
+          ],
+          "examTips": [
+            "Know applications",
+            "Understand ethics"
+          ],
+          "questions": [
+            {
+              "id": "bio-bt-q1",
+              "question": "Genetically modified organism:",
+              "options": ["GMO", "DNA", "RNA", "ATP"],
+              "correctAnswer": "GMO",
+              "explanation": "GMO = genetically modified",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Genetic engineering",
+            "Bioethics"
+          ],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Software Engineering Exam Prep",
+  "questions": [
+    {"id":"se-exam-1","question":"Which sequence best describes a typical software-development lifecycle?","options":["Design, deploy, test, plan","Plan, design, build, test, deploy, maintain","Code, sell, delete","Test, plan, deploy"],"correctAnswer":"Plan, design, build, test, deploy, maintain","explanation":"A team plans the problem, designs a solution, implements it, tests it, deploys it, and maintains it."},
+    {"id":"se-exam-2","question":"What is the main purpose of version control such as Git?","options":["To design screens","To track changes and collaborate safely","To replace testing","To host a database"],"correctAnswer":"To track changes and collaborate safely","explanation":"Git records changes, supports branching, and lets people collaborate without overwriting each other’s work."},
+    {"id":"se-exam-3","question":"Which data structure normally follows first-in, first-out order?","options":["Stack","Queue","Tree","Hash map"],"correctAnswer":"Queue","explanation":"A queue processes the oldest item first, like a line of students."},
+    {"id":"se-exam-4","question":"Why are automated tests valuable?","options":["They make code run faster","They check expected behaviour repeatedly and catch regressions","They remove the need for users","They are only used after deployment"],"correctAnswer":"They check expected behaviour repeatedly and catch regressions","explanation":"Tests provide repeatable evidence that features still work after changes."},
+    {"id":"se-exam-5","question":"What does an API allow programs to do?","options":["Change computer hardware","Communicate through defined requests and responses","Avoid using data","Store files only locally"],"correctAnswer":"Communicate through defined requests and responses","explanation":"APIs define how software components or services exchange data and perform actions."},
+    {"id":"se-exam-6","question":"Which practice most improves code maintainability?","options":["Using unclear one-letter names everywhere","Writing small focused functions with clear names and tests","Duplicating code in every file","Skipping documentation"],"correctAnswer":"Writing small focused functions with clear names and tests","explanation":"Focused, readable, tested code is easier to understand, change, and debug."}
+  ]
+}

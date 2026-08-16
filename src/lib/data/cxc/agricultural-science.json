@@ -1,0 +1,835 @@
+{
+  "id": "cxc-agricultural-science",
+  "name": "Agricultural Science",
+  "level": "CXC",
+  "description": "CXC CSEC Agricultural Science - Complete cheatsheet covering all agricultural topics",
+  "icon": "🌾",
+  "syllabusVersion": "2023",
+  "lastVerified": "2026-01-15",
+  "source": "CXC CSEC Agricultural Science Syllabus",
+  "units": [
+    {
+      "id": "agriculture-basics",
+      "title": "Agriculture",
+      "description": "Understanding agriculture and its importance",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Define agriculture",
+        "Understand its importance",
+        "Identify agricultural types"
+      ],
+      "topics": [
+        {
+          "id": "what-is-agriculture",
+          "title": "What is Agriculture?",
+          "summary": "The science and practice of farming",
+          "mustKnow": [
+            "Agriculture: cultivation of crops and rearing of animals",
+            "Provides food, fiber, and raw materials",
+            "Employs many people in the Caribbean",
+            "Contributes to GDP",
+            "Types: subsistence and commercial",
+            "Subsistence: farming for family needs",
+            "Commercial: farming for sale"
+          ],
+          "keyTerms": [
+            {"term": "Agriculture", "definition": "Cultivation of crops and rearing animals"},
+            {"term": "Subsistence", "definition": "Farming for family needs"},
+            {"term": "Commercial", "definition": "Farming for sale"},
+            {"term": "GDP", "definition": "Gross Domestic Product"}
+          ],
+          "examples": [
+            {
+              "question": "Farmer grows food only for family. What type?",
+              "answer": "Subsistence farming",
+              "explanation": "Farming for family needs"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing subsistence and commercial",
+            "Missing importance of agriculture"
+          ],
+          "examTips": [
+            "Give Caribbean examples",
+            "Explain agriculture's importance"
+          ],
+          "questions": [
+            {
+              "id": "ag-q1",
+              "question": "Farming for sale is:",
+              "options": ["Commercial", "Subsistence", "Traditional", "Organic"],
+              "correctAnswer": "Commercial",
+              "explanation": "Commercial farming is for sale",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Caribbean agriculture",
+            "Agricultural development"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "soil",
+      "title": "Soil",
+      "description": "Understanding soil and its management",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand soil composition",
+        "Identify soil types",
+        "Know soil management"
+      ],
+      "topics": [
+        {
+          "id": "soil-composition",
+          "title": "Soil Composition",
+          "summary": "What soil is made of",
+          "mustKnow": [
+            "Soil: mixture of minerals, organic matter, water, air",
+            "Sand: largest particles, good drainage",
+            "Silt: medium particles",
+            "Clay: smallest particles, holds water",
+            "Loam: balanced mix of sand, silt, clay",
+            "Humus: decomposed organic matter",
+            "Best soil for farming: loam"
+          ],
+          "keyTerms": [
+            {"term": "Soil", "definition": "Mixture of minerals and organic matter"},
+            {"term": "Sand", "definition": "Largest soil particles"},
+            {"term": "Clay", "definition": "Smallest soil particles"},
+            {"term": "Loam", "definition": "Balanced soil mix"},
+            {"term": "Humus", "definition": "Decomposed organic matter"}
+          ],
+          "examples": [
+            {
+              "question": "Which soil is best for farming?",
+              "answer": "Loam",
+              "explanation": "Balanced mix with good properties"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong soil particle sizes",
+            "Missing humus importance"
+          ],
+          "examTips": [
+            "Know soil types",
+            "Understand soil properties"
+          ],
+          "questions": [
+            {
+              "id": "ag-soil-q1",
+              "question": "Smallest soil particles are:",
+              "options": ["Clay", "Sand", "Silt", "Gravel"],
+              "correctAnswer": "Clay",
+              "explanation": "Clay has smallest particles",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Soil testing",
+            "Soil conservation"
+          ],
+          "resources": []
+        },
+        {
+          "id": "soil-management",
+          "title": "Soil Management",
+          "summary": "Maintaining soil fertility",
+          "mustKnow": [
+            "Fertilizer: adds nutrients",
+            "Organic fertilizer: compost, manure",
+            "Inorganic fertilizer: chemical nutrients",
+            "Crop rotation: alternating crops",
+            "Mulching: covering soil",
+            "Irrigation: watering crops",
+            "Drainage: removing excess water"
+          ],
+          "keyTerms": [
+            {"term": "Fertilizer", "definition": "Adds nutrients to soil"},
+            {"term": "Crop Rotation", "definition": "Alternating crops"},
+            {"term": "Mulching", "definition": "Covering soil"},
+            {"term": "Irrigation", "definition": "Watering crops"},
+            {"term": "Drainage", "definition": "Removing excess water"}
+          ],
+          "examples": [
+            {
+              "question": "Alternating corn and beans is?",
+              "answer": "Crop rotation",
+              "explanation": "Alternating crops to maintain soil"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong management methods",
+            "Missing soil conservation"
+          ],
+          "examTips": [
+            "Know all management methods",
+            "Explain their importance"
+          ],
+          "questions": [
+            {
+              "id": "ag-sm-q1",
+              "question": "Adding nutrients to soil is:",
+              "options": ["Fertilizing", "Irrigation", "Drainage", "Mulching"],
+              "correctAnswer": "Fertilizing",
+              "explanation": "Fertilizer adds nutrients",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Organic farming",
+            "Soil science"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "plant-biology",
+      "title": "Plant Biology",
+      "description": "Understanding plants",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand plant structure",
+        "Identify plant processes"
+      ],
+      "topics": [
+        {
+          "id": "plant-structure",
+          "title": "Plant Structure",
+          "summary": "Parts of a plant and their functions",
+          "mustKnow": [
+            "Roots: absorb water and minerals",
+            "Stem: supports plant, transports",
+            "Leaves: photosynthesis",
+            "Flowers: reproduction",
+            "Fruits: protect seeds",
+            "Seeds: new plants"
+          ],
+          "keyTerms": [
+            {"term": "Root", "definition": "Absorbs water and minerals"},
+            {"term": "Stem", "definition": "Supports and transports"},
+            {"term": "Leaf", "definition": "Site of photosynthesis"},
+            {"term": "Flower", "definition": "Reproductive structure"},
+            {"term": "Seed", "definition": "Contains embryo"}
+          ],
+          "examples": [
+            {
+              "question": "Which part makes food?",
+              "answer": "Leaves",
+              "explanation": "Photosynthesis in leaves"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong plant part functions",
+            "Missing parts"
+          ],
+          "examTips": [
+            "Know all plant parts",
+            "Explain functions"
+          ],
+          "questions": [
+            {
+              "id": "ag-plant-q1",
+              "question": "Absorbs water and minerals:",
+              "options": ["Roots", "Stem", "Leaves", "Flowers"],
+              "correctAnswer": "Roots",
+              "explanation": "Roots absorb water",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Photosynthesis",
+            "Plant physiology"
+          ],
+          "resources": []
+        },
+        {
+          "id": "photosynthesis",
+          "title": "Photosynthesis",
+          "summary": "How plants make food",
+          "mustKnow": [
+            "Photosynthesis: making food using light",
+            "Equation: CO₂ + H₂O → Glucose + O₂",
+            "Chlorophyll: green pigment",
+            "Light: energy source",
+            "Occurs in leaves",
+            "Produces oxygen"
+          ],
+          "keyTerms": [
+            {"term": "Photosynthesis", "definition": "Making food using light"},
+            {"term": "Chlorophyll", "definition": "Green pigment"},
+            {"term": "Glucose", "definition": "Food produced"},
+            {"term": "Oxygen", "definition": "Released gas"}
+          ],
+          "examples": [
+            {
+              "question": "What do plants need for photosynthesis?",
+              "answer": "Light, water, carbon dioxide, chlorophyll",
+              "explanation": "These are required inputs"
+            }
+          ],
+          "formulas": [
+            "Photosynthesis: CO₂ + H₂O → Glucose + O₂ (light + chlorophyll)"
+          ],
+          "commonMistakes": [
+            "Wrong equation",
+            "Missing chlorophyll"
+          ],
+          "examTips": [
+            "Memorize the equation",
+            "Know requirements"
+          ],
+          "questions": [
+            {
+              "id": "ag-photo-q1",
+              "question": "Plants produce what gas?",
+              "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+              "correctAnswer": "Oxygen",
+              "explanation": "O₂ is released",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Plant physiology",
+            "Crop yield"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "crop-production",
+      "title": "Crop Production",
+      "description": "Growing crops",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand crop production",
+        "Identify propagation methods"
+      ],
+      "topics": [
+        {
+          "id": "crop-production",
+          "title": "Crop Production",
+          "summary": "Growing crops for food",
+          "mustKnow": [
+            "Land preparation: plowing, harrowing",
+            "Planting: seeds or seedlings",
+            "Fertilizing: adding nutrients",
+            "Irrigation: watering",
+            "Weed control: removing weeds",
+            "Harvesting: collecting mature crops",
+            "Storage: preserving after harvest"
+          ],
+          "keyTerms": [
+            {"term": "Plowing", "definition": "Turning soil"},
+            {"term": "Planting", "definition": "Putting seeds in soil"},
+            {"term": "Harvesting", "definition": "Collecting crops"},
+            {"term": "Storage", "definition": "Preserving crops"}
+          ],
+          "examples": [
+            {
+              "question": "Turning soil before planting is?",
+              "answer": "Plowing",
+              "explanation": "Land preparation"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Missing production steps",
+            "Wrong order"
+          ],
+          "examTips": [
+            "Know production steps in order",
+            "Explain each step"
+          ],
+          "questions": [
+            {
+              "id": "ag-crop-q1",
+              "question": "Collecting mature crops is:",
+              "options": ["Harvesting", "Planting", "Plowing", "Fertilizing"],
+              "correctAnswer": "Harvesting",
+              "explanation": "Harvesting = collecting crops",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Crop rotation",
+            "Organic farming"
+          ],
+          "resources": []
+        },
+        {
+          "id": "crop-propagation",
+          "title": "Crop Propagation",
+          "summary": "Reproducing plants",
+          "mustKnow": [
+            "Sexual: using seeds",
+            "Asexual: using plant parts",
+            "Cuttings: stem pieces",
+            "Grafting: joining two plants",
+            "Budding: single bud",
+            "Layering: rooting while attached",
+            "Tissue culture: laboratory propagation"
+          ],
+          "keyTerms": [
+            {"term": "Propagation", "definition": "Reproducing plants"},
+            {"term": "Cutting", "definition": "Stem piece for propagation"},
+            {"term": "Grafting", "definition": "Joining two plants"},
+            {"term": "Budding", "definition": "Single bud propagation"}
+          ],
+          "examples": [
+            {
+              "question": "Growing new plant from stem piece is?",
+              "answer": "Cutting",
+              "explanation": "Asexual propagation"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing propagation methods",
+            "Wrong sexual/asexual"
+          ],
+          "examTips": [
+            "Know all methods",
+            "Distinguish sexual and asexual"
+          ],
+          "questions": [
+            {
+              "id": "ag-prop-q1",
+              "question": "Using seeds is which propagation?",
+              "options": ["Sexual", "Asexual", "Both", "Neither"],
+              "correctAnswer": "Sexual",
+              "explanation": "Seeds = sexual reproduction",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Plant breeding",
+            "Tissue culture"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "crop-protection",
+      "title": "Crop Protection",
+      "description": "Protecting crops from pests and diseases",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Identify pests and diseases",
+        "Understand control methods"
+      ],
+      "topics": [
+        {
+          "id": "weeds",
+          "title": "Weeds",
+          "summary": "Unwanted plants",
+          "mustKnow": [
+            "Weed: unwanted plant",
+            "Compete with crops for resources",
+            "Reduce crop yield",
+            "Control: manual, chemical, biological",
+            "Herbicide: chemical weed killer"
+          ],
+          "keyTerms": [
+            {"term": "Weed", "definition": "Unwanted plant"},
+            {"term": "Herbicide", "definition": "Chemical weed killer"},
+            {"term": "Biological Control", "definition": "Using natural enemies"}
+          ],
+          "examples": [
+            {
+              "question": "Using chemicals to kill weeds is?",
+              "answer": "Chemical control (herbicides)",
+              "explanation": "Herbicides kill weeds"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong control methods",
+            "Missing weed effects"
+          ],
+          "examTips": [
+            "Know all control methods",
+            "Explain weed effects"
+          ],
+          "questions": [
+            {
+              "id": "ag-weed-q1",
+              "question": "Unwanted plants in crops are:",
+              "options": ["Weeds", "Crops", "Flowers", "Fertilizers"],
+              "correctAnswer": "Weeds",
+              "explanation": "Weeds are unwanted plants",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Integrated pest management",
+            "Herbicide resistance"
+          ],
+          "resources": []
+        },
+        {
+          "id": "pests",
+          "title": "Pests",
+          "summary": "Organisms that damage crops",
+          "mustKnow": [
+            "Pest: organism that damages crops",
+            "Insects: aphids, caterpillars",
+            "Mites, nematodes",
+            "Control: chemical (insecticides), biological, cultural",
+            "Integrated Pest Management (IPM)"
+          ],
+          "keyTerms": [
+            {"term": "Pest", "definition": "Organism damaging crops"},
+            {"term": "Insecticide", "definition": "Chemical pest killer"},
+            {"term": "IPM", "definition": "Integrated Pest Management"}
+          ],
+          "examples": [
+            {
+              "question": "Using ladybugs to eat aphids is?",
+              "answer": "Biological control",
+              "explanation": "Natural enemies control pests"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong pest types",
+            "Missing control methods"
+          ],
+          "examTips": [
+            "Know pest types",
+            "Explain control methods"
+          ],
+          "questions": [
+            {
+              "id": "ag-pest-q1",
+              "question": "Using natural enemies is:",
+              "options": ["Biological control", "Chemical control", "Cultural control", "No control"],
+              "correctAnswer": "Biological control",
+              "explanation": "Natural enemies = biological",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Pest management",
+            "Crop protection"
+          ],
+          "resources": []
+        },
+        {
+          "id": "diseases",
+          "title": "Plant Diseases",
+          "summary": "Diseases affecting crops",
+          "mustKnow": [
+            "Disease: abnormal condition",
+            "Fungal: mildew, rust",
+            "Bacterial: blight",
+            "Viral: mosaic",
+            "Control: fungicides, resistant varieties, sanitation"
+          ],
+          "keyTerms": [
+            {"term": "Fungicide", "definition": "Kills fungi"},
+            {"term": "Blight", "definition": "Bacterial disease"},
+            {"term": "Resistant Variety", "definition": "Plant that resists disease"}
+          ],
+          "examples": [
+            {
+              "question": "Powdery mildew is what type?",
+              "answer": "Fungal disease",
+              "explanation": "Mildew is fungus"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong disease types",
+            "Missing control"
+          ],
+          "examTips": [
+            "Know disease types",
+            "Explain control"
+          ],
+          "questions": [
+            {
+              "id": "ag-dis-q1",
+              "question": "Chemical that kills fungi:",
+              "options": ["Fungicide", "Herbicide", "Insecticide", "Rodenticide"],
+              "correctAnswer": "Fungicide",
+              "explanation": "Fungicide kills fungi",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Plant pathology",
+            "Disease prevention"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "livestock",
+      "title": "Livestock",
+      "description": "Rearing animals",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand livestock production",
+        "Identify animal needs"
+      ],
+      "topics": [
+        {
+          "id": "animal-nutrition",
+          "title": "Animal Nutrition",
+          "summary": "Feeding livestock",
+          "mustKnow": [
+            "Balanced diet for animals",
+            "Carbohydrates: energy",
+            "Proteins: growth",
+            "Vitamins and minerals: health",
+            "Water: essential",
+            "Roughage: fiber for ruminants",
+            "Concentrates: high energy feeds"
+          ],
+          "keyTerms": [
+            {"term": "Roughage", "definition": "High fiber feed"},
+            {"term": "Concentrate", "definition": "High energy feed"},
+            {"term": "Ruminant", "definition": "Animal with multiple stomachs"},
+            {"term": "Balanced Diet", "definition": "All nutrients in right amounts"}
+          ],
+          "examples": [
+            {
+              "question": "Grass for cattle is?",
+              "answer": "Roughage",
+              "explanation": "High fiber feed"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong feed types",
+            "Missing nutrients"
+          ],
+          "examTips": [
+            "Know feed types",
+            "Explain nutrient needs"
+          ],
+          "questions": [
+            {
+              "id": "ag-nut-q1",
+              "question": "High energy feed is:",
+              "options": ["Concentrate", "Roughage", "Water", "Minerals"],
+              "correctAnswer": "Concentrate",
+              "explanation": "Concentrates are high energy",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Animal feed",
+            "Livestock management"
+          ],
+          "resources": []
+        },
+        {
+          "id": "animal-health",
+          "title": "Animal Health",
+          "summary": "Keeping animals healthy",
+          "mustKnow": [
+            "Signs of health: alert, eating well, normal temperature",
+            "Signs of illness: lethargic, no appetite, abnormal temperature",
+            "Vaccination: prevents disease",
+            "Parasite control: internal and external",
+            "Sanitation: clean housing",
+            "Isolation: separate sick animals"
+          ],
+          "keyTerms": [
+            {"term": "Vaccination", "definition": "Prevents disease"},
+            {"term": "Parasite", "definition": "Organism living on/in animal"},
+            {"term": "Sanitation", "definition": "Cleanliness"},
+            {"term": "Isolation", "definition": "Separating sick animals"}
+          ],
+          "examples": [
+            {
+              "question": "Separating sick animals is?",
+              "answer": "Isolation",
+              "explanation": "Prevents disease spread"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Missing health signs",
+            "Wrong prevention"
+          ],
+          "examTips": [
+            "Know health and illness signs",
+            "Explain prevention"
+          ],
+          "questions": [
+            {
+              "id": "ag-ah-q1",
+              "question": "Which prevents disease?",
+              "options": ["Vaccination", "Isolation", "Sanitation", "All"],
+              "correctAnswer": "All",
+              "explanation": "All methods prevent disease",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Veterinary science",
+            "Animal welfare"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "farm-management",
+      "title": "Farm Management",
+      "description": "Managing a farm",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand farm management",
+        "Identify farm records"
+      ],
+      "topics": [
+        {
+          "id": "farm-records",
+          "title": "Farm Records",
+          "summary": "Keeping farm information",
+          "mustKnow": [
+            "Farm records: document farm activities",
+            "Production records: yields",
+            "Financial records: income and expenses",
+            "Labor records: workers",
+            "Inventory: supplies",
+            "Records help decision making"
+          ],
+          "keyTerms": [
+            {"term": "Production Record", "definition": "Records yields"},
+            {"term": "Financial Record", "definition": "Income and expenses"},
+            {"term": "Inventory", "definition": "List of supplies"}
+          ],
+          "examples": [
+            {
+              "question": "Recording crop yields is?",
+              "answer": "Production record",
+              "explanation": "Records what was produced"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong record types",
+            "Missing importance"
+          ],
+          "examTips": [
+            "Know record types",
+            "Explain their importance"
+          ],
+          "questions": [
+            {
+              "id": "ag-fr-q1",
+              "question": "Recording income and expenses is:",
+              "options": ["Financial record", "Production record", "Labor record", "Inventory"],
+              "correctAnswer": "Financial record",
+              "explanation": "Money records = financial",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Farm planning",
+            "Agricultural economics"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "sustainability",
+      "title": "Sustainability",
+      "description": "Sustainable agriculture",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand sustainability",
+        "Identify sustainable practices"
+      ],
+      "topics": [
+        {
+          "id": "sustainable-agriculture",
+          "title": "Sustainable Agriculture",
+          "summary": "Farming that protects the environment",
+          "mustKnow": [
+            "Sustainability: meeting needs without harming future",
+            "Organic farming: no chemicals",
+            "Crop rotation: maintains soil",
+            "Agroforestry: trees with crops",
+            "Water conservation: efficient irrigation",
+            "Reduces environmental impact"
+          ],
+          "keyTerms": [
+            {"term": "Sustainable", "definition": "Meeting needs without harming future"},
+            {"term": "Organic", "definition": "No chemicals"},
+            {"term": "Agroforestry", "definition": "Trees with crops"}
+          ],
+          "examples": [
+            {
+              "question": "Farming without chemicals is?",
+              "answer": "Organic farming",
+              "explanation": "No synthetic chemicals"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong sustainable methods",
+            "Missing environmental impact"
+          ],
+          "examTips": [
+            "Know sustainable practices",
+            "Explain benefits"
+          ],
+          "questions": [
+            {
+              "id": "ag-sust-q1",
+              "question": "Meeting needs without harming future is:",
+              "options": ["Sustainability", "Exploitation", "Depletion", "Destruction"],
+              "correctAnswer": "Sustainability",
+              "explanation": "Sustainability protects future",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Climate-smart agriculture",
+            "Environmental protection"
+          ],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

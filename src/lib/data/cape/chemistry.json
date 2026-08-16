@@ -1,0 +1,903 @@
+{
+  "id": "cape-chemistry",
+  "name": "Chemistry",
+  "level": "CAPE",
+  "description": "CAPE Chemistry - Complete comprehensive coverage of Unit 1 and Unit 2",
+  "icon": "⚗️",
+  "syllabusVersion": "2023",
+  "lastVerified": "2026-01-15",
+  "source": "CXC CAPE Chemistry Syllabus",
+  "units": [
+    {
+      "id": "unit-1",
+      "title": "Unit 1",
+      "description": "Atomic Structure, Bonding, and Chemical Reactions",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "topics": [
+        {
+          "id": "atomic-structure",
+          "title": "Atomic Structure",
+          "summary": "Structure of atoms",
+          "mustKnow": [
+            "Atom: protons, neutrons, electrons",
+            "Proton: positive, mass 1, in nucleus",
+            "Neutron: neutral, mass 1, in nucleus",
+            "Electron: negative, negligible mass, orbitals",
+            "Atomic number = protons",
+            "Mass number = protons + neutrons",
+            "Isotopes: same protons, different neutrons",
+            "Electron configuration: shells and subshells",
+            "Orbitals: s, p, d, f",
+            "Hund's rule: fill orbitals singly first",
+            "Pauli exclusion: max 2 electrons per orbital",
+            "Ionization energy: energy to remove electron"
+          ],
+          "keyTerms": [
+            {"term": "Proton", "definition": "Positive particle"},
+            {"term": "Neutron", "definition": "Neutral particle"},
+            {"term": "Electron", "definition": "Negative particle"},
+            {"term": "Isotope", "definition": "Same protons, different neutrons"},
+            {"term": "Orbital", "definition": "Electron region"},
+            {"term": "Ionization Energy", "definition": "Energy to remove electron"}
+          ],
+          "examples": [
+            {
+              "question": "Electron configuration of carbon (Z=6)",
+              "answer": "1s² 2s² 2p²",
+              "explanation": "Fill orbitals in order"
+            }
+          ],
+          "formulas": [
+            "Mass number = protons + neutrons",
+            "Neutrons = mass number - atomic number"
+          ],
+          "commonMistakes": [
+            "Wrong electron configuration",
+            "Confusing atomic and mass number"
+          ],
+          "examTips": [
+            "Memorize orbital order",
+            "Practice configurations"
+          ],
+          "questions": [
+            {
+              "id": "chem-u1-q1",
+              "question": "Electron configuration of oxygen (Z=8):",
+              "options": ["1s² 2s² 2p⁴", "1s² 2s² 2p⁶", "1s² 2s² 2p²", "1s² 2s² 2p⁰"],
+              "correctAnswer": "1s² 2s² 2p⁴",
+              "explanation": "Oxygen has 8 electrons",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Quantum mechanics",
+            "Atomic spectra"
+          ],
+          "resources": []
+        },
+        {
+          "id": "periodicity",
+          "title": "Periodicity",
+          "summary": "Periodic trends",
+          "mustKnow": [
+            "Periodic table: organized by atomic number",
+            "Periods: horizontal rows",
+            "Groups: vertical columns",
+            "Atomic radius: decreases across period, increases down group",
+            "Ionization energy: increases across period, decreases down group",
+            "Electronegativity: increases across period, decreases down group",
+            "Group 1: alkali metals (very reactive)",
+            "Group 2: alkaline earth metals",
+            "Group 7: halogens (reactive non-metals)",
+            "Group 8: noble gases (unreactive)",
+            "Transition metals: d-block elements"
+          ],
+          "keyTerms": [
+            {"term": "Atomic Radius", "definition": "Atom size"},
+            {"term": "Ionization Energy", "definition": "Remove electron energy"},
+            {"term": "Electronegativity", "definition": "Attract electrons"},
+            {"term": "Period", "definition": "Horizontal row"},
+            {"term": "Group", "definition": "Vertical column"}
+          ],
+          "examples": [
+            {
+              "question": "Atomic radius trend across period",
+              "answer": "Decreases",
+              "explanation": "More protons pull electrons closer"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong trends",
+            "Confusing groups and periods"
+          ],
+          "examTips": [
+            "Memorize all trends",
+            "Explain reasons"
+          ],
+          "questions": [
+            {
+              "id": "chem-u1-per-q1",
+              "question": "Ionization energy across a period:",
+              "options": ["Increases", "Decreases", "Stays same", "No pattern"],
+              "correctAnswer": "Increases",
+              "explanation": "More protons hold electrons tighter",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Periodic trends",
+            "Element properties"
+          ],
+          "resources": []
+        },
+        {
+          "id": "bonding",
+          "title": "Bonding",
+          "summary": "Chemical bonds",
+          "mustKnow": [
+            "Ionic: metal + non-metal (electron transfer)",
+            "Covalent: non-metal + non-metal (electron sharing)",
+            "Metallic: metal + metal (electron sea)",
+            "Single bond: one pair shared",
+            "Double bond: two pairs shared",
+            "Triple bond: three pairs shared",
+            "Polar covalent: unequal sharing",
+            "Electronegativity difference determines bond type",
+            "Bond energy: energy to break bond",
+            "Bond length: distance between nuclei"
+          ],
+          "keyTerms": [
+            {"term": "Ionic Bond", "definition": "Electron transfer"},
+            {"term": "Covalent Bond", "definition": "Electron sharing"},
+            {"term": "Metallic Bond", "definition": "Electron sea"},
+            {"term": "Polar Covalent", "definition": "Unequal sharing"},
+            {"term": "Bond Energy", "definition": "Energy to break bond"}
+          ],
+          "examples": [
+            {
+              "question": "NaCl bond type",
+              "answer": "Ionic",
+              "explanation": "Metal + non-metal"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong bond type",
+            "Missing polarity"
+          ],
+          "examTips": [
+            "Know bond types",
+            "Understand electronegativity"
+          ],
+          "questions": [
+            {
+              "id": "chem-u1-bond-q1",
+              "question": "H₂O bond type:",
+              "options": ["Covalent", "Ionic", "Metallic", "No bond"],
+              "correctAnswer": "Covalent",
+              "explanation": "Non-metals share electrons",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Molecular geometry",
+            "Intermolecular forces"
+          ],
+          "resources": []
+        },
+        {
+          "id": "stoichiometry",
+          "title": "Stoichiometry",
+          "summary": "Quantitative chemistry",
+          "mustKnow": [
+            "Mole: 6.02 × 10²³ particles (Avogadro's number)",
+            "Molar mass: mass of one mole",
+            "n = m/M (moles = mass/molar mass)",
+            "Empirical formula: simplest ratio",
+            "Molecular formula: actual atoms",
+            "Balancing equations",
+            "Limiting reagent: used up first",
+            "Percentage yield: (actual/theoretical) × 100"
+          ],
+          "keyTerms": [
+            {"term": "Mole", "definition": "6.02 × 10²³ particles"},
+            {"term": "Molar Mass", "definition": "Mass of one mole"},
+            {"term": "Empirical Formula", "definition": "Simplest ratio"},
+            {"term": "Limiting Reagent", "definition": "Used up first"},
+            {"term": "Percentage Yield", "definition": "Actual vs theoretical"}
+          ],
+          "examples": [
+            {
+              "question": "Moles in 44g CO₂ (M=44)?",
+              "answer": "1 mole",
+              "explanation": "n = 44/44 = 1"
+            }
+          ],
+          "formulas": [
+            "n = m/M",
+            "Moles = particles / 6.02 × 10²³",
+            "Percentage yield = (actual/theoretical) × 100"
+          ],
+          "commonMistakes": [
+            "Wrong molar mass",
+            "Unbalanced equations"
+          ],
+          "examTips": [
+            "Balance equations first",
+            "Show all workings"
+          ],
+          "questions": [
+            {
+              "id": "chem-u1-stoi-q1",
+              "question": "Avogadro's number:",
+              "options": ["6.02 × 10²³", "3.01 × 10²³", "1.20 × 10²⁴", "6.02 × 10²²"],
+              "correctAnswer": "6.02 × 10²³",
+              "explanation": "Avogadro's constant",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Advanced stoichiometry",
+            "Solution chemistry"
+          ],
+          "resources": []
+        },
+        {
+          "id": "energetics",
+          "title": "Energetics",
+          "summary": "Energy changes in reactions",
+          "mustKnow": [
+            "Exothermic: releases heat (ΔH negative)",
+            "Endothermic: absorbs heat (ΔH positive)",
+            "Enthalpy: heat content",
+            "Enthalpy change: ΔH",
+            "Hess's law: ΔH independent of path",
+            "Bond energy: energy to break bonds",
+            "Activation energy: energy to start reaction",
+            "Energy diagrams"
+          ],
+          "keyTerms": [
+            {"term": "Exothermic", "definition": "Releases heat"},
+            {"term": "Endothermic", "definition": "Absorbs heat"},
+            {"term": "Enthalpy", "definition": "Heat content"},
+            {"term": "Hess's Law", "definition": "ΔH independent of path"},
+            {"term": "Activation Energy", "definition": "Energy to start"}
+          ],
+          "examples": [
+            {
+              "question": "Combustion is?",
+              "answer": "Exothermic",
+              "explanation": "Releases heat"
+            }
+          ],
+          "formulas": [
+            "ΔH = H(products) - H(reactants)"
+          ],
+          "commonMistakes": [
+            "Wrong sign for ΔH",
+            "Confusing exothermic and endothermic"
+          ],
+          "examTips": [
+            "Know sign conventions",
+            "Apply Hess's law"
+          ],
+          "questions": [
+            {
+              "id": "chem-u1-ener-q1",
+              "question": "Releases heat is:",
+              "options": ["Exothermic", "Endothermic", "Both", "Neither"],
+              "correctAnswer": "Exothermic",
+              "explanation": "Exothermic releases heat",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Thermodynamics",
+            "Calorimetry"
+          ],
+          "resources": []
+        },
+        {
+          "id": "kinetics",
+          "title": "Kinetics",
+          "summary": "Reaction rates",
+          "mustKnow": [
+            "Rate: change in concentration per time",
+            "Factors: temperature, concentration, surface area, catalyst",
+            "Higher temperature: faster (more energy)",
+            "Higher concentration: faster (more collisions)",
+            "Larger surface area: faster (more exposed)",
+            "Catalyst: lowers activation energy",
+            "Collision theory: particles must collide with enough energy"
+          ],
+          "keyTerms": [
+            {"term": "Rate", "definition": "Concentration change per time"},
+            {"term": "Catalyst", "definition": "Lowers activation energy"},
+            {"term": "Collision Theory", "definition": "Collisions cause reactions"},
+            {"term": "Activation Energy", "definition": "Minimum energy"}
+          ],
+          "examples": [
+            {
+              "question": "Catalyst effect on rate",
+              "answer": "Increases rate",
+              "explanation": "Lowers activation energy"
+            }
+          ],
+          "formulas": [
+            "Rate = Δ[concentration] / Δtime"
+          ],
+          "commonMistakes": [
+            "Wrong factor effects",
+            "Missing collision theory"
+          ],
+          "examTips": [
+            "Know all factors",
+            "Explain collision theory"
+          ],
+          "questions": [
+            {
+              "id": "chem-u1-kin-q1",
+              "question": "Which increases rate?",
+              "options": ["Catalyst", "Lower temperature", "Lower concentration", "Smaller surface area"],
+              "correctAnswer": "Catalyst",
+              "explanation": "Catalyst increases rate",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Reaction mechanisms",
+            "Rate laws"
+          ],
+          "resources": []
+        },
+        {
+          "id": "equilibrium",
+          "title": "Equilibrium",
+          "summary": "Reversible reactions",
+          "mustKnow": [
+            "Dynamic equilibrium: forward = reverse rate",
+            "Equilibrium constant: Kc",
+            "Le Chatelier's principle: system opposes change",
+            "Increasing concentration: shifts away",
+            "Increasing temperature: shifts endothermic",
+            "Increasing pressure: shifts fewer moles",
+            "Catalyst: no effect on position"
+          ],
+          "keyTerms": [
+            {"term": "Dynamic Equilibrium", "definition": "Forward = reverse"},
+            {"term": "Kc", "definition": "Equilibrium constant"},
+            {"term": "Le Chatelier's Principle", "definition": "Opposes change"}
+          ],
+          "examples": [
+            {
+              "question": "Increase temperature in exothermic reaction",
+              "answer": "Shifts to reactants",
+              "explanation": "Opposes temperature increase"
+            }
+          ],
+          "formulas": [
+            "Kc = [products] / [reactants]"
+          ],
+          "commonMistakes": [
+            "Wrong shift direction",
+            "Missing Le Chatelier"
+          ],
+          "examTips": [
+            "Apply Le Chatelier correctly",
+            "Know Kc expression"
+          ],
+          "questions": [
+            {
+              "id": "chem-u1-eq-q1",
+              "question": "Le Chatelier's principle: system:",
+              "options": ["Opposes change", "Accepts change", "Ignores change", "Amplifies change"],
+              "correctAnswer": "Opposes change",
+              "explanation": "System opposes changes",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Equilibrium calculations",
+            "Industrial applications"
+          ],
+          "resources": []
+        },
+        {
+          "id": "acids-bases",
+          "title": "Acids and Bases",
+          "summary": "Acid-base chemistry",
+          "mustKnow": [
+            "Acid: proton donor (releases H⁺)",
+            "Base: proton acceptor (accepts H⁺)",
+            "pH: -log[H⁺]",
+            "pH < 7: acidic",
+            "pH = 7: neutral",
+            "pH > 7: basic",
+            "Strong acid: fully dissociates",
+            "Weak acid: partially dissociates",
+            "Neutralization: acid + base → salt + water"
+          ],
+          "keyTerms": [
+            {"term": "Acid", "definition": "Proton donor"},
+            {"term": "Base", "definition": "Proton acceptor"},
+            {"term": "pH", "definition": "Acidity measure"},
+            {"term": "Neutralization", "definition": "Acid + base"},
+            {"term": "Strong Acid", "definition": "Fully dissociates"}
+          ],
+          "examples": [
+            {
+              "question": "pH of neutral solution",
+              "answer": "7",
+              "explanation": "Neutral pH is 7"
+            }
+          ],
+          "formulas": [
+            "pH = -log[H⁺]"
+          ],
+          "commonMistakes": [
+            "Wrong pH scale",
+            "Confusing strong and weak"
+          ],
+          "examTips": [
+            "Know pH scale",
+            "Distinguish strong and weak"
+          ],
+          "questions": [
+            {
+              "id": "chem-u1-ab-q1",
+              "question": "pH less than 7 is:",
+              "options": ["Acidic", "Basic", "Neutral", "No pH"],
+              "correctAnswer": "Acidic",
+              "explanation": "pH < 7 is acidic",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Buffer solutions",
+            "Titrations"
+          ],
+          "resources": []
+        },
+        {
+          "id": "redox",
+          "title": "Redox",
+          "summary": "Oxidation-reduction reactions",
+          "mustKnow": [
+            "Oxidation: loss of electrons",
+            "Reduction: gain of electrons",
+            "OIL RIG: Oxidation Is Loss, Reduction Is Gain",
+            "Oxidizing agent: causes oxidation",
+            "Reducing agent: causes reduction",
+            "Oxidation number: charge if all bonds ionic"
+          ],
+          "keyTerms": [
+            {"term": "Oxidation", "definition": "Loss of electrons"},
+            {"term": "Reduction", "definition": "Gain of electrons"},
+            {"term": "Oxidizing Agent", "definition": "Causes oxidation"},
+            {"term": "Reducing Agent", "definition": "Causes reduction"}
+          ],
+          "examples": [
+            {
+              "question": "Na → Na⁺ + e⁻ is?",
+              "answer": "Oxidation",
+              "explanation": "Loss of electron"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing oxidation and reduction",
+            "Wrong agents"
+          ],
+          "examTips": [
+            "Remember OIL RIG",
+            "Identify electron transfer"
+          ],
+          "questions": [
+            {
+              "id": "chem-u1-redox-q1",
+              "question": "Gain of electrons is:",
+              "options": ["Reduction", "Oxidation", "Neutralization", "Combustion"],
+              "correctAnswer": "Reduction",
+              "explanation": "Reduction gains electrons",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Electrochemistry",
+            "Batteries"
+          ],
+          "resources": []
+        },
+        {
+          "id": "electrochemistry",
+          "title": "Electrochemistry",
+          "summary": "Electricity and chemical reactions",
+          "mustKnow": [
+            "Electrolysis: using electricity for reactions",
+            "Electrolyte: conducts when molten/dissolved",
+            "Anode: positive electrode (oxidation)",
+            "Cathode: negative electrode (reduction)",
+            "Electrochemical cells: produce electricity",
+            "Standard electrode potential: E°"
+          ],
+          "keyTerms": [
+            {"term": "Electrolysis", "definition": "Electricity causes reaction"},
+            {"term": "Anode", "definition": "Positive electrode"},
+            {"term": "Cathode", "definition": "Negative electrode"},
+            {"term": "Electrode Potential", "definition": "E° value"}
+          ],
+          "examples": [
+            {
+              "question": "Positive electrode is?",
+              "answer": "Anode",
+              "explanation": "Anode is positive"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing electrodes",
+            "Wrong products"
+          ],
+          "examTips": [
+            "Know electrode charges",
+            "Understand products"
+          ],
+          "questions": [
+            {
+              "id": "chem-u1-elec-q1",
+              "question": "Negative electrode is:",
+              "options": ["Cathode", "Anode", "Both", "Neither"],
+              "correctAnswer": "Cathode",
+              "explanation": "Cathode is negative",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Batteries",
+            "Fuel cells"
+          ],
+          "resources": []
+        },
+        {
+          "id": "organic-chemistry",
+          "title": "Organic Chemistry",
+          "summary": "Carbon compounds",
+          "mustKnow": [
+            "Organic: carbon compounds",
+            "Alkanes: C-C single bonds",
+            "Alkenes: C=C double bonds",
+            "Alkynes: C≡C triple bonds",
+            "Isomers: same formula, different structure",
+            "Homologous series: same functional group",
+            "Functional group: determines properties"
+          ],
+          "keyTerms": [
+            {"term": "Organic", "definition": "Carbon compounds"},
+            {"term": "Alkane", "definition": "Single bonds"},
+            {"term": "Alkene", "definition": "Double bond"},
+            {"term": "Isomer", "definition": "Same formula, different structure"},
+            {"term": "Homologous Series", "definition": "Same functional group"}
+          ],
+          "examples": [
+            {
+              "question": "CH₄ is?",
+              "answer": "Methane (alkane)",
+              "explanation": "Single bonds"
+            }
+          ],
+          "formulas": [
+            "Alkanes: CₙH₂ₙ₊₂",
+            "Alkenes: CₙH₂ₙ"
+          ],
+          "commonMistakes": [
+            "Wrong formulas",
+            "Confusing series"
+          ],
+          "examTips": [
+            "Know homologous series",
+            "Understand isomers"
+          ],
+          "questions": [
+            {
+              "id": "chem-u1-org-q1",
+              "question": "C₂H₄ is:",
+              "options": ["Alkene", "Alkane", "Alkyne", "Alcohol"],
+              "correctAnswer": "Alkene",
+              "explanation": "Double bond",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Reaction mechanisms",
+            "Organic synthesis"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "unit-2",
+      "title": "Unit 2",
+      "description": "Advanced Organic Chemistry and Analysis",
+      "importance": "must-know",
+      "difficulty": "advanced",
+      "topics": [
+        {
+          "id": "functional-groups",
+          "title": "Functional Groups",
+          "summary": "Groups that determine properties",
+          "mustKnow": [
+            "Alcohol: -OH group",
+            "Aldehyde: -CHO group",
+            "Ketone: -CO- group",
+            "Carboxylic acid: -COOH group",
+            "Ester: -COO- group",
+            "Amine: -NH₂ group",
+            "Amide: -CONH₂ group"
+          ],
+          "keyTerms": [
+            {"term": "Alcohol", "definition": "-OH group"},
+            {"term": "Aldehyde", "definition": "-CHO group"},
+            {"term": "Ketone", "definition": "-CO- group"},
+            {"term": "Carboxylic Acid", "definition": "-COOH group"},
+            {"term": "Ester", "definition": "-COO- group"}
+          ],
+          "examples": [
+            {
+              "question": "Ethanol functional group",
+              "answer": "-OH (alcohol)",
+              "explanation": "Alcohol group"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing groups",
+            "Wrong properties"
+          ],
+          "examTips": [
+            "Memorize all groups",
+            "Know their reactions"
+          ],
+          "questions": [
+            {
+              "id": "chem-u2-fg-q1",
+              "question": "Which contains -OH?",
+              "options": ["Alcohol", "Aldehyde", "Ketone", "Ester"],
+              "correctAnswer": "Alcohol",
+              "explanation": "Alcohol has -OH",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Organic synthesis",
+            "Biochemistry"
+          ],
+          "resources": []
+        },
+        {
+          "id": "reaction-mechanisms",
+          "title": "Reaction Mechanisms",
+          "summary": "How reactions occur",
+          "mustKnow": [
+            "Mechanism: step-by-step process",
+            "Electrophile: electron-poor species",
+            "Nucleophile: electron-rich species",
+            "Substitution: replace atom",
+            "Addition: add to double bond",
+            "Elimination: remove atoms"
+          ],
+          "keyTerms": [
+            {"term": "Electrophile", "definition": "Electron-poor"},
+            {"term": "Nucleophile", "definition": "Electron-rich"},
+            {"term": "Substitution", "definition": "Replace atom"},
+            {"term": "Addition", "definition": "Add to bond"},
+            {"term": "Elimination", "definition": "Remove atoms"}
+          ],
+          "examples": [
+            {
+              "question": "Electron-rich species is?",
+              "answer": "Nucleophile",
+              "explanation": "Attracted to positive"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing electrophile and nucleophile",
+            "Wrong mechanism"
+          ],
+          "examTips": [
+            "Know reaction types",
+            "Understand mechanisms"
+          ],
+          "questions": [
+            {
+              "id": "chem-u2-mech-q1",
+              "question": "Electron-poor species:",
+              "options": ["Electrophile", "Nucleophile", "Both", "Neither"],
+              "correctAnswer": "Electrophile",
+              "explanation": "Electrophile is electron-poor",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Advanced mechanisms",
+            "Catalysis"
+          ],
+          "resources": []
+        },
+        {
+          "id": "analytical-chemistry",
+          "title": "Analytical Chemistry",
+          "summary": "Identifying and measuring substances",
+          "mustKnow": [
+            "Qualitative: what is present",
+            "Quantitative: how much",
+            "Spectroscopy: IR, UV-Vis, NMR",
+            "Mass spectrometry: molecular mass",
+            "Chromatography: separation",
+            "Titration: concentration"
+          ],
+          "keyTerms": [
+            {"term": "Qualitative", "definition": "What is present"},
+            {"term": "Quantitative", "definition": "How much"},
+            {"term": "Spectroscopy", "definition": "Light analysis"},
+            {"term": "Chromatography", "definition": "Separation"},
+            {"term": "Titration", "definition": "Concentration"}
+          ],
+          "examples": [
+            {
+              "question": "Separating mixture components is?",
+              "answer": "Chromatography",
+              "explanation": "Separation technique"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong techniques",
+            "Missing analysis types"
+          ],
+          "examTips": [
+            "Know all techniques",
+            "Understand applications"
+          ],
+          "questions": [
+            {
+              "id": "chem-u2-anal-q1",
+              "question": "Determining concentration is:",
+              "options": ["Titration", "Spectroscopy", "Chromatography", "Filtration"],
+              "correctAnswer": "Titration",
+              "explanation": "Titration measures concentration",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Advanced spectroscopy",
+            "Analytical instruments"
+          ],
+          "resources": []
+        },
+        {
+          "id": "industrial-chemistry",
+          "title": "Industrial Chemistry",
+          "summary": "Large-scale chemical production",
+          "mustKnow": [
+            "Industrial processes: large scale",
+            "Haber process: ammonia (N₂ + 3H₂ → 2NH₃)",
+            "Contact process: sulfuric acid",
+            "Catalysts: increase efficiency",
+            "Optimization: yield and cost",
+            "Environmental impact: pollution control"
+          ],
+          "keyTerms": [
+            {"term": "Haber Process", "definition": "Ammonia production"},
+            {"term": "Contact Process", "definition": "Sulfuric acid"},
+            {"term": "Catalyst", "definition": "Increases rate"},
+            {"term": "Optimization", "definition": "Best conditions"}
+          ],
+          "examples": [
+            {
+              "question": "Haber process produces?",
+              "answer": "Ammonia",
+              "explanation": "N₂ + 3H₂ → 2NH₃"
+            }
+          ],
+          "formulas": [
+            "Haber: N₂ + 3H₂ → 2NH₃"
+          ],
+          "commonMistakes": [
+            "Wrong products",
+            "Missing conditions"
+          ],
+          "examTips": [
+            "Know industrial processes",
+            "Understand optimization"
+          ],
+          "questions": [
+            {
+              "id": "chem-u2-ind-q1",
+              "question": "Haber process produces:",
+              "options": ["Ammonia", "Sulfuric acid", "Nitric acid", "Methanol"],
+              "correctAnswer": "Ammonia",
+              "explanation": "Haber produces ammonia",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Green chemistry",
+            "Process optimization"
+          ],
+          "resources": []
+        },
+        {
+          "id": "environmental-chemistry",
+          "title": "Environmental Chemistry",
+          "summary": "Chemistry and the environment",
+          "mustKnow": [
+            "Pollution: air, water, soil",
+            "Greenhouse effect: global warming",
+            "Ozone depletion: CFCs",
+            "Acid rain: sulfur and nitrogen oxides",
+            "Water pollution: heavy metals, organic waste",
+            "Green chemistry: sustainable practices"
+          ],
+          "keyTerms": [
+            {"term": "Pollution", "definition": "Environmental contamination"},
+            {"term": "Greenhouse Effect", "definition": "Global warming"},
+            {"term": "Ozone Depletion", "definition": "CFC damage"},
+            {"term": "Acid Rain", "definition": "Pollution precipitation"},
+            {"term": "Green Chemistry", "definition": "Sustainable chemistry"}
+          ],
+          "examples": [
+            {
+              "question": "CFCs cause?",
+              "answer": "Ozone depletion",
+              "explanation": "CFCs damage ozone layer"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong environmental issues",
+            "Missing solutions"
+          ],
+          "examTips": [
+            "Know all issues",
+            "Explain solutions"
+          ],
+          "questions": [
+            {
+              "id": "chem-u2-env-q1",
+              "question": "CFCs cause:",
+              "options": ["Ozone depletion", "Acid rain", "Global warming only", "No effect"],
+              "correctAnswer": "Ozone depletion",
+              "explanation": "CFCs damage ozone",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Climate chemistry",
+            "Sustainable chemistry"
+          ],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

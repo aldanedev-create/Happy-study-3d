@@ -1,0 +1,497 @@
+{
+  "id": "cape-sociology",
+  "name": "Sociology",
+  "level": "CAPE",
+  "description": "CAPE Sociology - Complete cheatsheet covering Unit 1 and Unit 2",
+  "icon": "👥",
+  "syllabusVersion": "2023",
+  "lastVerified": "2026-01-15",
+  "source": "CXC CAPE Sociology Syllabus",
+  "units": [
+    {
+      "id": "unit-1",
+      "title": "Unit 1",
+      "description": "Sociology Foundations and Social Institutions",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "topics": [
+        {
+          "id": "sociology",
+          "title": "What is Sociology?",
+          "summary": "Study of society and social behavior",
+          "mustKnow": [
+            "Sociology: scientific study of society",
+            "Focuses on social relationships and institutions",
+            "Sociological imagination: personal vs social issues",
+            "Society: group sharing culture and territory",
+            "Social structure: organized patterns",
+            "Social action: individual behavior in society"
+          ],
+          "keyTerms": [
+            {"term": "Sociology", "definition": "Scientific study of society"},
+            {"term": "Society", "definition": "Group with shared culture"},
+            {"term": "Social Structure", "definition": "Organized patterns"},
+            {"term": "Sociological Imagination", "definition": "Personal vs social"}
+          ],
+          "examples": [
+            {
+              "question": "Unemployment as social issue vs personal",
+              "answer": "Sociological imagination",
+              "explanation": "Connects personal to social"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing sociology with psychology",
+            "Missing social context"
+          ],
+          "examTips": [
+            "Use sociological perspective",
+            "Give examples"
+          ],
+          "questions": [
+            {
+              "id": "soc-q1",
+              "question": "Sociology studies:",
+              "options": ["Society and social behavior", "Individual mind only", "Biology", "Chemistry"],
+              "correctAnswer": "Society and social behavior",
+              "explanation": "Sociology studies society",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Sociological theory",
+            "Social research"
+          ],
+          "resources": []
+        },
+        {
+          "id": "sociological-perspectives",
+          "title": "Sociological Perspectives",
+          "summary": "Theoretical approaches",
+          "mustKnow": [
+            "Functionalism: society as system of parts",
+            "Conflict theory: society based on inequality",
+            "Symbolic interactionism: meaning through interaction",
+            "Feminism: gender inequality focus",
+            "Marxism: class conflict",
+            "Each perspective explains society differently"
+          ],
+          "keyTerms": [
+            {"term": "Functionalism", "definition": "Society as system"},
+            {"term": "Conflict Theory", "definition": "Inequality focus"},
+            {"term": "Symbolic Interactionism", "definition": "Meaning through interaction"},
+            {"term": "Feminism", "definition": "Gender inequality"},
+            {"term": "Marxism", "definition": "Class conflict"}
+          ],
+          "examples": [
+            {
+              "question": "Viewing society as parts working together?",
+              "answer": "Functionalism",
+              "explanation": "System perspective"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing perspectives",
+            "Missing key theorists"
+          ],
+          "examTips": [
+            "Know all perspectives",
+            "Compare approaches"
+          ],
+          "questions": [
+            {
+              "id": "soc-sp-q1",
+              "question": "Inequality focus is:",
+              "options": ["Conflict theory", "Functionalism", "Interactionism", "All"],
+              "correctAnswer": "Conflict theory",
+              "explanation": "Conflict focuses on inequality",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Contemporary theory",
+            "Postmodernism"
+          ],
+          "resources": []
+        },
+        {
+          "id": "research-methods",
+          "title": "Research Methods",
+          "summary": "How sociologists study society",
+          "mustKnow": [
+            "Quantitative: numerical data",
+            "Qualitative: descriptive data",
+            "Survey: questionnaire",
+            "Interview: verbal questioning",
+            "Observation: watching behavior",
+            "Ethics: informed consent, confidentiality"
+          ],
+          "keyTerms": [
+            {"term": "Quantitative", "definition": "Numerical data"},
+            {"term": "Qualitative", "definition": "Descriptive data"},
+            {"term": "Survey", "definition": "Questionnaire"},
+            {"term": "Ethics", "definition": "Research standards"}
+          ],
+          "examples": [
+            {
+              "question": "Questionnaire collects what data?",
+              "answer": "Quantitative",
+              "explanation": "Numerical responses"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing methods",
+            "Missing ethics"
+          ],
+          "examTips": [
+            "Know all methods",
+            "Explain ethics"
+          ],
+          "questions": [
+            {
+              "id": "soc-rm-q1",
+              "question": "Numerical data is:",
+              "options": ["Quantitative", "Qualitative", "Both", "Neither"],
+              "correctAnswer": "Quantitative",
+              "explanation": "Quantitative is numerical",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Research design",
+            "Data analysis"
+          ],
+          "resources": []
+        },
+        {
+          "id": "culture-socialisation",
+          "title": "Culture and Socialisation",
+          "summary": "Learning society's ways",
+          "mustKnow": [
+            "Culture: shared beliefs, values, customs",
+            "Material culture: physical objects",
+            "Non-material: beliefs, values",
+            "Socialisation: learning social norms",
+            "Primary: family",
+            "Secondary: school, peers, media",
+            "Agents: family, school, peers, media, religion"
+          ],
+          "keyTerms": [
+            {"term": "Culture", "definition": "Shared way of life"},
+            {"term": "Socialisation", "definition": "Learning norms"},
+            {"term": "Primary Socialisation", "definition": "Family"},
+            {"term": "Secondary Socialisation", "definition": "School, peers"},
+            {"term": "Agent", "definition": "Socialisation source"}
+          ],
+          "examples": [
+            {
+              "question": "Learning from family is?",
+              "answer": "Primary socialisation",
+              "explanation": "First and most important"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing primary and secondary",
+            "Missing agents"
+          ],
+          "examTips": [
+            "Know all agents",
+            "Distinguish socialisation types"
+          ],
+          "questions": [
+            {
+              "id": "soc-cs-q1",
+              "question": "First socialisation agent:",
+              "options": ["Family", "School", "Peers", "Media"],
+              "correctAnswer": "Family",
+              "explanation": "Family is primary agent",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Socialisation theories",
+            "Cultural diversity"
+          ],
+          "resources": []
+        },
+        {
+          "id": "social-institutions",
+          "title": "Social Institutions",
+          "summary": "Family, education, religion",
+          "mustKnow": [
+            "Family: socializes, supports",
+            "Nuclear: parents + children",
+            "Extended: multiple generations",
+            "Education: teaches knowledge and skills",
+            "Functions of education: socialization, selection",
+            "Religion: provides meaning and morality",
+            "Functions of religion: social cohesion, control"
+          ],
+          "keyTerms": [
+            {"term": "Institution", "definition": "Established pattern"},
+            {"term": "Nuclear Family", "definition": "Parents and children"},
+            {"term": "Extended Family", "definition": "Multiple generations"},
+            {"term": "Education", "definition": "Knowledge transmission"}
+          ],
+          "examples": [
+            {
+              "question": "School's function is?",
+              "answer": "Education and socialization",
+              "explanation": "Teaches knowledge and norms"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong institution functions",
+            "Missing family types"
+          ],
+          "examTips": [
+            "Know all institutions",
+            "Explain functions"
+          ],
+          "questions": [
+            {
+              "id": "soc-si-q1",
+              "question": "Multiple generations family:",
+              "options": ["Extended", "Nuclear", "Single-parent", "Blended"],
+              "correctAnswer": "Extended",
+              "explanation": "Multiple generations = extended",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Institutional change",
+            "Family diversity"
+          ],
+          "resources": []
+        },
+        {
+          "id": "social-stratification",
+          "title": "Social Stratification",
+          "summary": "Social inequality",
+          "mustKnow": [
+            "Stratification: social ranking",
+            "Class: economic position",
+            "Status: social prestige",
+            "Power: ability to influence",
+            "Systems: slavery, caste, class",
+            "Social mobility: movement between strata",
+            "Factors: education, occupation, income"
+          ],
+          "keyTerms": [
+            {"term": "Stratification", "definition": "Social ranking"},
+            {"term": "Class", "definition": "Economic position"},
+            {"term": "Status", "definition": "Social prestige"},
+            {"term": "Power", "definition": "Influence ability"},
+            {"term": "Social Mobility", "definition": "Movement between strata"}
+          ],
+          "examples": [
+            {
+              "question": "Movement from poor to rich is?",
+              "answer": "Social mobility",
+              "explanation": "Moving between classes"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing class and status",
+            "Missing stratification types"
+          ],
+          "examTips": [
+            "Know stratification systems",
+            "Explain mobility"
+          ],
+          "questions": [
+            {
+              "id": "soc-ss-q1",
+              "question": "Social ranking is:",
+              "options": ["Stratification", "Socialization", "Institution", "Culture"],
+              "correctAnswer": "Stratification",
+              "explanation": "Stratification is ranking",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Inequality",
+            "Social class"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "unit-2",
+      "title": "Unit 2",
+      "description": "Social Change and Caribbean Society",
+      "importance": "must-know",
+      "difficulty": "advanced",
+      "topics": [
+        {
+          "id": "social-change",
+          "title": "Social Change",
+          "summary": "How society changes",
+          "mustKnow": [
+            "Social change: alteration in society",
+            "Causes: technology, ideas, conflict",
+            "Modernization: traditional to modern",
+            "Globalization: global connections",
+            "Development: improvement in quality of life",
+            "Social movements: collective action"
+          ],
+          "keyTerms": [
+            {"term": "Social Change", "definition": "Society alteration"},
+            {"term": "Modernization", "definition": "Traditional to modern"},
+            {"term": "Globalization", "definition": "Global connections"},
+            {"term": "Development", "definition": "Quality of life improvement"},
+            {"term": "Social Movement", "definition": "Collective action"}
+          ],
+          "examples": [
+            {
+              "question": "Technology changing society is?",
+              "answer": "Social change",
+              "explanation": "Technology causes change"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Missing causes",
+            "Wrong change types"
+          ],
+          "examTips": [
+            "Know all causes",
+            "Explain processes"
+          ],
+          "questions": [
+            {
+              "id": "soc-sc-q1",
+              "question": "Traditional to modern is:",
+              "options": ["Modernization", "Globalization", "Development", "Urbanization"],
+              "correctAnswer": "Modernization",
+              "explanation": "Modernization is change",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Social movements",
+            "Development theory"
+          ],
+          "resources": []
+        },
+        {
+          "id": "social-issues",
+          "title": "Social Issues",
+          "summary": "Crime, poverty, inequality",
+          "mustKnow": [
+            "Crime: law violation",
+            "Deviance: norm violation",
+            "Poverty: lack of resources",
+            "Inequality: unequal distribution",
+            "Causes: unemployment, education, discrimination",
+            "Effects: social unrest, poor health"
+          ],
+          "keyTerms": [
+            {"term": "Crime", "definition": "Law violation"},
+            {"term": "Deviance", "definition": "Norm violation"},
+            {"term": "Poverty", "definition": "Lack of resources"},
+            {"term": "Inequality", "definition": "Unequal distribution"}
+          ],
+          "examples": [
+            {
+              "question": "Violating social norms is?",
+              "answer": "Deviance",
+              "explanation": "Not necessarily illegal"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing crime and deviance",
+            "Missing causes"
+          ],
+          "examTips": [
+            "Distinguish crime and deviance",
+            "Explain causes and effects"
+          ],
+          "questions": [
+            {
+              "id": "soc-si2-q1",
+              "question": "Norm violation is:",
+              "options": ["Deviance", "Crime only", "Law", "No violation"],
+              "correctAnswer": "Deviance",
+              "explanation": "Deviance is norm violation",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Criminology",
+            "Social policy"
+          ],
+          "resources": []
+        },
+        {
+          "id": "caribbean-society",
+          "title": "Caribbean Society",
+          "summary": "Caribbean social structure",
+          "mustKnow": [
+            "Caribbean: diverse, multicultural",
+            "History: colonialism, slavery, indentureship",
+            "Culture: African, European, Indian influences",
+            "Family: extended, female-headed",
+            "Education: key to mobility",
+            "Religion: diverse beliefs",
+            "Social issues: crime, migration, poverty"
+          ],
+          "keyTerms": [
+            {"term": "Multicultural", "definition": "Many cultures"},
+            {"term": "Colonialism", "definition": "European control"},
+            {"term": "Indentureship", "definition": "Contract labor"},
+            {"term": "Creole", "definition": "Caribbean culture"}
+          ],
+          "examples": [
+            {
+              "question": "Caribbean diversity is?",
+              "answer": "Multicultural",
+              "explanation": "Many cultural influences"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Overlooking diversity",
+            "Missing history"
+          ],
+          "examTips": [
+            "Use Caribbean examples",
+            "Explain diversity"
+          ],
+          "questions": [
+            {
+              "id": "soc-cs2-q1",
+              "question": "Caribbean society is:",
+              "options": ["Multicultural", "Single culture", "European only", "African only"],
+              "correctAnswer": "Multicultural",
+              "explanation": "Many cultures",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Caribbean studies",
+            "Postcolonial theory"
+          ],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

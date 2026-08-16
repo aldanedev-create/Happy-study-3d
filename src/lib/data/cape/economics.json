@@ -1,0 +1,506 @@
+{
+  "id": "cape-economics",
+  "name": "Economics",
+  "level": "CAPE",
+  "description": "CAPE Economics - Complete cheatsheet covering Unit 1 and Unit 2",
+  "icon": "📈",
+  "syllabusVersion": "2023",
+  "lastVerified": "2026-01-15",
+  "source": "CXC CAPE Economics Syllabus",
+  "units": [
+    {
+      "id": "unit-1",
+      "title": "Unit 1",
+      "description": "Microeconomics",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "topics": [
+        {
+          "id": "basic-concepts",
+          "title": "Basic Economic Concepts",
+          "summary": "Fundamental economic ideas",
+          "mustKnow": [
+            "Economics: study of resource allocation",
+            "Scarcity: unlimited wants, limited resources",
+            "Opportunity cost: next best alternative",
+            "Factors of production: land, labor, capital, enterprise",
+            "Production possibility frontier: maximum output",
+            "Economic goods vs free goods"
+          ],
+          "keyTerms": [
+            {"term": "Scarcity", "definition": "Limited resources"},
+            {"term": "Opportunity Cost", "definition": "Next best alternative"},
+            {"term": "PPF", "definition": "Production possibility frontier"},
+            {"term": "Economic Good", "definition": "Scarce good"}
+          ],
+          "examples": [
+            {
+              "question": "Choosing study over work. Opportunity cost?",
+              "answer": "Wages from work",
+              "explanation": "Next best alternative forgone"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong opportunity cost",
+            "Missing scarcity"
+          ],
+          "examTips": [
+            "Explain with examples",
+            "Understand PPF"
+          ],
+          "questions": [
+            {
+              "id": "econ-q1",
+              "question": "Next best alternative forgone:",
+              "options": ["Opportunity cost", "Scarcity", "Choice", "Production"],
+              "correctAnswer": "Opportunity cost",
+              "explanation": "Opportunity cost definition",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Economic systems",
+            "Micro vs macro"
+          ],
+          "resources": []
+        },
+        {
+          "id": "demand-supply",
+          "title": "Demand and Supply",
+          "summary": "Market forces",
+          "mustKnow": [
+            "Demand: quantity buyers will purchase",
+            "Law of demand: price up, quantity down",
+            "Supply: quantity sellers will offer",
+            "Law of supply: price up, quantity up",
+            "Equilibrium: demand = supply",
+            "Shifts: demand or supply changes",
+            "Determinants of demand: income, tastes, prices of related goods",
+            "Determinants of supply: costs, technology, taxes"
+          ],
+          "keyTerms": [
+            {"term": "Demand", "definition": "Buyer willingness"},
+            {"term": "Supply", "definition": "Seller willingness"},
+            {"term": "Equilibrium", "definition": "Demand = supply"},
+            {"term": "Law of Demand", "definition": "Price inverse to quantity"}
+          ],
+          "examples": [
+            {
+              "question": "Price increases, quantity demanded?",
+              "answer": "Decreases",
+              "explanation": "Law of demand"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing shifts and movements",
+            "Wrong demand/supply direction"
+          ],
+          "examTips": [
+            "Distinguish movement and shift",
+            "Draw diagrams"
+          ],
+          "questions": [
+            {
+              "id": "econ-ds-q1",
+              "question": "Price up, quantity demanded:",
+              "options": ["Decreases", "Increases", "Stays same", "No effect"],
+              "correctAnswer": "Decreases",
+              "explanation": "Law of demand",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Market equilibrium",
+            "Consumer surplus"
+          ],
+          "resources": []
+        },
+        {
+          "id": "elasticity",
+          "title": "Elasticity",
+          "summary": "Responsiveness to changes",
+          "mustKnow": [
+            "Price elasticity of demand (PED): %ΔQd / %ΔP",
+            "Elastic: PED > 1",
+            "Inelastic: PED < 1",
+            "Unit elastic: PED = 1",
+            "Income elasticity (YED): %ΔQd / %ΔY",
+            "Cross elasticity (XED): %ΔQd of A / %ΔP of B",
+            "Price elasticity of supply (PES): %ΔQs / %ΔP"
+          ],
+          "keyTerms": [
+            {"term": "PED", "definition": "Price elasticity of demand"},
+            {"term": "Elastic", "definition": "Responsive"},
+            {"term": "Inelastic", "definition": "Unresponsive"},
+            {"term": "YED", "definition": "Income elasticity"},
+            {"term": "XED", "definition": "Cross elasticity"},
+            {"term": "PES", "definition": "Price elasticity of supply"}
+          ],
+          "examples": [
+            {
+              "question": "PED = 2. What type?",
+              "answer": "Elastic",
+              "explanation": "Greater than 1"
+            }
+          ],
+          "formulas": [
+            "PED = %ΔQd / %ΔP",
+            "YED = %ΔQd / %ΔY",
+            "XED = %ΔQd(A) / %ΔP(B)"
+          ],
+          "commonMistakes": [
+            "Wrong formula",
+            "Misinterpreting values"
+          ],
+          "examTips": [
+            "Memorize formulas",
+            "Calculate accurately"
+          ],
+          "questions": [
+            {
+              "id": "econ-elas-q1",
+              "question": "PED > 1 is:",
+              "options": ["Elastic", "Inelastic", "Unit elastic", "Perfectly inelastic"],
+              "correctAnswer": "Elastic",
+              "explanation": "Greater than 1 is elastic",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Applications of elasticity",
+            "Revenue and elasticity"
+          ],
+          "resources": []
+        },
+        {
+          "id": "market-structures",
+          "title": "Market Structures",
+          "summary": "Types of markets",
+          "mustKnow": [
+            "Perfect competition: many firms, identical products",
+            "Monopoly: one firm, no substitutes",
+            "Oligopoly: few firms",
+            "Monopolistic competition: many firms, differentiated products",
+            "Barriers to entry: obstacles to new firms",
+            "Market power: ability to influence price"
+          ],
+          "keyTerms": [
+            {"term": "Perfect Competition", "definition": "Many firms, identical products"},
+            {"term": "Monopoly", "definition": "One firm"},
+            {"term": "Oligopoly", "definition": "Few firms"},
+            {"term": "Monopolistic Competition", "definition": "Differentiated products"},
+            {"term": "Barriers to Entry", "definition": "Obstacles"}
+          ],
+          "examples": [
+            {
+              "question": "One firm in market is?",
+              "answer": "Monopoly",
+              "explanation": "Single seller"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing structures",
+            "Missing characteristics"
+          ],
+          "examTips": [
+            "Know all structures",
+            "Compare features"
+          ],
+          "questions": [
+            {
+              "id": "econ-ms-q1",
+              "question": "Few firms in market is:",
+              "options": ["Oligopoly", "Monopoly", "Perfect competition", "Monopolistic"],
+              "correctAnswer": "Oligopoly",
+              "explanation": "Few firms = oligopoly",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Game theory",
+            "Competition policy"
+          ],
+          "resources": []
+        },
+        {
+          "id": "national-income",
+          "title": "National Income",
+          "summary": "Measuring economic activity",
+          "mustKnow": [
+            "GDP: Gross Domestic Product",
+            "GNP: Gross National Product",
+            "GDP = C + I + G + (X - M)",
+            "Real GDP: adjusted for inflation",
+            "Nominal GDP: current prices",
+            "Economic growth: increase in GDP"
+          ],
+          "keyTerms": [
+            {"term": "GDP", "definition": "Gross Domestic Product"},
+            {"term": "GNP", "definition": "Gross National Product"},
+            {"term": "Real GDP", "definition": "Inflation-adjusted"},
+            {"term": "Economic Growth", "definition": "GDP increase"}
+          ],
+          "examples": [
+            {
+              "question": "GDP formula",
+              "answer": "GDP = C + I + G + (X - M)",
+              "explanation": "Consumption + Investment + Government + Net exports"
+            }
+          ],
+          "formulas": [
+            "GDP = C + I + G + (X - M)"
+          ],
+          "commonMistakes": [
+            "Confusing GDP and GNP",
+            "Wrong formula"
+          ],
+          "examTips": [
+            "Memorize formula",
+            "Distinguish real and nominal"
+          ],
+          "questions": [
+            {
+              "id": "econ-ni-q1",
+              "question": "GDP measures:",
+              "options": ["Domestic production", "National production", "Only consumption", "Only investment"],
+              "correctAnswer": "Domestic production",
+              "explanation": "GDP is domestic",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Economic indicators",
+            "National accounts"
+          ],
+          "resources": []
+        },
+        {
+          "id": "inflation-unemployment",
+          "title": "Inflation and Unemployment",
+          "summary": "Economic problems",
+          "mustKnow": [
+            "Inflation: sustained price increase",
+            "CPI: Consumer Price Index",
+            "Demand-pull inflation: too much demand",
+            "Cost-push inflation: rising costs",
+            "Unemployment: willing but no work",
+            "Types: frictional, structural, cyclical",
+            "Phillips curve: inflation vs unemployment"
+          ],
+          "keyTerms": [
+            {"term": "Inflation", "definition": "Price increase"},
+            {"term": "CPI", "definition": "Consumer Price Index"},
+            {"term": "Demand-pull", "definition": "Excess demand"},
+            {"term": "Cost-push", "definition": "Rising costs"},
+            {"term": "Unemployment", "definition": "No work"},
+            {"term": "Phillips Curve", "definition": "Inflation vs unemployment"}
+          ],
+          "examples": [
+            {
+              "question": "Rising oil prices cause?",
+              "answer": "Cost-push inflation",
+              "explanation": "Rising input costs"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing inflation types",
+            "Wrong unemployment types"
+          ],
+          "examTips": [
+            "Know all types",
+            "Explain causes"
+          ],
+          "questions": [
+            {
+              "id": "econ-iu-q1",
+              "question": "Sustained price increase:",
+              "options": ["Inflation", "Deflation", "Stagflation", "Recession"],
+              "correctAnswer": "Inflation",
+              "explanation": "Inflation is price increase",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Monetary policy",
+            "Labor markets"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "unit-2",
+      "title": "Unit 2",
+      "description": "Macroeconomics",
+      "importance": "must-know",
+      "difficulty": "advanced",
+      "topics": [
+        {
+          "id": "fiscal-monetary",
+          "title": "Fiscal and Monetary Policy",
+          "summary": "Government economic policies",
+          "mustKnow": [
+            "Fiscal policy: government spending and taxation",
+            "Expansionary: increase spending, cut taxes",
+            "Contractionary: decrease spending, raise taxes",
+            "Monetary policy: money supply and interest rates",
+            "Expansionary monetary: lower rates, increase money",
+            "Contractionary monetary: raise rates, decrease money"
+          ],
+          "keyTerms": [
+            {"term": "Fiscal Policy", "definition": "Government spending/taxes"},
+            {"term": "Monetary Policy", "definition": "Money supply/rates"},
+            {"term": "Expansionary", "definition": "Stimulate economy"},
+            {"term": "Contractionary", "definition": "Cool economy"}
+          ],
+          "examples": [
+            {
+              "question": "Cutting taxes is?",
+              "answer": "Expansionary fiscal policy",
+              "explanation": "Stimulates economy"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing fiscal and monetary",
+            "Wrong policy direction"
+          ],
+          "examTips": [
+            "Distinguish fiscal and monetary",
+            "Know policy types"
+          ],
+          "questions": [
+            {
+              "id": "econ-fm-q1",
+              "question": "Interest rates are:",
+              "options": ["Monetary policy", "Fiscal policy", "Trade policy", "No policy"],
+              "correctAnswer": "Monetary policy",
+              "explanation": "Monetary controls rates",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Central banking",
+            "Policy effectiveness"
+          ],
+          "resources": []
+        },
+        {
+          "id": "international-trade",
+          "title": "International Trade",
+          "summary": "Trade between countries",
+          "mustKnow": [
+            "Imports: goods from abroad",
+            "Exports: goods to abroad",
+            "Comparative advantage: lower opportunity cost",
+            "Balance of payments: trade record",
+            "Exchange rates: currency values",
+            "Trade barriers: tariffs, quotas",
+            "Free trade: no barriers"
+          ],
+          "keyTerms": [
+            {"term": "Import", "definition": "Buy from abroad"},
+            {"term": "Export", "definition": "Sell abroad"},
+            {"term": "Comparative Advantage", "definition": "Lower opportunity cost"},
+            {"term": "Exchange Rate", "definition": "Currency value"},
+            {"term": "Tariff", "definition": "Import tax"}
+          ],
+          "examples": [
+            {
+              "question": "Lower opportunity cost is?",
+              "answer": "Comparative advantage",
+              "explanation": "Trade based on this"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing imports and exports",
+            "Missing comparative advantage"
+          ],
+          "examTips": [
+            "Know trade terms",
+            "Explain comparative advantage"
+          ],
+          "questions": [
+            {
+              "id": "econ-it-q1",
+              "question": "Goods sold abroad are:",
+              "options": ["Exports", "Imports", "Domestic", "Tariffs"],
+              "correctAnswer": "Exports",
+              "explanation": "Exports go abroad",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Globalization",
+            "Trade agreements"
+          ],
+          "resources": []
+        },
+        {
+          "id": "caribbean-economies",
+          "title": "Caribbean Economies",
+          "summary": "Regional economic issues",
+          "mustKnow": [
+            "Caribbean economies: small, open",
+            "Dependence on tourism and services",
+            "CARICOM: regional integration",
+            "CSME: single market",
+            "Development challenges: debt, natural disasters",
+            "Globalization impact"
+          ],
+          "keyTerms": [
+            {"term": "CARICOM", "definition": "Caribbean Community"},
+            {"term": "CSME", "definition": "Single Market and Economy"},
+            {"term": "Tourism", "definition": "Major industry"},
+            {"term": "Small Economy", "definition": "Limited resources"}
+          ],
+          "examples": [
+            {
+              "question": "Caribbean integration is?",
+              "answer": "CARICOM",
+              "explanation": "Regional cooperation"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Not knowing CARICOM",
+            "Missing challenges"
+          ],
+          "examTips": [
+            "Know regional organizations",
+            "Explain challenges"
+          ],
+          "questions": [
+            {
+              "id": "econ-car-q1",
+              "question": "CARICOM is:",
+              "options": ["Caribbean Community", "Currency", "Country", "Trade only"],
+              "correctAnswer": "Caribbean Community",
+              "explanation": "Regional organization",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Regional development",
+            "Caribbean integration"
+          ],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

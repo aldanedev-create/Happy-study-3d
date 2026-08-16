@@ -1,0 +1,957 @@
+{
+  "id": "cxc-poa",
+  "name": "Principles of Accounts",
+  "level": "CXC",
+  "description": "CXC CSEC Principles of Accounts - Complete cheatsheet covering all accounting concepts",
+  "icon": "📊",
+  "syllabusVersion": "2023",
+  "lastVerified": "2026-01-15",
+  "source": "CXC CSEC Principles of Accounts Syllabus",
+  "units": [
+    {
+      "id": "accounting-concepts",
+      "title": "Accounting Concepts",
+      "description": "Fundamental rules and principles of accounting",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand accounting concepts",
+        "Apply concepts to accounting",
+        "Identify principles"
+      ],
+      "topics": [
+        {
+          "id": "basic-concepts",
+          "title": "Basic Accounting Concepts",
+          "summary": "Rules that guide how accounting is done",
+          "mustKnow": [
+            "Going Concern: business will continue operating",
+            "Accruals: record when incurred, not when paid",
+            "Consistency: use same methods each year",
+            "Prudence: don't overstate profits",
+            "Materiality: record significant items only",
+            "Business Entity: business separate from owner"
+          ],
+          "keyTerms": [
+            {"term": "Going Concern", "definition": "Business will continue operating"},
+            {"term": "Accruals", "definition": "Record when incurred, not when paid"},
+            {"term": "Consistency", "definition": "Same methods each year"},
+            {"term": "Prudence", "definition": "Don't overstate profits"},
+            {"term": "Business Entity", "definition": "Business separate from owner"}
+          ],
+          "examples": [
+            {
+              "question": "Owner buys personal car with business money. Which concept?",
+              "answer": "Business Entity",
+              "explanation": "Business is separate from owner"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing concepts",
+            "Not applying concepts correctly"
+          ],
+          "examTips": [
+            "Memorize all concepts",
+            "Give examples for each"
+          ],
+          "questions": [
+            {
+              "id": "poa-q1",
+              "question": "Recording expenses when incurred, not when paid, is:",
+              "options": ["Accruals concept", "Going concern", "Consistency", "Materiality"],
+              "correctAnswer": "Accruals concept",
+              "explanation": "Accruals means record when incurred",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "International Accounting Standards",
+            "Accounting ethics"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "accounting-equation",
+      "title": "Accounting Equation",
+      "description": "Foundation of double-entry accounting",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand the accounting equation",
+        "Apply to transactions"
+      ],
+      "topics": [
+        {
+          "id": "the-equation",
+          "title": "The Accounting Equation",
+          "summary": "Assets = Liabilities + Owner's Equity",
+          "mustKnow": [
+            "Assets = Liabilities + Owner's Equity",
+            "Assets: resources owned (cash, inventory, equipment)",
+            "Liabilities: debts owed (loans, payables)",
+            "Owner's Equity: owner's investment + profits - drawings",
+            "Every transaction affects at least two accounts"
+          ],
+          "keyTerms": [
+            {"term": "Asset", "definition": "Resource owned by business"},
+            {"term": "Liability", "definition": "Debt owed by business"},
+            {"term": "Owner's Equity", "definition": "Owner's stake in business"},
+            {"term": "Transaction", "definition": "Business activity affecting finances"}
+          ],
+          "examples": [
+            {
+              "question": "Assets $10,000, Liabilities $4,000. Find Owner's Equity",
+              "answer": "$6,000",
+              "explanation": "OE = A - L = 10,000 - 4,000 = 6,000"
+            },
+            {
+              "question": "Buy equipment for cash. Effect on equation?",
+              "answer": "One asset up (equipment), one asset down (cash)",
+              "explanation": "Total assets unchanged"
+            }
+          ],
+          "formulas": [
+            "Assets = Liabilities + Owner's Equity",
+            "Owner's Equity = Assets - Liabilities"
+          ],
+          "commonMistakes": [
+            "Wrong classification of accounts",
+            "Not balancing equation"
+          ],
+          "examTips": [
+            "Always check equation balances",
+            "Classify accounts carefully"
+          ],
+          "questions": [
+            {
+              "id": "poa-eq-q1",
+              "question": "Assets $15,000, OE $9,000. Liabilities?",
+              "options": ["$6,000", "$24,000", "$9,000", "$15,000"],
+              "correctAnswer": "$6,000",
+              "explanation": "L = A - OE = 15,000 - 9,000 = 6,000",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Balance sheet preparation",
+            "Financial analysis"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "double-entry",
+      "title": "Double Entry",
+      "description": "Recording transactions with debits and credits",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand debit and credit rules",
+        "Record transactions"
+      ],
+      "topics": [
+        {
+          "id": "debit-credit",
+          "title": "Debit and Credit Rules",
+          "summary": "Every transaction has equal debits and credits",
+          "mustKnow": [
+            "Debit = left side, Credit = right side",
+            "Assets increase with debit",
+            "Liabilities increase with credit",
+            "OE increases with credit",
+            "Debits must equal credits"
+          ],
+          "keyTerms": [
+            {"term": "Debit", "definition": "Left side of account"},
+            {"term": "Credit", "definition": "Right side of account"},
+            {"term": "Double Entry", "definition": "Recording both sides of transaction"}
+          ],
+          "examples": [
+            {
+              "question": "Buy equipment $500 cash. Journal entry?",
+              "answer": "Debit Equipment $500, Credit Cash $500",
+              "explanation": "Equipment up (debit), Cash down (credit)"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong debit/credit side",
+            "Not balancing entries"
+          ],
+          "examTips": [
+            "Remember: DEAD CLIC (Debit Expenses Assets Drawings, Credit Liabilities Income Capital)",
+            "Check debits = credits"
+          ],
+          "questions": [
+            {
+              "id": "poa-de-q1",
+              "question": "Cash sale of goods. Debit what?",
+              "options": ["Cash", "Sales", "Inventory", "Capital"],
+              "correctAnswer": "Cash",
+              "explanation": "Cash increases = debit cash",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Journal entries",
+            "Ledger accounts"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "journals",
+      "title": "Journals",
+      "description": "Books of original entry",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand journal types",
+        "Record in journals"
+      ],
+      "topics": [
+        {
+          "id": "journal-types",
+          "title": "Types of Journals",
+          "summary": "Books where transactions are first recorded",
+          "mustKnow": [
+            "Sales Journal: credit sales",
+            "Purchases Journal: credit purchases",
+            "Returns Inwards: goods returned by customers",
+            "Returns Outwards: goods returned to suppliers",
+            "General Journal: other transactions"
+          ],
+          "keyTerms": [
+            {"term": "Journal", "definition": "Book of original entry"},
+            {"term": "Returns Inwards", "definition": "Goods returned by customers"},
+            {"term": "Returns Outwards", "definition": "Goods returned to suppliers"}
+          ],
+          "examples": [
+            {
+              "question": "Customer returns damaged goods. Which journal?",
+              "answer": "Returns Inwards Journal",
+              "explanation": "Goods returned by customer"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong journal for transaction",
+            "Confusing returns inwards and outwards"
+          ],
+          "examTips": [
+            "Know all journal types",
+            "Classify transactions correctly"
+          ],
+          "questions": [
+            {
+              "id": "poa-jour-q1",
+              "question": "Credit sales recorded in:",
+              "options": ["Sales Journal", "Purchases Journal", "Cash Book", "General Journal"],
+              "correctAnswer": "Sales Journal",
+              "explanation": "Credit sales go in sales journal",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Special journals",
+            "Journalizing"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "ledgers",
+      "title": "Ledgers",
+      "description": "Books of final entry",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand ledger types",
+        "Post to ledgers"
+      ],
+      "topics": [
+        {
+          "id": "ledger-types",
+          "title": "Types of Ledgers",
+          "summary": "Books where transactions are classified",
+          "mustKnow": [
+            "Sales Ledger: customer accounts",
+            "Purchases Ledger: supplier accounts",
+            "General Ledger: all other accounts",
+            "Posting: transferring from journal to ledger",
+            "Each account has debit and credit sides"
+          ],
+          "keyTerms": [
+            {"term": "Ledger", "definition": "Book of final entry"},
+            {"term": "Posting", "definition": "Transferring journal entries to ledger"},
+            {"term": "Account", "definition": "Record of transactions for one item"}
+          ],
+          "examples": [
+            {
+              "question": "Customer accounts are in which ledger?",
+              "answer": "Sales Ledger",
+              "explanation": "Customer accounts = sales ledger"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong ledger classification",
+            "Posting errors"
+          ],
+          "examTips": [
+            "Know the three ledgers",
+            "Post carefully"
+          ],
+          "questions": [
+            {
+              "id": "poa-led-q1",
+              "question": "Supplier accounts are in:",
+              "options": ["Purchases Ledger", "Sales Ledger", "General Ledger", "Cash Book"],
+              "correctAnswer": "Purchases Ledger",
+              "explanation": "Supplier accounts = purchases ledger",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Ledger balancing",
+            "Control accounts"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "trial-balance",
+      "title": "Trial Balance",
+      "description": "Checking accuracy of ledgers",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Prepare trial balance",
+        "Understand its purpose"
+      ],
+      "topics": [
+        {
+          "id": "trial-balance-prep",
+          "title": "Preparing Trial Balance",
+          "summary": "List of all ledger balances",
+          "mustKnow": [
+            "Trial balance lists all accounts",
+            "Debit balances in debit column",
+            "Credit balances in credit column",
+            "Total debits = total credits",
+            "Doesn't prove accuracy, only arithmetic"
+          ],
+          "keyTerms": [
+            {"term": "Trial Balance", "definition": "List of all account balances"},
+            {"term": "Balance", "definition": "Difference between debit and credit sides"}
+          ],
+          "examples": [
+            {
+              "question": "Trial balance doesn't balance. What does this mean?",
+              "answer": "There's an arithmetic error",
+              "explanation": "Debits must equal credits"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong side for balance",
+            "Arithmetic errors"
+          ],
+          "examTips": [
+            "Check all balances",
+            "Ensure debits = credits"
+          ],
+          "questions": [
+            {
+              "id": "poa-tb-q1",
+              "question": "Trial balance that balances proves:",
+              "options": ["Arithmetic accuracy only", "No errors", "Correct accounts", "No fraud"],
+              "correctAnswer": "Arithmetic accuracy only",
+              "explanation": "TB only checks arithmetic, not principle errors",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Error types",
+            "Correction methods"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "cash-book",
+      "title": "Cash Book",
+      "description": "Recording cash transactions",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Prepare cash book",
+        "Understand cash discounts"
+      ],
+      "topics": [
+        {
+          "id": "cash-book-types",
+          "title": "Cash Book",
+          "summary": "Record of cash and bank transactions",
+          "mustKnow": [
+            "Two-column: cash and bank",
+            "Three-column: cash, bank, discount",
+            "Debit side: receipts",
+            "Credit side: payments",
+            "Discount allowed: given to customers",
+            "Discount received: from suppliers"
+          ],
+          "keyTerms": [
+            {"term": "Cash Book", "definition": "Record of cash transactions"},
+            {"term": "Discount Allowed", "definition": "Discount given to customers"},
+            {"term": "Discount Received", "definition": "Discount from suppliers"}
+          ],
+          "examples": [
+            {
+              "question": "Customer pays with 10% discount. What discount?",
+              "answer": "Discount allowed",
+              "explanation": "Given to customer = allowed"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong side for receipts/payments",
+            "Confusing discounts"
+          ],
+          "examTips": [
+            "Receipts = debit, Payments = credit",
+            "Discount allowed = expense, received = income"
+          ],
+          "questions": [
+            {
+              "id": "poa-cb-q1",
+              "question": "Cash received is recorded on:",
+              "options": ["Debit side", "Credit side", "Both sides", "Neither side"],
+              "correctAnswer": "Debit side",
+              "explanation": "Receipts increase cash = debit",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Petty cash",
+            "Bank reconciliation"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "bank-reconciliation",
+      "title": "Bank Reconciliation",
+      "description": "Matching cash book with bank statement",
+      "importance": "important",
+      "difficulty": "advanced",
+      "learningObjectives": [
+        "Prepare bank reconciliation",
+        "Identify differences"
+      ],
+      "topics": [
+        {
+          "id": "reconciliation-process",
+          "title": "Bank Reconciliation Process",
+          "summary": "Explaining differences between cash book and bank statement",
+          "mustKnow": [
+            "Differences: timing, errors, unrecorded items",
+            "Unpresented cheques: issued but not cashed",
+            "Deposits in transit: recorded but not cleared",
+            "Bank charges: deducted by bank",
+            "Standing orders: automatic payments"
+          ],
+          "keyTerms": [
+            {"term": "Bank Reconciliation", "definition": "Matching cash book to bank statement"},
+            {"term": "Unpresented Cheque", "definition": "Cheque not yet cashed"},
+            {"term": "Standing Order", "definition": "Automatic payment"}
+          ],
+          "examples": [
+            {
+              "question": "Cheque issued but not cashed. What is it?",
+              "answer": "Unpresented cheque",
+              "explanation": "Not yet presented to bank"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong treatment of items",
+            "Missing bank charges"
+          ],
+          "examTips": [
+            "Identify all differences",
+            "Adjust both balances"
+          ],
+          "questions": [
+            {
+              "id": "poa-br-q1",
+              "question": "Bank charges appear on:",
+              "options": ["Bank statement only", "Cash book only", "Both", "Neither"],
+              "correctAnswer": "Bank statement only",
+              "explanation": "Bank records charges first",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Internal control",
+            "Cash management"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "financial-statements",
+      "title": "Financial Statements",
+      "description": "Final accounts of business",
+      "importance": "must-know",
+      "difficulty": "advanced",
+      "learningObjectives": [
+        "Prepare income statement",
+        "Prepare statement of financial position"
+      ],
+      "topics": [
+        {
+          "id": "income-statement",
+          "title": "Income Statement",
+          "summary": "Shows profit or loss for a period",
+          "mustKnow": [
+            "Revenue - Expenses = Profit/Loss",
+            "Gross Profit = Sales - Cost of Sales",
+            "Net Profit = Gross Profit - Expenses",
+            "Includes trading and profit & loss account",
+            "Shows performance over time"
+          ],
+          "keyTerms": [
+            {"term": "Income Statement", "definition": "Shows profit or loss"},
+            {"term": "Gross Profit", "definition": "Sales minus cost of sales"},
+            {"term": "Net Profit", "definition": "Gross profit minus expenses"}
+          ],
+          "examples": [
+            {
+              "question": "Sales $50,000, Cost of Sales $30,000. Gross Profit?",
+              "answer": "$20,000",
+              "explanation": "GP = Sales - COS = 50,000 - 30,000 = 20,000"
+            }
+          ],
+          "formulas": [
+            "Gross Profit = Sales - Cost of Sales",
+            "Net Profit = Gross Profit - Expenses"
+          ],
+          "commonMistakes": [
+            "Wrong classification of expenses",
+            "Incorrect calculations"
+          ],
+          "examTips": [
+            "Show all workings",
+            "Classify expenses correctly"
+          ],
+          "questions": [
+            {
+              "id": "poa-is-q1",
+              "question": "Sales $80,000, COS $50,000, Expenses $20,000. Net Profit?",
+              "options": ["$10,000", "$30,000", "$50,000", "$20,000"],
+              "correctAnswer": "$10,000",
+              "explanation": "GP = 30,000, NP = 30,000 - 20,000 = 10,000",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Ratio analysis",
+            "Performance evaluation"
+          ],
+          "resources": []
+        },
+        {
+          "id": "statement-financial-position",
+          "title": "Statement of Financial Position",
+          "summary": "Shows assets, liabilities, and equity at a point in time",
+          "mustKnow": [
+            "Shows financial position on specific date",
+            "Assets = Liabilities + Owner's Equity",
+            "Current assets: cash, inventory, receivables",
+            "Non-current assets: equipment, buildings",
+            "Current liabilities: payables, overdraft",
+            "Non-current liabilities: long-term loans"
+          ],
+          "keyTerms": [
+            {"term": "Statement of Financial Position", "definition": "Shows financial position at date"},
+            {"term": "Current Asset", "definition": "Asset convertible to cash within a year"},
+            {"term": "Non-current Asset", "definition": "Long-term asset"},
+            {"term": "Current Liability", "definition": "Debt due within a year"}
+          ],
+          "examples": [
+            {
+              "question": "Classify: inventory",
+              "answer": "Current asset",
+              "explanation": "Converted to cash within a year"
+            }
+          ],
+          "formulas": [
+            "Assets = Liabilities + Owner's Equity"
+          ],
+          "commonMistakes": [
+            "Wrong classification",
+            "Not balancing"
+          ],
+          "examTips": [
+            "Classify all items",
+            "Check equation balances"
+          ],
+          "questions": [
+            {
+              "id": "poa-sfp-q1",
+              "question": "Equipment is classified as:",
+              "options": ["Non-current asset", "Current asset", "Liability", "Expense"],
+              "correctAnswer": "Non-current asset",
+              "explanation": "Equipment is long-term",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Financial analysis",
+            "Reporting standards"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "depreciation",
+      "title": "Depreciation",
+      "description": "Allocating cost of assets over time",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Calculate depreciation",
+        "Understand methods"
+      ],
+      "topics": [
+        {
+          "id": "depreciation-methods",
+          "title": "Depreciation Methods",
+          "summary": "Straight line and reducing balance",
+          "mustKnow": [
+            "Straight line: equal amount each year",
+            "Reducing balance: percentage of book value",
+            "Depreciation = (Cost - Scrap Value) / Useful Life",
+            "Accumulated depreciation reduces book value",
+            "Depreciation is an expense"
+          ],
+          "keyTerms": [
+            {"term": "Depreciation", "definition": "Allocation of asset cost over life"},
+            {"term": "Straight Line", "definition": "Equal annual depreciation"},
+            {"term": "Reducing Balance", "definition": "Percentage of book value"},
+            {"term": "Scrap Value", "definition": "Value at end of useful life"}
+          ],
+          "examples": [
+            {
+              "question": "Equipment cost $10,000, scrap $2,000, life 4 years. Annual depreciation?",
+              "answer": "$2,000",
+              "explanation": "(10,000 - 2,000) / 4 = 2,000"
+            }
+          ],
+          "formulas": [
+            "Straight Line: (Cost - Scrap) / Useful Life",
+            "Reducing Balance: Rate × Book Value"
+          ],
+          "commonMistakes": [
+            "Forgetting scrap value",
+            "Wrong method application"
+          ],
+          "examTips": [
+            "Use correct formula",
+            "Show workings"
+          ],
+          "questions": [
+            {
+              "id": "poa-dep-q1",
+              "question": "Cost $5,000, scrap $500, life 5 years. Annual depreciation?",
+              "options": ["$900", "$1,000", "$500", "$1,100"],
+              "correctAnswer": "$900",
+              "explanation": "(5,000 - 500) / 5 = 900",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Asset management",
+            "Tax depreciation"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "inventory",
+      "title": "Inventory",
+      "description": "Valuing stock",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Value inventory",
+        "Understand methods"
+      ],
+      "topics": [
+        {
+          "id": "inventory-valuation",
+          "title": "Inventory Valuation",
+          "summary": "FIFO, LIFO, Average Cost",
+          "mustKnow": [
+            "FIFO: First In First Out",
+            "LIFO: Last In First Out",
+            "AVCO: Average Cost",
+            "Closing inventory affects profit",
+            "Lower of cost or net realizable value"
+          ],
+          "keyTerms": [
+            {"term": "FIFO", "definition": "First In First Out"},
+            {"term": "LIFO", "definition": "Last In First Out"},
+            {"term": "AVCO", "definition": "Average Cost method"}
+          ],
+          "examples": [
+            {
+              "question": "Buy 10 units at $5, then 10 at $7. FIFO: first sale cost?",
+              "answer": "$5",
+              "explanation": "FIFO uses oldest cost first"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong method application",
+            "Incorrect valuation"
+          ],
+          "examTips": [
+            "Apply method consistently",
+            "Track inventory carefully"
+          ],
+          "questions": [
+            {
+              "id": "poa-inv-q1",
+              "question": "FIFO means:",
+              "options": ["First in, first out", "Last in, first out", "Average cost", "Highest cost"],
+              "correctAnswer": "First in, first out",
+              "explanation": "FIFO = First In First Out",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Inventory management",
+            "Stock control"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "partnership-accounts",
+      "title": "Partnership Accounts",
+      "description": "Accounting for partnerships",
+      "importance": "important",
+      "difficulty": "advanced",
+      "learningObjectives": [
+        "Prepare partnership accounts",
+        "Understand profit sharing"
+      ],
+      "topics": [
+        {
+          "id": "partnership-basics",
+          "title": "Partnership Accounting",
+          "summary": "Accounts for businesses with multiple owners",
+          "mustKnow": [
+            "Partnership: 2+ owners",
+            "Profit shared according to agreement",
+            "Partners have capital and current accounts",
+            "Interest on capital may be allowed",
+            "Salaries to partners as agreed"
+          ],
+          "keyTerms": [
+            {"term": "Partnership", "definition": "Business with 2+ owners"},
+            {"term": "Capital Account", "definition": "Permanent investment"},
+            {"term": "Current Account", "definition": "Temporary transactions"}
+          ],
+          "examples": [
+            {
+              "question": "Two partners share profits 60:40. Profit $10,000. Share?",
+              "answer": "$6,000 and $4,000",
+              "explanation": "60% = 6,000, 40% = 4,000"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong profit sharing",
+            "Confusing capital and current accounts"
+          ],
+          "examTips": [
+            "Follow profit sharing ratio",
+            "Separate capital and current accounts"
+          ],
+          "questions": [
+            {
+              "id": "poa-part-q1",
+              "question": "Partners share profits equally. Profit $8,000. Each gets:",
+              "options": ["$4,000", "$8,000", "$2,000", "$6,000"],
+              "correctAnswer": "$4,000",
+              "explanation": "Equal split = 8,000 / 2 = 4,000",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Partnership agreements",
+            "Company accounts"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "company-accounts",
+      "title": "Company Accounts",
+      "description": "Accounting for companies",
+      "importance": "important",
+      "difficulty": "advanced",
+      "learningObjectives": [
+        "Understand company accounts",
+        "Prepare basic statements"
+      ],
+      "topics": [
+        {
+          "id": "company-basics",
+          "title": "Company Accounting",
+          "summary": "Accounts for limited companies",
+          "mustKnow": [
+            "Company: separate legal entity",
+            "Share capital: money from shares",
+            "Shareholders own the company",
+            "Dividends: profits paid to shareholders",
+            "Limited liability for shareholders"
+          ],
+          "keyTerms": [
+            {"term": "Company", "definition": "Separate legal entity"},
+            {"term": "Share Capital", "definition": "Money from issuing shares"},
+            {"term": "Dividend", "definition": "Profit paid to shareholders"}
+          ],
+          "examples": [
+            {
+              "question": "Company issues 1000 shares at $5. Share capital?",
+              "answer": "$5,000",
+              "explanation": "1000 × 5 = 5,000"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing company with partnership",
+            "Wrong treatment of dividends"
+          ],
+          "examTips": [
+            "Know company terminology",
+            "Understand share capital"
+          ],
+          "questions": [
+            {
+              "id": "poa-co-q1",
+              "question": "Company owners are called:",
+              "options": ["Shareholders", "Partners", "Proprietors", "Managers"],
+              "correctAnswer": "Shareholders",
+              "explanation": "Company owners hold shares",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Corporate reporting",
+            "Stock markets"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "financial-analysis",
+      "title": "Financial Analysis",
+      "description": "Analyzing financial statements",
+      "importance": "must-know",
+      "difficulty": "advanced",
+      "learningObjectives": [
+        "Calculate ratios",
+        "Interpret financial performance"
+      ],
+      "topics": [
+        {
+          "id": "ratios",
+          "title": "Accounting Ratios",
+          "summary": "Tools for analyzing financial statements",
+          "mustKnow": [
+            "Profitability: Gross Profit %, Net Profit %",
+            "Liquidity: Current Ratio, Quick Ratio",
+            "Efficiency: Inventory Turnover, Receivables Days",
+            "Leverage: Debt to Equity",
+            "Ratios help compare performance"
+          ],
+          "keyTerms": [
+            {"term": "Ratio", "definition": "Comparison of financial figures"},
+            {"term": "Liquidity", "definition": "Ability to pay short-term debts"},
+            {"term": "Profitability", "definition": "Ability to generate profit"}
+          ],
+          "examples": [
+            {
+              "question": "Current assets $20,000, current liabilities $10,000. Current ratio?",
+              "answer": "2:1",
+              "explanation": "20,000 / 10,000 = 2"
+            }
+          ],
+          "formulas": [
+            "Gross Profit % = (GP / Sales) × 100",
+            "Current Ratio = Current Assets / Current Liabilities",
+            "Net Profit % = (NP / Sales) × 100"
+          ],
+          "commonMistakes": [
+            "Wrong formula",
+            "Incorrect interpretation"
+          ],
+          "examTips": [
+            "Memorize formulas",
+            "Explain what ratios mean"
+          ],
+          "questions": [
+            {
+              "id": "poa-ratio-q1",
+              "question": "Gross Profit $30,000, Sales $100,000. GP %?",
+              "options": ["30%", "3%", "33%", "25%"],
+              "correctAnswer": "30%",
+              "explanation": "(30,000 / 100,000) × 100 = 30%",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Financial statement analysis",
+            "Investment decisions"
+          ],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

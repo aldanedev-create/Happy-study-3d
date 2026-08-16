@@ -1,0 +1,1030 @@
+{
+  "id": "cape-biology",
+  "name": "Biology",
+  "level": "CAPE",
+  "description": "CAPE Biology - Complete comprehensive coverage of Unit 1 and Unit 2",
+  "icon": "🧬",
+  "syllabusVersion": "2023",
+  "lastVerified": "2026-01-15",
+  "source": "CXC CAPE Biology Syllabus",
+  "units": [
+    {
+      "id": "unit-1",
+      "title": "Unit 1",
+      "description": "Cell Biology, Genetics, Ecology, and Biodiversity",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "topics": [
+        {
+          "id": "cell-biology",
+          "title": "Cell Biology",
+          "summary": "Structure and function of cells",
+          "mustKnow": [
+            "Cell: basic unit of life",
+            "Prokaryotic cells: no nucleus, simple (bacteria)",
+            "Eukaryotic cells: nucleus, complex (plants, animals)",
+            "Organelles: nucleus, mitochondria, ribosomes, ER, Golgi, lysosomes",
+            "Cell membrane: phospholipid bilayer, selectively permeable",
+            "Nucleus: contains DNA, controls cell",
+            "Mitochondria: ATP production (cellular respiration)",
+            "Ribosomes: protein synthesis",
+            "Endoplasmic reticulum: protein and lipid synthesis",
+            "Golgi apparatus: modifies and packages proteins",
+            "Lysosomes: digestion and waste removal",
+            "Plant cells: cell wall, chloroplasts, large vacuole"
+          ],
+          "keyTerms": [
+            {"term": "Prokaryotic", "definition": "No nucleus, simple cell"},
+            {"term": "Eukaryotic", "definition": "Has nucleus, complex cell"},
+            {"term": "Phospholipid Bilayer", "definition": "Cell membrane structure"},
+            {"term": "ATP", "definition": "Energy currency"},
+            {"term": "Organelle", "definition": "Specialized cell structure"},
+            {"term": "Selective Permeability", "definition": "Controls entry and exit"}
+          ],
+          "examples": [
+            {
+              "question": "Compare prokaryotic and eukaryotic cells",
+              "answer": "Prokaryotic: no nucleus, smaller, bacteria. Eukaryotic: nucleus, larger, plants/animals",
+              "explanation": "Key differences in structure"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing prokaryotic and eukaryotic",
+            "Wrong organelle functions"
+          ],
+          "examTips": [
+            "Draw and label cell diagrams",
+            "Know all organelle functions"
+          ],
+          "questions": [
+            {
+              "id": "bio-u1-q1",
+              "question": "Which organelle produces ATP?",
+              "options": ["Mitochondria", "Nucleus", "Ribosome", "Golgi"],
+              "correctAnswer": "Mitochondria",
+              "explanation": "Mitochondria is the powerhouse",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            },
+            {
+              "id": "bio-u1-q2",
+              "question": "Prokaryotic cells lack:",
+              "options": ["Nucleus", "Cell membrane", "Ribosomes", "DNA"],
+              "correctAnswer": "Nucleus",
+              "explanation": "Prokaryotes have no nucleus",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Cell signaling",
+            "Stem cells"
+          ],
+          "resources": []
+        },
+        {
+          "id": "biological-molecules",
+          "title": "Biological Molecules",
+          "summary": "Molecules essential for life",
+          "mustKnow": [
+            "Carbohydrates: monosaccharides, disaccharides, polysaccharides",
+            "Glucose: main energy source (C₆H₁₂O₆)",
+            "Starch: plant storage polysaccharide",
+            "Glycogen: animal storage polysaccharide",
+            "Cellulose: plant cell wall",
+            "Proteins: amino acid polymers",
+            "Four protein structures: primary, secondary, tertiary, quaternary",
+            "Lipids: triglycerides, phospholipids, steroids",
+            "Nucleic acids: DNA and RNA",
+            "Water: universal solvent"
+          ],
+          "keyTerms": [
+            {"term": "Monosaccharide", "definition": "Single sugar unit"},
+            {"term": "Polysaccharide", "definition": "Many sugar units"},
+            {"term": "Amino Acid", "definition": "Protein building block"},
+            {"term": "Triglyceride", "definition": "Fat molecule"},
+            {"term": "DNA", "definition": "Genetic material"},
+            {"term": "RNA", "definition": "Protein synthesis"}
+          ],
+          "examples": [
+            {
+              "question": "Classify glucose",
+              "answer": "Monosaccharide (simple sugar)",
+              "explanation": "Single sugar unit"
+            }
+          ],
+          "formulas": [
+            "Glucose: C₆H₁₂O₆"
+          ],
+          "commonMistakes": [
+            "Wrong molecule classification",
+            "Confusing starch and glycogen"
+          ],
+          "examTips": [
+            "Know all molecule types",
+            "Understand functions"
+          ],
+          "questions": [
+            {
+              "id": "bio-u1-bm-q1",
+              "question": "Plant storage polysaccharide:",
+              "options": ["Starch", "Glycogen", "Cellulose", "Glucose"],
+              "correctAnswer": "Starch",
+              "explanation": "Starch stores energy in plants",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Enzyme structure",
+            "Metabolic pathways"
+          ],
+          "resources": []
+        },
+        {
+          "id": "genetics",
+          "title": "Genetics",
+          "summary": "Inheritance and variation",
+          "mustKnow": [
+            "Gene: unit of heredity on chromosome",
+            "Allele: alternative form of gene",
+            "Dominant: expressed in heterozygote",
+            "Recessive: only expressed in homozygote",
+            "Genotype: genetic makeup (AA, Aa, aa)",
+            "Phenotype: physical appearance",
+            "Mendel's laws: segregation and independent assortment",
+            "Monohybrid cross: one trait",
+            "Dihybrid cross: two traits (9:3:3:1 ratio)",
+            "Sex determination: XX female, XY male",
+            "Sex-linked traits: on X chromosome",
+            "Mutations: changes in DNA"
+          ],
+          "keyTerms": [
+            {"term": "Gene", "definition": "Unit of heredity"},
+            {"term": "Allele", "definition": "Alternative gene form"},
+            {"term": "Dominant", "definition": "Expressed in heterozygote"},
+            {"term": "Recessive", "definition": "Only in homozygote"},
+            {"term": "Genotype", "definition": "Genetic makeup"},
+            {"term": "Phenotype", "definition": "Physical appearance"},
+            {"term": "Homozygous", "definition": "Same alleles"},
+            {"term": "Heterozygous", "definition": "Different alleles"}
+          ],
+          "examples": [
+            {
+              "question": "Cross Aa × Aa, what's the ratio?",
+              "answer": "3:1 (3 dominant, 1 recessive)",
+              "explanation": "Mendelian monohybrid ratio"
+            }
+          ],
+          "formulas": [
+            "Monohybrid ratio: 3:1",
+            "Dihybrid ratio: 9:3:3:1"
+          ],
+          "commonMistakes": [
+            "Confusing genotype and phenotype",
+            "Wrong cross ratios"
+          ],
+          "examTips": [
+            "Practice Punnett squares",
+            "Know Mendel's laws"
+          ],
+          "questions": [
+            {
+              "id": "bio-u1-gen-q1",
+              "question": "Aa is:",
+              "options": ["Heterozygous", "Homozygous dominant", "Homozygous recessive", "Not possible"],
+              "correctAnswer": "Heterozygous",
+              "explanation": "Different alleles",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Molecular genetics",
+            "Genetic disorders"
+          ],
+          "resources": []
+        },
+        {
+          "id": "reproduction",
+          "title": "Reproduction",
+          "summary": "Asexual and sexual reproduction",
+          "mustKnow": [
+            "Asexual: one parent, identical offspring",
+            "Methods: binary fission, budding, fragmentation",
+            "Sexual: two parents, genetic variation",
+            "Meiosis: produces gametes (haploid)",
+            "Fertilization: restores diploid number",
+            "Mitosis: produces identical cells",
+            "Cell cycle: interphase, mitosis, cytokinesis",
+            "Mitosis stages: prophase, metaphase, anaphase, telophase",
+            "Meiosis: two divisions, four haploid cells",
+            "Crossing over: genetic recombination"
+          ],
+          "keyTerms": [
+            {"term": "Asexual", "definition": "One parent reproduction"},
+            {"term": "Sexual", "definition": "Two parent reproduction"},
+            {"term": "Mitosis", "definition": "Identical cell division"},
+            {"term": "Meiosis", "definition": "Gamete production"},
+            {"term": "Haploid", "definition": "Half chromosome number"},
+            {"term": "Diploid", "definition": "Full chromosome number"},
+            {"term": "Crossing Over", "definition": "Genetic exchange"}
+          ],
+          "examples": [
+            {
+              "question": "Humans have 46 chromosomes. Gametes have?",
+              "answer": "23 (haploid)",
+              "explanation": "Meiosis halves chromosome number"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing mitosis and meiosis",
+            "Wrong chromosome numbers"
+          ],
+          "examTips": [
+            "Know all stages",
+            "Understand genetic variation"
+          ],
+          "questions": [
+            {
+              "id": "bio-u1-rep-q1",
+              "question": "Meiosis produces:",
+              "options": ["4 haploid cells", "2 diploid cells", "4 diploid cells", "2 haploid cells"],
+              "correctAnswer": "4 haploid cells",
+              "explanation": "Meiosis produces 4 haploid gametes",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Embryonic development",
+            "Reproductive technology"
+          ],
+          "resources": []
+        },
+        {
+          "id": "ecology",
+          "title": "Ecology",
+          "summary": "Organisms and their environment",
+          "mustKnow": [
+            "Ecosystem: living and non-living components",
+            "Habitat: where organisms live",
+            "Population: same species in area",
+            "Community: all populations",
+            "Food chain: energy flow",
+            "Food web: interconnected chains",
+            "Energy pyramid: energy decreases up levels",
+            "Nutrient cycles: carbon, nitrogen, water",
+            "Succession: gradual community change",
+            "Primary succession: new habitat",
+            "Secondary succession: disturbed habitat"
+          ],
+          "keyTerms": [
+            {"term": "Ecosystem", "definition": "Living and non-living"},
+            {"term": "Population", "definition": "Same species"},
+            {"term": "Community", "definition": "All populations"},
+            {"term": "Food Chain", "definition": "Energy flow"},
+            {"term": "Succession", "definition": "Community change"},
+            {"term": "Trophic Level", "definition": "Feeding position"}
+          ],
+          "examples": [
+            {
+              "question": "Energy flow in ecosystem",
+              "answer": "Sun → Producers → Consumers → Decomposers",
+              "explanation": "Energy decreases at each level"
+            }
+          ],
+          "formulas": [
+            "Energy transfer: ~10% between trophic levels"
+          ],
+          "commonMistakes": [
+            "Confusing population and community",
+            "Wrong energy flow direction"
+          ],
+          "examTips": [
+            "Know ecological terms",
+            "Understand energy flow"
+          ],
+          "questions": [
+            {
+              "id": "bio-u1-eco-q1",
+              "question": "Same species in an area is:",
+              "options": ["Population", "Community", "Ecosystem", "Habitat"],
+              "correctAnswer": "Population",
+              "explanation": "Population is same species",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Conservation biology",
+            "Climate change ecology"
+          ],
+          "resources": []
+        },
+        {
+          "id": "biodiversity",
+          "title": "Biodiversity",
+          "summary": "Variety of life",
+          "mustKnow": [
+            "Biodiversity: variety of living things",
+            "Species diversity: number of species",
+            "Genetic diversity: variation within species",
+            "Ecosystem diversity: variety of habitats",
+            "Threats: habitat loss, pollution, climate change",
+            "Conservation: protecting biodiversity",
+            "Endangered species: at risk of extinction",
+            "Extinction: permanent loss"
+          ],
+          "keyTerms": [
+            {"term": "Biodiversity", "definition": "Variety of life"},
+            {"term": "Species Diversity", "definition": "Number of species"},
+            {"term": "Genetic Diversity", "definition": "Variation within species"},
+            {"term": "Conservation", "definition": "Protecting biodiversity"},
+            {"term": "Endangered", "definition": "At risk of extinction"}
+          ],
+          "examples": [
+            {
+              "question": "Rainforest has many species. This is?",
+              "answer": "High biodiversity",
+              "explanation": "Many species = high biodiversity"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong biodiversity types",
+            "Missing threats"
+          ],
+          "examTips": [
+            "Know all biodiversity types",
+            "Explain conservation"
+          ],
+          "questions": [
+            {
+              "id": "bio-u1-bio-q1",
+              "question": "Variety within a species is:",
+              "options": ["Genetic diversity", "Species diversity", "Ecosystem diversity", "No diversity"],
+              "correctAnswer": "Genetic diversity",
+              "explanation": "Genetic diversity is within species",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Conservation strategies",
+            "Biodiversity hotspots"
+          ],
+          "resources": []
+        },
+        {
+          "id": "classification",
+          "title": "Classification",
+          "summary": "Organizing living things",
+          "mustKnow": [
+            "Taxonomy: science of classification",
+            "Binomial nomenclature: Genus species",
+            "Hierarchy: Domain, Kingdom, Phylum, Class, Order, Family, Genus, Species",
+            "Three domains: Bacteria, Archaea, Eukarya",
+            "Five kingdoms: Monera, Protista, Fungi, Plantae, Animalia",
+            "Species: can interbreed"
+          ],
+          "keyTerms": [
+            {"term": "Taxonomy", "definition": "Classification science"},
+            {"term": "Binomial Nomenclature", "definition": "Two-part name"},
+            {"term": "Kingdom", "definition": "Highest classification"},
+            {"term": "Species", "definition": "Can interbreed"},
+            {"term": "Domain", "definition": "Highest taxon"}
+          ],
+          "examples": [
+            {
+              "question": "Homo sapiens - what is Homo?",
+              "answer": "Genus",
+              "explanation": "First part of binomial name"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong hierarchy order",
+            "Confusing kingdoms"
+          ],
+          "examTips": [
+            "Memorize hierarchy",
+            "Know binomial nomenclature"
+          ],
+          "questions": [
+            {
+              "id": "bio-u1-class-q1",
+              "question": "Correct hierarchy order:",
+              "options": ["Kingdom, Phylum, Class, Order", "Class, Kingdom, Phylum, Order", "Order, Class, Phylum, Kingdom", "Phylum, Kingdom, Class, Order"],
+              "correctAnswer": "Kingdom, Phylum, Class, Order",
+              "explanation": "Taxonomic hierarchy order",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Phylogenetics",
+            "Molecular classification"
+          ],
+          "resources": []
+        },
+        {
+          "id": "plant-biology",
+          "title": "Plant Biology",
+          "summary": "Plant structure and function",
+          "mustKnow": [
+            "Roots: absorb water and minerals",
+            "Stem: support and transport",
+            "Leaves: photosynthesis",
+            "Photosynthesis: CO₂ + H₂O → Glucose + O₂",
+            "Chlorophyll: green pigment",
+            "Xylem: transports water",
+            "Phloem: transports food",
+            "Stomata: gas exchange",
+            "Transpiration: water loss"
+          ],
+          "keyTerms": [
+            {"term": "Photosynthesis", "definition": "Making food using light"},
+            {"term": "Chlorophyll", "definition": "Green pigment"},
+            {"term": "Xylem", "definition": "Water transport"},
+            {"term": "Phloem", "definition": "Food transport"},
+            {"term": "Stomata", "definition": "Gas exchange pores"},
+            {"term": "Transpiration", "definition": "Water loss"}
+          ],
+          "examples": [
+            {
+              "question": "Photosynthesis equation",
+              "answer": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂",
+              "explanation": "Light and chlorophyll needed"
+            }
+          ],
+          "formulas": [
+            "Photosynthesis: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂"
+          ],
+          "commonMistakes": [
+            "Confusing xylem and phloem",
+            "Wrong photosynthesis equation"
+          ],
+          "examTips": [
+            "Memorize equation",
+            "Know plant transport"
+          ],
+          "questions": [
+            {
+              "id": "bio-u1-plant-q1",
+              "question": "Which transports water?",
+              "options": ["Xylem", "Phloem", "Stomata", "Chlorophyll"],
+              "correctAnswer": "Xylem",
+              "explanation": "Xylem transports water",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Plant physiology",
+            "Crop science"
+          ],
+          "resources": []
+        },
+        {
+          "id": "animal-biology",
+          "title": "Animal Biology",
+          "summary": "Animal structure and function",
+          "mustKnow": [
+            "Tissues: epithelial, muscle, nervous, connective",
+            "Organs: heart, lungs, liver, kidneys",
+            "Systems: digestive, respiratory, circulatory",
+            "Homeostasis: maintaining internal balance",
+            "Nervous system: control and coordination",
+            "Endocrine system: hormones"
+          ],
+          "keyTerms": [
+            {"term": "Tissue", "definition": "Group of similar cells"},
+            {"term": "Organ", "definition": "Structure of tissues"},
+            {"term": "Homeostasis", "definition": "Internal balance"},
+            {"term": "Hormone", "definition": "Chemical messenger"}
+          ],
+          "examples": [
+            {
+              "question": "Maintaining body temperature is?",
+              "answer": "Homeostasis",
+              "explanation": "Internal balance"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong tissue types",
+            "Missing homeostasis"
+          ],
+          "examTips": [
+            "Know all systems",
+            "Understand homeostasis"
+          ],
+          "questions": [
+            {
+              "id": "bio-u1-animal-q1",
+              "question": "Maintaining internal balance is:",
+              "options": ["Homeostasis", "Metabolism", "Respiration", "Digestion"],
+              "correctAnswer": "Homeostasis",
+              "explanation": "Homeostasis is internal balance",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Comparative anatomy",
+            "Physiology"
+          ],
+          "resources": []
+        },
+        {
+          "id": "human-biology",
+          "title": "Human Biology",
+          "summary": "Human body systems",
+          "mustKnow": [
+            "Digestive: mouth, stomach, intestines",
+            "Respiratory: lungs, gas exchange",
+            "Circulatory: heart, blood vessels",
+            "Excretory: kidneys, urine",
+            "Nervous: brain, spinal cord, nerves",
+            "Endocrine: glands, hormones",
+            "Reproductive: male and female systems"
+          ],
+          "keyTerms": [
+            {"term": "Digestion", "definition": "Breaking down food"},
+            {"term": "Respiration", "definition": "Gas exchange"},
+            {"term": "Circulation", "definition": "Blood transport"},
+            {"term": "Excretion", "definition": "Waste removal"},
+            {"term": "Hormone", "definition": "Chemical messenger"}
+          ],
+          "examples": [
+            {
+              "question": "Gas exchange occurs in?",
+              "answer": "Lungs (alveoli)",
+              "explanation": "Alveoli are air sacs"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong organ functions",
+            "Missing systems"
+          ],
+          "examTips": [
+            "Know all systems",
+            "Understand functions"
+          ],
+          "questions": [
+            {
+              "id": "bio-u1-hb-q1",
+              "question": "Which filters blood?",
+              "options": ["Kidneys", "Lungs", "Heart", "Liver"],
+              "correctAnswer": "Kidneys",
+              "explanation": "Kidneys filter blood",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Human anatomy",
+            "Medical biology"
+          ],
+          "resources": []
+        },
+        {
+          "id": "biotechnology",
+          "title": "Biotechnology",
+          "summary": "Using biology in technology",
+          "mustKnow": [
+            "Biotechnology: using living things in technology",
+            "Genetic engineering: modifying genes",
+            "GMO: genetically modified organism",
+            "Cloning: identical copies",
+            "PCR: amplify DNA",
+            "Applications: medicine, agriculture, industry"
+          ],
+          "keyTerms": [
+            {"term": "Biotechnology", "definition": "Biology in technology"},
+            {"term": "Genetic Engineering", "definition": "Modifying genes"},
+            {"term": "GMO", "definition": "Genetically modified organism"},
+            {"term": "PCR", "definition": "Polymerase Chain Reaction"},
+            {"term": "Cloning", "definition": "Identical copies"}
+          ],
+          "examples": [
+            {
+              "question": "Insulin production using bacteria is?",
+              "answer": "Biotechnology",
+              "explanation": "Using biology for technology"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong applications",
+            "Missing ethics"
+          ],
+          "examTips": [
+            "Know applications",
+            "Understand ethics"
+          ],
+          "questions": [
+            {
+              "id": "bio-u1-bt-q1",
+              "question": "Amplifying DNA is:",
+              "options": ["PCR", "Cloning", "GMO", "Sequencing"],
+              "correctAnswer": "PCR",
+              "explanation": "PCR amplifies DNA",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Genetic engineering",
+            "Bioethics"
+          ],
+          "resources": []
+        },
+        {
+          "id": "practical-biology",
+          "title": "Practical Biology",
+          "summary": "Laboratory skills",
+          "mustKnow": [
+            "Microscopy: use and care",
+            "Biological drawing: accurate representation",
+            "Experimental design: variables, controls",
+            "Data collection and analysis",
+            "Safety procedures",
+            "Report writing"
+          ],
+          "keyTerms": [
+            {"term": "Microscopy", "definition": "Using microscopes"},
+            {"term": "Variable", "definition": "Changing factor"},
+            {"term": "Control", "definition": "Standard comparison"},
+            {"term": "Analysis", "definition": "Interpreting data"}
+          ],
+          "examples": [
+            {
+              "question": "Independent variable is?",
+              "answer": "What you change",
+              "explanation": "Manipulated variable"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Poor experimental design",
+            "Wrong variables"
+          ],
+          "examTips": [
+            "Design good experiments",
+            "Analyze data properly"
+          ],
+          "questions": [
+            {
+              "id": "bio-u1-prac-q1",
+              "question": "Variable you change is:",
+              "options": ["Independent", "Dependent", "Control", "Constant"],
+              "correctAnswer": "Independent",
+              "explanation": "Independent is what you change",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Advanced microscopy",
+            "Research methods"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "unit-2",
+      "title": "Unit 2",
+      "description": "Metabolism, Homeostasis, and Advanced Biology",
+      "importance": "must-know",
+      "difficulty": "advanced",
+      "topics": [
+        {
+          "id": "metabolism",
+          "title": "Metabolism",
+          "summary": "All chemical reactions in organisms",
+          "mustKnow": [
+            "Metabolism: all chemical reactions",
+            "Anabolism: building molecules",
+            "Catabolism: breaking down molecules",
+            "ATP: energy currency",
+            "Enzymes: biological catalysts",
+            "Metabolic pathways: series of reactions"
+          ],
+          "keyTerms": [
+            {"term": "Metabolism", "definition": "All chemical reactions"},
+            {"term": "Anabolism", "definition": "Building molecules"},
+            {"term": "Catabolism", "definition": "Breaking molecules"},
+            {"term": "ATP", "definition": "Energy currency"},
+            {"term": "Enzyme", "definition": "Biological catalyst"}
+          ],
+          "examples": [
+            {
+              "question": "Building proteins is?",
+              "answer": "Anabolism",
+              "explanation": "Building molecules"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing anabolism and catabolism",
+            "Missing ATP role"
+          ],
+          "examTips": [
+            "Understand metabolic pathways",
+            "Know enzyme functions"
+          ],
+          "questions": [
+            {
+              "id": "bio-u2-met-q1",
+              "question": "Breaking down molecules is:",
+              "options": ["Catabolism", "Anabolism", "Metabolism", "Homeostasis"],
+              "correctAnswer": "Catabolism",
+              "explanation": "Catabolism breaks molecules",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Metabolic regulation",
+            "Energy metabolism"
+          ],
+          "resources": []
+        },
+        {
+          "id": "photosynthesis",
+          "title": "Photosynthesis",
+          "summary": "Light-dependent and light-independent reactions",
+          "mustKnow": [
+            "Light-dependent: thylakoids, produces ATP and NADPH",
+            "Light-independent (Calvin cycle): stroma, produces glucose",
+            "Photosystems: I and II",
+            "Electron transport chain",
+            "Chemiosmosis: ATP synthesis",
+            "RuBisCO: fixes CO₂"
+          ],
+          "keyTerms": [
+            {"term": "Photosystem", "definition": "Light-harvesting complex"},
+            {"term": "Calvin Cycle", "definition": "Light-independent reactions"},
+            {"term": "NADPH", "definition": "Reducing power"},
+            {"term": "RuBisCO", "definition": "CO₂ fixing enzyme"},
+            {"term": "Thylakoid", "definition": "Photosynthesis site"}
+          ],
+          "examples": [
+            {
+              "question": "Where does Calvin cycle occur?",
+              "answer": "Stroma",
+              "explanation": "Light-independent in stroma"
+            }
+          ],
+          "formulas": [
+            "Photosynthesis: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂"
+          ],
+          "commonMistakes": [
+            "Wrong location of reactions",
+            "Missing products"
+          ],
+          "examTips": [
+            "Know both stages",
+            "Understand electron transport"
+          ],
+          "questions": [
+            {
+              "id": "bio-u2-photo-q1",
+              "question": "Light reactions occur in:",
+              "options": ["Thylakoids", "Stroma", "Cytoplasm", "Mitochondria"],
+              "correctAnswer": "Thylakoids",
+              "explanation": "Light reactions in thylakoids",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "C4 and CAM plants",
+            "Photosynthesis efficiency"
+          ],
+          "resources": []
+        },
+        {
+          "id": "respiration",
+          "title": "Respiration",
+          "summary": "Energy production",
+          "mustKnow": [
+            "Glycolysis: glucose to pyruvate (cytoplasm)",
+            "Krebs cycle: citric acid cycle (mitochondria)",
+            "Electron transport chain: ATP production",
+            "Aerobic: 36-38 ATP",
+            "Anaerobic: 2 ATP (fermentation)",
+            "Oxidative phosphorylation",
+            "Substrate-level phosphorylation"
+          ],
+          "keyTerms": [
+            {"term": "Glycolysis", "definition": "Glucose breakdown"},
+            {"term": "Krebs Cycle", "definition": "Citric acid cycle"},
+            {"term": "Oxidative Phosphorylation", "definition": "ATP via ETC"},
+            {"term": "Fermentation", "definition": "Anaerobic respiration"}
+          ],
+          "examples": [
+            {
+              "question": "Glycolysis occurs in?",
+              "answer": "Cytoplasm",
+              "explanation": "First stage location"
+            }
+          ],
+          "formulas": [
+            "Aerobic: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + 36-38 ATP"
+          ],
+          "commonMistakes": [
+            "Wrong ATP counts",
+            "Confusing aerobic and anaerobic"
+          ],
+          "examTips": [
+            "Know all stages",
+            "Understand ATP production"
+          ],
+          "questions": [
+            {
+              "id": "bio-u2-resp-q1",
+              "question": "Krebs cycle occurs in:",
+              "options": ["Mitochondria", "Cytoplasm", "Nucleus", "Ribosome"],
+              "correctAnswer": "Mitochondria",
+              "explanation": "Krebs cycle in mitochondria",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Metabolic regulation",
+            "Energy metabolism"
+          ],
+          "resources": []
+        },
+        {
+          "id": "homeostasis",
+          "title": "Homeostasis",
+          "summary": "Maintaining internal balance",
+          "mustKnow": [
+            "Homeostasis: internal balance",
+            "Temperature regulation: thermoregulation",
+            "Blood glucose regulation: insulin and glucagon",
+            "Osmoregulation: water balance",
+            "Negative feedback: reverses change",
+            "Positive feedback: amplifies change"
+          ],
+          "keyTerms": [
+            {"term": "Homeostasis", "definition": "Internal balance"},
+            {"term": "Thermoregulation", "definition": "Temperature control"},
+            {"term": "Osmoregulation", "definition": "Water balance"},
+            {"term": "Negative Feedback", "definition": "Reverses change"},
+            {"term": "Positive Feedback", "definition": "Amplifies change"}
+          ],
+          "examples": [
+            {
+              "question": "Blood glucose regulation is?",
+              "answer": "Negative feedback",
+              "explanation": "Reverses glucose change"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing feedback types",
+            "Missing regulation examples"
+          ],
+          "examTips": [
+            "Know all regulation types",
+            "Explain feedback"
+          ],
+          "questions": [
+            {
+              "id": "bio-u2-homeo-q1",
+              "question": "Which reverses change?",
+              "options": ["Negative feedback", "Positive feedback", "Both", "Neither"],
+              "correctAnswer": "Negative feedback",
+              "explanation": "Negative feedback reverses change",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Physiology",
+            "Control systems"
+          ],
+          "resources": []
+        },
+        {
+          "id": "coordination",
+          "title": "Coordination",
+          "summary": "Nervous and endocrine coordination",
+          "mustKnow": [
+            "Nervous system: fast, electrical",
+            "Endocrine system: slow, chemical",
+            "Neurons: nerve cells",
+            "Synapse: gap between neurons",
+            "Hormones: chemical messengers",
+            "Receptors: detect stimuli",
+            "Effectors: respond to stimuli"
+          ],
+          "keyTerms": [
+            {"term": "Neuron", "definition": "Nerve cell"},
+            {"term": "Synapse", "definition": "Neuron gap"},
+            {"term": "Hormone", "definition": "Chemical messenger"},
+            {"term": "Receptor", "definition": "Detects stimuli"},
+            {"term": "Effector", "definition": "Responds"}
+          ],
+          "examples": [
+            {
+              "question": "Quick response to danger is?",
+              "answer": "Nervous system",
+              "explanation": "Fast electrical signals"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing nervous and endocrine",
+            "Missing coordination parts"
+          ],
+          "examTips": [
+            "Know both systems",
+            "Understand coordination"
+          ],
+          "questions": [
+            {
+              "id": "bio-u2-coord-q1",
+              "question": "Which is fast?",
+              "options": ["Nervous system", "Endocrine system", "Both", "Neither"],
+              "correctAnswer": "Nervous system",
+              "explanation": "Nervous is fast electrical",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Neurobiology",
+            "Endocrinology"
+          ],
+          "resources": []
+        },
+        {
+          "id": "evolution",
+          "title": "Evolution",
+          "summary": "Change over time",
+          "mustKnow": [
+            "Evolution: change over time",
+            "Natural selection: survival of fittest",
+            "Adaptation: beneficial trait",
+            "Variation: differences within species",
+            "Speciation: new species formation",
+            "Evidence: fossils, DNA, anatomy",
+            "Genetic drift: random change",
+            "Gene flow: movement of genes"
+          ],
+          "keyTerms": [
+            {"term": "Evolution", "definition": "Change over time"},
+            {"term": "Natural Selection", "definition": "Survival of fittest"},
+            {"term": "Speciation", "definition": "New species"},
+            {"term": "Adaptation", "definition": "Beneficial trait"},
+            {"term": "Genetic Drift", "definition": "Random change"},
+            {"term": "Gene Flow", "definition": "Gene movement"}
+          ],
+          "examples": [
+            {
+              "question": "Giraffes with long necks survive better. This is?",
+              "answer": "Natural selection",
+              "explanation": "Favorable trait survives"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong evolution mechanisms",
+            "Missing evidence"
+          ],
+          "examTips": [
+            "Know all mechanisms",
+            "Explain evidence"
+          ],
+          "questions": [
+            {
+              "id": "bio-u2-evol-q1",
+              "question": "Formation of new species is:",
+              "options": ["Speciation", "Adaptation", "Mutation", "Drift"],
+              "correctAnswer": "Speciation",
+              "explanation": "Speciation creates new species",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Molecular evolution",
+            "Phylogenetics"
+          ],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

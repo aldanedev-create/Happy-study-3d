@@ -1,0 +1,1060 @@
+{
+  "id": "cxc-hsb",
+  "name": "Human and Social Biology",
+  "level": "CXC",
+  "description": "CXC CSEC Human and Social Biology - Complete cheatsheet covering human body systems and health",
+  "icon": "🧬",
+  "syllabusVersion": "2023",
+  "lastVerified": "2026-01-15",
+  "source": "CXC CSEC Human and Social Biology Syllabus",
+  "units": [
+    {
+      "id": "human-organisation",
+      "title": "Human Organisation",
+      "description": "Structure of the human body from cells to systems",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand body organization levels",
+        "Identify cell structures",
+        "Know tissue and organ types"
+      ],
+      "topics": [
+        {
+          "id": "cells",
+          "title": "Cells",
+          "summary": "Basic building blocks of life",
+          "mustKnow": [
+            "Cell is the basic unit of life",
+            "Nucleus: controls cell activities",
+            "Cytoplasm: where reactions occur",
+            "Cell membrane: controls what enters/exits",
+            "Mitochondria: energy production",
+            "Ribosomes: protein synthesis"
+          ],
+          "keyTerms": [
+            {"term": "Cell", "definition": "Basic unit of life"},
+            {"term": "Nucleus", "definition": "Control center of cell"},
+            {"term": "Cytoplasm", "definition": "Jelly-like substance where reactions occur"},
+            {"term": "Cell Membrane", "definition": "Controls entry and exit of substances"},
+            {"term": "Mitochondria", "definition": "Powerhouse of the cell"}
+          ],
+          "examples": [
+            {
+              "question": "Which organelle produces energy?",
+              "answer": "Mitochondria",
+              "explanation": "Mitochondria is the powerhouse"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing animal and plant cells",
+            "Wrong organelle functions"
+          ],
+          "examTips": [
+            "Know all organelles and functions",
+            "Draw and label cell diagrams"
+          ],
+          "questions": [
+            {
+              "id": "hsb-q1",
+              "question": "Which organelle controls cell activities?",
+              "options": ["Nucleus", "Cytoplasm", "Membrane", "Ribosome"],
+              "correctAnswer": "Nucleus",
+              "explanation": "Nucleus is the control center",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Cell division",
+            "Stem cells"
+          ],
+          "resources": []
+        },
+        {
+          "id": "tissues",
+          "title": "Tissues",
+          "summary": "Groups of similar cells working together",
+          "mustKnow": [
+            "Tissue: group of similar cells",
+            "Epithelial: covers surfaces",
+            "Muscle: movement",
+            "Nervous: transmits signals",
+            "Connective: supports and connects"
+          ],
+          "keyTerms": [
+            {"term": "Tissue", "definition": "Group of similar cells"},
+            {"term": "Epithelial", "definition": "Covers body surfaces"},
+            {"term": "Muscle", "definition": "For movement"},
+            {"term": "Nervous", "definition": "Transmits signals"},
+            {"term": "Connective", "definition": "Supports and connects"}
+          ],
+          "examples": [
+            {
+              "question": "Skin is what type of tissue?",
+              "answer": "Epithelial",
+              "explanation": "Covers body surface"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing tissue types",
+            "Missing functions"
+          ],
+          "examTips": [
+            "Know all 4 tissue types",
+            "Give examples of each"
+          ],
+          "questions": [
+            {
+              "id": "hsb-tissue-q1",
+              "question": "Tissue that transmits signals:",
+              "options": ["Nervous", "Muscle", "Epithelial", "Connective"],
+              "correctAnswer": "Nervous",
+              "explanation": "Nervous tissue transmits signals",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Histology",
+            "Tissue repair"
+          ],
+          "resources": []
+        },
+        {
+          "id": "organs",
+          "title": "Organs",
+          "summary": "Structures made of different tissues",
+          "mustKnow": [
+            "Organ: structure of different tissues",
+            "Heart: pumps blood",
+            "Lungs: gas exchange",
+            "Liver: detoxification",
+            "Kidneys: filter blood",
+            "Brain: control center"
+          ],
+          "keyTerms": [
+            {"term": "Organ", "definition": "Structure of different tissues"},
+            {"term": "Heart", "definition": "Pumps blood"},
+            {"term": "Lungs", "definition": "Gas exchange"},
+            {"term": "Liver", "definition": "Detoxification"},
+            {"term": "Kidneys", "definition": "Filter blood"}
+          ],
+          "examples": [
+            {
+              "question": "Which organ filters blood?",
+              "answer": "Kidneys",
+              "explanation": "Kidneys filter waste from blood"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong organ functions",
+            "Missing organ examples"
+          ],
+          "examTips": [
+            "Know major organs and functions",
+            "Understand organ systems"
+          ],
+          "questions": [
+            {
+              "id": "hsb-organ-q1",
+              "question": "Which organ is for gas exchange?",
+              "options": ["Lungs", "Heart", "Liver", "Kidneys"],
+              "correctAnswer": "Lungs",
+              "explanation": "Lungs exchange oxygen and CO₂",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Organ systems",
+            "Anatomy"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "nutrition",
+      "title": "Nutrition",
+      "description": "Nutrients needed for health",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Identify nutrients",
+        "Understand their functions"
+      ],
+      "topics": [
+        {
+          "id": "nutrients",
+          "title": "Nutrients",
+          "summary": "Substances needed for health",
+          "mustKnow": [
+            "Carbohydrates: energy source",
+            "Proteins: growth and repair",
+            "Fats: energy storage and insulation",
+            "Vitamins: regulate body processes",
+            "Minerals: bone health, blood",
+            "Water: hydration and transport",
+            "Fiber: digestion"
+          ],
+          "keyTerms": [
+            {"term": "Carbohydrate", "definition": "Main energy source"},
+            {"term": "Protein", "definition": "Growth and repair"},
+            {"term": "Fat", "definition": "Energy storage"},
+            {"term": "Vitamin", "definition": "Regulates processes"},
+            {"term": "Mineral", "definition": "Bone and blood health"}
+          ],
+          "examples": [
+            {
+              "question": "Which nutrient for growth and repair?",
+              "answer": "Protein",
+              "explanation": "Proteins build tissues"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong nutrient functions",
+            "Missing water and fiber"
+          ],
+          "examTips": [
+            "Know all nutrients",
+            "Explain functions with examples"
+          ],
+          "questions": [
+            {
+              "id": "hsb-nut-q1",
+              "question": "Main energy source is:",
+              "options": ["Carbohydrates", "Proteins", "Vitamins", "Water"],
+              "correctAnswer": "Carbohydrates",
+              "explanation": "Carbs provide energy",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Balanced diet",
+            "Malnutrition"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "digestive-system",
+      "title": "Digestive System",
+      "description": "Breaking down and absorbing food",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand digestion process",
+        "Identify digestive organs"
+      ],
+      "topics": [
+        {
+          "id": "digestion",
+          "title": "Digestion",
+          "summary": "Breaking down food for absorption",
+          "mustKnow": [
+            "Mouth: mechanical digestion, amylase breaks starch",
+            "Stomach: acid and enzymes break proteins",
+            "Small intestine: absorption of nutrients",
+            "Large intestine: water absorption",
+            "Liver: produces bile",
+            "Pancreas: produces enzymes"
+          ],
+          "keyTerms": [
+            {"term": "Digestion", "definition": "Breaking down food"},
+            {"term": "Enzyme", "definition": "Biological catalyst"},
+            {"term": "Absorption", "definition": "Nutrients entering blood"},
+            {"term": "Bile", "definition": "Emulsifies fats"}
+          ],
+          "examples": [
+            {
+              "question": "Where does most absorption occur?",
+              "answer": "Small intestine",
+              "explanation": "Nutrients absorbed here"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong organ functions",
+            "Missing enzymes"
+          ],
+          "examTips": [
+            "Know the pathway of food",
+            "Understand enzyme functions"
+          ],
+          "questions": [
+            {
+              "id": "hsb-dig-q1",
+              "question": "Where does protein digestion begin?",
+              "options": ["Stomach", "Mouth", "Small intestine", "Large intestine"],
+              "correctAnswer": "Stomach",
+              "explanation": "Stomach acid and enzymes break proteins",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Enzyme action",
+            "Digestive disorders"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "respiratory-system",
+      "title": "Respiratory System",
+      "description": "Breathing and gas exchange",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand breathing process",
+        "Identify respiratory organs"
+      ],
+      "topics": [
+        {
+          "id": "respiration",
+          "title": "Respiration",
+          "summary": "Gas exchange in the lungs",
+          "mustKnow": [
+            "Inhalation: air enters lungs",
+            "Exhalation: air leaves lungs",
+            "Alveoli: site of gas exchange",
+            "Oxygen enters blood",
+            "Carbon dioxide leaves blood",
+            "Diaphragm helps breathing"
+          ],
+          "keyTerms": [
+            {"term": "Inhalation", "definition": "Breathing in"},
+            {"term": "Exhalation", "definition": "Breathing out"},
+            {"term": "Alveoli", "definition": "Air sacs for gas exchange"},
+            {"term": "Diaphragm", "definition": "Muscle for breathing"}
+          ],
+          "examples": [
+            {
+              "question": "Where does gas exchange occur?",
+              "answer": "Alveoli",
+              "explanation": "Alveoli are air sacs"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing inhalation and exhalation",
+            "Missing alveoli function"
+          ],
+          "examTips": [
+            "Know breathing process",
+            "Understand gas exchange"
+          ],
+          "questions": [
+            {
+              "id": "hsb-resp-q1",
+              "question": "Gas exchange occurs in:",
+              "options": ["Alveoli", "Trachea", "Bronchi", "Diaphragm"],
+              "correctAnswer": "Alveoli",
+              "explanation": "Alveoli are air sacs",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Respiratory diseases",
+            "Exercise physiology"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "circulatory-system",
+      "title": "Circulatory System",
+      "description": "Transporting blood throughout the body",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand circulation",
+        "Identify blood components"
+      ],
+      "topics": [
+        {
+          "id": "circulation",
+          "title": "Circulation",
+          "summary": "Blood transport system",
+          "mustKnow": [
+            "Heart: pumps blood",
+            "Arteries: carry blood away from heart",
+            "Veins: carry blood to heart",
+            "Capillaries: exchange with tissues",
+            "Blood: red cells, white cells, platelets, plasma",
+            "Red blood cells carry oxygen"
+          ],
+          "keyTerms": [
+            {"term": "Heart", "definition": "Pumps blood"},
+            {"term": "Artery", "definition": "Carries blood from heart"},
+            {"term": "Vein", "definition": "Carries blood to heart"},
+            {"term": "Capillary", "definition": "Tiny blood vessel"},
+            {"term": "Hemoglobin", "definition": "Carries oxygen in red cells"}
+          ],
+          "examples": [
+            {
+              "question": "Which blood vessel carries blood away from heart?",
+              "answer": "Artery",
+              "explanation": "Arteries carry blood from heart"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing arteries and veins",
+            "Missing blood components"
+          ],
+          "examTips": [
+            "Know blood vessel types",
+            "Understand blood components"
+          ],
+          "questions": [
+            {
+              "id": "hsb-circ-q1",
+              "question": "Blood cells that carry oxygen:",
+              "options": ["Red blood cells", "White blood cells", "Platelets", "Plasma"],
+              "correctAnswer": "Red blood cells",
+              "explanation": "Red cells contain hemoglobin",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Heart diseases",
+            "Blood types"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "excretory-system",
+      "title": "Excretory System",
+      "description": "Removing waste from the body",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand excretion",
+        "Identify excretory organs"
+      ],
+      "topics": [
+        {
+          "id": "excretion",
+          "title": "Excretion",
+          "summary": "Removing metabolic waste",
+          "mustKnow": [
+            "Kidneys: filter blood, produce urine",
+            "Ureters: carry urine to bladder",
+            "Bladder: stores urine",
+            "Urethra: removes urine from body",
+            "Skin: excretes sweat",
+            "Lungs: excrete carbon dioxide"
+          ],
+          "keyTerms": [
+            {"term": "Excretion", "definition": "Removing metabolic waste"},
+            {"term": "Kidney", "definition": "Filters blood"},
+            {"term": "Ureter", "definition": "Carries urine to bladder"},
+            {"term": "Bladder", "definition": "Stores urine"},
+            {"term": "Urethra", "definition": "Removes urine"}
+          ],
+          "examples": [
+            {
+              "question": "Which organ filters blood?",
+              "answer": "Kidneys",
+              "explanation": "Kidneys filter waste from blood"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong organ functions",
+            "Missing excretory organs"
+          ],
+          "examTips": [
+            "Know all excretory organs",
+            "Understand urine formation"
+          ],
+          "questions": [
+            {
+              "id": "hsb-exc-q1",
+              "question": "Urine is stored in:",
+              "options": ["Bladder", "Kidneys", "Ureters", "Urethra"],
+              "correctAnswer": "Bladder",
+              "explanation": "Bladder stores urine",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Kidney diseases",
+            "Homeostasis"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "nervous-system",
+      "title": "Nervous System",
+      "description": "Control and coordination",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand nervous system",
+        "Identify its parts"
+      ],
+      "topics": [
+        {
+          "id": "nervous-system-parts",
+          "title": "Nervous System",
+          "summary": "Body's control system",
+          "mustKnow": [
+            "Brain: control center",
+            "Spinal cord: connects brain to body",
+            "Nerves: transmit signals",
+            "Neurons: nerve cells",
+            "Reflex: automatic response",
+            "Synapse: gap between neurons"
+          ],
+          "keyTerms": [
+            {"term": "Brain", "definition": "Control center"},
+            {"term": "Spinal Cord", "definition": "Connects brain to body"},
+            {"term": "Neuron", "definition": "Nerve cell"},
+            {"term": "Reflex", "definition": "Automatic response"},
+            {"term": "Synapse", "definition": "Gap between neurons"}
+          ],
+          "examples": [
+            {
+              "question": "Pulling hand from hot object is?",
+              "answer": "Reflex",
+              "explanation": "Automatic response"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong parts",
+            "Missing reflex concept"
+          ],
+          "examTips": [
+            "Know nervous system parts",
+            "Understand reflexes"
+          ],
+          "questions": [
+            {
+              "id": "hsb-nerv-q1",
+              "question": "Nerve cells are called:",
+              "options": ["Neurons", "Nephrons", "Nuclei", "Nodules"],
+              "correctAnswer": "Neurons",
+              "explanation": "Neurons are nerve cells",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Brain functions",
+            "Nervous disorders"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "endocrine-system",
+      "title": "Endocrine System",
+      "description": "Hormones and glands",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand endocrine system",
+        "Identify glands and hormones"
+      ],
+      "topics": [
+        {
+          "id": "endocrine",
+          "title": "Endocrine System",
+          "summary": "Hormone system",
+          "mustKnow": [
+            "Hormones: chemical messengers",
+            "Pituitary: master gland",
+            "Thyroid: metabolism",
+            "Pancreas: insulin and glucagon",
+            "Adrenal: adrenaline",
+            "Ovaries/Testes: sex hormones"
+          ],
+          "keyTerms": [
+            {"term": "Hormone", "definition": "Chemical messenger"},
+            {"term": "Gland", "definition": "Produces hormones"},
+            {"term": "Insulin", "definition": "Regulates blood sugar"},
+            {"term": "Adrenaline", "definition": "Fight or flight hormone"}
+          ],
+          "examples": [
+            {
+              "question": "Which gland produces insulin?",
+              "answer": "Pancreas",
+              "explanation": "Pancreas produces insulin"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong gland-hormone pairs",
+            "Missing functions"
+          ],
+          "examTips": [
+            "Know all glands and hormones",
+            "Understand functions"
+          ],
+          "questions": [
+            {
+              "id": "hsb-endo-q1",
+              "question": "Master gland is:",
+              "options": ["Pituitary", "Thyroid", "Pancreas", "Adrenal"],
+              "correctAnswer": "Pituitary",
+              "explanation": "Pituitary controls other glands",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Hormone disorders",
+            "Diabetes"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "reproduction",
+      "title": "Reproduction",
+      "description": "Creating new life",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand reproduction",
+        "Identify reproductive organs"
+      ],
+      "topics": [
+        {
+          "id": "human-reproduction",
+          "title": "Human Reproduction",
+          "summary": "Male and female reproductive systems",
+          "mustKnow": [
+            "Male: testes produce sperm",
+            "Female: ovaries produce eggs",
+            "Fertilization: sperm meets egg",
+            "Pregnancy: embryo develops in uterus",
+            "Puberty: sexual maturity",
+            "Menstruation: monthly cycle"
+          ],
+          "keyTerms": [
+            {"term": "Fertilization", "definition": "Sperm meets egg"},
+            {"term": "Puberty", "definition": "Sexual maturity"},
+            {"term": "Menstruation", "definition": "Monthly cycle"},
+            {"term": "Pregnancy", "definition": "Embryo development"}
+          ],
+          "examples": [
+            {
+              "question": "Where does fertilization occur?",
+              "answer": "Fallopian tube",
+              "explanation": "Sperm meets egg here"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong organ functions",
+            "Missing processes"
+          ],
+          "examTips": [
+            "Know reproductive organs",
+            "Understand fertilization"
+          ],
+          "questions": [
+            {
+              "id": "hsb-rep-q1",
+              "question": "Sperm is produced in:",
+              "options": ["Testes", "Ovaries", "Uterus", "Penis"],
+              "correctAnswer": "Testes",
+              "explanation": "Testes produce sperm",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Embryonic development",
+            "Reproductive health"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "genetics",
+      "title": "Genetics",
+      "description": "Inheritance and variation",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand inheritance",
+        "Identify genetic concepts"
+      ],
+      "topics": [
+        {
+          "id": "genetics-basics",
+          "title": "Genetics",
+          "summary": "How traits are inherited",
+          "mustKnow": [
+            "Gene: unit of inheritance",
+            "Chromosome: contains genes",
+            "DNA: genetic material",
+            "Dominant: expressed trait",
+            "Recessive: hidden trait",
+            "Genotype: genetic makeup",
+            "Phenotype: physical appearance"
+          ],
+          "keyTerms": [
+            {"term": "Gene", "definition": "Unit of inheritance"},
+            {"term": "Chromosome", "definition": "Contains genes"},
+            {"term": "DNA", "definition": "Genetic material"},
+            {"term": "Dominant", "definition": "Expressed trait"},
+            {"term": "Recessive", "definition": "Hidden trait"}
+          ],
+          "examples": [
+            {
+              "question": "Brown eyes (B) dominant over blue (b). Bb is?",
+              "answer": "Brown eyes (dominant expressed)",
+              "explanation": "Dominant allele expressed"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing genotype and phenotype",
+            "Wrong dominant/recessive"
+          ],
+          "examTips": [
+            "Know genetic terms",
+            "Understand inheritance patterns"
+          ],
+          "questions": [
+            {
+              "id": "hsb-gen-q1",
+              "question": "Physical appearance is:",
+              "options": ["Phenotype", "Genotype", "Chromosome", "DNA"],
+              "correctAnswer": "Phenotype",
+              "explanation": "Phenotype is physical appearance",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "DNA structure",
+            "Genetic disorders"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "disease-immunity",
+      "title": "Disease and Immunity",
+      "description": "Understanding disease and body defense",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand disease types",
+        "Identify immune response"
+      ],
+      "topics": [
+        {
+          "id": "disease",
+          "title": "Disease",
+          "summary": "Conditions that harm health",
+          "mustKnow": [
+            "Disease: abnormal condition",
+            "Infectious: caused by pathogens",
+            "Non-infectious: not caused by pathogens",
+            "Pathogens: bacteria, viruses, fungi",
+            "Transmission: contact, air, water, vectors",
+            "Prevention: hygiene, vaccination"
+          ],
+          "keyTerms": [
+            {"term": "Pathogen", "definition": "Disease-causing organism"},
+            {"term": "Infectious", "definition": "Can spread"},
+            {"term": "Vector", "definition": "Carries disease"},
+            {"term": "Vaccination", "definition": "Builds immunity"}
+          ],
+          "examples": [
+            {
+              "question": "Mosquito carrying malaria is?",
+              "answer": "Vector",
+              "explanation": "Carries disease organism"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong disease classification",
+            "Missing transmission methods"
+          ],
+          "examTips": [
+            "Know disease types",
+            "Understand prevention"
+          ],
+          "questions": [
+            {
+              "id": "hsb-dis-q1",
+              "question": "Disease-causing organisms are:",
+              "options": ["Pathogens", "Vectors", "Antibodies", "Antigens"],
+              "correctAnswer": "Pathogens",
+              "explanation": "Pathogens cause disease",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Epidemiology",
+            "Public health"
+          ],
+          "resources": []
+        },
+        {
+          "id": "immunity",
+          "title": "Immunity",
+          "summary": "Body's defense against disease",
+          "mustKnow": [
+            "Immunity: body's defense",
+            "White blood cells: fight infection",
+            "Antibodies: attack pathogens",
+            "Natural immunity: from infection",
+            "Artificial immunity: from vaccination",
+            "Active: body produces antibodies",
+            "Passive: antibodies from outside"
+          ],
+          "keyTerms": [
+            {"term": "Immunity", "definition": "Body's defense"},
+            {"term": "Antibody", "definition": "Attacks pathogens"},
+            {"term": "Vaccination", "definition": "Artificial immunity"},
+            {"term": "Active Immunity", "definition": "Body produces antibodies"},
+            {"term": "Passive Immunity", "definition": "Antibodies from outside"}
+          ],
+          "examples": [
+            {
+              "question": "Vaccination provides what type of immunity?",
+              "answer": "Artificial active immunity",
+              "explanation": "Body produces antibodies after vaccine"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing immunity types",
+            "Missing antibody function"
+          ],
+          "examTips": [
+            "Know immunity types",
+            "Understand vaccination"
+          ],
+          "questions": [
+            {
+              "id": "hsb-imm-q1",
+              "question": "Antibodies are produced by:",
+              "options": ["White blood cells", "Red blood cells", "Platelets", "Plasma"],
+              "correctAnswer": "White blood cells",
+              "explanation": "WBCs produce antibodies",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Immune system",
+            "Vaccines"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "sexual-health",
+      "title": "Sexual Health",
+      "description": "Reproductive health and STIs",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand sexual health",
+        "Identify STIs and prevention"
+      ],
+      "topics": [
+        {
+          "id": "sexual-health-concepts",
+          "title": "Sexual Health",
+          "summary": "Reproductive health and STI prevention",
+          "mustKnow": [
+            "Sexual health: physical and emotional wellbeing",
+            "STIs: sexually transmitted infections",
+            "HIV/AIDS: attacks immune system",
+            "Contraception: prevents pregnancy",
+            "Condoms: prevent STIs and pregnancy",
+            "Abstinence: no sexual activity"
+          ],
+          "keyTerms": [
+            {"term": "STI", "definition": "Sexually transmitted infection"},
+            {"term": "HIV", "definition": "Human Immunodeficiency Virus"},
+            {"term": "AIDS", "definition": "Acquired Immunodeficiency Syndrome"},
+            {"term": "Contraception", "definition": "Prevents pregnancy"}
+          ],
+          "examples": [
+            {
+              "question": "Which prevents both STIs and pregnancy?",
+              "answer": "Condoms",
+              "explanation": "Barrier method"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong prevention methods",
+            "Missing STI facts"
+          ],
+          "examTips": [
+            "Know STI prevention",
+            "Understand contraception"
+          ],
+          "questions": [
+            {
+              "id": "hsb-sh-q1",
+              "question": "HIV attacks:",
+              "options": ["Immune system", "Digestive system", "Nervous system", "Respiratory system"],
+              "correctAnswer": "Immune system",
+              "explanation": "HIV attacks immune cells",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Public health",
+            "Sex education"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "population-environment",
+      "title": "Population and Environment",
+      "description": "Human population and environmental impact",
+      "importance": "important",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand population growth",
+        "Identify environmental impact"
+      ],
+      "topics": [
+        {
+          "id": "population",
+          "title": "Population",
+          "summary": "Human population dynamics",
+          "mustKnow": [
+            "Population: number of people",
+            "Birth rate: births per 1000",
+            "Death rate: deaths per 1000",
+            "Overpopulation: too many people for resources",
+            "Family planning: controlling births",
+            "Population growth strains resources"
+          ],
+          "keyTerms": [
+            {"term": "Population", "definition": "Number of people"},
+            {"term": "Birth Rate", "definition": "Births per 1000"},
+            {"term": "Death Rate", "definition": "Deaths per 1000"},
+            {"term": "Overpopulation", "definition": "Too many people for resources"}
+          ],
+          "examples": [
+            {
+              "question": "More births than deaths causes?",
+              "answer": "Population growth",
+              "explanation": "Natural increase"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong population terms",
+            "Missing impact"
+          ],
+          "examTips": [
+            "Know population terms",
+            "Explain growth impact"
+          ],
+          "questions": [
+            {
+              "id": "hsb-pop-q1",
+              "question": "Too many people for resources is:",
+              "options": ["Overpopulation", "Underpopulation", "Optimum population", "Zero growth"],
+              "correctAnswer": "Overpopulation",
+              "explanation": "Too many people = overpopulation",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Demographics",
+            "Population policy"
+          ],
+          "resources": []
+        },
+        {
+          "id": "environment-impact",
+          "title": "Environment and Human Impact",
+          "summary": "How humans affect the environment",
+          "mustKnow": [
+            "Environment: natural surroundings",
+            "Pollution: contamination",
+            "Deforestation: clearing forests",
+            "Climate change: global warming",
+            "Conservation: protecting environment",
+            "Sustainable development: balancing needs"
+          ],
+          "keyTerms": [
+            {"term": "Pollution", "definition": "Contamination"},
+            {"term": "Deforestation", "definition": "Clearing forests"},
+            {"term": "Climate Change", "definition": "Global warming"},
+            {"term": "Conservation", "definition": "Protecting environment"}
+          ],
+          "examples": [
+            {
+              "question": "Cutting down forests is?",
+              "answer": "Deforestation",
+              "explanation": "Clearing forests"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Missing environmental issues",
+            "Not knowing conservation"
+          ],
+          "examTips": [
+            "List environmental issues",
+            "Explain conservation"
+          ],
+          "questions": [
+            {
+              "id": "hsb-env-q1",
+              "question": "Protecting the environment is:",
+              "options": ["Conservation", "Pollution", "Deforestation", "Exploitation"],
+              "correctAnswer": "Conservation",
+              "explanation": "Protecting = conservation",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Environmental science",
+            "Sustainability"
+          ],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

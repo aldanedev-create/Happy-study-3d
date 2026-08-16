@@ -1,0 +1,605 @@
+{
+  "id": "cape-mob",
+  "name": "Management of Business",
+  "level": "CAPE",
+  "description": "CAPE Management of Business - Complete cheatsheet covering Unit 1 and Unit 2",
+  "icon": "💼",
+  "syllabusVersion": "2023",
+  "lastVerified": "2026-01-15",
+  "source": "CXC CAPE Management of Business Syllabus",
+  "units": [
+    {
+      "id": "unit-1",
+      "title": "Unit 1",
+      "description": "Business Fundamentals and Management",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "topics": [
+        {
+          "id": "business-environment",
+          "title": "Business Environment",
+          "summary": "Understanding the business context",
+          "mustKnow": [
+            "Business: provides goods/services for profit",
+            "Internal environment: within business control",
+            "External environment: outside business control",
+            "Micro environment: suppliers, customers, competitors",
+            "Macro environment: PESTLE (Political, Economic, Social, Technological, Legal, Environmental)",
+            "Stakeholders: owners, employees, customers, government"
+          ],
+          "keyTerms": [
+            {"term": "Internal Environment", "definition": "Within business control"},
+            {"term": "External Environment", "definition": "Outside business control"},
+            {"term": "PESTLE", "definition": "Macro environment analysis"},
+            {"term": "Stakeholder", "definition": "Interested party"}
+          ],
+          "examples": [
+            {
+              "question": "Government policy is what environment?",
+              "answer": "External (macro)",
+              "explanation": "Outside business control"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing internal and external",
+            "Missing stakeholders"
+          ],
+          "examTips": [
+            "Use PESTLE for analysis",
+            "Identify all stakeholders"
+          ],
+          "questions": [
+            {
+              "id": "mob-q1",
+              "question": "PESTLE analysis is for:",
+              "options": ["Macro environment", "Micro environment", "Internal environment", "Only competitors"],
+              "correctAnswer": "Macro environment",
+              "explanation": "PESTLE analyzes macro environment",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Environmental scanning",
+            "SWOT analysis"
+          ],
+          "resources": []
+        },
+        {
+          "id": "entrepreneurship",
+          "title": "Entrepreneurship",
+          "summary": "Starting and growing businesses",
+          "mustKnow": [
+            "Entrepreneur: starts and runs business",
+            "Characteristics: innovative, risk-taker, determined",
+            "Innovation: new ideas, products, processes",
+            "Business opportunity: unmet need",
+            "Feasibility study: viability analysis",
+            "Business plan: roadmap for business"
+          ],
+          "keyTerms": [
+            {"term": "Entrepreneur", "definition": "Business starter"},
+            {"term": "Innovation", "definition": "New ideas"},
+            {"term": "Feasibility Study", "definition": "Viability analysis"},
+            {"term": "Business Plan", "definition": "Business roadmap"}
+          ],
+          "examples": [
+            {
+              "question": "Analyzing if business will succeed is?",
+              "answer": "Feasibility study",
+              "explanation": "Viability analysis"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Missing characteristics",
+            "Confusing feasibility and business plan"
+          ],
+          "examTips": [
+            "Know entrepreneur characteristics",
+            "Understand business planning"
+          ],
+          "questions": [
+            {
+              "id": "mob-ent-q1",
+              "question": "Key entrepreneur characteristic:",
+              "options": ["Risk-taker", "Avoids risk", "No innovation", "Works alone"],
+              "correctAnswer": "Risk-taker",
+              "explanation": "Entrepreneurs take risks",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Business startups",
+            "Innovation management"
+          ],
+          "resources": []
+        },
+        {
+          "id": "business-ownership",
+          "title": "Business Ownership",
+          "summary": "Forms of business organization",
+          "mustKnow": [
+            "Sole trader: one owner, unlimited liability",
+            "Partnership: 2+ owners, shared profits",
+            "Private limited company: shares not public",
+            "Public limited company: shares on stock exchange",
+            "Cooperative: member-owned",
+            "Limited liability: owners only lose investment",
+            "Unlimited liability: owners lose everything"
+          ],
+          "keyTerms": [
+            {"term": "Sole Trader", "definition": "One owner"},
+            {"term": "Partnership", "definition": "2+ owners"},
+            {"term": "Limited Liability", "definition": "Lose only investment"},
+            {"term": "Unlimited Liability", "definition": "Lose everything"},
+            {"term": "Cooperative", "definition": "Member-owned"}
+          ],
+          "examples": [
+            {
+              "question": "Company on stock exchange is?",
+              "answer": "Public limited company",
+              "explanation": "Shares publicly traded"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong liability types",
+            "Confusing company types"
+          ],
+          "examTips": [
+            "Know all forms",
+            "Compare advantages/disadvantages"
+          ],
+          "questions": [
+            {
+              "id": "mob-own-q1",
+              "question": "Limited liability means:",
+              "options": ["Lose only investment", "Lose everything", "No risk", "Government pays"],
+              "correctAnswer": "Lose only investment",
+              "explanation": "Limited liability protects assets",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Company law",
+            "Corporate structure"
+          ],
+          "resources": []
+        },
+        {
+          "id": "management-functions",
+          "title": "Management Functions",
+          "summary": "Planning, Organizing, Leading, Controlling",
+          "mustKnow": [
+            "Planning: setting goals and strategies",
+            "Organizing: arranging resources",
+            "Staffing: recruiting and selecting",
+            "Directing: leading and motivating",
+            "Controlling: monitoring and correcting",
+            "Management levels: top, middle, lower"
+          ],
+          "keyTerms": [
+            {"term": "Planning", "definition": "Setting goals"},
+            {"term": "Organizing", "definition": "Arranging resources"},
+            {"term": "Staffing", "definition": "Recruiting"},
+            {"term": "Directing", "definition": "Leading"},
+            {"term": "Controlling", "definition": "Monitoring"}
+          ],
+          "examples": [
+            {
+              "question": "Setting monthly targets is?",
+              "answer": "Planning",
+              "explanation": "Setting goals"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing functions",
+            "Missing staffing"
+          ],
+          "examTips": [
+            "Memorize P-O-S-D-C",
+            "Give examples"
+          ],
+          "questions": [
+            {
+              "id": "mob-mgmt-q1",
+              "question": "Motivating employees is:",
+              "options": ["Directing", "Planning", "Organizing", "Controlling"],
+              "correctAnswer": "Directing",
+              "explanation": "Directing includes motivation",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Management styles",
+            "Leadership theories"
+          ],
+          "resources": []
+        },
+        {
+          "id": "marketing",
+          "title": "Marketing",
+          "summary": "Marketing principles and mix",
+          "mustKnow": [
+            "Marketing: identifying and satisfying customer needs",
+            "Marketing mix: Product, Price, Place, Promotion",
+            "Market research: gathering customer information",
+            "Target market: specific customer group",
+            "Market segmentation: dividing market",
+            "Marketing strategy: overall plan"
+          ],
+          "keyTerms": [
+            {"term": "Marketing Mix", "definition": "4 Ps"},
+            {"term": "Target Market", "definition": "Specific customers"},
+            {"term": "Market Research", "definition": "Customer information"},
+            {"term": "Segmentation", "definition": "Dividing market"}
+          ],
+          "examples": [
+            {
+              "question": "Advertising is which P?",
+              "answer": "Promotion",
+              "explanation": "Promotion includes advertising"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing 4 Ps",
+            "Missing market research"
+          ],
+          "examTips": [
+            "Memorize 4 Ps",
+            "Apply to real businesses"
+          ],
+          "questions": [
+            {
+              "id": "mob-mkt-q1",
+              "question": "Where you sell is which P?",
+              "options": ["Place", "Product", "Price", "Promotion"],
+              "correctAnswer": "Place",
+              "explanation": "Place is distribution",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Digital marketing",
+            "Consumer behavior"
+          ],
+          "resources": []
+        },
+        {
+          "id": "production",
+          "title": "Production",
+          "summary": "Production processes",
+          "mustKnow": [
+            "Production: creating goods and services",
+            "Factors of production: land, labor, capital, enterprise",
+            "Production methods: job, batch, flow",
+            "Job production: one-off items",
+            "Batch production: groups",
+            "Flow production: continuous",
+            "Quality control: checking output",
+            "Productivity: output per input"
+          ],
+          "keyTerms": [
+            {"term": "Production", "definition": "Creating goods/services"},
+            {"term": "Job Production", "definition": "One-off"},
+            {"term": "Batch Production", "definition": "Groups"},
+            {"term": "Flow Production", "definition": "Continuous"},
+            {"term": "Productivity", "definition": "Output per input"}
+          ],
+          "examples": [
+            {
+              "question": "Custom furniture is what production?",
+              "answer": "Job production",
+              "explanation": "One-off items"
+            }
+          ],
+          "formulas": [
+            "Productivity = Output / Input"
+          ],
+          "commonMistakes": [
+            "Wrong production methods",
+            "Missing productivity"
+          ],
+          "examTips": [
+            "Know all methods",
+            "Calculate productivity"
+          ],
+          "questions": [
+            {
+              "id": "mob-prod-q1",
+              "question": "Continuous production is:",
+              "options": ["Flow", "Job", "Batch", "Custom"],
+              "correctAnswer": "Flow",
+              "explanation": "Flow is continuous",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Operations management",
+            "Quality management"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "unit-2",
+      "title": "Unit 2",
+      "description": "Strategic Management and Advanced Business",
+      "importance": "must-know",
+      "difficulty": "advanced",
+      "topics": [
+        {
+          "id": "strategic-management",
+          "title": "Strategic Management",
+          "summary": "Long-term planning",
+          "mustKnow": [
+            "Strategy: long-term plan",
+            "Strategic management: formulation and implementation",
+            "Vision: what business wants to be",
+            "Mission: business purpose",
+            "SWOT: Strengths, Weaknesses, Opportunities, Threats",
+            "Competitive advantage: outperforming rivals"
+          ],
+          "keyTerms": [
+            {"term": "Strategy", "definition": "Long-term plan"},
+            {"term": "Vision", "definition": "Future aspiration"},
+            {"term": "Mission", "definition": "Business purpose"},
+            {"term": "SWOT", "definition": "Analysis tool"},
+            {"term": "Competitive Advantage", "definition": "Outperform rivals"}
+          ],
+          "examples": [
+            {
+              "question": "SWOT analysis includes?",
+              "answer": "Strengths, Weaknesses, Opportunities, Threats",
+              "explanation": "Internal and external analysis"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing vision and mission",
+            "Missing SWOT"
+          ],
+          "examTips": [
+            "Apply SWOT",
+            "Understand strategy"
+          ],
+          "questions": [
+            {
+              "id": "mob-strat-q1",
+              "question": "SWOT stands for:",
+              "options": ["Strengths, Weaknesses, Opportunities, Threats", "Strategy, Work, Operations, Targets", "Sales, Workers, Output, Time", "None"],
+              "correctAnswer": "Strengths, Weaknesses, Opportunities, Threats",
+              "explanation": "SWOT analysis",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Porter's strategies",
+            "Strategic planning"
+          ],
+          "resources": []
+        },
+        {
+          "id": "hrm",
+          "title": "Human Resource Management",
+          "summary": "Managing people",
+          "mustKnow": [
+            "HRM: managing employees",
+            "Recruitment: attracting candidates",
+            "Selection: choosing best",
+            "Training: developing skills",
+            "Performance appraisal: evaluating",
+            "Motivation: encouraging performance",
+            "Compensation: wages and benefits"
+          ],
+          "keyTerms": [
+            {"term": "Recruitment", "definition": "Attracting candidates"},
+            {"term": "Selection", "definition": "Choosing best"},
+            {"term": "Training", "definition": "Developing skills"},
+            {"term": "Appraisal", "definition": "Evaluation"},
+            {"term": "Motivation", "definition": "Encouraging"}
+          ],
+          "examples": [
+            {
+              "question": "Interviewing candidates is?",
+              "answer": "Selection",
+              "explanation": "Choosing best candidate"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing recruitment and selection",
+            "Missing motivation"
+          ],
+          "examTips": [
+            "Know HR process",
+            "Explain motivation theories"
+          ],
+          "questions": [
+            {
+              "id": "mob-hrm-q1",
+              "question": "Evaluating performance is:",
+              "options": ["Appraisal", "Recruitment", "Selection", "Training"],
+              "correctAnswer": "Appraisal",
+              "explanation": "Appraisal evaluates",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Motivation theories",
+            "Employment law"
+          ],
+          "resources": []
+        },
+        {
+          "id": "financial-management",
+          "title": "Financial Management",
+          "summary": "Managing money",
+          "mustKnow": [
+            "Financial management: planning and control of funds",
+            "Sources of finance: internal and external",
+            "Budgeting: financial planning",
+            "Financial statements: income, balance sheet",
+            "Ratio analysis: evaluating performance",
+            "Investment decisions: capital budgeting"
+          ],
+          "keyTerms": [
+            {"term": "Budget", "definition": "Financial plan"},
+            {"term": "Ratio", "definition": "Performance measure"},
+            {"term": "Investment", "definition": "Capital allocation"},
+            {"term": "Cash Flow", "definition": "Money movement"}
+          ],
+          "examples": [
+            {
+              "question": "Planning finances is?",
+              "answer": "Budgeting",
+              "explanation": "Financial planning"
+            }
+          ],
+          "formulas": [
+            "Current ratio = Current assets / Current liabilities"
+          ],
+          "commonMistakes": [
+            "Wrong formulas",
+            "Missing analysis"
+          ],
+          "examTips": [
+            "Know all ratios",
+            "Interpret financial statements"
+          ],
+          "questions": [
+            {
+              "id": "mob-fin-q1",
+              "question": "Financial plan is:",
+              "options": ["Budget", "Ratio", "Statement", "Investment"],
+              "correctAnswer": "Budget",
+              "explanation": "Budget is financial plan",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Corporate finance",
+            "Investment analysis"
+          ],
+          "resources": []
+        },
+        {
+          "id": "global-business",
+          "title": "Global Business",
+          "summary": "International operations",
+          "mustKnow": [
+            "Globalization: increasing connections",
+            "International trade: imports and exports",
+            "Multinational corporations: operate in many countries",
+            "Trade barriers: tariffs, quotas",
+            "Exchange rates: currency values",
+            "Cultural differences: affect business"
+          ],
+          "keyTerms": [
+            {"term": "Globalization", "definition": "Global connections"},
+            {"term": "Multinational", "definition": "Many countries"},
+            {"term": "Tariff", "definition": "Import tax"},
+            {"term": "Quota", "definition": "Import limit"},
+            {"term": "Exchange Rate", "definition": "Currency value"}
+          ],
+          "examples": [
+            {
+              "question": "Tax on imports is?",
+              "answer": "Tariff",
+              "explanation": "Import tax"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong trade terms",
+            "Missing barriers"
+          ],
+          "examTips": [
+            "Know trade terms",
+            "Explain globalization"
+          ],
+          "questions": [
+            {
+              "id": "mob-glob-q1",
+              "question": "Import tax is:",
+              "options": ["Tariff", "Quota", "Subsidy", "Embargo"],
+              "correctAnswer": "Tariff",
+              "explanation": "Tariff is import tax",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "International trade",
+            "Global strategy"
+          ],
+          "resources": []
+        },
+        {
+          "id": "ethics-csr",
+          "title": "Ethics and CSR",
+          "summary": "Social responsibility",
+          "mustKnow": [
+            "Ethics: moral principles",
+            "CSR: Corporate Social Responsibility",
+            "Ethical issues: bribery, discrimination",
+            "Sustainability: environmental protection",
+            "Stakeholder interests: balance",
+            "Reputation: ethical behavior builds trust"
+          ],
+          "keyTerms": [
+            {"term": "Ethics", "definition": "Moral principles"},
+            {"term": "CSR", "definition": "Corporate Social Responsibility"},
+            {"term": "Sustainability", "definition": "Environmental protection"},
+            {"term": "Reputation", "definition": "Public perception"}
+          ],
+          "examples": [
+            {
+              "question": "Company giving to charity is?",
+              "answer": "CSR",
+              "explanation": "Social responsibility"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing ethics and law",
+            "Missing CSR"
+          ],
+          "examTips": [
+            "Give examples",
+            "Explain importance"
+          ],
+          "questions": [
+            {
+              "id": "mob-eth-q1",
+              "question": "CSR stands for:",
+              "options": ["Corporate Social Responsibility", "Company Social Relations", "Corporate Strategic Review", "None"],
+              "correctAnswer": "Corporate Social Responsibility",
+              "explanation": "CSR definition",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Corporate governance",
+            "Sustainability"
+          ],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

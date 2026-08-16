@@ -1,0 +1,880 @@
+{
+  "id": "cxc-information-technology",
+  "name": "Information Technology",
+  "level": "CXC",
+  "description": "CXC CSEC Information Technology - Complete cheatsheet covering computers, software, networks, and programming",
+  "icon": "💻",
+  "syllabusVersion": "2023",
+  "lastVerified": "2026-01-15",
+  "source": "CXC CSEC Information Technology Syllabus",
+  "units": [
+    {
+      "id": "computer-fundamentals",
+      "title": "Computer Fundamentals",
+      "description": "Understanding computers and their components",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand computer basics",
+        "Identify computer types",
+        "Know computer components"
+      ],
+      "topics": [
+        {
+          "id": "computer-basics",
+          "title": "What is a Computer?",
+          "summary": "Electronic device that processes data",
+          "mustKnow": [
+            "Computer: electronic device for processing data",
+            "Input: data entered into computer",
+            "Process: data manipulation",
+            "Output: results from computer",
+            "Storage: saving data",
+            "Types: desktop, laptop, tablet, smartphone"
+          ],
+          "keyTerms": [
+            {"term": "Computer", "definition": "Electronic device for processing data"},
+            {"term": "Input", "definition": "Data entered"},
+            {"term": "Process", "definition": "Data manipulation"},
+            {"term": "Output", "definition": "Results displayed"}
+          ],
+          "examples": [
+            {
+              "question": "Typing on keyboard is what?",
+              "answer": "Input",
+              "explanation": "Entering data"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing input and output",
+            "Missing computer types"
+          ],
+          "examTips": [
+            "Know input-process-output",
+            "Identify computer types"
+          ],
+          "questions": [
+            {
+              "id": "it-q1",
+              "question": "Displaying results on screen is:",
+              "options": ["Output", "Input", "Process", "Storage"],
+              "correctAnswer": "Output",
+              "explanation": "Results displayed = output",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Computer history",
+            "Computer types"
+          ],
+          "resources": []
+        },
+        {
+          "id": "hardware",
+          "title": "Hardware",
+          "summary": "Physical components of a computer",
+          "mustKnow": [
+            "Hardware: physical components",
+            "CPU: processes data (brain)",
+            "RAM: temporary memory",
+            "ROM: permanent memory",
+            "Storage: hard drive, SSD",
+            "Input devices: keyboard, mouse, scanner",
+            "Output devices: monitor, printer, speakers"
+          ],
+          "keyTerms": [
+            {"term": "CPU", "definition": "Central Processing Unit"},
+            {"term": "RAM", "definition": "Random Access Memory (temporary)"},
+            {"term": "ROM", "definition": "Read Only Memory (permanent)"},
+            {"term": "Hardware", "definition": "Physical components"}
+          ],
+          "examples": [
+            {
+              "question": "Which is an input device?",
+              "answer": "Keyboard",
+              "explanation": "Keyboard enters data"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing RAM and ROM",
+            "Wrong device classification"
+          ],
+          "examTips": [
+            "Know all hardware components",
+            "Distinguish input/output devices"
+          ],
+          "questions": [
+            {
+              "id": "it-hw-q1",
+              "question": "Which is an output device?",
+              "options": ["Printer", "Keyboard", "Mouse", "Scanner"],
+              "correctAnswer": "Printer",
+              "explanation": "Printer produces output",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Computer architecture",
+            "Hardware specifications"
+          ],
+          "resources": []
+        },
+        {
+          "id": "software",
+          "title": "Software",
+          "summary": "Programs that run on computers",
+          "mustKnow": [
+            "Software: programs and instructions",
+            "System software: operating system, utilities",
+            "Application software: word processor, spreadsheet",
+            "Operating system: Windows, macOS, Linux",
+            "Software must be installed to work"
+          ],
+          "keyTerms": [
+            {"term": "Software", "definition": "Programs and instructions"},
+            {"term": "System Software", "definition": "Runs the computer"},
+            {"term": "Application Software", "definition": "Performs tasks for users"},
+            {"term": "Operating System", "definition": "Manages hardware and software"}
+          ],
+          "examples": [
+            {
+              "question": "Microsoft Word is what type of software?",
+              "answer": "Application software",
+              "explanation": "Performs task for user"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing system and application software",
+            "Missing operating system"
+          ],
+          "examTips": [
+            "Know software types",
+            "Give examples of each"
+          ],
+          "questions": [
+            {
+              "id": "it-sw-q1",
+              "question": "Windows is what type of software?",
+              "options": ["System software", "Application software", "Utility", "Driver"],
+              "correctAnswer": "System software",
+              "explanation": "Windows is an operating system",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Software development",
+            "Operating systems"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "data-information",
+      "title": "Data and Information",
+      "description": "Understanding data processing",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Distinguish data and information",
+        "Understand data representation"
+      ],
+      "topics": [
+        {
+          "id": "data-vs-information",
+          "title": "Data vs Information",
+          "summary": "Raw facts vs processed data",
+          "mustKnow": [
+            "Data: raw unprocessed facts",
+            "Information: processed data with meaning",
+            "Data processing: converting data to information",
+            "Binary: 0s and 1s",
+            "Bit: smallest unit of data",
+            "Byte: 8 bits"
+          ],
+          "keyTerms": [
+            {"term": "Data", "definition": "Raw unprocessed facts"},
+            {"term": "Information", "definition": "Processed data with meaning"},
+            {"term": "Binary", "definition": "0s and 1s"},
+            {"term": "Bit", "definition": "Smallest unit of data"},
+            {"term": "Byte", "definition": "8 bits"}
+          ],
+          "examples": [
+            {
+              "question": "Student scores converted to grades. What is this?",
+              "answer": "Information (processed data)",
+              "explanation": "Data processed into meaningful form"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing data and information",
+            "Wrong binary units"
+          ],
+          "examTips": [
+            "Distinguish data from information",
+            "Know binary basics"
+          ],
+          "questions": [
+            {
+              "id": "it-data-q1",
+              "question": "8 bits make:",
+              "options": ["1 byte", "1 kilobyte", "1 megabyte", "1 gigabyte"],
+              "correctAnswer": "1 byte",
+              "explanation": "8 bits = 1 byte",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Number systems",
+            "Data compression"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "networks",
+      "title": "Networks",
+      "description": "Connected computers",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand networks",
+        "Identify network types"
+      ],
+      "topics": [
+        {
+          "id": "network-types",
+          "title": "Networks",
+          "summary": "Computers connected together",
+          "mustKnow": [
+            "Network: connected computers",
+            "LAN: Local Area Network",
+            "WAN: Wide Area Network",
+            "Internet: global network",
+            "Router: connects networks",
+            "Switch: connects devices in network"
+          ],
+          "keyTerms": [
+            {"term": "Network", "definition": "Connected computers"},
+            {"term": "LAN", "definition": "Local Area Network"},
+            {"term": "WAN", "definition": "Wide Area Network"},
+            {"term": "Router", "definition": "Connects networks"},
+            {"term": "Switch", "definition": "Connects devices"}
+          ],
+          "examples": [
+            {
+              "question": "School computers connected in one building is?",
+              "answer": "LAN",
+              "explanation": "Local area network"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing LAN and WAN",
+            "Missing network devices"
+          ],
+          "examTips": [
+            "Know network types",
+            "Understand network devices"
+          ],
+          "questions": [
+            {
+              "id": "it-net-q1",
+              "question": "Global network connecting computers worldwide:",
+              "options": ["Internet", "LAN", "Intranet", "Extranet"],
+              "correctAnswer": "Internet",
+              "explanation": "Internet is global",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Network security",
+            "Cloud computing"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "cybersecurity",
+      "title": "Cybersecurity",
+      "description": "Protecting computer systems",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand security threats",
+        "Identify protection methods"
+      ],
+      "topics": [
+        {
+          "id": "security",
+          "title": "Cybersecurity",
+          "summary": "Protecting data and systems",
+          "mustKnow": [
+            "Cybersecurity: protecting systems",
+            "Virus: malicious program",
+            "Malware: malicious software",
+            "Phishing: fake emails to steal info",
+            "Firewall: blocks unauthorized access",
+            "Password: strong, unique, private"
+          ],
+          "keyTerms": [
+            {"term": "Virus", "definition": "Malicious program"},
+            {"term": "Malware", "definition": "Malicious software"},
+            {"term": "Phishing", "definition": "Fake emails to steal info"},
+            {"term": "Firewall", "definition": "Blocks unauthorized access"}
+          ],
+          "examples": [
+            {
+              "question": "Email asking for password is?",
+              "answer": "Phishing",
+              "explanation": "Fake email to steal info"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong threat types",
+            "Missing protection methods"
+          ],
+          "examTips": [
+            "Know all threats",
+            "Explain protection"
+          ],
+          "questions": [
+            {
+              "id": "it-sec-q1",
+              "question": "Which protects against unauthorized access?",
+              "options": ["Firewall", "Virus", "Phishing", "Malware"],
+              "correctAnswer": "Firewall",
+              "explanation": "Firewall blocks unauthorized access",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Encryption",
+            "Security best practices"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "databases",
+      "title": "Databases",
+      "description": "Storing and managing data",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand databases",
+        "Identify database components"
+      ],
+      "topics": [
+        {
+          "id": "database-basics",
+          "title": "Databases",
+          "summary": "Organized collection of data",
+          "mustKnow": [
+            "Database: organized data collection",
+            "Table: data in rows and columns",
+            "Record: single row (one entry)",
+            "Field: single column (one attribute)",
+            "Primary key: unique identifier",
+            "Query: request for data"
+          ],
+          "keyTerms": [
+            {"term": "Database", "definition": "Organized data collection"},
+            {"term": "Table", "definition": "Data in rows and columns"},
+            {"term": "Record", "definition": "Single row"},
+            {"term": "Field", "definition": "Single column"},
+            {"term": "Primary Key", "definition": "Unique identifier"}
+          ],
+          "examples": [
+            {
+              "question": "Student ID in student database is?",
+              "answer": "Primary key",
+              "explanation": "Unique identifier"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing record and field",
+            "Missing primary key"
+          ],
+          "examTips": [
+            "Know database terms",
+            "Understand structure"
+          ],
+          "questions": [
+            {
+              "id": "it-db-q1",
+              "question": "A single row in a database is:",
+              "options": ["Record", "Field", "Table", "Query"],
+              "correctAnswer": "Record",
+              "explanation": "Record = single row",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "SQL",
+            "Database design"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "spreadsheets",
+      "title": "Spreadsheets",
+      "description": "Working with spreadsheets",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand spreadsheets",
+        "Use formulas and functions"
+      ],
+      "topics": [
+        {
+          "id": "spreadsheet-basics",
+          "title": "Spreadsheets",
+          "summary": "Software for calculations and data",
+          "mustKnow": [
+            "Spreadsheet: grid of cells",
+            "Cell: intersection of row and column",
+            "Formula: starts with =",
+            "Common functions: SUM, AVERAGE, MAX, MIN",
+            "Cell reference: A1, B2",
+            "Charts: visualize data"
+          ],
+          "keyTerms": [
+            {"term": "Spreadsheet", "definition": "Grid of cells for data"},
+            {"term": "Cell", "definition": "Intersection of row and column"},
+            {"term": "Formula", "definition": "Calculation starting with ="},
+            {"term": "Function", "definition": "Built-in calculation"}
+          ],
+          "examples": [
+            {
+              "question": "=SUM(A1:A5) does what?",
+              "answer": "Adds cells A1 to A5",
+              "explanation": "SUM function adds values"
+            }
+          ],
+          "formulas": [
+            "SUM: =SUM(range)",
+            "AVERAGE: =AVERAGE(range)",
+            "MAX: =MAX(range)",
+            "MIN: =MIN(range)"
+          ],
+          "commonMistakes": [
+            "Forgetting = in formulas",
+            "Wrong cell references"
+          ],
+          "examTips": [
+            "Know common functions",
+            "Practice formulas"
+          ],
+          "questions": [
+            {
+              "id": "it-ss-q1",
+              "question": "Which function adds numbers?",
+              "options": ["SUM", "AVERAGE", "MAX", "MIN"],
+              "correctAnswer": "SUM",
+              "explanation": "SUM adds values",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Advanced Excel",
+            "Data analysis"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "word-processing",
+      "title": "Word Processing",
+      "description": "Creating documents",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand word processing",
+        "Use formatting features"
+      ],
+      "topics": [
+        {
+          "id": "word-basics",
+          "title": "Word Processing",
+          "summary": "Creating and formatting documents",
+          "mustKnow": [
+            "Word processor: creates documents",
+            "Formatting: bold, italic, underline",
+            "Alignment: left, center, right",
+            "Font: type style and size",
+            "Spell check: checks spelling",
+            "Mail merge: personalize documents"
+          ],
+          "keyTerms": [
+            {"term": "Word Processor", "definition": "Software for documents"},
+            {"term": "Formatting", "definition": "Changing appearance"},
+            {"term": "Font", "definition": "Text style"},
+            {"term": "Mail Merge", "definition": "Personalize documents"}
+          ],
+          "examples": [
+            {
+              "question": "Making text bold is?",
+              "answer": "Formatting",
+              "explanation": "Changing appearance"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Missing features",
+            "Not knowing shortcuts"
+          ],
+          "examTips": [
+            "Know formatting features",
+            "Understand mail merge"
+          ],
+          "questions": [
+            {
+              "id": "it-wp-q1",
+              "question": "Which checks spelling errors?",
+              "options": ["Spell check", "Formatting", "Alignment", "Mail merge"],
+              "correctAnswer": "Spell check",
+              "explanation": "Spell check finds errors",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Document design",
+            "Professional documents"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "presentations",
+      "title": "Presentations",
+      "description": "Creating slideshows",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand presentations",
+        "Create effective slides"
+      ],
+      "topics": [
+        {
+          "id": "presentation-basics",
+          "title": "Presentations",
+          "summary": "Software for slideshows",
+          "mustKnow": [
+            "Presentation: slideshow software",
+            "Slide: single page",
+            "Transition: animation between slides",
+            "Animation: movement within slide",
+            "Design template: preset style",
+            "Effective: clear, concise, visual"
+          ],
+          "keyTerms": [
+            {"term": "Presentation", "definition": "Slideshow software"},
+            {"term": "Slide", "definition": "Single page"},
+            {"term": "Transition", "definition": "Animation between slides"},
+            {"term": "Template", "definition": "Preset design"}
+          ],
+          "examples": [
+            {
+              "question": "Movement between slides is?",
+              "answer": "Transition",
+              "explanation": "Animation between slides"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Too much text on slides",
+            "Missing transitions"
+          ],
+          "examTips": [
+            "Know presentation features",
+            "Create effective slides"
+          ],
+          "questions": [
+            {
+              "id": "it-pres-q1",
+              "question": "Single page in presentation is:",
+              "options": ["Slide", "Sheet", "Page", "Screen"],
+              "correctAnswer": "Slide",
+              "explanation": "Slide = single page",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Presentation design",
+            "Public speaking"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "programming",
+      "title": "Programming",
+      "description": "Creating programs",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand programming",
+        "Identify programming concepts"
+      ],
+      "topics": [
+        {
+          "id": "programming-basics",
+          "title": "Programming Concepts",
+          "summary": "Writing computer programs",
+          "mustKnow": [
+            "Program: set of instructions",
+            "Algorithm: step-by-step solution",
+            "Variable: stores data",
+            "Loop: repeats instructions",
+            "Condition: decision making",
+            "Function: reusable code block"
+          ],
+          "keyTerms": [
+            {"term": "Program", "definition": "Set of instructions"},
+            {"term": "Algorithm", "definition": "Step-by-step solution"},
+            {"term": "Variable", "definition": "Stores data"},
+            {"term": "Loop", "definition": "Repeats instructions"},
+            {"term": "Condition", "definition": "Decision making"}
+          ],
+          "examples": [
+            {
+              "question": "IF age > 18 THEN... is what?",
+              "answer": "Condition",
+              "explanation": "Decision making"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong programming terms",
+            "Missing concepts"
+          ],
+          "examTips": [
+            "Know programming concepts",
+            "Understand algorithms"
+          ],
+          "questions": [
+            {
+              "id": "it-prog-q1",
+              "question": "Which repeats instructions?",
+              "options": ["Loop", "Variable", "Condition", "Function"],
+              "correctAnswer": "Loop",
+              "explanation": "Loop repeats",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Python programming",
+            "JavaScript"
+          ],
+          "resources": []
+        },
+        {
+          "id": "algorithms-flowcharts",
+          "title": "Algorithms and Flowcharts",
+          "summary": "Visualizing solutions",
+          "mustKnow": [
+            "Algorithm: step-by-step instructions",
+            "Flowchart: diagram of algorithm",
+            "Start/End: oval shape",
+            "Process: rectangle",
+            "Decision: diamond",
+            "Input/Output: parallelogram"
+          ],
+          "keyTerms": [
+            {"term": "Algorithm", "definition": "Step-by-step solution"},
+            {"term": "Flowchart", "definition": "Diagram of algorithm"},
+            {"term": "Decision", "definition": "Diamond shape for choices"}
+          ],
+          "examples": [
+            {
+              "question": "Diamond shape in flowchart means?",
+              "answer": "Decision",
+              "explanation": "Diamond = decision"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong shapes",
+            "Incorrect flow"
+          ],
+          "examTips": [
+            "Know flowchart symbols",
+            "Follow logical flow"
+          ],
+          "questions": [
+            {
+              "id": "it-alg-q1",
+              "question": "Rectangle in flowchart means:",
+              "options": ["Process", "Decision", "Start/End", "Input/Output"],
+              "correctAnswer": "Process",
+              "explanation": "Rectangle = process",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Pseudocode",
+            "Problem solving"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "web-technology",
+      "title": "Web Technology",
+      "description": "Understanding the web",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand web technologies",
+        "Identify web components"
+      ],
+      "topics": [
+        {
+          "id": "web-basics",
+          "title": "Web Technology",
+          "summary": "How the web works",
+          "mustKnow": [
+            "WWW: World Wide Web",
+            "Website: collection of pages",
+            "Webpage: single page",
+            "URL: web address",
+            "Browser: views webpages",
+            "HTML: builds webpages",
+            "CSS: styles webpages"
+          ],
+          "keyTerms": [
+            {"term": "WWW", "definition": "World Wide Web"},
+            {"term": "URL", "definition": "Web address"},
+            {"term": "Browser", "definition": "Views webpages"},
+            {"term": "HTML", "definition": "Builds webpages"},
+            {"term": "CSS", "definition": "Styles webpages"}
+          ],
+          "examples": [
+            {
+              "question": "Chrome and Firefox are?",
+              "answer": "Browsers",
+              "explanation": "View webpages"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing HTML and CSS",
+            "Missing web terms"
+          ],
+          "examTips": [
+            "Know web terms",
+            "Understand HTML and CSS"
+          ],
+          "questions": [
+            {
+              "id": "it-web-q1",
+              "question": "Which styles webpages?",
+              "options": ["CSS", "HTML", "URL", "WWW"],
+              "correctAnswer": "CSS",
+              "explanation": "CSS styles pages",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Web development",
+            "HTML and CSS"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "ethics-privacy",
+      "title": "Ethics and Privacy",
+      "description": "Responsible technology use",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand ethics",
+        "Identify privacy issues"
+      ],
+      "topics": [
+        {
+          "id": "ethics",
+          "title": "Ethics and Privacy",
+          "summary": "Responsible use of technology",
+          "mustKnow": [
+            "Ethics: moral principles",
+            "Privacy: personal information protection",
+            "Copyright: protects creators",
+            "Plagiarism: copying without credit",
+            "Cyberbullying: online harassment",
+            "Digital citizenship: responsible online behavior"
+          ],
+          "keyTerms": [
+            {"term": "Ethics", "definition": "Moral principles"},
+            {"term": "Privacy", "definition": "Protecting personal info"},
+            {"term": "Copyright", "definition": "Protects creators"},
+            {"term": "Plagiarism", "definition": "Copying without credit"}
+          ],
+          "examples": [
+            {
+              "question": "Copying someone's work without credit is?",
+              "answer": "Plagiarism",
+              "explanation": "Copying without credit"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong ethical concepts",
+            "Missing privacy issues"
+          ],
+          "examTips": [
+            "Know ethical issues",
+            "Explain responsible use"
+          ],
+          "questions": [
+            {
+              "id": "it-eth-q1",
+              "question": "Protecting personal information is:",
+              "options": ["Privacy", "Copyright", "Plagiarism", "Piracy"],
+              "correctAnswer": "Privacy",
+              "explanation": "Privacy protects personal info",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Digital citizenship",
+            "Data protection"
+          ],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

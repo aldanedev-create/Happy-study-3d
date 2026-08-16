@@ -1,0 +1,959 @@
+{
+  "id": "cxc-integrated-science",
+  "name": "Integrated Science",
+  "level": "CXC",
+  "description": "CXC CSEC Integrated Science - Complete cheatsheet covering all science topics",
+  "icon": "🔬",
+  "syllabusVersion": "2023",
+  "lastVerified": "2026-01-15",
+  "source": "CXC CSEC Integrated Science Syllabus",
+  "units": [
+    {
+      "id": "scientific-method",
+      "title": "Scientific Method",
+      "description": "How scientists investigate",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand scientific method",
+        "Design experiments"
+      ],
+      "topics": [
+        {
+          "id": "scientific-method",
+          "title": "Scientific Method",
+          "summary": "Steps scientists use to investigate",
+          "mustKnow": [
+            "Observation: notice something",
+            "Hypothesis: testable prediction",
+            "Experiment: test the hypothesis",
+            "Data collection: record results",
+            "Conclusion: accept or reject hypothesis"
+          ],
+          "keyTerms": [
+            {"term": "Hypothesis", "definition": "Testable prediction"},
+            {"term": "Variable", "definition": "Factor that changes"},
+            {"term": "Control", "definition": "Standard for comparison"},
+            {"term": "Data", "definition": "Information collected"}
+          ],
+          "examples": [
+            {
+              "question": "Testing if fertilizer helps plants grow. Hypothesis?",
+              "answer": "Plants with fertilizer grow taller",
+              "explanation": "Testable prediction"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing hypothesis with theory",
+            "Not controlling variables"
+          ],
+          "examTips": [
+            "Know the steps",
+            "Identify variables"
+          ],
+          "questions": [
+            {
+              "id": "is-q1",
+              "question": "First step in scientific method?",
+              "options": ["Observation", "Conclusion", "Experiment", "Data"],
+              "correctAnswer": "Observation",
+              "explanation": "Start by observing",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Scientific experiments",
+            "Research methods"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "laboratory-safety",
+      "title": "Laboratory Safety",
+      "description": "Staying safe in the lab",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand safety rules",
+        "Identify safety equipment"
+      ],
+      "topics": [
+        {
+          "id": "safety-rules",
+          "title": "Laboratory Safety",
+          "summary": "Rules and equipment for safe experiments",
+          "mustKnow": [
+            "Wear safety goggles",
+            "Never taste chemicals",
+            "Tie back long hair",
+            "Know fire extinguisher location",
+            "Report all accidents immediately"
+          ],
+          "keyTerms": [
+            {"term": "Safety Goggles", "definition": "Protect eyes"},
+            {"term": "Fire Extinguisher", "definition": "Puts out fires"},
+            {"term": "First Aid Kit", "definition": "For injuries"}
+          ],
+          "examples": [
+            {
+              "question": "Chemical splashes in eye. What to do?",
+              "answer": "Wash with water immediately, report to teacher",
+              "explanation": "Safety first"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Not wearing goggles",
+            "Eating in lab"
+          ],
+          "examTips": [
+            "Know safety rules",
+            "Identify equipment"
+          ],
+          "questions": [
+            {
+              "id": "is-safety-q1",
+              "question": "What should you always wear in the lab?",
+              "options": ["Safety goggles", "Sunglasses", "Hat", "Gloves only"],
+              "correctAnswer": "Safety goggles",
+              "explanation": "Protect eyes from chemicals",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Lab safety protocols",
+            "Chemical handling"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "matter",
+      "title": "Matter",
+      "description": "Understanding matter and its properties",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand states of matter",
+        "Identify properties"
+      ],
+      "topics": [
+        {
+          "id": "states-of-matter",
+          "title": "States of Matter",
+          "summary": "Solid, liquid, gas",
+          "mustKnow": [
+            "Solid: fixed shape and volume",
+            "Liquid: fixed volume, takes shape of container",
+            "Gas: no fixed shape or volume",
+            "Melting: solid to liquid",
+            "Boiling: liquid to gas",
+            "Freezing: liquid to solid",
+            "Condensation: gas to liquid"
+          ],
+          "keyTerms": [
+            {"term": "Solid", "definition": "Fixed shape and volume"},
+            {"term": "Liquid", "definition": "Fixed volume, no fixed shape"},
+            {"term": "Gas", "definition": "No fixed shape or volume"},
+            {"term": "Melting", "definition": "Solid to liquid"},
+            {"term": "Boiling", "definition": "Liquid to gas"}
+          ],
+          "examples": [
+            {
+              "question": "Ice melting to water is?",
+              "answer": "Melting",
+              "explanation": "Solid to liquid"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing states",
+            "Wrong change names"
+          ],
+          "examTips": [
+            "Know state changes",
+            "Give examples"
+          ],
+          "questions": [
+            {
+              "id": "is-matter-q1",
+              "question": "Water freezing is:",
+              "options": ["Liquid to solid", "Solid to liquid", "Gas to liquid", "Liquid to gas"],
+              "correctAnswer": "Liquid to solid",
+              "explanation": "Freezing = liquid to solid",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Plasma state",
+            "Phase changes"
+          ],
+          "resources": []
+        },
+        {
+          "id": "atoms-elements",
+          "title": "Atoms and Elements",
+          "summary": "Building blocks of matter",
+          "mustKnow": [
+            "Atom: smallest unit of matter",
+            "Proton: positive charge",
+            "Neutron: no charge",
+            "Electron: negative charge",
+            "Element: made of one type of atom"
+          ],
+          "keyTerms": [
+            {"term": "Atom", "definition": "Smallest unit of matter"},
+            {"term": "Proton", "definition": "Positively charged particle"},
+            {"term": "Electron", "definition": "Negatively charged particle"},
+            {"term": "Element", "definition": "Substance of one atom type"}
+          ],
+          "examples": [
+            {
+              "question": "Oxygen is what?",
+              "answer": "Element",
+              "explanation": "Made of oxygen atoms only"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing atom and element",
+            "Wrong particle charges"
+          ],
+          "examTips": [
+            "Know subatomic particles",
+            "Understand elements"
+          ],
+          "questions": [
+            {
+              "id": "is-atom-q1",
+              "question": "Positive particle in atom is:",
+              "options": ["Proton", "Electron", "Neutron", "Nucleus"],
+              "correctAnswer": "Proton",
+              "explanation": "Proton is positive",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Periodic table",
+            "Atomic structure"
+          ],
+          "resources": []
+        },
+        {
+          "id": "compounds-mixtures",
+          "title": "Compounds and Mixtures",
+          "summary": "Combining substances",
+          "mustKnow": [
+            "Compound: two or more elements chemically combined",
+            "Mixture: substances physically combined",
+            "Compounds have fixed proportions",
+            "Mixtures can be separated easily",
+            "Compounds need chemical reactions to separate"
+          ],
+          "keyTerms": [
+            {"term": "Compound", "definition": "Elements chemically combined"},
+            {"term": "Mixture", "definition": "Substances physically combined"},
+            {"term": "Chemical Bond", "definition": "Force holding atoms together"}
+          ],
+          "examples": [
+            {
+              "question": "Salt water is?",
+              "answer": "Mixture",
+              "explanation": "Salt and water can be separated"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing compounds and mixtures",
+            "Wrong separation methods"
+          ],
+          "examTips": [
+            "Distinguish compound vs mixture",
+            "Know separation methods"
+          ],
+          "questions": [
+            {
+              "id": "is-comp-q1",
+              "question": "Water (H₂O) is a:",
+              "options": ["Compound", "Mixture", "Element", "Solution"],
+              "correctAnswer": "Compound",
+              "explanation": "Hydrogen and oxygen chemically combined",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Chemical reactions",
+            "Separation techniques"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "energy",
+      "title": "Energy",
+      "description": "Understanding energy forms and transfers",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Identify energy types",
+        "Understand energy transfer"
+      ],
+      "topics": [
+        {
+          "id": "energy-types",
+          "title": "Energy",
+          "summary": "Forms and transfers of energy",
+          "mustKnow": [
+            "Energy: ability to do work",
+            "Kinetic: energy of motion",
+            "Potential: stored energy",
+            "Heat: thermal energy",
+            "Energy cannot be created or destroyed, only transferred"
+          ],
+          "keyTerms": [
+            {"term": "Energy", "definition": "Ability to do work"},
+            {"term": "Kinetic Energy", "definition": "Energy of motion"},
+            {"term": "Potential Energy", "definition": "Stored energy"},
+            {"term": "Conservation", "definition": "Energy cannot be destroyed"}
+          ],
+          "examples": [
+            {
+              "question": "Moving car has what energy?",
+              "answer": "Kinetic energy",
+              "explanation": "Motion = kinetic"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing energy types",
+            "Missing conservation law"
+          ],
+          "examTips": [
+            "Know energy types",
+            "Explain transfers"
+          ],
+          "questions": [
+            {
+              "id": "is-energy-q1",
+              "question": "Energy of motion is:",
+              "options": ["Kinetic", "Potential", "Chemical", "Nuclear"],
+              "correctAnswer": "Kinetic",
+              "explanation": "Motion = kinetic",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Renewable energy",
+            "Energy efficiency"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "forces-motion",
+      "title": "Forces and Motion",
+      "description": "Understanding forces and movement",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand forces",
+        "Identify motion types"
+      ],
+      "topics": [
+        {
+          "id": "forces",
+          "title": "Forces",
+          "summary": "Pushes and pulls",
+          "mustKnow": [
+            "Force: push or pull",
+            "Gravity: pulls objects to Earth",
+            "Friction: resists motion",
+            "Balanced forces: no movement",
+            "Unbalanced forces: cause movement"
+          ],
+          "keyTerms": [
+            {"term": "Force", "definition": "Push or pull"},
+            {"term": "Gravity", "definition": "Force pulling to Earth"},
+            {"term": "Friction", "definition": "Force resisting motion"}
+          ],
+          "examples": [
+            {
+              "question": "Book on table not moving. Forces are?",
+              "answer": "Balanced",
+              "explanation": "Equal forces = no movement"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing force types",
+            "Missing friction"
+          ],
+          "examTips": [
+            "Identify forces",
+            "Explain motion"
+          ],
+          "questions": [
+            {
+              "id": "is-force-q1",
+              "question": "Force that pulls objects to Earth:",
+              "options": ["Gravity", "Friction", "Magnetism", "Electricity"],
+              "correctAnswer": "Gravity",
+              "explanation": "Gravity pulls to Earth",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Newton's laws",
+            "Motion physics"
+          ],
+          "resources": []
+        },
+        {
+          "id": "electricity",
+          "title": "Electricity",
+          "summary": "Flow of electric charge",
+          "mustKnow": [
+            "Electricity: flow of electrons",
+            "Conductor: allows electricity",
+            "Insulator: blocks electricity",
+            "Circuit: path for electricity",
+            "Current: flow of charge"
+          ],
+          "keyTerms": [
+            {"term": "Electricity", "definition": "Flow of electrons"},
+            {"term": "Conductor", "definition": "Allows electricity flow"},
+            {"term": "Insulator", "definition": "Blocks electricity"},
+            {"term": "Circuit", "definition": "Path for electricity"}
+          ],
+          "examples": [
+            {
+              "question": "Copper wire is?",
+              "answer": "Conductor",
+              "explanation": "Allows electricity to flow"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing conductor and insulator",
+            "Missing circuit parts"
+          ],
+          "examTips": [
+            "Know conductors/insulators",
+            "Understand circuits"
+          ],
+          "questions": [
+            {
+              "id": "is-elec-q1",
+              "question": "Which is an insulator?",
+              "options": ["Rubber", "Copper", "Iron", "Aluminum"],
+              "correctAnswer": "Rubber",
+              "explanation": "Rubber blocks electricity",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Circuits",
+            "Electrical safety"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "waves-heat-light-sound",
+      "title": "Waves, Heat, Light, and Sound",
+      "description": "Understanding energy transfer",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand waves",
+        "Identify heat, light, and sound properties"
+      ],
+      "topics": [
+        {
+          "id": "waves",
+          "title": "Waves",
+          "summary": "Transfer of energy",
+          "mustKnow": [
+            "Wave: transfers energy without transferring matter",
+            "Transverse: particles move perpendicular",
+            "Longitudinal: particles move parallel",
+            "Wavelength: distance between waves",
+            "Frequency: number of waves per second"
+          ],
+          "keyTerms": [
+            {"term": "Wave", "definition": "Energy transfer"},
+            {"term": "Wavelength", "definition": "Distance between waves"},
+            {"term": "Frequency", "definition": "Waves per second"}
+          ],
+          "examples": [
+            {
+              "question": "Light waves are what type?",
+              "answer": "Transverse",
+              "explanation": "Particles move perpendicular"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing wave types",
+            "Missing wave properties"
+          ],
+          "examTips": [
+            "Know wave types",
+            "Understand properties"
+          ],
+          "questions": [
+            {
+              "id": "is-wave-q1",
+              "question": "Sound waves are:",
+              "options": ["Longitudinal", "Transverse", "Both", "Neither"],
+              "correctAnswer": "Longitudinal",
+              "explanation": "Particles move parallel",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Electromagnetic spectrum",
+            "Wave applications"
+          ],
+          "resources": []
+        },
+        {
+          "id": "heat-light-sound",
+          "title": "Heat, Light, and Sound",
+          "summary": "Forms of energy",
+          "mustKnow": [
+            "Heat: transfer from hot to cold",
+            "Light: travels in straight lines",
+            "Sound: travels through vibrations",
+            "Heat transfer: conduction, convection, radiation",
+            "Light reflection: bounces off surfaces",
+            "Sound needs medium to travel"
+          ],
+          "keyTerms": [
+            {"term": "Conduction", "definition": "Heat transfer through solids"},
+            {"term": "Convection", "definition": "Heat transfer through fluids"},
+            {"term": "Radiation", "definition": "Heat transfer through space"},
+            {"term": "Reflection", "definition": "Light bouncing off surfaces"}
+          ],
+          "examples": [
+            {
+              "question": "Sun heating Earth is?",
+              "answer": "Radiation",
+              "explanation": "Heat through space"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing heat transfer types",
+            "Missing sound requirements"
+          ],
+          "examTips": [
+            "Know heat transfer methods",
+            "Understand light and sound"
+          ],
+          "questions": [
+            {
+              "id": "is-hls-q1",
+              "question": "Heat transfer through metal is:",
+              "options": ["Conduction", "Convection", "Radiation", "Reflection"],
+              "correctAnswer": "Conduction",
+              "explanation": "Through solid = conduction",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Thermodynamics",
+            "Optics"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "cells",
+      "title": "Cells",
+      "description": "Basic units of life",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand cell structure",
+        "Identify cell types"
+      ],
+      "topics": [
+        {
+          "id": "cell-structure",
+          "title": "Cells",
+          "summary": "Building blocks of living things",
+          "mustKnow": [
+            "Cell: basic unit of life",
+            "Nucleus: controls cell",
+            "Cytoplasm: jelly-like substance",
+            "Cell membrane: controls entry/exit",
+            "Plant cells have cell wall and chloroplasts",
+            "Animal cells don't have cell wall"
+          ],
+          "keyTerms": [
+            {"term": "Cell", "definition": "Basic unit of life"},
+            {"term": "Nucleus", "definition": "Controls cell activities"},
+            {"term": "Cytoplasm", "definition": "Jelly-like substance"},
+            {"term": "Cell Membrane", "definition": "Controls what enters/exits"}
+          ],
+          "examples": [
+            {
+              "question": "What do plant cells have that animal cells don't?",
+              "answer": "Cell wall and chloroplasts",
+              "explanation": "Plants need structure and photosynthesis"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing plant and animal cells",
+            "Missing organelles"
+          ],
+          "examTips": [
+            "Know cell parts",
+            "Distinguish plant and animal cells"
+          ],
+          "questions": [
+            {
+              "id": "is-cell-q1",
+              "question": "Which is in plant cells only?",
+              "options": ["Chloroplast", "Nucleus", "Cytoplasm", "Membrane"],
+              "correctAnswer": "Chloroplast",
+              "explanation": "Chloroplasts only in plants",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Cell division",
+            "Microscopy"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "human-biology",
+      "title": "Human Biology",
+      "description": "Understanding the human body",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Identify body systems",
+        "Understand functions"
+      ],
+      "topics": [
+        {
+          "id": "body-systems",
+          "title": "Human Body Systems",
+          "summary": "Systems that keep us alive",
+          "mustKnow": [
+            "Digestive: breaks down food",
+            "Respiratory: breathing, gas exchange",
+            "Circulatory: transports blood",
+            "Nervous: controls body",
+            "Excretory: removes waste"
+          ],
+          "keyTerms": [
+            {"term": "Digestion", "definition": "Breaking down food"},
+            {"term": "Respiration", "definition": "Breathing and gas exchange"},
+            {"term": "Circulation", "definition": "Blood transport"}
+          ],
+          "examples": [
+            {
+              "question": "Lungs are part of which system?",
+              "answer": "Respiratory system",
+              "explanation": "Lungs handle breathing"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing systems",
+            "Missing functions"
+          ],
+          "examTips": [
+            "Know all systems",
+            "Explain functions"
+          ],
+          "questions": [
+            {
+              "id": "is-hb-q1",
+              "question": "Heart is part of:",
+              "options": ["Circulatory system", "Digestive", "Nervous", "Respiratory"],
+              "correctAnswer": "Circulatory system",
+              "explanation": "Heart pumps blood",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Body systems detail",
+            "Health"
+          ],
+          "resources": []
+        },
+        {
+          "id": "nutrition-health",
+          "title": "Nutrition and Health",
+          "summary": "Eating right and staying healthy",
+          "mustKnow": [
+            "Carbohydrates: energy",
+            "Proteins: growth and repair",
+            "Fats: energy storage",
+            "Vitamins and minerals: health",
+            "Water: hydration",
+            "Balanced diet: all nutrients"
+          ],
+          "keyTerms": [
+            {"term": "Nutrient", "definition": "Substance needed for health"},
+            {"term": "Balanced Diet", "definition": "All nutrients in right amounts"},
+            {"term": "Carbohydrate", "definition": "Energy source"}
+          ],
+          "examples": [
+            {
+              "question": "Food for growth and repair?",
+              "answer": "Proteins",
+              "explanation": "Proteins build tissues"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong nutrient functions",
+            "Missing balanced diet"
+          ],
+          "examTips": [
+            "Know nutrient functions",
+            "Explain balanced diet"
+          ],
+          "questions": [
+            {
+              "id": "is-nut-q1",
+              "question": "Main energy source is:",
+              "options": ["Carbohydrates", "Vitamins", "Minerals", "Water"],
+              "correctAnswer": "Carbohydrates",
+              "explanation": "Carbs provide energy",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Diet planning",
+            "Health education"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "plants",
+      "title": "Plants",
+      "description": "Understanding plant biology",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand plant structure",
+        "Identify photosynthesis"
+      ],
+      "topics": [
+        {
+          "id": "plant-biology",
+          "title": "Plants and Photosynthesis",
+          "summary": "How plants make food",
+          "mustKnow": [
+            "Photosynthesis: making food using light",
+            "Chlorophyll: green pigment",
+            "Equation: CO₂ + H₂O → Glucose + O₂",
+            "Roots: absorb water and minerals",
+            "Leaves: site of photosynthesis",
+            "Plants produce oxygen"
+          ],
+          "keyTerms": [
+            {"term": "Photosynthesis", "definition": "Making food using light"},
+            {"term": "Chlorophyll", "definition": "Green pigment"},
+            {"term": "Glucose", "definition": "Food made by plants"}
+          ],
+          "examples": [
+            {
+              "question": "What do plants need for photosynthesis?",
+              "answer": "Light, water, carbon dioxide",
+              "explanation": "These are the inputs"
+            }
+          ],
+          "formulas": [
+            "Photosynthesis: CO₂ + H₂O → Glucose + O₂ (with light and chlorophyll)"
+          ],
+          "commonMistakes": [
+            "Wrong equation",
+            "Missing chlorophyll"
+          ],
+          "examTips": [
+            "Know the equation",
+            "Explain conditions"
+          ],
+          "questions": [
+            {
+              "id": "is-plant-q1",
+              "question": "Plants produce what gas during photosynthesis?",
+              "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+              "correctAnswer": "Oxygen",
+              "explanation": "O₂ is released",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Plant reproduction",
+            "Agriculture"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "ecosystems-environment",
+      "title": "Ecosystems and Environment",
+      "description": "Understanding living things and their environment",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand ecosystems",
+        "Identify environmental issues"
+      ],
+      "topics": [
+        {
+          "id": "ecosystems",
+          "title": "Ecosystems",
+          "summary": "Living things and their environment",
+          "mustKnow": [
+            "Ecosystem: living things + environment",
+            "Habitat: where organisms live",
+            "Food chain: energy transfer",
+            "Producer: makes food",
+            "Consumer: eats food",
+            "Decomposer: breaks down dead matter"
+          ],
+          "keyTerms": [
+            {"term": "Ecosystem", "definition": "Living things and environment"},
+            {"term": "Habitat", "definition": "Where organisms live"},
+            {"term": "Producer", "definition": "Makes food"},
+            {"term": "Consumer", "definition": "Eats food"},
+            {"term": "Decomposer", "definition": "Breaks down dead matter"}
+          ],
+          "examples": [
+            {
+              "question": "Grass in a food chain is?",
+              "answer": "Producer",
+              "explanation": "Makes its own food"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing producers and consumers",
+            "Missing decomposers"
+          ],
+          "examTips": [
+            "Know food chain roles",
+            "Explain ecosystem"
+          ],
+          "questions": [
+            {
+              "id": "is-eco-q1",
+              "question": "Organism that makes its own food:",
+              "options": ["Producer", "Consumer", "Decomposer", "Predator"],
+              "correctAnswer": "Producer",
+              "explanation": "Producers make food",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Biodiversity",
+            "Conservation"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "earth-space",
+      "title": "Earth and Space",
+      "description": "Understanding Earth and the universe",
+      "importance": "important",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand Earth systems",
+        "Identify space concepts"
+      ],
+      "topics": [
+        {
+          "id": "earth-space",
+          "title": "Earth and Space",
+          "summary": "Our planet and the universe",
+          "mustKnow": [
+            "Earth rotates on axis: day and night",
+            "Earth revolves around Sun: seasons",
+            "Solar system: Sun and planets",
+            "Moon orbits Earth",
+            "Gravity keeps planets in orbit"
+          ],
+          "keyTerms": [
+            {"term": "Rotation", "definition": "Spinning on axis"},
+            {"term": "Revolution", "definition": "Orbiting around Sun"},
+            {"term": "Solar System", "definition": "Sun and planets"},
+            {"term": "Orbit", "definition": "Path around a body"}
+          ],
+          "examples": [
+            {
+              "question": "Day and night caused by?",
+              "answer": "Earth's rotation",
+              "explanation": "Spinning = day/night"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing rotation and revolution",
+            "Missing solar system facts"
+          ],
+          "examTips": [
+            "Know Earth movements",
+            "Understand solar system"
+          ],
+          "questions": [
+            {
+              "id": "is-space-q1",
+              "question": "Seasons are caused by:",
+              "options": ["Earth's revolution", "Earth's rotation", "Moon", "Stars"],
+              "correctAnswer": "Earth's revolution",
+              "explanation": "Orbiting Sun causes seasons",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Astronomy",
+            "Space exploration"
+          ],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

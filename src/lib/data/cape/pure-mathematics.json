@@ -1,0 +1,936 @@
+{
+  "id": "cape-pure-mathematics",
+  "name": "Pure Mathematics",
+  "level": "CAPE",
+  "description": "CAPE Pure Mathematics - Complete in-depth coverage of Unit 1 and Unit 2",
+  "icon": "📐",
+  "syllabusVersion": "2023",
+  "lastVerified": "2026-01-15",
+  "source": "CXC CAPE Pure Mathematics Syllabus",
+  "units": [
+    {
+      "id": "unit-1",
+      "title": "Unit 1",
+      "description": "Algebra, Functions, Trigonometry, and Geometry",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "topics": [
+        {
+          "id": "algebra",
+          "title": "Algebra",
+          "summary": "Advanced algebraic operations and manipulations",
+          "mustKnow": [
+            "Polynomial operations: addition, subtraction, multiplication, division",
+            "Factor theorem: if f(a)=0, then (x-a) is a factor",
+            "Remainder theorem: f(a) is remainder when divided by (x-a)",
+            "Completing the square: x² + bx = (x + b/2)² - (b/2)²",
+            "Partial fractions: decomposition of rational expressions",
+            "Binomial theorem: (a+b)ⁿ expansion",
+            "Sigma notation: summation of series"
+          ],
+          "keyTerms": [
+            {"term": "Polynomial", "definition": "Expression with multiple terms"},
+            {"term": "Factor Theorem", "definition": "If f(a)=0, (x-a) is a factor"},
+            {"term": "Remainder Theorem", "definition": "f(a) is remainder"},
+            {"term": "Partial Fractions", "definition": "Decomposing rational expressions"},
+            {"term": "Binomial Theorem", "definition": "Expansion of (a+b)ⁿ"}
+          ],
+          "examples": [
+            {
+              "question": "Use factor theorem to show (x-2) is a factor of f(x)=x³-2x²-x+2",
+              "answer": "f(2) = 8-8-2+2 = 0, so (x-2) is a factor",
+              "explanation": "Substitute x=2, if result is 0, it's a factor"
+            },
+            {
+              "question": "Complete the square: x² + 6x + 5",
+              "answer": "(x+3)² - 4",
+              "explanation": "(x+3)² = x²+6x+9, subtract 4 to get +5"
+            }
+          ],
+          "formulas": [
+            "Binomial: (a+b)ⁿ = Σ(nCr)aⁿ⁻ʳbʳ",
+            "nCr = n!/(r!(n-r)!)"
+          ],
+          "commonMistakes": [
+            "Wrong signs in completing the square",
+            "Incorrect factor theorem application",
+            "Errors in partial fraction decomposition"
+          ],
+          "examTips": [
+            "Show all workings for full marks",
+            "Check answers by substitution",
+            "Practice binomial expansion regularly"
+          ],
+          "questions": [
+            {
+              "id": "pm-alg-q1",
+              "question": "Find the remainder when f(x)=2x³-3x²+4x-5 is divided by (x-1)",
+              "options": ["-2", "2", "0", "-4"],
+              "correctAnswer": "-2",
+              "explanation": "f(1) = 2-3+4-5 = -2",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            },
+            {
+              "id": "pm-alg-q2",
+              "question": "Expand (2+x)³ using binomial theorem",
+              "options": ["8+12x+6x²+x³", "8+6x+12x²+x³", "8+12x+12x²+x³", "8+6x+6x²+x³"],
+              "correctAnswer": "8+12x+6x²+x³",
+              "explanation": "8+3(4)x+3(2)x²+x³",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Complex numbers",
+            "Mathematical induction"
+          ],
+          "resources": []
+        },
+        {
+          "id": "functions",
+          "title": "Functions",
+          "summary": "Understanding and working with functions",
+          "mustKnow": [
+            "Function: each input has exactly one output",
+            "Domain: all possible input values",
+            "Range: all possible output values",
+            "Composite functions: f(g(x))",
+            "Inverse functions: f⁻¹(x)",
+            "One-to-one functions have inverses",
+            "Graph transformations: translation, reflection, stretch"
+          ],
+          "keyTerms": [
+            {"term": "Function", "definition": "Each input has one output"},
+            {"term": "Domain", "definition": "All possible inputs"},
+            {"term": "Range", "definition": "All possible outputs"},
+            {"term": "Composite", "definition": "Function of a function"},
+            {"term": "Inverse", "definition": "Reverses the function"}
+          ],
+          "examples": [
+            {
+              "question": "If f(x)=2x+1, find f⁻¹(x)",
+              "answer": "f⁻¹(x) = (x-1)/2",
+              "explanation": "Swap x and y, solve for y"
+            },
+            {
+              "question": "Find f(g(x)) where f(x)=x² and g(x)=x+1",
+              "answer": "f(g(x)) = (x+1)²",
+              "explanation": "Substitute g(x) into f(x)"
+            }
+          ],
+          "formulas": [
+            "Inverse: swap x and y, solve for y",
+            "Composite: f(g(x)) = substitute g into f"
+          ],
+          "commonMistakes": [
+            "Wrong domain and range",
+            "Incorrect inverse calculation",
+            "Confusing composite order"
+          ],
+          "examTips": [
+            "Always state domain and range",
+            "Check inverse by f(f⁻¹(x))=x",
+            "Be careful with composite order"
+          ],
+          "questions": [
+            {
+              "id": "pm-func-q1",
+              "question": "Find the inverse of f(x)=3x-2",
+              "options": ["(x+2)/3", "(x-2)/3", "3x+2", "(x+3)/2"],
+              "correctAnswer": "(x+2)/3",
+              "explanation": "Swap x and y: x=3y-2, solve: y=(x+2)/3",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Exponential and logarithmic functions",
+            "Trigonometric functions"
+          ],
+          "resources": []
+        },
+        {
+          "id": "equations-inequalities",
+          "title": "Equations and Inequalities",
+          "summary": "Solving equations and inequalities",
+          "mustKnow": [
+            "Quadratic formula: x = [-b ± √(b²-4ac)]/2a",
+            "Discriminant: b²-4ac determines nature of roots",
+            "b²-4ac > 0: two real roots",
+            "b²-4ac = 0: one repeated root",
+            "b²-4ac < 0: no real roots",
+            "Solving inequalities: flip sign when multiplying by negative",
+            "Graphical solutions: find intersection points"
+          ],
+          "keyTerms": [
+            {"term": "Discriminant", "definition": "b²-4ac determines root nature"},
+            {"term": "Quadratic Formula", "definition": "x = [-b ± √(b²-4ac)]/2a"},
+            {"term": "Inequality", "definition": "Mathematical comparison"}
+          ],
+          "examples": [
+            {
+              "question": "Solve: x² - 5x + 6 = 0",
+              "answer": "x = 2 or x = 3",
+              "explanation": "(x-2)(x-3) = 0"
+            },
+            {
+              "question": "Solve: x² + 2x - 3 > 0",
+              "answer": "x < -3 or x > 1",
+              "explanation": "(x+3)(x-1) > 0"
+            }
+          ],
+          "formulas": [
+            "Quadratic formula: x = [-b ± √(b²-4ac)]/2a",
+            "Discriminant: Δ = b²-4ac"
+          ],
+          "commonMistakes": [
+            "Forgetting to flip inequality sign",
+            "Wrong discriminant interpretation",
+            "Errors in quadratic formula"
+          ],
+          "examTips": [
+            "Check discriminant first",
+            "Test inequality solutions",
+            "Show all steps"
+          ],
+          "questions": [
+            {
+              "id": "pm-eq-q1",
+              "question": "Find the discriminant of 2x² - 4x + 1 = 0",
+              "options": ["8", "16", "-8", "0"],
+              "correctAnswer": "8",
+              "explanation": "b²-4ac = 16-8 = 8",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            },
+            {
+              "id": "pm-eq-q2",
+              "question": "Solve: x² + x - 6 ≤ 0",
+              "options": ["-3 ≤ x ≤ 2", "x ≤ -3 or x ≥ 2", "x ≥ -3", "x ≤ 2"],
+              "correctAnswer": "-3 ≤ x ≤ 2",
+              "explanation": "(x+3)(x-2) ≤ 0, so -3 ≤ x ≤ 2",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Cubic equations",
+            "Systems of equations"
+          ],
+          "resources": []
+        },
+        {
+          "id": "coordinate-geometry",
+          "title": "Coordinate Geometry",
+          "summary": "Geometry on the coordinate plane",
+          "mustKnow": [
+            "Distance formula: d = √[(x₂-x₁)² + (y₂-y₁)²]",
+            "Midpoint: ((x₁+x₂)/2, (y₁+y₂)/2)",
+            "Gradient: m = (y₂-y₁)/(x₂-x₁)",
+            "Equation of line: y - y₁ = m(x - x₁)",
+            "Perpendicular lines: m₁ × m₂ = -1",
+            "Parallel lines: m₁ = m₂",
+            "Circle equation: (x-h)² + (y-k)² = r²"
+          ],
+          "keyTerms": [
+            {"term": "Gradient", "definition": "Slope of a line"},
+            {"term": "Midpoint", "definition": "Middle point between two points"},
+            {"term": "Perpendicular", "definition": "Lines at 90°"},
+            {"term": "Circle", "definition": "Points equidistant from center"}
+          ],
+          "examples": [
+            {
+              "question": "Find distance between (1,2) and (4,6)",
+              "answer": "5 units",
+              "explanation": "√(9+16) = √25 = 5"
+            },
+            {
+              "question": "Find equation of line through (2,3) with gradient 4",
+              "answer": "y - 3 = 4(x - 2), or y = 4x - 5",
+              "explanation": "Use point-gradient form"
+            }
+          ],
+          "formulas": [
+            "Distance: d = √[(x₂-x₁)² + (y₂-y₁)²]",
+            "Gradient: m = (y₂-y₁)/(x₂-x₁)",
+            "Line: y - y₁ = m(x - x₁)"
+          ],
+          "commonMistakes": [
+            "Wrong distance formula",
+            "Incorrect gradient calculation",
+            "Forgetting perpendicular gradient relationship"
+          ],
+          "examTips": [
+            "Draw diagrams",
+            "Check gradient signs",
+            "Verify with points"
+          ],
+          "questions": [
+            {
+              "id": "pm-cg-q1",
+              "question": "Find gradient of line through (2,3) and (5,9)",
+              "options": ["2", "3", "6", "1/2"],
+              "correctAnswer": "2",
+              "explanation": "(9-3)/(5-2) = 6/3 = 2",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Conic sections",
+            "Vector geometry"
+          ],
+          "resources": []
+        },
+        {
+          "id": "sequences-series",
+          "title": "Sequences and Series",
+          "summary": "Number patterns and their sums",
+          "mustKnow": [
+            "Arithmetic sequence: common difference d",
+            "nth term: aₙ = a₁ + (n-1)d",
+            "Arithmetic sum: Sₙ = n/2[2a₁ + (n-1)d]",
+            "Geometric sequence: common ratio r",
+            "nth term: aₙ = a₁rⁿ⁻¹",
+            "Geometric sum: Sₙ = a₁(1-rⁿ)/(1-r)",
+            "Sum to infinity: S∞ = a/(1-r), |r|<1"
+          ],
+          "keyTerms": [
+            {"term": "Arithmetic", "definition": "Common difference"},
+            {"term": "Geometric", "definition": "Common ratio"},
+            {"term": "Common Difference", "definition": "d in arithmetic sequence"},
+            {"term": "Common Ratio", "definition": "r in geometric sequence"}
+          ],
+          "examples": [
+            {
+              "question": "Find 10th term of 3, 7, 11, 15...",
+              "answer": "39",
+              "explanation": "a₁₀ = 3 + 9(4) = 39"
+            },
+            {
+              "question": "Find sum of first 20 terms of 2, 6, 18, 54...",
+              "answer": "S₂₀ = 2(3²⁰-1)/2 = 3²⁰-1",
+              "explanation": "Geometric with r=3"
+            }
+          ],
+          "formulas": [
+            "Arithmetic nth: aₙ = a₁ + (n-1)d",
+            "Arithmetic sum: Sₙ = n/2[2a₁ + (n-1)d]",
+            "Geometric nth: aₙ = a₁rⁿ⁻¹",
+            "Geometric sum: Sₙ = a₁(1-rⁿ)/(1-r)"
+          ],
+          "commonMistakes": [
+            "Confusing arithmetic and geometric",
+            "Wrong formula application",
+            "Errors in sum calculations"
+          ],
+          "examTips": [
+            "Identify sequence type first",
+            "Show formula substitution",
+            "Check with small values"
+          ],
+          "questions": [
+            {
+              "id": "pm-seq-q1",
+              "question": "Find the common ratio of 4, 12, 36, 108...",
+              "options": ["3", "4", "8", "12"],
+              "correctAnswer": "3",
+              "explanation": "12/4 = 36/12 = 108/36 = 3",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Mathematical induction",
+            "Convergence tests"
+          ],
+          "resources": []
+        },
+        {
+          "id": "trigonometry",
+          "title": "Trigonometry",
+          "summary": "Trigonometric ratios and identities",
+          "mustKnow": [
+            "sin²θ + cos²θ = 1",
+            "tan θ = sin θ / cos θ",
+            "sin(A+B) = sinA cosB + cosA sinB",
+            "cos(A+B) = cosA cosB - sinA sinB",
+            "tan(A+B) = (tanA + tanB)/(1 - tanA tanB)",
+            "Sine rule: a/sinA = b/sinB = c/sinC",
+            "Cosine rule: a² = b² + c² - 2bc cosA",
+            "Area = ½ab sinC"
+          ],
+          "keyTerms": [
+            {"term": "Sine", "definition": "Opposite/Hypotenuse"},
+            {"term": "Cosine", "definition": "Adjacent/Hypotenuse"},
+            {"term": "Tangent", "definition": "Opposite/Adjacent"},
+            {"term": "Identity", "definition": "True for all values"}
+          ],
+          "examples": [
+            {
+              "question": "Prove: sin²θ + cos²θ = 1",
+              "answer": "True identity",
+              "explanation": "From Pythagoras theorem"
+            },
+            {
+              "question": "Solve: sin θ = 0.5 for 0° ≤ θ ≤ 360°",
+              "answer": "θ = 30° or 150°",
+              "explanation": "Sine positive in first and second quadrants"
+            }
+          ],
+          "formulas": [
+            "sin²θ + cos²θ = 1",
+            "sin(A+B) = sinA cosB + cosA sinB",
+            "cos(A+B) = cosA cosB - sinA sinB",
+            "Sine rule: a/sinA = b/sinB",
+            "Cosine rule: a² = b² + c² - 2bc cosA"
+          ],
+          "commonMistakes": [
+            "Wrong quadrant for solutions",
+            "Sign errors in identities",
+            "Forgetting ± in square roots"
+          ],
+          "examTips": [
+            "Memorize all identities",
+            "Draw diagrams for triangles",
+            "Check quadrant signs"
+          ],
+          "questions": [
+            {
+              "id": "pm-trig-q1",
+              "question": "Simplify: sin²x + cos²x",
+              "options": ["1", "0", "-1", "2"],
+              "correctAnswer": "1",
+              "explanation": "Fundamental identity",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Double angle formulas",
+            "Trigonometric equations"
+          ],
+          "resources": []
+        },
+        {
+          "id": "vectors-matrices",
+          "title": "Vectors and Matrices",
+          "summary": "Vector operations and matrix algebra",
+          "mustKnow": [
+            "Vector: magnitude and direction",
+            "Vector addition: add components",
+            "Scalar multiplication: multiply each component",
+            "Dot product: a·b = |a||b|cos θ",
+            "Matrix addition: add corresponding elements",
+            "Matrix multiplication: row × column",
+            "Determinant: ad - bc for 2×2",
+            "Inverse: A⁻¹ = adj(A)/det(A)"
+          ],
+          "keyTerms": [
+            {"term": "Vector", "definition": "Magnitude and direction"},
+            {"term": "Dot Product", "definition": "Scalar product"},
+            {"term": "Matrix", "definition": "Array of numbers"},
+            {"term": "Determinant", "definition": "Value of square matrix"},
+            {"term": "Inverse", "definition": "A⁻¹ where AA⁻¹ = I"}
+          ],
+          "examples": [
+            {
+              "question": "Add vectors (2,3) and (4,-1)",
+              "answer": "(6, 2)",
+              "explanation": "Add components separately"
+            },
+            {
+              "question": "Find determinant of [[2,3],[4,5]]",
+              "answer": "-2",
+              "explanation": "2×5 - 3×4 = 10-12 = -2"
+            }
+          ],
+          "formulas": [
+            "Dot product: a·b = a₁b₁ + a₂b₂",
+            "Determinant: |a b; c d| = ad - bc",
+            "Inverse: A⁻¹ = (1/det)[[d,-b],[-c,a]]"
+          ],
+          "commonMistakes": [
+            "Wrong matrix multiplication",
+            "Incorrect determinant",
+            "Errors in inverse"
+          ],
+          "examTips": [
+            "Check matrix dimensions",
+            "Verify AA⁻¹ = I",
+            "Practice calculations"
+          ],
+          "questions": [
+            {
+              "id": "pm-vm-q1",
+              "question": "Find the dot product of (1,2) and (3,4)",
+              "options": ["11", "10", "14", "7"],
+              "correctAnswer": "11",
+              "explanation": "1×3 + 2×4 = 3+8 = 11",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Eigenvalues",
+            "Linear transformations"
+          ],
+          "resources": []
+        },
+        {
+          "id": "mathematical-reasoning",
+          "title": "Mathematical Reasoning",
+          "summary": "Logic and proof",
+          "mustKnow": [
+            "Direct proof: prove statement directly",
+            "Proof by contradiction: assume opposite, find contradiction",
+            "Proof by induction: base case, inductive step",
+            "Necessary condition: must be true",
+            "Sufficient condition: enough to guarantee",
+            "If and only if: both necessary and sufficient",
+            "Counterexample: disproves statement"
+          ],
+          "keyTerms": [
+            {"term": "Proof", "definition": "Logical argument"},
+            {"term": "Contradiction", "definition": "Proof by assuming opposite"},
+            {"term": "Induction", "definition": "Proof for all natural numbers"},
+            {"term": "Counterexample", "definition": "Disproves statement"}
+          ],
+          "examples": [
+            {
+              "question": "Prove by induction: 1+2+...+n = n(n+1)/2",
+              "answer": "Base case n=1: 1=1. Assume for k, prove for k+1",
+              "explanation": "Induction proves for all n"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Missing base case",
+            "Incorrect inductive step",
+            "Invalid logical arguments"
+          ],
+          "examTips": [
+            "State assumptions clearly",
+            "Follow logical steps",
+            "Verify conclusion"
+          ],
+          "questions": [
+            {
+              "id": "pm-mr-q1",
+              "question": "Proof by induction requires:",
+              "options": ["Base case and inductive step", "Only base case", "Only conclusion", "No steps"],
+              "correctAnswer": "Base case and inductive step",
+              "explanation": "Both are needed for induction",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Mathematical logic",
+            "Set theory"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "unit-2",
+      "title": "Unit 2",
+      "description": "Calculus, Advanced Algebra, and Further Topics",
+      "importance": "must-know",
+      "difficulty": "advanced",
+      "topics": [
+        {
+          "id": "limits",
+          "title": "Limits",
+          "summary": "Foundation of calculus",
+          "mustKnow": [
+            "Limit: value function approaches",
+            "lim(x→a) f(x) = L",
+            "One-sided limits: left and right",
+            "Limit laws: sum, product, quotient",
+            "L'Hôpital's rule: for 0/0 or ∞/∞",
+            "Continuity: f(a) exists, limit exists, they're equal",
+            "Discontinuity: removable, jump, infinite"
+          ],
+          "keyTerms": [
+            {"term": "Limit", "definition": "Value function approaches"},
+            {"term": "Continuity", "definition": "No breaks in function"},
+            {"term": "L'Hôpital's Rule", "definition": "For indeterminate forms"},
+            {"term": "Discontinuity", "definition": "Break in function"}
+          ],
+          "examples": [
+            {
+              "question": "Find lim(x→2) (x²-4)/(x-2)",
+              "answer": "4",
+              "explanation": "Factor: (x+2)(x-2)/(x-2) = x+2, limit = 4"
+            },
+            {
+              "question": "Find lim(x→0) sin(x)/x",
+              "answer": "1",
+              "explanation": "Fundamental limit"
+            }
+          ],
+          "formulas": [
+            "lim(x→0) sin(x)/x = 1",
+            "lim(x→0) (1-cos(x))/x = 0"
+          ],
+          "commonMistakes": [
+            "Not checking indeterminate forms",
+            "Wrong limit laws",
+            "Ignoring one-sided limits"
+          ],
+          "examTips": [
+            "Check for indeterminate forms",
+            "Use L'Hôpital's rule when appropriate",
+            "Verify continuity conditions"
+          ],
+          "questions": [
+            {
+              "id": "pm-lim-q1",
+              "question": "Find lim(x→3) (x²-9)/(x-3)",
+              "options": ["6", "3", "0", "Undefined"],
+              "correctAnswer": "6",
+              "explanation": "(x+3)(x-3)/(x-3) = x+3, limit = 6",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Epsilon-delta definition",
+            "Series convergence"
+          ],
+          "resources": []
+        },
+        {
+          "id": "differentiation",
+          "title": "Differentiation",
+          "summary": "Finding derivatives",
+          "mustKnow": [
+            "Derivative: rate of change",
+            "Power rule: d/dx(xⁿ) = nxⁿ⁻¹",
+            "Product rule: (uv)' = u'v + uv'",
+            "Quotient rule: (u/v)' = (u'v - uv')/v²",
+            "Chain rule: dy/dx = dy/du × du/dx",
+            "Trig derivatives: sin→cos, cos→-sin",
+            "Exponential: d/dx(eˣ) = eˣ",
+            "Logarithmic: d/dx(ln x) = 1/x"
+          ],
+          "keyTerms": [
+            {"term": "Derivative", "definition": "Rate of change"},
+            {"term": "Power Rule", "definition": "d/dx(xⁿ) = nxⁿ⁻¹"},
+            {"term": "Chain Rule", "definition": "For composite functions"},
+            {"term": "Product Rule", "definition": "For products"}
+          ],
+          "examples": [
+            {
+              "question": "Find d/dx(3x⁴)",
+              "answer": "12x³",
+              "explanation": "Power rule: 3×4x³"
+            },
+            {
+              "question": "Find d/dx(sin(x²))",
+              "answer": "2x cos(x²)",
+              "explanation": "Chain rule: cos(x²) × 2x"
+            }
+          ],
+          "formulas": [
+            "Power: d/dx(xⁿ) = nxⁿ⁻¹",
+            "Product: (uv)' = u'v + uv'",
+            "Quotient: (u/v)' = (u'v - uv')/v²",
+            "Chain: dy/dx = dy/du × du/dx"
+          ],
+          "commonMistakes": [
+            "Forgetting chain rule",
+            "Wrong product/quotient rule",
+            "Sign errors in trig derivatives"
+          ],
+          "examTips": [
+            "Identify the rule needed",
+            "Show all steps",
+            "Simplify answers"
+          ],
+          "questions": [
+            {
+              "id": "pm-diff-q1",
+              "question": "Find d/dx(5x³)",
+              "options": ["15x²", "5x²", "15x³", "8x²"],
+              "correctAnswer": "15x²",
+              "explanation": "5×3x² = 15x²",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            },
+            {
+              "id": "pm-diff-q2",
+              "question": "Find d/dx(x² sin x)",
+              "options": ["2x sin x + x² cos x", "2x cos x", "x² sin x", "2x sin x - x² cos x"],
+              "correctAnswer": "2x sin x + x² cos x",
+              "explanation": "Product rule: 2x·sin x + x²·cos x",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Implicit differentiation",
+            "Higher derivatives"
+          ],
+          "resources": []
+        },
+        {
+          "id": "applications-differentiation",
+          "title": "Applications of Differentiation",
+          "summary": "Using derivatives",
+          "mustKnow": [
+            "Stationary points: where f'(x) = 0",
+            "Maximum: f'(x)=0, f''(x)<0",
+            "Minimum: f'(x)=0, f''(x)>0",
+            "Point of inflection: f''(x)=0, changes sign",
+            "Tangents: y - y₁ = m(x - x₁)",
+            "Normals: gradient = -1/m",
+            "Rate of change problems",
+            "Optimization: find max/min"
+          ],
+          "keyTerms": [
+            {"term": "Stationary Point", "definition": "Where f'(x)=0"},
+            {"term": "Maximum", "definition": "Highest point"},
+            {"term": "Minimum", "definition": "Lowest point"},
+            {"term": "Inflection", "definition": "Curvature changes"},
+            {"term": "Tangent", "definition": "Touches curve at one point"},
+            {"term": "Normal", "definition": "Perpendicular to tangent"}
+          ],
+          "examples": [
+            {
+              "question": "Find stationary points of f(x)=x³-3x",
+              "answer": "x=±1",
+              "explanation": "f'(x)=3x²-3=0, x=±1"
+            },
+            {
+              "question": "Find tangent to y=x² at x=1",
+              "answer": "y = 2x - 1",
+              "explanation": "y'=2x, m=2 at x=1, y=2x-1"
+            }
+          ],
+          "formulas": [
+            "Stationary: f'(x) = 0",
+            "Maximum: f''(x) < 0",
+            "Minimum: f''(x) > 0"
+          ],
+          "commonMistakes": [
+            "Wrong classification of points",
+            "Incorrect tangent gradient",
+            "Missing second derivative test"
+          ],
+          "examTips": [
+            "Find f'(x) and f''(x)",
+            "Classify all stationary points",
+            "Draw diagrams"
+          ],
+          "questions": [
+            {
+              "id": "pm-app-q1",
+              "question": "Find the gradient of tangent to y=x³ at x=2",
+              "options": ["12", "6", "8", "4"],
+              "correctAnswer": "12",
+              "explanation": "y'=3x²=3(4)=12",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Optimization problems",
+            "Related rates"
+          ],
+          "resources": []
+        },
+        {
+          "id": "integration",
+          "title": "Integration",
+          "summary": "Finding antiderivatives",
+          "mustKnow": [
+            "Integration: reverse of differentiation",
+            "Power rule: ∫xⁿ dx = xⁿ⁺¹/(n+1) + C",
+            "∫sin x dx = -cos x + C",
+            "∫cos x dx = sin x + C",
+            "∫eˣ dx = eˣ + C",
+            "∫1/x dx = ln|x| + C",
+            "Definite integral: ∫[a,b] f(x)dx = F(b)-F(a)",
+            "Constant of integration: + C"
+          ],
+          "keyTerms": [
+            {"term": "Integration", "definition": "Reverse of differentiation"},
+            {"term": "Antiderivative", "definition": "Function whose derivative is given"},
+            {"term": "Definite Integral", "definition": "With limits"},
+            {"term": "Constant of Integration", "definition": "+C"}
+          ],
+          "examples": [
+            {
+              "question": "Find ∫x² dx",
+              "answer": "x³/3 + C",
+              "explanation": "Power rule: x³/3"
+            },
+            {
+              "question": "Find ∫[0,1] x² dx",
+              "answer": "1/3",
+              "explanation": "F(1)-F(0) = 1/3 - 0"
+            }
+          ],
+          "formulas": [
+            "∫xⁿ dx = xⁿ⁺¹/(n+1) + C",
+            "∫sin x dx = -cos x + C",
+            "∫cos x dx = sin x + C",
+            "∫eˣ dx = eˣ + C"
+          ],
+          "commonMistakes": [
+            "Forgetting +C",
+            "Wrong power rule",
+            "Sign errors in trig"
+          ],
+          "examTips": [
+            "Always add +C",
+            "Check by differentiating",
+            "Practice standard integrals"
+          ],
+          "questions": [
+            {
+              "id": "pm-int-q1",
+              "question": "Find ∫4x³ dx",
+              "options": ["x⁴ + C", "4x⁴ + C", "x⁴/4 + C", "12x² + C"],
+              "correctAnswer": "x⁴ + C",
+              "explanation": "4x⁴/4 = x⁴",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Integration by parts",
+            "Integration by substitution"
+          ],
+          "resources": []
+        },
+        {
+          "id": "applications-integration",
+          "title": "Applications of Integration",
+          "summary": "Using integrals",
+          "mustKnow": [
+            "Area under curve: ∫ f(x) dx",
+            "Area between curves: ∫[f(x)-g(x)]dx",
+            "Volume of revolution: V = π∫[f(x)]²dx",
+            "Kinematics: displacement, velocity, acceleration",
+            "v = ds/dt, a = dv/dt",
+            "s = ∫v dt, v = ∫a dt",
+            "Work done: W = ∫F dx"
+          ],
+          "keyTerms": [
+            {"term": "Area", "definition": "Under curve"},
+            {"term": "Volume of Revolution", "definition": "Rotating curve"},
+            {"term": "Kinematics", "definition": "Motion analysis"}
+          ],
+          "examples": [
+            {
+              "question": "Find area under y=x² from x=0 to x=2",
+              "answer": "8/3",
+              "explanation": "∫[0,2]x²dx = [x³/3]₀² = 8/3"
+            },
+            {
+              "question": "Find volume when y=x is rotated about x-axis from 0 to 1",
+              "answer": "π/3",
+              "explanation": "V=π∫x²dx = π[x³/3]₀¹ = π/3"
+            }
+          ],
+          "formulas": [
+            "Area: A = ∫f(x)dx",
+            "Volume: V = π∫[f(x)]²dx"
+          ],
+          "commonMistakes": [
+            "Wrong limits",
+            "Forgetting π in volume",
+            "Incorrect formula"
+          ],
+          "examTips": [
+            "Sketch the region",
+            "Identify correct formula",
+            "Check limits"
+          ],
+          "questions": [
+            {
+              "id": "pm-ai-q1",
+              "question": "Find area under y=2x from x=0 to x=3",
+              "options": ["9", "6", "18", "3"],
+              "correctAnswer": "9",
+              "explanation": "∫2x dx = x², [x²]₀³ = 9",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Surface area",
+            "Centroids"
+          ],
+          "resources": []
+        },
+        {
+          "id": "differential-equations",
+          "title": "Differential Equations",
+          "summary": "Equations with derivatives",
+          "mustKnow": [
+            "Differential equation: contains derivatives",
+            "First order: dy/dx = f(x,y)",
+            "Separable: separate variables",
+            "dy/dx = f(x)g(y) → ∫dy/g(y) = ∫f(x)dx",
+            "General solution: with constant",
+            "Particular solution: constant determined by conditions",
+            "Applications: growth, decay, cooling"
+          ],
+          "keyTerms": [
+            {"term": "Differential Equation", "definition": "Contains derivatives"},
+            {"term": "Separable", "definition": "Variables can be separated"},
+            {"term": "General Solution", "definition": "With constant"},
+            {"term": "Particular Solution", "definition": "Constant determined"}
+          ],
+          "examples": [
+            {
+              "question": "Solve: dy/dx = 2x",
+              "answer": "y = x² + C",
+              "explanation": "Integrate both sides"
+            },
+            {
+              "question": "Solve: dy/dx = 3y",
+              "answer": "y = Ce³ˣ",
+              "explanation": "Separate and integrate"
+            }
+          ],
+          "formulas": [
+            "Separable: dy/g(y) = f(x)dx"
+          ],
+          "commonMistakes": [
+            "Not separating correctly",
+            "Forgetting constant",
+            "Wrong integration"
+          ],
+          "examTips": [
+            "Identify type first",
+            "Separate variables",
+            "Apply conditions"
+          ],
+          "questions": [
+            {
+              "id": "pm-de-q1",
+              "question": "Solve: dy/dx = 4",
+              "options": ["y = 4x + C", "y = 4 + C", "y = 4x", "y = 2x² + C"],
+              "correctAnswer": "y = 4x + C",
+              "explanation": "Integrate: y = 4x + C",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Second order equations",
+            "Laplace transforms"
+          ],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,851 @@
+{
+  "id": "cxc-chemistry",
+  "name": "Chemistry",
+  "level": "CXC",
+  "description": "CXC CSEC Chemistry - Complete cheatsheet covering all chemistry topics",
+  "icon": "⚗️",
+  "syllabusVersion": "2023",
+  "lastVerified": "2026-01-15",
+  "source": "CXC CSEC Chemistry Syllabus",
+  "units": [
+    {
+      "id": "matter",
+      "title": "Matter",
+      "description": "Understanding matter and its properties",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand states of matter",
+        "Identify changes of state"
+      ],
+      "topics": [
+        {
+          "id": "states-of-matter",
+          "title": "States of Matter",
+          "summary": "Solid, liquid, and gas",
+          "mustKnow": [
+            "Solid: fixed shape and volume, particles close together",
+            "Liquid: fixed volume, takes container shape, particles can move",
+            "Gas: no fixed shape or volume, particles far apart",
+            "Melting: solid to liquid",
+            "Boiling/Evaporation: liquid to gas",
+            "Freezing: liquid to solid",
+            "Condensation: gas to liquid",
+            "Sublimation: solid directly to gas"
+          ],
+          "keyTerms": [
+            {"term": "Solid", "definition": "Fixed shape and volume"},
+            {"term": "Liquid", "definition": "Fixed volume, no fixed shape"},
+            {"term": "Gas", "definition": "No fixed shape or volume"},
+            {"term": "Sublimation", "definition": "Solid directly to gas"}
+          ],
+          "examples": [
+            {
+              "question": "Dry ice (solid CO₂) turning to gas is?",
+              "answer": "Sublimation",
+              "explanation": "Solid directly to gas"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing boiling and evaporation",
+            "Missing sublimation"
+          ],
+          "examTips": [
+            "Know all state changes",
+            "Understand particle arrangement"
+          ],
+          "questions": [
+            {
+              "id": "chem-q1",
+              "question": "Gas to liquid is:",
+              "options": ["Condensation", "Evaporation", "Sublimation", "Freezing"],
+              "correctAnswer": "Condensation",
+              "explanation": "Gas to liquid = condensation",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Plasma state",
+            "Phase diagrams"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "atomic-structure",
+      "title": "Atomic Structure",
+      "description": "Understanding atoms",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand atomic structure",
+        "Know subatomic particles",
+        "Understand electron configuration"
+      ],
+      "topics": [
+        {
+          "id": "atoms",
+          "title": "Atoms and Subatomic Particles",
+          "summary": "Building blocks of matter",
+          "mustKnow": [
+            "Atom: smallest unit of an element",
+            "Proton: positive charge, mass 1, in nucleus",
+            "Neutron: no charge, mass 1, in nucleus",
+            "Electron: negative charge, negligible mass, orbits nucleus",
+            "Atomic number = number of protons",
+            "Mass number = protons + neutrons",
+            "Isotopes: same protons, different neutrons"
+          ],
+          "keyTerms": [
+            {"term": "Atom", "definition": "Smallest unit of element"},
+            {"term": "Proton", "definition": "Positive particle in nucleus"},
+            {"term": "Neutron", "definition": "Neutral particle in nucleus"},
+            {"term": "Electron", "definition": "Negative particle orbiting nucleus"},
+            {"term": "Atomic Number", "definition": "Number of protons"},
+            {"term": "Mass Number", "definition": "Protons + neutrons"}
+          ],
+          "examples": [
+            {
+              "question": "Carbon has 6 protons, 6 neutrons. Mass number?",
+              "answer": "12",
+              "explanation": "Mass number = 6 + 6 = 12"
+            }
+          ],
+          "formulas": [
+            "Mass Number = Protons + Neutrons",
+            "Number of Neutrons = Mass Number - Atomic Number"
+          ],
+          "commonMistakes": [
+            "Confusing atomic and mass number",
+            "Wrong particle charges"
+          ],
+          "examTips": [
+            "Know particle properties",
+            "Calculate neutrons correctly"
+          ],
+          "questions": [
+            {
+              "id": "chem-atom-q1",
+              "question": "Atomic number equals:",
+              "options": ["Number of protons", "Number of neutrons", "Protons + neutrons", "Number of electrons only"],
+              "correctAnswer": "Number of protons",
+              "explanation": "Atomic number = protons",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Electron configuration",
+            "Atomic orbitals"
+          ],
+          "resources": []
+        },
+        {
+          "id": "periodic-table",
+          "title": "Periodic Table",
+          "summary": "Organizing elements",
+          "mustKnow": [
+            "Periodic table: organizes elements by atomic number",
+            "Groups: vertical columns (similar properties)",
+            "Periods: horizontal rows",
+            "Group 1: Alkali metals (reactive)",
+            "Group 2: Alkaline earth metals",
+            "Group 7: Halogens",
+            "Group 8/0: Noble gases (unreactive)",
+            "Metals: left side, Non-metals: right side"
+          ],
+          "keyTerms": [
+            {"term": "Periodic Table", "definition": "Organizes elements"},
+            {"term": "Group", "definition": "Vertical column"},
+            {"term": "Period", "definition": "Horizontal row"},
+            {"term": "Alkali Metal", "definition": "Group 1 element"},
+            {"term": "Halogen", "definition": "Group 7 element"},
+            {"term": "Noble Gas", "definition": "Group 8/0 element"}
+          ],
+          "examples": [
+            {
+              "question": "Sodium (Na) is in which group?",
+              "answer": "Group 1 (Alkali metals)",
+              "explanation": "First column"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong group properties",
+            "Confusing groups and periods"
+          ],
+          "examTips": [
+            "Know group properties",
+            "Identify element positions"
+          ],
+          "questions": [
+            {
+              "id": "chem-pt-q1",
+              "question": "Noble gases are in:",
+              "options": ["Group 8/0", "Group 1", "Group 2", "Group 7"],
+              "correctAnswer": "Group 8/0",
+              "explanation": "Noble gases are Group 8/0",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Periodic trends",
+            "Element properties"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "chemical-bonding",
+      "title": "Chemical Bonding",
+      "description": "How atoms combine",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand bonding types",
+        "Identify bond properties"
+      ],
+      "topics": [
+        {
+          "id": "bonding-types",
+          "title": "Chemical Bonding",
+          "summary": "How atoms join together",
+          "mustKnow": [
+            "Ionic bond: transfer of electrons (metal + non-metal)",
+            "Covalent bond: sharing of electrons (non-metal + non-metal)",
+            "Metallic bond: sea of electrons (metal + metal)",
+            "Ionic compounds: high melting point, conduct when dissolved",
+            "Covalent compounds: low melting point, don't conduct",
+            "Ions: charged particles",
+            "Cation: positive ion (lost electrons)",
+            "Anion: negative ion (gained electrons)"
+          ],
+          "keyTerms": [
+            {"term": "Ionic Bond", "definition": "Transfer of electrons"},
+            {"term": "Covalent Bond", "definition": "Sharing of electrons"},
+            {"term": "Metallic Bond", "definition": "Sea of electrons"},
+            {"term": "Cation", "definition": "Positive ion"},
+            {"term": "Anion", "definition": "Negative ion"}
+          ],
+          "examples": [
+            {
+              "question": "NaCl (sodium chloride) has what bond?",
+              "answer": "Ionic",
+              "explanation": "Metal + non-metal = ionic"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong bond types",
+            "Confusing ionic and covalent"
+          ],
+          "examTips": [
+            "Metal + non-metal = ionic",
+            "Non-metal + non-metal = covalent"
+          ],
+          "questions": [
+            {
+              "id": "chem-bond-q1",
+              "question": "H₂O has what type of bond?",
+              "options": ["Covalent", "Ionic", "Metallic", "No bond"],
+              "correctAnswer": "Covalent",
+              "explanation": "Non-metals share electrons",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Molecular geometry",
+            "Intermolecular forces"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "formulae-equations",
+      "title": "Formulae and Equations",
+      "description": "Writing chemical formulas and equations",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Write chemical formulae",
+        "Balance equations"
+      ],
+      "topics": [
+        {
+          "id": "chemical-formulae",
+          "title": "Chemical Formulae",
+          "summary": "Representing compounds",
+          "mustKnow": [
+            "Formula: shows elements and ratios",
+            "Valency: combining power",
+            "H₂O: 2 hydrogen, 1 oxygen",
+            "CO₂: 1 carbon, 2 oxygen",
+            "NaCl: 1 sodium, 1 chlorine",
+            "Empirical formula: simplest ratio",
+            "Molecular formula: actual number of atoms"
+          ],
+          "keyTerms": [
+            {"term": "Formula", "definition": "Shows elements and ratios"},
+            {"term": "Valency", "definition": "Combining power"},
+            {"term": "Empirical Formula", "definition": "Simplest ratio"},
+            {"term": "Molecular Formula", "definition": "Actual atoms"}
+          ],
+          "examples": [
+            {
+              "question": "What is the formula for water?",
+              "answer": "H₂O",
+              "explanation": "2 hydrogen, 1 oxygen"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong valencies",
+            "Incorrect subscripts"
+          ],
+          "examTips": [
+            "Know common valencies",
+            "Practice writing formulae"
+          ],
+          "questions": [
+            {
+              "id": "chem-form-q1",
+              "question": "Formula for carbon dioxide:",
+              "options": ["CO₂", "CO", "C₂O", "C₂O₄"],
+              "correctAnswer": "CO₂",
+              "explanation": "1 carbon, 2 oxygen",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Nomenclature",
+            "Structural formulae"
+          ],
+          "resources": []
+        },
+        {
+          "id": "chemical-equations",
+          "title": "Chemical Equations",
+          "summary": "Representing reactions",
+          "mustKnow": [
+            "Equation: shows reactants and products",
+            "Reactants: left side",
+            "Products: right side",
+            "Arrow: shows direction",
+            "Balanced: same atoms both sides",
+            "State symbols: (s), (l), (g), (aq)"
+          ],
+          "keyTerms": [
+            {"term": "Reactant", "definition": "Starting substance"},
+            {"term": "Product", "definition": "Substance formed"},
+            {"term": "Balanced Equation", "definition": "Same atoms both sides"},
+            {"term": "State Symbol", "definition": "(s), (l), (g), (aq)"}
+          ],
+          "examples": [
+            {
+              "question": "Balance: H₂ + O₂ → H₂O",
+              "answer": "2H₂ + O₂ → 2H₂O",
+              "explanation": "2 hydrogen molecules + 1 oxygen molecule"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Unbalanced equations",
+            "Wrong products"
+          ],
+          "examTips": [
+            "Count atoms on both sides",
+            "Use coefficients to balance"
+          ],
+          "questions": [
+            {
+              "id": "chem-eq-q1",
+              "question": "In CH₄ + 2O₂ → CO₂ + 2H₂O, reactants are:",
+              "options": ["CH₄ and O₂", "CO₂ and H₂O", "Only CH₄", "Only O₂"],
+              "correctAnswer": "CH₄ and O₂",
+              "explanation": "Reactants are on left",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Stoichiometry",
+            "Reaction types"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "acids-bases-salts",
+      "title": "Acids, Bases, and Salts",
+      "description": "Understanding acids, bases, and salts",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand acids and bases",
+        "Know salt formation"
+      ],
+      "topics": [
+        {
+          "id": "acids",
+          "title": "Acids",
+          "summary": "Proton donors",
+          "mustKnow": [
+            "Acid: releases H⁺ ions in solution",
+            "pH less than 7",
+            "Turns blue litmus red",
+            "Common acids: HCl, H₂SO₄, HNO₃",
+            "Strong acid: fully dissociates",
+            "Weak acid: partially dissociates"
+          ],
+          "keyTerms": [
+            {"term": "Acid", "definition": "Releases H⁺ ions"},
+            {"term": "pH", "definition": "Measure of acidity"},
+            {"term": "Strong Acid", "definition": "Fully dissociates"},
+            {"term": "Weak Acid", "definition": "Partially dissociates"}
+          ],
+          "examples": [
+            {
+              "question": "HCl is what type of acid?",
+              "answer": "Strong acid",
+              "explanation": "Fully dissociates"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing strong and weak",
+            "Wrong pH range"
+          ],
+          "examTips": [
+            "Know common acids",
+            "Understand pH scale"
+          ],
+          "questions": [
+            {
+              "id": "chem-acid-q1",
+              "question": "Acids have pH:",
+              "options": ["Less than 7", "Exactly 7", "Greater than 7", "Always 0"],
+              "correctAnswer": "Less than 7",
+              "explanation": "Acids have pH < 7",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Acid strength",
+            "pH calculations"
+          ],
+          "resources": []
+        },
+        {
+          "id": "bases",
+          "title": "Bases",
+          "summary": "Proton acceptors",
+          "mustKnow": [
+            "Base: releases OH⁻ ions or accepts H⁺",
+            "pH greater than 7",
+            "Turns red litmus blue",
+            "Common bases: NaOH, KOH, Ca(OH)₂",
+            "Alkali: soluble base",
+            "Neutralization: acid + base → salt + water"
+          ],
+          "keyTerms": [
+            {"term": "Base", "definition": "Accepts H⁺ or releases OH⁻"},
+            {"term": "Alkali", "definition": "Soluble base"},
+            {"term": "Neutralization", "definition": "Acid + base → salt + water"}
+          ],
+          "examples": [
+            {
+              "question": "NaOH is what?",
+              "answer": "Base (alkali)",
+              "explanation": "Soluble base"
+            }
+          ],
+          "formulas": [
+            "Neutralization: Acid + Base → Salt + Water"
+          ],
+          "commonMistakes": [
+            "Confusing base and alkali",
+            "Wrong neutralization products"
+          ],
+          "examTips": [
+            "Know common bases",
+            "Understand neutralization"
+          ],
+          "questions": [
+            {
+              "id": "chem-base-q1",
+              "question": "Bases have pH:",
+              "options": ["Greater than 7", "Less than 7", "Exactly 7", "Always 14"],
+              "correctAnswer": "Greater than 7",
+              "explanation": "Bases have pH > 7",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Buffer solutions",
+            "Titration"
+          ],
+          "resources": []
+        },
+        {
+          "id": "salts",
+          "title": "Salts",
+          "summary": "Products of neutralization",
+          "mustKnow": [
+            "Salt: product of acid + base",
+            "Common salts: NaCl, KCl, CaCl₂",
+            "Preparation: neutralization, reaction with metal",
+            "Soluble salts: dissolve in water",
+            "Insoluble salts: don't dissolve",
+            "Uses: food, medicine, industry"
+          ],
+          "keyTerms": [
+            {"term": "Salt", "definition": "Product of neutralization"},
+            {"term": "Soluble", "definition": "Dissolves in water"},
+            {"term": "Insoluble", "definition": "Doesn't dissolve"}
+          ],
+          "examples": [
+            {
+              "question": "HCl + NaOH → ?",
+              "answer": "NaCl + H₂O",
+              "explanation": "Salt + water"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong salt formulas",
+            "Missing water product"
+          ],
+          "examTips": [
+            "Know salt preparation methods",
+            "Memorize common salts"
+          ],
+          "questions": [
+            {
+              "id": "chem-salt-q1",
+              "question": "Acid + base produces:",
+              "options": ["Salt + water", "Only salt", "Only water", "Gas"],
+              "correctAnswer": "Salt + water",
+              "explanation": "Neutralization products",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Salt hydrolysis",
+            "Salt uses"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "rates-of-reaction",
+      "title": "Rates of Reaction",
+      "description": "Speed of chemical reactions",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand reaction rates",
+        "Identify factors affecting rates"
+      ],
+      "topics": [
+        {
+          "id": "reaction-rates",
+          "title": "Rates of Reaction",
+          "summary": "How fast reactions occur",
+          "mustKnow": [
+            "Rate: speed of reaction",
+            "Factors: temperature, concentration, surface area, catalyst",
+            "Higher temperature: faster reaction",
+            "Higher concentration: faster reaction",
+            "Larger surface area: faster reaction",
+            "Catalyst: speeds reaction without being used up",
+            "Collision theory: particles must collide with enough energy"
+          ],
+          "keyTerms": [
+            {"term": "Rate", "definition": "Speed of reaction"},
+            {"term": "Catalyst", "definition": "Speeds reaction without being used"},
+            {"term": "Collision Theory", "definition": "Particles must collide with energy"}
+          ],
+          "examples": [
+            {
+              "question": "Adding a catalyst does what?",
+              "answer": "Speeds up reaction",
+              "explanation": "Lowers activation energy"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong factor effects",
+            "Missing collision theory"
+          ],
+          "examTips": [
+            "Know all factors",
+            "Explain collision theory"
+          ],
+          "questions": [
+            {
+              "id": "chem-rate-q1",
+              "question": "Which speeds up a reaction?",
+              "options": ["Catalyst", "Lower temperature", "Lower concentration", "Smaller surface area"],
+              "correctAnswer": "Catalyst",
+              "explanation": "Catalyst speeds reaction",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Activation energy",
+            "Reaction mechanisms"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "organic-chemistry",
+      "title": "Organic Chemistry",
+      "description": "Chemistry of carbon compounds",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand organic compounds",
+        "Identify functional groups"
+      ],
+      "topics": [
+        {
+          "id": "hydrocarbons",
+          "title": "Hydrocarbons",
+          "summary": "Compounds of carbon and hydrogen",
+          "mustKnow": [
+            "Hydrocarbon: contains only C and H",
+            "Alkane: single bonds (C-C)",
+            "Alkene: double bond (C=C)",
+            "Alkyne: triple bond (C≡C)",
+            "Methane: CH₄",
+            "Ethane: C₂H₆",
+            "Ethene: C₂H₄",
+            "Combustion: hydrocarbon + O₂ → CO₂ + H₂O"
+          ],
+          "keyTerms": [
+            {"term": "Hydrocarbon", "definition": "Only C and H"},
+            {"term": "Alkane", "definition": "Single bonds"},
+            {"term": "Alkene", "definition": "Double bond"},
+            {"term": "Combustion", "definition": "Burning with oxygen"}
+          ],
+          "examples": [
+            {
+              "question": "CH₄ is what type?",
+              "answer": "Alkane (methane)",
+              "explanation": "Single bonds only"
+            }
+          ],
+          "formulas": [
+            "Alkanes: CₙH₂ₙ₊₂",
+            "Alkenes: CₙH₂ₙ"
+          ],
+          "commonMistakes": [
+            "Wrong formulas",
+            "Confusing alkane and alkene"
+          ],
+          "examTips": [
+            "Know hydrocarbon types",
+            "Memorize formulas"
+          ],
+          "questions": [
+            {
+              "id": "chem-hc-q1",
+              "question": "C₂H₄ is an:",
+              "options": ["Alkene", "Alkane", "Alkyne", "Alcohol"],
+              "correctAnswer": "Alkene",
+              "explanation": "Double bond = alkene",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Isomers",
+            "Organic reactions"
+          ],
+          "resources": []
+        },
+        {
+          "id": "alcohols-acids",
+          "title": "Alcohols and Carboxylic Acids",
+          "summary": "Important organic compounds",
+          "mustKnow": [
+            "Alcohol: contains -OH group",
+            "Methanol: CH₃OH",
+            "Ethanol: C₂H₅OH",
+            "Carboxylic acid: contains -COOH group",
+            "Ethanoic acid: CH₃COOH",
+            "Fermentation: sugar → ethanol + CO₂"
+          ],
+          "keyTerms": [
+            {"term": "Alcohol", "definition": "Contains -OH"},
+            {"term": "Carboxylic Acid", "definition": "Contains -COOH"},
+            {"term": "Fermentation", "definition": "Sugar to alcohol"}
+          ],
+          "examples": [
+            {
+              "question": "Ethanol is what type?",
+              "answer": "Alcohol",
+              "explanation": "Contains -OH group"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong functional groups",
+            "Confusing compounds"
+          ],
+          "examTips": [
+            "Know functional groups",
+            "Memorize common compounds"
+          ],
+          "questions": [
+            {
+              "id": "chem-alc-q1",
+              "question": "Which contains -OH group?",
+              "options": ["Alcohol", "Alkane", "Alkene", "Alkyne"],
+              "correctAnswer": "Alcohol",
+              "explanation": "Alcohol contains -OH",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Organic synthesis",
+            "Biochemistry"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "electrochemistry",
+      "title": "Electrochemistry",
+      "description": "Electricity and chemical reactions",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand redox reactions",
+        "Know electrolysis"
+      ],
+      "topics": [
+        {
+          "id": "redox",
+          "title": "Oxidation and Reduction",
+          "summary": "Electron transfer reactions",
+          "mustKnow": [
+            "Oxidation: loss of electrons",
+            "Reduction: gain of electrons",
+            "OIL RIG: Oxidation Is Loss, Reduction Is Gain",
+            "Oxidizing agent: causes oxidation",
+            "Reducing agent: causes reduction",
+            "Redox: both oxidation and reduction occur"
+          ],
+          "keyTerms": [
+            {"term": "Oxidation", "definition": "Loss of electrons"},
+            {"term": "Reduction", "definition": "Gain of electrons"},
+            {"term": "Redox", "definition": "Both oxidation and reduction"},
+            {"term": "Oxidizing Agent", "definition": "Causes oxidation"}
+          ],
+          "examples": [
+            {
+              "question": "Na → Na⁺ + e⁻ is what?",
+              "answer": "Oxidation",
+              "explanation": "Loss of electron"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing oxidation and reduction",
+            "Wrong OIL RIG"
+          ],
+          "examTips": [
+            "Remember OIL RIG",
+            "Identify electron transfer"
+          ],
+          "questions": [
+            {
+              "id": "chem-redox-q1",
+              "question": "Gain of electrons is:",
+              "options": ["Reduction", "Oxidation", "Neutralization", "Combustion"],
+              "correctAnswer": "Reduction",
+              "explanation": "Reduction = gain electrons",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Electrochemical cells",
+            "Batteries"
+          ],
+          "resources": []
+        },
+        {
+          "id": "electrolysis",
+          "title": "Electrolysis",
+          "summary": "Using electricity for reactions",
+          "mustKnow": [
+            "Electrolysis: using electricity to cause reaction",
+            "Electrolyte: conducts electricity when molten/dissolved",
+            "Anode: positive electrode (oxidation)",
+            "Cathode: negative electrode (reduction)",
+            "Products at electrodes depend on electrolyte",
+            "Used in metal extraction and electroplating"
+          ],
+          "keyTerms": [
+            {"term": "Electrolysis", "definition": "Electricity causes reaction"},
+            {"term": "Electrolyte", "definition": "Conducts when molten/dissolved"},
+            {"term": "Anode", "definition": "Positive electrode"},
+            {"term": "Cathode", "definition": "Negative electrode"}
+          ],
+          "examples": [
+            {
+              "question": "Positive electrode is?",
+              "answer": "Anode",
+              "explanation": "Anode is positive"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing electrodes",
+            "Wrong products"
+          ],
+          "examTips": [
+            "Know electrode charges",
+            "Understand products"
+          ],
+          "questions": [
+            {
+              "id": "chem-elec-q1",
+              "question": "Negative electrode is:",
+              "options": ["Cathode", "Anode", "Both", "Neither"],
+              "correctAnswer": "Cathode",
+              "explanation": "Cathode is negative",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Electroplating",
+            "Metal extraction"
+          ],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

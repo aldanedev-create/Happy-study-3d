@@ -1,0 +1,145 @@
+{
+  "id": "/",
+  "name": "Happy Study 3D",
+  "short_name": "HappyStudy3D",
+  "description": "Free educational PWA for CXC, CAPE, and Software Engineering with interactive 3D interface",
+  "dir": "ltr",
+  "lang": "en",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "any",
+  "theme_color": "#4F46E5",
+  "background_color": "#0F172A",
+  "categories": ["education", "productivity", "study"],
+  
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  
+  "shortcuts": [
+    {
+      "name": "CXC Studies",
+      "short_name": "CXC",
+      "description": "Start CXC/CSEC study",
+      "url": "/cxc",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "CAPE Studies",
+      "short_name": "CAPE",
+      "description": "Start CAPE study",
+      "url": "/cape",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Software Engineering",
+      "short_name": "Programming",
+      "description": "Learn programming and software engineering",
+      "url": "/software-engineering",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Audio Studio",
+      "short_name": "Audio",
+      "description": "Record study audio notes",
+      "url": "/audio",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Screen Studio",
+      "short_name": "Studio",
+      "description": "Record study walkthroughs and screen captures",
+      "url": "/studio",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Progress",
+      "short_name": "Progress",
+      "description": "View your study progress",
+      "url": "/progress",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  
+  "share_target": {
+    "action": "/share",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  
+  "handle_links": "preferred",
+  "launch_handler": {
+    "client_mode": ["navigate-existing", "auto"]
+  },
+  
+  "prefer_related_applications": false,
+  
+  "related_applications": [],
+  
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  
+  "iarc_rating_id": "e58c174a-81d2-5c3b-8f2e-4c9d8a1b6f3e",
+  
+  "protocol_handlers": [
+    {
+      "protocol": "web+study",
+      "url": "/?topic=%s"
+    }
+  ]
+}

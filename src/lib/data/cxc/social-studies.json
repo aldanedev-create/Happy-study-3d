@@ -1,0 +1,1073 @@
+{
+  "id": "cxc-social-studies",
+  "name": "Social Studies",
+  "level": "CXC",
+  "description": "CXC CSEC Social Studies - Complete cheatsheet covering society, government, and Caribbean development",
+  "icon": "🌍",
+  "syllabusVersion": "2023",
+  "lastVerified": "2026-01-15",
+  "source": "CXC CSEC Social Studies Syllabus",
+  "units": [
+    {
+      "id": "individual-society",
+      "title": "Individual and Society",
+      "description": "Understanding how individuals relate to society",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand individual-society relationship",
+        "Identify social groups",
+        "Recognize social roles"
+      ],
+      "topics": [
+        {
+          "id": "individual-society",
+          "title": "Individual and Society",
+          "summary": "How individuals function within society",
+          "mustKnow": [
+            "Society = group of people living together",
+            "Individuals have roles and responsibilities",
+            "Social groups: family, school, church, peers",
+            "Social norms guide behavior",
+            "Individuals contribute to society"
+          ],
+          "keyTerms": [
+            {"term": "Society", "definition": "Group of people living together with shared culture"},
+            {"term": "Social Role", "definition": "Expected behavior for a position"},
+            {"term": "Social Norm", "definition": "Accepted behavior in society"},
+            {"term": "Social Group", "definition": "People who interact and share identity"}
+          ],
+          "examples": [
+            {
+              "question": "What is your role as a student?",
+              "answer": "Attend classes, study, follow school rules",
+              "explanation": "Social roles have expected behaviors"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing society with government",
+            "Not understanding social roles"
+          ],
+          "examTips": [
+            "Give examples of social groups",
+            "Explain individual responsibilities"
+          ],
+          "questions": [
+            {
+              "id": "ss-q1",
+              "question": "Society is best defined as:",
+              "options": ["Group living together with shared culture", "Government only", "Buildings and roads", "Laws only"],
+              "correctAnswer": "Group living together with shared culture",
+              "explanation": "Society includes people, culture, and interactions",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Social structure",
+            "Community development"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "title": "Family",
+      "description": "Understanding family structures and functions",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Identify family types",
+        "Understand family functions"
+      ],
+      "topics": [
+        {
+          "id": "family-types",
+          "title": "Family Types and Functions",
+          "summary": "Different family structures and their roles",
+          "mustKnow": [
+            "Nuclear: parents + children",
+            "Extended: multiple generations",
+            "Single-parent: one parent + children",
+            "Blended: step-families",
+            "Functions: socialization, emotional support, economic support"
+          ],
+          "keyTerms": [
+            {"term": "Nuclear Family", "definition": "Parents and children only"},
+            {"term": "Extended Family", "definition": "Multiple generations living together"},
+            {"term": "Single-Parent", "definition": "One parent with children"},
+            {"term": "Blended Family", "definition": "Step-family from remarriage"}
+          ],
+          "examples": [
+            {
+              "question": "Grandparents, parents, and children living together. What type?",
+              "answer": "Extended family",
+              "explanation": "Multiple generations = extended"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing family types",
+            "Missing family functions"
+          ],
+          "examTips": [
+            "Know all family types",
+            "Explain family functions"
+          ],
+          "questions": [
+            {
+              "id": "ss-fam-q1",
+              "question": "Mother, father, and children is:",
+              "options": ["Nuclear family", "Extended family", "Single-parent", "Blended"],
+              "correctAnswer": "Nuclear family",
+              "explanation": "Parents and children only",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Caribbean family structures",
+            "Family changes"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "title": "Culture",
+      "description": "Understanding culture and cultural diversity",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Define culture",
+        "Identify cultural elements",
+        "Understand Caribbean culture"
+      ],
+      "topics": [
+        {
+          "id": "culture-concepts",
+          "title": "Culture",
+          "summary": "Way of life of a group of people",
+          "mustKnow": [
+            "Culture = shared beliefs, values, customs",
+            "Material culture: physical objects",
+            "Non-material: beliefs, language, values",
+            "Caribbean culture: mix of African, European, Indian influences",
+            "Culture is learned and shared"
+          ],
+          "keyTerms": [
+            {"term": "Culture", "definition": "Way of life of a group"},
+            {"term": "Material Culture", "definition": "Physical objects (food, clothes)"},
+            {"term": "Non-material Culture", "definition": "Beliefs, values, language"}
+          ],
+          "examples": [
+            {
+              "question": "Caribbean food like jerk chicken is what type of culture?",
+              "answer": "Material culture",
+              "explanation": "Physical object = material"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Only thinking of culture as food/music",
+            "Missing non-material aspects"
+          ],
+          "examTips": [
+            "Give Caribbean examples",
+            "Explain cultural diversity"
+          ],
+          "questions": [
+            {
+              "id": "ss-cult-q1",
+              "question": "Language and beliefs are:",
+              "options": ["Non-material culture", "Material culture", "Physical objects", "Technology"],
+              "correctAnswer": "Non-material culture",
+              "explanation": "Beliefs and language are non-physical",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Cultural diversity",
+            "Caribbean identity"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "socialisation",
+      "title": "Socialisation",
+      "description": "How individuals learn social norms",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand socialisation process",
+        "Identify agents of socialisation"
+      ],
+      "topics": [
+        {
+          "id": "socialisation-process",
+          "title": "Socialisation",
+          "summary": "Learning to become a member of society",
+          "mustKnow": [
+            "Socialisation = learning social norms and values",
+            "Primary: family (first and most important)",
+            "Secondary: school, peers, media, church",
+            "Helps individuals function in society",
+            "Continues throughout life"
+          ],
+          "keyTerms": [
+            {"term": "Socialisation", "definition": "Learning social norms and values"},
+            {"term": "Primary Socialisation", "definition": "Learning from family"},
+            {"term": "Secondary Socialisation", "definition": "Learning from school, peers, media"}
+          ],
+          "examples": [
+            {
+              "question": "Child learns manners from parents. What type?",
+              "answer": "Primary socialisation",
+              "explanation": "Learning from family"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing primary and secondary",
+            "Missing agents"
+          ],
+          "examTips": [
+            "List all agents",
+            "Distinguish primary and secondary"
+          ],
+          "questions": [
+            {
+              "id": "ss-soc-q1",
+              "question": "Learning from school is:",
+              "options": ["Secondary socialisation", "Primary socialisation", "No socialisation", "Self-learning"],
+              "correctAnswer": "Secondary socialisation",
+              "explanation": "School is secondary agent",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Socialisation theories",
+            "Life-long learning"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "social-institutions",
+      "title": "Social Institutions",
+      "description": "Established patterns of social behavior",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Identify social institutions",
+        "Understand their functions"
+      ],
+      "topics": [
+        {
+          "id": "institutions",
+          "title": "Social Institutions",
+          "summary": "Organized systems that meet social needs",
+          "mustKnow": [
+            "Family: socializes children",
+            "Education: teaches knowledge and skills",
+            "Religion: provides moral guidance",
+            "Government: maintains order",
+            "Economy: produces and distributes goods"
+          ],
+          "keyTerms": [
+            {"term": "Social Institution", "definition": "Established pattern of behavior"},
+            {"term": "Institution", "definition": "Organization serving social needs"}
+          ],
+          "examples": [
+            {
+              "question": "School as a social institution serves what purpose?",
+              "answer": "Education and socialization",
+              "explanation": "Teaches knowledge and social skills"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Only listing one institution",
+            "Not explaining functions"
+          ],
+          "examTips": [
+            "Know all major institutions",
+            "Explain their functions"
+          ],
+          "questions": [
+            {
+              "id": "ss-inst-q1",
+              "question": "Which is a social institution?",
+              "options": ["Family", "A car", "A tree", "A rock"],
+              "correctAnswer": "Family",
+              "explanation": "Family is an established social system",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Institutional functions",
+            "Social change"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "government",
+      "title": "Government",
+      "description": "Understanding government systems",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand government types",
+        "Identify government functions"
+      ],
+      "topics": [
+        {
+          "id": "government-types",
+          "title": "Government",
+          "summary": "System that governs a country",
+          "mustKnow": [
+            "Government: system that makes and enforces laws",
+            "Democracy: people elect leaders",
+            "Monarchy: king/queen as head",
+            "Republic: elected president",
+            "Functions: make laws, maintain order, provide services"
+          ],
+          "keyTerms": [
+            {"term": "Government", "definition": "System that governs a country"},
+            {"term": "Democracy", "definition": "Rule by the people"},
+            {"term": "Monarchy", "definition": "Rule by king/queen"},
+            {"term": "Republic", "definition": "Elected president as head"}
+          ],
+          "examples": [
+            {
+              "question": "Caribbean countries like Jamaica have what type?",
+              "answer": "Parliamentary democracy",
+              "explanation": "Elected parliament with prime minister"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing government types",
+            "Missing functions"
+          ],
+          "examTips": [
+            "Know Caribbean government systems",
+            "Explain government functions"
+          ],
+          "questions": [
+            {
+              "id": "ss-gov-q1",
+              "question": "Democracy means:",
+              "options": ["Rule by the people", "Rule by one person", "Rule by military", "No government"],
+              "correctAnswer": "Rule by the people",
+              "explanation": "People elect leaders in democracy",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Caribbean constitutions",
+            "Political systems"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "citizenship",
+      "title": "Citizenship",
+      "description": "Rights and responsibilities of citizens",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand citizenship",
+        "Identify rights and responsibilities"
+      ],
+      "topics": [
+        {
+          "id": "citizenship-rights",
+          "title": "Citizenship",
+          "summary": "Rights and duties of citizens",
+          "mustKnow": [
+            "Citizen: legal member of a country",
+            "Rights: vote, speech, education, fair trial",
+            "Responsibilities: obey laws, pay taxes, vote",
+            "Good citizenship: participate in community",
+            "Citizenship can be by birth or naturalization"
+          ],
+          "keyTerms": [
+            {"term": "Citizen", "definition": "Legal member of a country"},
+            {"term": "Rights", "definition": "Entitlements of citizens"},
+            {"term": "Responsibilities", "definition": "Duties of citizens"}
+          ],
+          "examples": [
+            {
+              "question": "Voting is what?",
+              "answer": "Both a right and responsibility",
+              "explanation": "Citizens have the right and duty to vote"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Only listing rights",
+            "Missing responsibilities"
+          ],
+          "examTips": [
+            "List rights AND responsibilities",
+            "Explain good citizenship"
+          ],
+          "questions": [
+            {
+              "id": "ss-cit-q1",
+              "question": "Which is a citizen responsibility?",
+              "options": ["Obeying laws", "Free speech", "Fair trial", "Education"],
+              "correctAnswer": "Obeying laws",
+              "explanation": "Obeying laws is a duty",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Civic education",
+            "Human rights"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "caribbean-society",
+      "title": "Caribbean Society",
+      "description": "Understanding Caribbean social structure",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand Caribbean society",
+        "Identify social characteristics"
+      ],
+      "topics": [
+        {
+          "id": "caribbean-characteristics",
+          "title": "Caribbean Society",
+          "summary": "Characteristics of Caribbean societies",
+          "mustKnow": [
+            "Multi-cultural: African, European, Indian, Chinese influences",
+            "Plantation history shaped society",
+            "Stratified: class and color historically",
+            "Creole culture: unique Caribbean identity",
+            "Small island developing states"
+          ],
+          "keyTerms": [
+            {"term": "Multi-cultural", "definition": "Many cultures together"},
+            {"term": "Stratification", "definition": "Social layers/classes"},
+            {"term": "Creole", "definition": "Caribbean-born culture"}
+          ],
+          "examples": [
+            {
+              "question": "Trinidad's diverse population shows what?",
+              "answer": "Multi-cultural society",
+              "explanation": "Many ethnic groups together"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Overlooking diversity",
+            "Missing historical context"
+          ],
+          "examTips": [
+            "Use Caribbean examples",
+            "Explain cultural diversity"
+          ],
+          "questions": [
+            {
+              "id": "ss-car-q1",
+              "question": "Caribbean society is best described as:",
+              "options": ["Multi-cultural", "Single culture", "European only", "African only"],
+              "correctAnswer": "Multi-cultural",
+              "explanation": "Many cultural influences",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Caribbean history",
+            "Cultural identity"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "title": "Economy",
+      "description": "Understanding economic systems",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand economy",
+        "Identify economic activities"
+      ],
+      "topics": [
+        {
+          "id": "economy-concepts",
+          "title": "Economy",
+          "summary": "System of producing and distributing goods",
+          "mustKnow": [
+            "Economy: system for producing and distributing goods/services",
+            "Primary: agriculture, mining, fishing",
+            "Secondary: manufacturing",
+            "Tertiary: services",
+            "Caribbean economies depend on tourism and services"
+          ],
+          "keyTerms": [
+            {"term": "Economy", "definition": "System of production and distribution"},
+            {"term": "Primary Sector", "definition": "Raw materials"},
+            {"term": "Secondary Sector", "definition": "Manufacturing"},
+            {"term": "Tertiary Sector", "definition": "Services"}
+          ],
+          "examples": [
+            {
+              "question": "Tourism in the Caribbean is what sector?",
+              "answer": "Tertiary (services)",
+              "explanation": "Tourism provides services"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong sector classification",
+            "Missing tertiary importance"
+          ],
+          "examTips": [
+            "Know the three sectors",
+            "Use Caribbean examples"
+          ],
+          "questions": [
+            {
+              "id": "ss-econ-q1",
+              "question": "Farming is which sector?",
+              "options": ["Primary", "Secondary", "Tertiary", "None"],
+              "correctAnswer": "Primary",
+              "explanation": "Raw materials = primary",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Caribbean economies",
+            "Economic development"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "Employment",
+      "description": "Understanding work and employment",
+      "importance": "important",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand employment types",
+        "Identify employment issues"
+      ],
+      "topics": [
+        {
+          "id": "employment-types",
+          "title": "Employment",
+          "summary": "Types of work and employment issues",
+          "mustKnow": [
+            "Employment: paid work",
+            "Self-employment: working for yourself",
+            "Unemployment: no job but looking",
+            "Underemployment: working below skill level",
+            "Employment provides income and dignity"
+          ],
+          "keyTerms": [
+            {"term": "Employment", "definition": "Paid work"},
+            {"term": "Unemployment", "definition": "No job but seeking work"},
+            {"term": "Underemployment", "definition": "Working below skill level"}
+          ],
+          "examples": [
+            {
+              "question": "Doctor working as cashier. What is this?",
+              "answer": "Underemployment",
+              "explanation": "Working below qualification"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing unemployment and underemployment",
+            "Missing types"
+          ],
+          "examTips": [
+            "Distinguish employment types",
+            "Explain causes of unemployment"
+          ],
+          "questions": [
+            {
+              "id": "ss-emp-q1",
+              "question": "Someone with no job but actively looking is:",
+              "options": ["Unemployed", "Underemployed", "Self-employed", "Retired"],
+              "correctAnswer": "Unemployed",
+              "explanation": "No job but seeking = unemployed",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Labor markets",
+            "Job creation"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "poverty",
+      "title": "Poverty",
+      "description": "Understanding poverty",
+      "importance": "important",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Define poverty",
+        "Identify causes and effects"
+      ],
+      "topics": [
+        {
+          "id": "poverty-concepts",
+          "title": "Poverty",
+          "summary": "Lack of basic necessities",
+          "mustKnow": [
+            "Poverty: lack of basic needs",
+            "Absolute: no basic necessities",
+            "Relative: below average standard",
+            "Causes: unemployment, low education, inequality",
+            "Effects: poor health, crime, homelessness"
+          ],
+          "keyTerms": [
+            {"term": "Poverty", "definition": "Lack of basic necessities"},
+            {"term": "Absolute Poverty", "definition": "No basic necessities"},
+            {"term": "Relative Poverty", "definition": "Below average standard"}
+          ],
+          "examples": [
+            {
+              "question": "Family cannot afford food and shelter. What type?",
+              "answer": "Absolute poverty",
+              "explanation": "Lacking basic necessities"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing absolute and relative",
+            "Missing causes"
+          ],
+          "examTips": [
+            "List causes and effects",
+            "Distinguish poverty types"
+          ],
+          "questions": [
+            {
+              "id": "ss-pov-q1",
+              "question": "Lack of basic food and shelter is:",
+              "options": ["Absolute poverty", "Relative poverty", "No poverty", "Wealth"],
+              "correctAnswer": "Absolute poverty",
+              "explanation": "No basic necessities",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Poverty reduction",
+            "Social programs"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "population",
+      "title": "Population",
+      "description": "Understanding population dynamics",
+      "importance": "important",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand population concepts",
+        "Identify population issues"
+      ],
+      "topics": [
+        {
+          "id": "population-concepts",
+          "title": "Population",
+          "summary": "People living in an area",
+          "mustKnow": [
+            "Population: number of people in an area",
+            "Birth rate: births per 1000",
+            "Death rate: deaths per 1000",
+            "Migration affects population",
+            "Overpopulation strains resources"
+          ],
+          "keyTerms": [
+            {"term": "Population", "definition": "People living in an area"},
+            {"term": "Birth Rate", "definition": "Births per 1000 people"},
+            {"term": "Death Rate", "definition": "Deaths per 1000 people"}
+          ],
+          "examples": [
+            {
+              "question": "More births than deaths. Population will?",
+              "answer": "Increase",
+              "explanation": "Natural increase"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing rates",
+            "Missing migration"
+          ],
+          "examTips": [
+            "Understand population terms",
+            "Explain population issues"
+          ],
+          "questions": [
+            {
+              "id": "ss-pop-q1",
+              "question": "Birth rate higher than death rate causes:",
+              "options": ["Population growth", "Population decline", "No change", "Migration"],
+              "correctAnswer": "Population growth",
+              "explanation": "Natural increase",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Demographics",
+            "Population policy"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "migration",
+      "title": "Migration",
+      "description": "Movement of people",
+      "importance": "important",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand migration types",
+        "Identify causes and effects"
+      ],
+      "topics": [
+        {
+          "id": "migration-types",
+          "title": "Migration",
+          "summary": "Movement of people between places",
+          "mustKnow": [
+            "Migration: movement of people",
+            "Immigration: moving into a country",
+            "Emigration: leaving a country",
+            "Push factors: war, poverty, unemployment",
+            "Pull factors: jobs, education, safety"
+          ],
+          "keyTerms": [
+            {"term": "Migration", "definition": "Movement of people"},
+            {"term": "Immigration", "definition": "Moving into a country"},
+            {"term": "Emigration", "definition": "Leaving a country"},
+            {"term": "Push Factor", "definition": "Reason to leave"},
+            {"term": "Pull Factor", "definition": "Reason to go"}
+          ],
+          "examples": [
+            {
+              "question": "Leaving Jamaica to work in Canada is?",
+              "answer": "Emigration",
+              "explanation": "Leaving country = emigration"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing immigration and emigration",
+            "Missing push/pull factors"
+          ],
+          "examTips": [
+            "Know push and pull factors",
+            "Distinguish immigration/emigration"
+          ],
+          "questions": [
+            {
+              "id": "ss-mig-q1",
+              "question": "Moving into a new country is:",
+              "options": ["Immigration", "Emigration", "Migration", "Travel"],
+              "correctAnswer": "Immigration",
+              "explanation": "Moving in = immigration",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Caribbean diaspora",
+            "Migration policies"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "Environment",
+      "description": "Understanding environmental issues",
+      "importance": "important",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand environmental issues",
+        "Identify conservation methods"
+      ],
+      "topics": [
+        {
+          "id": "environment-issues",
+          "title": "Environment",
+          "summary": "Natural world and environmental issues",
+          "mustKnow": [
+            "Environment: natural surroundings",
+            "Pollution: contamination of environment",
+            "Deforestation: clearing forests",
+            "Conservation: protecting environment",
+            "Sustainable development: meeting needs without harming future"
+          ],
+          "keyTerms": [
+            {"term": "Environment", "definition": "Natural surroundings"},
+            {"term": "Pollution", "definition": "Contamination"},
+            {"term": "Conservation", "definition": "Protecting environment"},
+            {"term": "Sustainable", "definition": "Meeting needs without harming future"}
+          ],
+          "examples": [
+            {
+              "question": "Planting trees to replace cut ones is?",
+              "answer": "Conservation/reforestation",
+              "explanation": "Protecting environment"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Missing conservation methods",
+            "Not understanding sustainability"
+          ],
+          "examTips": [
+            "List environmental issues",
+            "Explain conservation"
+          ],
+          "questions": [
+            {
+              "id": "ss-env-q1",
+              "question": "Protecting the environment is called:",
+              "options": ["Conservation", "Pollution", "Destruction", "Exploitation"],
+              "correctAnswer": "Conservation",
+              "explanation": "Protecting = conservation",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Climate change",
+            "Environmental protection"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "development",
+      "title": "Development",
+      "description": "Understanding national development",
+      "importance": "important",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand development",
+        "Identify development indicators"
+      ],
+      "topics": [
+        {
+          "id": "development-concepts",
+          "title": "Development",
+          "summary": "Improving quality of life",
+          "mustKnow": [
+            "Development: improving quality of life",
+            "Economic: income, jobs, infrastructure",
+            "Social: education, health, housing",
+            "Human Development Index (HDI)",
+            "Sustainable development balances needs"
+          ],
+          "keyTerms": [
+            {"term": "Development", "definition": "Improving quality of life"},
+            {"term": "HDI", "definition": "Human Development Index"},
+            {"term": "Infrastructure", "definition": "Roads, electricity, water"}
+          ],
+          "examples": [
+            {
+              "question": "Better schools and hospitals show what?",
+              "answer": "Social development",
+              "explanation": "Education and health = social"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Only thinking economic",
+            "Missing social development"
+          ],
+          "examTips": [
+            "List development indicators",
+            "Explain types of development"
+          ],
+          "questions": [
+            {
+              "id": "ss-dev-q1",
+              "question": "Improving quality of life is:",
+              "options": ["Development", "Regression", "Stagnation", "Decline"],
+              "correctAnswer": "Development",
+              "explanation": "Development = improvement",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Sustainable development goals",
+            "Caribbean development"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "title": "Technology",
+      "description": "Impact of technology on society",
+      "importance": "important",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand technology impact",
+        "Identify benefits and challenges"
+      ],
+      "topics": [
+        {
+          "id": "technology-impact",
+          "title": "Technology",
+          "summary": "Tools and innovations affecting society",
+          "mustKnow": [
+            "Technology: tools and innovations",
+            "Benefits: efficiency, communication, information",
+            "Challenges: job loss, privacy, addiction",
+            "Digital divide: unequal access",
+            "Technology changes how we live and work"
+          ],
+          "keyTerms": [
+            {"term": "Technology", "definition": "Tools and innovations"},
+            {"term": "Digital Divide", "definition": "Unequal access to technology"}
+          ],
+          "examples": [
+            {
+              "question": "Internet allowing global communication is?",
+              "answer": "Technology benefit",
+              "explanation": "Improved communication"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Only listing benefits",
+            "Missing challenges"
+          ],
+          "examTips": [
+            "List benefits AND challenges",
+            "Use examples"
+          ],
+          "questions": [
+            {
+              "id": "ss-tech-q1",
+              "question": "Unequal access to technology is:",
+              "options": ["Digital divide", "Technology gap", "Internet speed", "Computer virus"],
+              "correctAnswer": "Digital divide",
+              "explanation": "Unequal access = digital divide",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Digital literacy",
+            "Technology and development"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "caribbean-integration",
+      "title": "Caribbean Integration",
+      "description": "Regional cooperation in the Caribbean",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand integration",
+        "Identify regional organizations"
+      ],
+      "topics": [
+        {
+          "id": "integration-concepts",
+          "title": "Caribbean Integration",
+          "summary": "Caribbean countries working together",
+          "mustKnow": [
+            "Integration: countries cooperating",
+            "CARICOM: Caribbean Community",
+            "CSME: single market and economy",
+            "Benefits: trade, movement, cooperation",
+            "Challenges: small economies, competition"
+          ],
+          "keyTerms": [
+            {"term": "Integration", "definition": "Countries cooperating"},
+            {"term": "CARICOM", "definition": "Caribbean Community"},
+            {"term": "CSME", "definition": "Caribbean Single Market and Economy"}
+          ],
+          "examples": [
+            {
+              "question": "Caribbean countries trading freely is?",
+              "answer": "Integration",
+              "explanation": "Countries cooperating"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Not knowing CARICOM",
+            "Missing benefits"
+          ],
+          "examTips": [
+            "Know CARICOM and CSME",
+            "Explain benefits and challenges"
+          ],
+          "questions": [
+            {
+              "id": "ss-int-q1",
+              "question": "CARICOM is:",
+              "options": ["Caribbean Community", "Caribbean currency", "A country", "A language"],
+              "correctAnswer": "Caribbean Community",
+              "explanation": "Regional organization",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Regional cooperation",
+            "Caribbean development"
+          ],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

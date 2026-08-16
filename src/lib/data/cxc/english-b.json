@@ -1,0 +1,1397 @@
+{
+  "id": "cxc-english-b",
+  "name": "English B",
+  "level": "CXC",
+  "description": "CXC CSEC English B - Literature, Poetry, Prose, and Drama",
+  "icon": "📚",
+  "syllabusVersion": "2023",
+  "lastVerified": "2026-01-15",
+  "source": "CXC CSEC English B Syllabus",
+  "units": [
+    {
+      "id": "literature",
+      "title": "Literature",
+      "description": "Understanding different types of literature",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand poetry, prose, and drama",
+        "Identify literary elements",
+        "Analyze literary devices",
+        "Write literary essays"
+      ],
+      "topics": [
+        {
+          "id": "poetry",
+          "title": "Poetry",
+          "summary": "Understanding poems",
+          "mustKnow": [
+            "Poetry uses rhythm and imagery",
+            "Poems have structure like stanzas",
+            "Poets use figurative language",
+            "Poems express emotions and ideas"
+          ],
+          "keyTerms": [
+            {"term": "Poem", "definition": "Writing using rhythm and imagery"},
+            {"term": "Stanza", "definition": "Group of lines in a poem"},
+            {"term": "Verse", "definition": "Single line of poetry"}
+          ],
+          "examples": [
+            {
+              "question": "How many lines in a sonnet?",
+              "answer": "14 lines",
+              "explanation": "Sonnet is a 14-line poem"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Not recognizing poetic form",
+            "Missing figurative language"
+          ],
+          "examTips": [
+            "Read poem multiple times",
+            "Look for literary devices"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-poetry-q1",
+              "question": "A group of lines in a poem is called:",
+              "options": ["Stanza", "Paragraph", "Chapter", "Scene"],
+              "correctAnswer": "Stanza",
+              "explanation": "Stanza is a group of lines",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Types of poetry",
+            "Poetry analysis"
+          ],
+          "resources": []
+        },
+        {
+          "id": "prose",
+          "title": "Prose",
+          "summary": "Understanding novels and short stories",
+          "mustKnow": [
+            "Prose is ordinary writing",
+            "Novels and stories are prose",
+            "Prose has plot and characters",
+            "Written in paragraphs"
+          ],
+          "keyTerms": [
+            {"term": "Prose", "definition": "Ordinary written language"},
+            {"term": "Novel", "definition": "Long fictional story"},
+            {"term": "Short Story", "definition": "Brief fictional narrative"}
+          ],
+          "examples": [
+            {
+              "question": "What type of literature is a novel?",
+              "answer": "Prose",
+              "explanation": "Novels are written in prose"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing prose with poetry",
+            "Missing plot elements"
+          ],
+          "examTips": [
+            "Identify plot and characters",
+            "Analyze themes"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-prose-q1",
+              "question": "A novel is an example of:",
+              "options": ["Prose", "Poetry", "Drama", "Song"],
+              "correctAnswer": "Prose",
+              "explanation": "Novels are written in prose",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Novel analysis",
+            "Narrative techniques"
+          ],
+          "resources": []
+        },
+        {
+          "id": "drama",
+          "title": "Drama",
+          "summary": "Understanding plays",
+          "mustKnow": [
+            "Drama is written for performance",
+            "Plays have acts and scenes",
+            "Dialogue tells the story",
+            "Stage directions guide performance"
+          ],
+          "keyTerms": [
+            {"term": "Drama", "definition": "Literature for performance"},
+            {"term": "Act", "definition": "Major division in a play"},
+            {"term": "Scene", "definition": "Subdivision of an act"},
+            {"term": "Dialogue", "definition": "Conversation between characters"}
+          ],
+          "examples": [
+            {
+              "question": "What are the divisions in a play?",
+              "answer": "Acts and scenes",
+              "explanation": "Plays divided into acts and scenes"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Ignoring stage directions",
+            "Missing dialogue importance"
+          ],
+          "examTips": [
+            "Read stage directions",
+            "Analyze character dialogue"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-drama-q1",
+              "question": "Plays are divided into:",
+              "options": ["Acts and scenes", "Chapters", "Stanzas", "Paragraphs"],
+              "correctAnswer": "Acts and scenes",
+              "explanation": "Drama uses acts and scenes",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Theater history",
+            "Play analysis"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "literary-elements",
+      "title": "Literary Elements",
+      "description": "Building blocks of literature",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Identify literary elements",
+        "Understand their purpose",
+        "Analyze their effect"
+      ],
+      "topics": [
+        {
+          "id": "theme",
+          "title": "Theme",
+          "summary": "Central message of a work",
+          "mustKnow": [
+            "Theme is the main message",
+            "Different from plot",
+            "Can be stated as a message",
+            "Works can have multiple themes"
+          ],
+          "keyTerms": [
+            {"term": "Theme", "definition": "Central message or insight"},
+            {"term": "Universal Theme", "definition": "Theme that applies to all people"}
+          ],
+          "examples": [
+            {
+              "question": "What is the theme of 'love conquers all'?",
+              "answer": "Love overcomes obstacles",
+              "explanation": "This is the central message"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing theme with plot",
+            "Too narrow theme"
+          ],
+          "examTips": [
+            "Ask: What is the message?",
+            "State as complete sentence"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-theme-q1",
+              "question": "Theme is:",
+              "options": [
+                "The central message",
+                "The plot summary",
+                "A character name",
+                "The setting only"
+              ],
+              "correctAnswer": "The central message",
+              "explanation": "Theme is the main message",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Thematic analysis",
+            "Comparative themes"
+          ],
+          "resources": []
+        },
+        {
+          "id": "plot",
+          "title": "Plot",
+          "summary": "Sequence of events in a story",
+          "mustKnow": [
+            "Plot is the story sequence",
+            "Has exposition, rising action, climax, falling action, resolution",
+            "Conflict drives plot",
+            "Events connect causally"
+          ],
+          "keyTerms": [
+            {"term": "Plot", "definition": "Sequence of events"},
+            {"term": "Climax", "definition": "Turning point"},
+            {"term": "Exposition", "definition": "Introduction"},
+            {"term": "Resolution", "definition": "Conclusion"}
+          ],
+          "examples": [
+            {
+              "question": "What is the climax of a story?",
+              "answer": "The turning point or highest tension",
+              "explanation": "Most exciting or important moment"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing plot with theme",
+            "Missing plot structure"
+          ],
+          "examTips": [
+            "Identify the five parts",
+            "Trace cause and effect"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-plot-q1",
+              "question": "The climax is:",
+              "options": [
+                "The turning point",
+                "The beginning",
+                "The end",
+                "A minor detail"
+              ],
+              "correctAnswer": "The turning point",
+              "explanation": "Climax is highest tension point",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Plot structure",
+            "Narrative techniques"
+          ],
+          "resources": []
+        },
+        {
+          "id": "character",
+          "title": "Character",
+          "summary": "People in a story",
+          "mustKnow": [
+            "Characters drive the story",
+            "Protagonist is main character",
+            "Antagonist opposes protagonist",
+            "Characters develop through story"
+          ],
+          "keyTerms": [
+            {"term": "Protagonist", "definition": "Main character"},
+            {"term": "Antagonist", "definition": "Opposing character"},
+            {"term": "Characterization", "definition": "How characters are developed"}
+          ],
+          "examples": [
+            {
+              "question": "Who is the protagonist?",
+              "answer": "The main character",
+              "explanation": "Protagonist is central to story"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing protagonist and antagonist",
+            "Missing character development"
+          ],
+          "examTips": [
+            "Track character changes",
+            "Analyze motivations"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-char-q1",
+              "question": "The protagonist is:",
+              "options": [
+                "The main character",
+                "The villain",
+                "A minor character",
+                "The narrator only"
+              ],
+              "correctAnswer": "The main character",
+              "explanation": "Protagonist is central character",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Character analysis",
+            "Character development"
+          ],
+          "resources": []
+        },
+        {
+          "id": "setting",
+          "title": "Setting",
+          "summary": "Time and place of a story",
+          "mustKnow": [
+            "Setting includes time and place",
+            "Affects mood and atmosphere",
+            "Can influence characters",
+            "Includes social environment"
+          ],
+          "keyTerms": [
+            {"term": "Setting", "definition": "Time and place of story"},
+            {"term": "Atmosphere", "definition": "Feeling created by setting"}
+          ],
+          "examples": [
+            {
+              "question": "Story set in 1950s Caribbean. What is the setting?",
+              "answer": "1950s, Caribbean",
+              "explanation": "Time: 1950s, Place: Caribbean"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Ignoring time period",
+            "Missing social context"
+          ],
+          "examTips": [
+            "Identify time and place",
+            "Consider how setting affects story"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-set-q1",
+              "question": "Setting includes:",
+              "options": [
+                "Time and place",
+                "Only characters",
+                "Only plot",
+                "Only theme"
+              ],
+              "correctAnswer": "Time and place",
+              "explanation": "Setting is when and where",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Historical context",
+            "Geographical analysis"
+          ],
+          "resources": []
+        },
+        {
+          "id": "conflict",
+          "title": "Conflict",
+          "summary": "Struggle in a story",
+          "mustKnow": [
+            "Conflict drives the plot",
+            "Internal conflict is within character",
+            "External conflict is with outside forces",
+            "Stories can have multiple conflicts"
+          ],
+          "keyTerms": [
+            {"term": "Conflict", "definition": "Struggle or problem"},
+            {"term": "Internal Conflict", "definition": "Struggle within character"},
+            {"term": "External Conflict", "definition": "Struggle with outside forces"}
+          ],
+          "examples": [
+            {
+              "question": "Character deciding whether to lie. What type of conflict?",
+              "answer": "Internal conflict",
+              "explanation": "Struggle within character"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Missing internal conflict",
+            "Not recognizing conflict types"
+          ],
+          "examTips": [
+            "Identify the struggle",
+            "Classify conflict type"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-conf-q1",
+              "question": "Character fighting a hurricane is what conflict?",
+              "options": [
+                "External conflict",
+                "Internal conflict",
+                "No conflict",
+                "Emotional conflict"
+              ],
+              "correctAnswer": "External conflict",
+              "explanation": "Struggle with outside force",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Conflict types",
+            "Plot development"
+          ],
+          "resources": []
+        },
+        {
+          "id": "point-of-view",
+          "title": "Point of View",
+          "summary": "Who tells the story",
+          "mustKnow": [
+            "First person uses 'I'",
+            "Third person uses 'he/she'",
+            "Omniscient knows all thoughts",
+            "Point of view affects story"
+          ],
+          "keyTerms": [
+            {"term": "First Person", "definition": "Narrator uses 'I'"},
+            {"term": "Third Person", "definition": "Narrator uses 'he/she'"},
+            {"term": "Omniscient", "definition": "All-knowing narrator"}
+          ],
+          "examples": [
+            {
+              "question": "'I walked to school' - what point of view?",
+              "answer": "First person",
+              "explanation": "Uses 'I'"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing points of view",
+            "Missing narrator perspective"
+          ],
+          "examTips": [
+            "Look at pronouns used",
+            "Consider narrator knowledge"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-pov-q1",
+              "question": "'He walked to school' is what point of view?",
+              "options": [
+                "Third person",
+                "First person",
+                "Second person",
+                "No narrator"
+              ],
+              "correctAnswer": "Third person",
+              "explanation": "Uses 'he'",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Narrative voice",
+            "Unreliable narrator"
+          ],
+          "resources": []
+        },
+        {
+          "id": "symbolism",
+          "title": "Symbolism",
+          "summary": "Objects representing ideas",
+          "mustKnow": [
+            "Symbols represent something else",
+            "Common symbols have shared meaning",
+            "Context affects symbol meaning",
+            "Symbols add depth"
+          ],
+          "keyTerms": [
+            {"term": "Symbol", "definition": "Object representing an idea"},
+            {"term": "Symbolism", "definition": "Use of symbols"}
+          ],
+          "examples": [
+            {
+              "question": "Dove as a symbol?",
+              "answer": "Peace",
+              "explanation": "Dove commonly represents peace"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Overinterpreting symbols",
+            "Missing obvious symbols"
+          ],
+          "examTips": [
+            "Look for repeated objects",
+            "Consider context"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-sym-q1",
+              "question": "A rose often symbolizes:",
+              "options": ["Love", "Hate", "Fear", "Anger"],
+              "correctAnswer": "Love",
+              "explanation": "Rose commonly represents love",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Cultural symbols",
+            "Religious symbolism"
+          ],
+          "resources": []
+        },
+        {
+          "id": "imagery",
+          "title": "Imagery",
+          "summary": "Language that appeals to senses",
+          "mustKnow": [
+            "Imagery appeals to the senses",
+            "Visual, auditory, tactile, olfactory, gustatory",
+            "Creates vivid pictures",
+            "Enhances reader experience"
+          ],
+          "keyTerms": [
+            {"term": "Imagery", "definition": "Sensory language"},
+            {"term": "Sensory", "definition": "Related to the senses"}
+          ],
+          "examples": [
+            {
+              "question": "'The sweet smell of roses' - what type of imagery?",
+              "answer": "Olfactory (smell)",
+              "explanation": "Appeals to sense of smell"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Only identifying visual imagery",
+            "Missing sensory details"
+          ],
+          "examTips": [
+            "Identify the sense appealed to",
+            "Explain the effect"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-img-q1",
+              "question": "'The cold wind bit my face' - what imagery?",
+              "options": ["Tactile (touch)", "Visual", "Auditory", "Gustatory"],
+              "correctAnswer": "Tactile (touch)",
+              "explanation": "Appeals to sense of touch",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Figurative language",
+            "Descriptive writing"
+          ],
+          "resources": []
+        },
+        {
+          "id": "tone-mood",
+          "title": "Tone and Mood",
+          "summary": "Author's attitude and reader's feeling",
+          "mustKnow": [
+            "Tone is author's attitude",
+            "Mood is reader's feeling",
+            "Word choice affects both",
+            "Setting influences mood"
+          ],
+          "keyTerms": [
+            {"term": "Tone", "definition": "Author's attitude"},
+            {"term": "Mood", "definition": "Feeling created in reader"}
+          ],
+          "examples": [
+            {
+              "question": "Author uses sarcastic words. What's the tone?",
+              "answer": "Sarcastic",
+              "explanation": "Word choice shows attitude"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing tone and mood",
+            "Missing word choice clues"
+          ],
+          "examTips": [
+            "Tone = author, Mood = reader",
+            "Look at word choice"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-tm-q1",
+              "question": "Tone is the author's:",
+              "options": ["Attitude", "Feeling in reader", "Setting", "Plot"],
+              "correctAnswer": "Attitude",
+              "explanation": "Tone reflects author's attitude",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Stylistic analysis",
+            "Emotional impact"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "literary-devices",
+      "title": "Literary Devices",
+      "description": "Techniques writers use",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Identify literary devices",
+        "Understand their purpose",
+        "Analyze their effect"
+      ],
+      "topics": [
+        {
+          "id": "metaphor",
+          "title": "Metaphor",
+          "summary": "Comparison without 'like' or 'as'",
+          "mustKnow": [
+            "Metaphor compares directly",
+            "No 'like' or 'as' used",
+            "Creates vivid image",
+            "Shows relationship between things"
+          ],
+          "keyTerms": [
+            {"term": "Metaphor", "definition": "Direct comparison"},
+            {"term": "Comparison", "definition": "Showing similarities"}
+          ],
+          "examples": [
+            {
+              "question": "'Life is a journey' - what device?",
+              "answer": "Metaphor",
+              "explanation": "Direct comparison without like/as"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing with simile",
+            "Missing the comparison"
+          ],
+          "examTips": [
+            "Look for direct comparison",
+            "No 'like' or 'as'"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-met-q1",
+              "question": "'Time is money' is a:",
+              "options": ["Metaphor", "Simile", "Personification", "Irony"],
+              "correctAnswer": "Metaphor",
+              "explanation": "Direct comparison without like/as",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Extended metaphors",
+            "Metaphorical thinking"
+          ],
+          "resources": []
+        },
+        {
+          "id": "simile",
+          "title": "Simile",
+          "summary": "Comparison using 'like' or 'as'",
+          "mustKnow": [
+            "Simile uses 'like' or 'as'",
+            "Compares two things",
+            "Creates clear image",
+            "Easy to identify"
+          ],
+          "keyTerms": [
+            {"term": "Simile", "definition": "Comparison using like/as"},
+            {"term": "Comparison", "definition": "Showing similarities"}
+          ],
+          "examples": [
+            {
+              "question": "'As brave as a lion' - what device?",
+              "answer": "Simile",
+              "explanation": "Uses 'as' for comparison"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing with metaphor",
+            "Missing 'like' or 'as'"
+          ],
+          "examTips": [
+            "Look for 'like' or 'as'",
+            "Identify what is compared"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-sim-q1",
+              "question": "'She runs like the wind' is a:",
+              "options": ["Simile", "Metaphor", "Personification", "Irony"],
+              "correctAnswer": "Simile",
+              "explanation": "Uses 'like' for comparison",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Figurative language",
+            "Creative comparisons"
+          ],
+          "resources": []
+        },
+        {
+          "id": "personification",
+          "title": "Personification",
+          "summary": "Giving human qualities to non-human things",
+          "mustKnow": [
+            "Personification gives human traits",
+            "Used for objects, animals, ideas",
+            "Creates vivid image",
+            "Makes writing engaging"
+          ],
+          "keyTerms": [
+            {"term": "Personification", "definition": "Giving human qualities to non-human"},
+            {"term": "Human Traits", "definition": "Characteristics of people"}
+          ],
+          "examples": [
+            {
+              "question": "'The wind whispered' - what device?",
+              "answer": "Personification",
+              "explanation": "Wind given human action"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Not recognizing human traits",
+            "Confusing with metaphor"
+          ],
+          "examTips": [
+            "Look for human actions",
+            "Check if subject is non-human"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-per-q1",
+              "question": "'The flowers danced in the breeze' - what device?",
+              "options": ["Personification", "Simile", "Metaphor", "Irony"],
+              "correctAnswer": "Personification",
+              "explanation": "Flowers given human action 'danced'",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Anthropomorphism",
+            "Creative writing"
+          ],
+          "resources": []
+        },
+        {
+          "id": "irony",
+          "title": "Irony",
+          "summary": "Meaning opposite of what is said",
+          "mustKnow": [
+            "Irony means opposite",
+            "Verbal irony says one thing means another",
+            "Situational irony is unexpected",
+            "Dramatic irony audience knows more"
+          ],
+          "keyTerms": [
+            {"term": "Irony", "definition": "Opposite of expected"},
+            {"term": "Verbal Irony", "definition": "Saying opposite of meaning"},
+            {"term": "Situational Irony", "definition": "Unexpected outcome"}
+          ],
+          "examples": [
+            {
+              "question": "Fire station burns down. What type of irony?",
+              "answer": "Situational irony",
+              "explanation": "Unexpected: fire station catches fire"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing irony types",
+            "Missing irony"
+          ],
+          "examTips": [
+            "Look for opposites",
+            "Consider expectations"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-iron-q1",
+              "question": "Saying 'Great weather!' in a storm is:",
+              "options": ["Verbal irony", "Situational irony", "Dramatic irony", "No irony"],
+              "correctAnswer": "Verbal irony",
+              "explanation": "Saying opposite of what is meant",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Types of irony",
+            "Satire"
+          ],
+          "resources": []
+        },
+        {
+          "id": "foreshadowing",
+          "title": "Foreshadowing",
+          "summary": "Hints about future events",
+          "mustKnow": [
+            "Foreshadowing hints at future",
+            "Creates suspense",
+            "Can be subtle or obvious",
+            "Builds anticipation"
+          ],
+          "keyTerms": [
+            {"term": "Foreshadowing", "definition": "Hints about future events"},
+            {"term": "Suspense", "definition": "Feeling of anticipation"}
+          ],
+          "examples": [
+            {
+              "question": "Dark clouds before a tragedy - what device?",
+              "answer": "Foreshadowing",
+              "explanation": "Hints at coming events"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Missing subtle hints",
+            "Confusing with flashback"
+          ],
+          "examTips": [
+            "Look for warnings",
+            "Notice repeated images"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-fore-q1",
+              "question": "Foreshadowing is:",
+              "options": ["Hints about future", "Flashback", "Description", "Dialogue"],
+              "correctAnswer": "Hints about future",
+              "explanation": "Foreshadowing hints at what's to come",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Narrative techniques",
+            "Suspense building"
+          ],
+          "resources": []
+        },
+        {
+          "id": "alliteration",
+          "title": "Alliteration",
+          "summary": "Repetition of initial sounds",
+          "mustKnow": [
+            "Alliteration repeats initial sounds",
+            "Creates rhythm",
+            "Makes phrases memorable",
+            "Used in poetry and prose"
+          ],
+          "keyTerms": [
+            {"term": "Alliteration", "definition": "Repetition of initial consonant sounds"},
+            {"term": "Consonant", "definition": "Non-vowel sound"}
+          ],
+          "examples": [
+            {
+              "question": "'Peter picked pickled peppers' - what device?",
+              "answer": "Alliteration",
+              "explanation": "Repeats 'p' sound"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Not recognizing repeated sounds",
+            "Confusing with rhyme"
+          ],
+          "examTips": [
+            "Listen for repeated sounds",
+            "Focus on initial sounds"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-allit-q1",
+              "question": "'Sally sells seashells' is:",
+              "options": ["Alliteration", "Metaphor", "Simile", "Irony"],
+              "correctAnswer": "Alliteration",
+              "explanation": "Repeats 's' sound",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Sound devices",
+            "Poetic techniques"
+          ],
+          "resources": []
+        },
+        {
+          "id": "repetition",
+          "title": "Repetition",
+          "summary": "Repeating words or phrases",
+          "mustKnow": [
+            "Repetition emphasizes ideas",
+            "Creates rhythm",
+            "Builds emotional impact",
+            "Used in poetry and speeches"
+          ],
+          "keyTerms": [
+            {"term": "Repetition", "definition": "Repeating words or phrases"},
+            {"term": "Emphasis", "definition": "Special importance"}
+          ],
+          "examples": [
+            {
+              "question": "'Never give up, never surrender' - what device?",
+              "answer": "Repetition",
+              "explanation": "Repeats 'never'"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Missing the emphasis",
+            "Not recognizing repetition"
+          ],
+          "examTips": [
+            "Look for repeated words",
+            "Consider why they repeat"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-rep-q1",
+              "question": "Repetition is used to:",
+              "options": ["Emphasize ideas", "Confuse readers", "Shorten text", "Hide meaning"],
+              "correctAnswer": "Emphasize ideas",
+              "explanation": "Repetition creates emphasis",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Rhetorical devices",
+            "Speech writing"
+          ],
+          "resources": []
+        },
+        {
+          "id": "hyperbole",
+          "title": "Hyperbole",
+          "summary": "Extreme exaggeration",
+          "mustKnow": [
+            "Hyperbole is exaggeration",
+            "Not meant to be literal",
+            "Creates emphasis",
+            "Common in everyday speech"
+          ],
+          "keyTerms": [
+            {"term": "Hyperbole", "definition": "Extreme exaggeration"},
+            {"term": "Exaggeration", "definition": "Making something seem bigger"}
+          ],
+          "examples": [
+            {
+              "question": "'I've told you a million times' - what device?",
+              "answer": "Hyperbole",
+              "explanation": "Exaggeration for effect"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Taking literally",
+            "Missing exaggeration"
+          ],
+          "examTips": [
+            "Look for obvious exaggeration",
+            "Consider the effect"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-hyp-q1",
+              "question": "'I'm so hungry I could eat a horse' is:",
+              "options": ["Hyperbole", "Metaphor", "Simile", "Irony"],
+              "correctAnswer": "Hyperbole",
+              "explanation": "Extreme exaggeration",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Figurative language",
+            "Persuasive techniques"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "analysis",
+      "title": "Analysis",
+      "description": "Analyzing literature deeply",
+      "importance": "must-know",
+      "difficulty": "advanced",
+      "learningObjectives": [
+        "Analyze poetry, prose, and drama",
+        "Use evidence from texts",
+        "Interpret literature",
+        "Compare works"
+      ],
+      "topics": [
+        {
+          "id": "poetry-analysis",
+          "title": "Poetry Analysis",
+          "summary": "Analyzing poems deeply",
+          "mustKnow": [
+            "Identify form and structure",
+            "Analyze literary devices",
+            "Find themes",
+            "Explain effect on reader"
+          ],
+          "keyTerms": [
+            {"term": "Analysis", "definition": "Detailed examination"},
+            {"term": "Interpretation", "definition": "Explaining meaning"}
+          ],
+          "examples": [
+            {
+              "question": "Analyze a poem's use of imagery",
+              "answer": "Identify imagery, explain effect",
+              "explanation": "Analysis goes beyond identification"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Only identifying devices",
+            "Not explaining effect"
+          ],
+          "examTips": [
+            "Use PEEL: Point, Evidence, Explanation, Link",
+            "Always explain effect"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-pa-q1",
+              "question": "Good analysis should:",
+              "options": ["Explain effect", "Only list devices", "Avoid evidence", "Ignore themes"],
+              "correctAnswer": "Explain effect",
+              "explanation": "Analysis explains how and why",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Literary criticism",
+            "Close reading"
+          ],
+          "resources": []
+        },
+        {
+          "id": "prose-analysis",
+          "title": "Prose Analysis",
+          "summary": "Analyzing novels and stories",
+          "mustKnow": [
+            "Analyze plot and character",
+            "Find themes",
+            "Examine narrative techniques",
+            "Use textual evidence"
+          ],
+          "keyTerms": [
+            {"term": "Narrative", "definition": "Story telling"},
+            {"term": "Characterization", "definition": "Character development"}
+          ],
+          "examples": [
+            {
+              "question": "Analyze character development",
+              "answer": "Track changes, explain causes",
+              "explanation": "Analysis shows understanding"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Summarizing instead of analyzing",
+            "No textual evidence"
+          ],
+          "examTips": [
+            "Use quotes as evidence",
+            "Go beyond summary"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-prose-a-q1",
+              "question": "Prose analysis should include:",
+              "options": ["Textual evidence", "Only summary", "Personal stories", "Random thoughts"],
+              "correctAnswer": "Textual evidence",
+              "explanation": "Evidence supports analysis",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Narrative theory",
+            "Literary criticism"
+          ],
+          "resources": []
+        },
+        {
+          "id": "drama-analysis",
+          "title": "Drama Analysis",
+          "summary": "Analyzing plays",
+          "mustKnow": [
+            "Analyze dialogue",
+            "Understand stage directions",
+            "Examine character relationships",
+            "Consider performance aspects"
+          ],
+          "keyTerms": [
+            {"term": "Dialogue", "definition": "Character conversation"},
+            {"term": "Stage Direction", "definition": "Performance instructions"}
+          ],
+          "examples": [
+            {
+              "question": "Analyze conflict in a play",
+              "answer": "Identify conflict, explain development",
+              "explanation": "Analysis shows how conflict drives play"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Ignoring stage directions",
+            "Missing performance elements"
+          ],
+          "examTips": [
+            "Read stage directions",
+            "Consider performance"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-da-q1",
+              "question": "Drama analysis should consider:",
+              "options": ["Stage directions", "Only dialogue", "Only plot", "Only characters"],
+              "correctAnswer": "Stage directions",
+              "explanation": "Stage directions add meaning",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Theater studies",
+            "Performance analysis"
+          ],
+          "resources": []
+        },
+        {
+          "id": "evidence",
+          "title": "Evidence",
+          "summary": "Using quotes to support analysis",
+          "mustKnow": [
+            "Use quotes from text",
+            "Integrate quotes smoothly",
+            "Explain how quotes support points",
+            "Cite properly"
+          ],
+          "keyTerms": [
+            {"term": "Evidence", "definition": "Textual support for claims"},
+            {"term": "Quote", "definition": "Exact words from text"}
+          ],
+          "examples": [
+            {
+              "question": "How to support analysis of theme?",
+              "answer": "Use quotes that show theme",
+              "explanation": "Evidence proves interpretation"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "No evidence",
+            "Quotes without explanation"
+          ],
+          "examTips": [
+            "PEEL structure",
+            "Explain every quote"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-evid-q1",
+              "question": "Good evidence in literary essay:",
+              "options": ["Quotes from text", "Personal opinions", "Random facts", "Other stories"],
+              "correctAnswer": "Quotes from text",
+              "explanation": "Textual evidence supports points",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Academic writing",
+            "Citation methods"
+          ],
+          "resources": []
+        },
+        {
+          "id": "interpretation",
+          "title": "Interpretation",
+          "summary": "Explaining meaning in literature",
+          "mustKnow": [
+            "Interpretation explains meaning",
+            "Supported by evidence",
+            "Can have multiple valid readings",
+            "Shows understanding"
+          ],
+          "keyTerms": [
+            {"term": "Interpretation", "definition": "Explaining meaning"},
+            {"term": "Reading", "definition": "Way of understanding text"}
+          ],
+          "examples": [
+            {
+              "question": "Interpret the symbolism of a journey in a novel",
+              "answer": "Journey represents life's challenges",
+              "explanation": "Interpretation explains meaning"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Unsupported interpretations",
+            "Only one possible reading"
+          ],
+          "examTips": [
+            "Support with evidence",
+            "Consider multiple readings"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-interp-q1",
+              "question": "Good interpretation should be:",
+              "options": ["Supported by evidence", "Random guesses", "Personal only", "Unclear"],
+              "correctAnswer": "Supported by evidence",
+              "explanation": "Evidence supports interpretation",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Literary theory",
+            "Critical thinking"
+          ],
+          "resources": []
+        },
+        {
+          "id": "comparison",
+          "title": "Comparison",
+          "summary": "Comparing literary works",
+          "mustKnow": [
+            "Compare themes and techniques",
+            "Find similarities and differences",
+            "Use evidence from both texts",
+            "Organize comparison clearly"
+          ],
+          "keyTerms": [
+            {"term": "Comparison", "definition": "Finding similarities and differences"},
+            {"term": "Contrast", "definition": "Showing differences"}
+          ],
+          "examples": [
+            {
+              "question": "Compare two poems about love",
+              "answer": "Analyze themes, techniques, effects",
+              "explanation": "Comparison shows understanding"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Separate analysis of each work",
+            "No clear comparison"
+          ],
+          "examTips": [
+            "Compare throughout",
+            "Use transition words"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-comp-q1",
+              "question": "Good comparison essay should:",
+              "options": ["Compare throughout", "Separate analysis", "One work only", "No structure"],
+              "correctAnswer": "Compare throughout",
+              "explanation": "Comparison should be integrated",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Comparative literature",
+            "Essay writing"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "essay-writing",
+      "title": "Essay Writing",
+      "description": "Writing literary essays",
+      "importance": "must-know",
+      "difficulty": "advanced",
+      "learningObjectives": [
+        "Write literary arguments",
+        "Structure essays clearly",
+        "Use evidence effectively",
+        "Develop strong arguments"
+      ],
+      "topics": [
+        {
+          "id": "literary-argument",
+          "title": "Literary Argument",
+          "summary": "Writing essays about literature",
+          "mustKnow": [
+            "Clear thesis statement",
+            "Organized paragraphs",
+            "Textual evidence",
+            "Strong conclusion"
+          ],
+          "keyTerms": [
+            {"term": "Thesis", "definition": "Main argument"},
+            {"term": "Paragraph", "definition": "Group of related sentences"},
+            {"term": "Conclusion", "definition": "Final paragraph"}
+          ],
+          "examples": [
+            {
+              "question": "Write essay on theme of love in a poem",
+              "answer": "Thesis, evidence paragraphs, conclusion",
+              "explanation": "Structured literary argument"
+            }
+          ],
+          "formulas": [
+            "Essay structure: Introduction → Body → Conclusion"
+          ],
+          "commonMistakes": [
+            "No clear thesis",
+            "Summarizing instead of arguing"
+          ],
+          "examTips": [
+            "Plan before writing",
+            "Use PEEL paragraphs"
+          ],
+          "questions": [
+            {
+              "id": "eng-b-essay-q1",
+              "question": "A good literary essay needs:",
+              "options": ["Clear thesis", "Random thoughts", "No evidence", "No structure"],
+              "correctAnswer": "Clear thesis",
+              "explanation": "Thesis guides the essay",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Academic writing",
+            "Essay techniques"
+          ],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

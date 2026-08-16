@@ -1,0 +1,298 @@
+{
+  "id": "cape-law",
+  "name": "Law",
+  "level": "CAPE",
+  "description": "CAPE Law - Complete cheatsheet covering Unit 1 and Unit 2",
+  "icon": "⚖️",
+  "syllabusVersion": "2023",
+  "lastVerified": "2026-01-15",
+  "source": "CXC CAPE Law Syllabus",
+  "units": [
+    {
+      "id": "unit-1",
+      "title": "Unit 1",
+      "description": "Legal Systems and Contract Law",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "topics": [
+        {
+          "id": "law-legal-systems",
+          "title": "Law and Legal Systems",
+          "summary": "Understanding law",
+          "mustKnow": [
+            "Law: rules enforced by state",
+            "Common law: judge-made law (precedent)",
+            "Statute law: made by parliament",
+            "Constitution: supreme law",
+            "Criminal law: offenses against state",
+            "Civil law: disputes between individuals"
+          ],
+          "keyTerms": [
+            {"term": "Law", "definition": "State-enforced rules"},
+            {"term": "Common Law", "definition": "Judge-made law"},
+            {"term": "Statute", "definition": "Parliament-made law"},
+            {"term": "Constitution", "definition": "Supreme law"},
+            {"term": "Precedent", "definition": "Previous decision"}
+          ],
+          "examples": [
+            {
+              "question": "Law made by parliament is?",
+              "answer": "Statute law",
+              "explanation": "Parliament makes statutes"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing common and statute law",
+            "Missing constitution"
+          ],
+          "examTips": [
+            "Know law sources",
+            "Distinguish criminal and civil"
+          ],
+          "questions": [
+            {
+              "id": "law-q1",
+              "question": "Supreme law is:",
+              "options": ["Constitution", "Statute", "Common law", "Custom"],
+              "correctAnswer": "Constitution",
+              "explanation": "Constitution is supreme",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Legal theory",
+            "Constitutional law"
+          ],
+          "resources": []
+        },
+        {
+          "id": "courts",
+          "title": "Courts and Legal Personnel",
+          "summary": "Judicial system",
+          "mustKnow": [
+            "Court hierarchy: Magistrates' Court → High Court → Court of Appeal → Privy Council",
+            "Magistrates' Court: minor cases",
+            "High Court: serious cases",
+            "Court of Appeal: appeals",
+            "Privy Council: final appeal (some Caribbean)",
+            "Judge: presides over court",
+            "Lawyer: represents clients",
+            "Attorney General: chief legal advisor"
+          ],
+          "keyTerms": [
+            {"term": "Magistrates' Court", "definition": "Minor cases"},
+            {"term": "High Court", "definition": "Serious cases"},
+            {"term": "Court of Appeal", "definition": "Appeals"},
+            {"term": "Judge", "definition": "Presides"},
+            {"term": "Lawyer", "definition": "Represents clients"}
+          ],
+          "examples": [
+            {
+              "question": "Minor criminal case goes to?",
+              "answer": "Magistrates' Court",
+              "explanation": "Minor cases"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong court hierarchy",
+            "Missing personnel"
+          ],
+          "examTips": [
+            "Memorize hierarchy",
+            "Know personnel roles"
+          ],
+          "questions": [
+            {
+              "id": "law-court-q1",
+              "question": "Serious cases go to:",
+              "options": ["High Court", "Magistrates' Court", "Small claims", "Tribunal"],
+              "correctAnswer": "High Court",
+              "explanation": "High Court handles serious cases",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Court procedures",
+            "Legal profession"
+          ],
+          "resources": []
+        },
+        {
+          "id": "contract-law",
+          "title": "Contract Law",
+          "summary": "Agreements and obligations",
+          "mustKnow": [
+            "Contract: legally binding agreement",
+            "Offer: proposal to contract",
+            "Acceptance: agreeing to offer",
+            "Consideration: something of value exchanged",
+            "Intention to create legal relations",
+            "Capacity: ability to contract",
+            "Terms: conditions and warranties",
+            "Breach: failure to perform",
+            "Remedies: damages, specific performance"
+          ],
+          "keyTerms": [
+            {"term": "Contract", "definition": "Legally binding agreement"},
+            {"term": "Offer", "definition": "Proposal"},
+            {"term": "Acceptance", "definition": "Agreement to offer"},
+            {"term": "Consideration", "definition": "Value exchanged"},
+            {"term": "Breach", "definition": "Failure to perform"},
+            {"term": "Damages", "definition": "Compensation"}
+          ],
+          "examples": [
+            {
+              "question": "Something of value exchanged is?",
+              "answer": "Consideration",
+              "explanation": "Required for contract"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Missing elements",
+            "Wrong remedies"
+          ],
+          "examTips": [
+            "Know all elements",
+            "Explain breach and remedies"
+          ],
+          "questions": [
+            {
+              "id": "law-cont-q1",
+              "question": "Legally binding agreement:",
+              "options": ["Contract", "Offer", "Promise", "Letter"],
+              "correctAnswer": "Contract",
+              "explanation": "Contract is binding",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Contract terms",
+            "Consumer contracts"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "unit-2",
+      "title": "Unit 2",
+      "description": "Tort, Criminal, and Business Law",
+      "importance": "must-know",
+      "difficulty": "advanced",
+      "topics": [
+        {
+          "id": "tort",
+          "title": "Tort Law",
+          "summary": "Civil wrongs",
+          "mustKnow": [
+            "Tort: civil wrong (not contract)",
+            "Negligence: failure to take care",
+            "Duty of care: obligation to others",
+            "Breach of duty: failing standard",
+            "Nuisance: interference with enjoyment",
+            "Defamation: harming reputation",
+            "Remedies: damages, injunction"
+          ],
+          "keyTerms": [
+            {"term": "Tort", "definition": "Civil wrong"},
+            {"term": "Negligence", "definition": "Failure to take care"},
+            {"term": "Duty of Care", "definition": "Obligation to others"},
+            {"term": "Nuisance", "definition": "Interference"},
+            {"term": "Defamation", "definition": "Harming reputation"}
+          ],
+          "examples": [
+            {
+              "question": "Careless driving causing injury is?",
+              "answer": "Negligence",
+              "explanation": "Failure to take care"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing tort and contract",
+            "Wrong tort types"
+          ],
+          "examTips": [
+            "Know all torts",
+            "Explain negligence elements"
+          ],
+          "questions": [
+            {
+              "id": "law-tort-q1",
+              "question": "Harming reputation is:",
+              "options": ["Defamation", "Negligence", "Nuisance", "Breach"],
+              "correctAnswer": "Defamation",
+              "explanation": "Defamation harms reputation",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Personal injury",
+            "Professional negligence"
+          ],
+          "resources": []
+        },
+        {
+          "id": "criminal-law",
+          "title": "Criminal Law",
+          "summary": "Offenses against state",
+          "mustKnow": [
+            "Crime: offense against state",
+            "Elements: actus reus (act) + mens rea (intent)",
+            "Murder: unlawful killing with intent",
+            "Theft: taking property",
+            "Assault: causing fear of harm",
+            "Defenses: self-defense, duress",
+            "Punishment: imprisonment, fine"
+          ],
+          "keyTerms": [
+            {"term": "Crime", "definition": "Offense against state"},
+            {"term": "Actus Reus", "definition": "Guilty act"},
+            {"term": "Mens Rea", "definition": "Guilty mind"},
+            {"term": "Murder", "definition": "Unlawful killing"},
+            {"term": "Theft", "definition": "Taking property"}
+          ],
+          "examples": [
+            {
+              "question": "Guilty mind is?",
+              "answer": "Mens rea",
+              "explanation": "Intent element"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Missing crime elements",
+            "Wrong defenses"
+          ],
+          "examTips": [
+            "Know crime elements",
+            "Explain defenses"
+          ],
+          "questions": [
+            {
+              "id": "law-crim-q1",
+              "question": "Guilty act is:",
+              "options": ["Actus reus", "Mens rea", "Defense", "Intent"],
+              "correctAnswer": "Actus reus",
+              "explanation": "Actus reus is guilty act",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Criminal procedure",
+            "Sentencing"
+          ],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

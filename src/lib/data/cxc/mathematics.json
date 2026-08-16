@@ -1,0 +1,3567 @@
+{
+  "id": "cxc-mathematics",
+  "name": "Mathematics",
+  "level": "CXC",
+  "description": "CXC CSEC Mathematics - Complete curriculum covering Number Concepts, Algebra, Geometry, Trigonometry, Statistics, and more",
+  "icon": "📐",
+  "syllabusVersion": "2023",
+  "lastVerified": "2026-01-15",
+  "source": "CXC CSEC Mathematics Syllabus",
+  "studyGuide": {
+    "passStrategy": "Master each topic's must-know ideas, work through examples, and complete practice questions before moving on.",
+    "masteryStrategy": "For 100% preparation, explain every method aloud, practise unfamiliar variations, and complete timed mixed-topic questions.",
+    "notePrompt": "For each topic, write the rule, one fully worked example, and one mistake to avoid."
+  },
+  "units": [
+    {
+      "id": "number-concepts",
+      "title": "Number Concepts",
+      "description": "Understanding different types of numbers and operations",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand different number systems",
+        "Perform operations with integers, fractions, and decimals",
+        "Convert between fractions, decimals, and percentages",
+        "Apply ratio and proportion in real-world contexts",
+        "Use approximation and significant figures"
+      ],
+      "topics": [
+        {
+          "id": "number-systems",
+          "title": "Number Systems",
+          "summary": "Understanding different types of numbers and their properties",
+          "mustKnow": [
+            "Natural numbers are counting numbers: 1, 2, 3, ...",
+            "Whole numbers include zero: 0, 1, 2, 3, ...",
+            "Integers include negative numbers: ..., -2, -1, 0, 1, 2, ...",
+            "Rational numbers can be written as fractions",
+            "Irrational numbers cannot be written as simple fractions"
+          ],
+          "keyTerms": [
+            {"term": "Integer", "definition": "A whole number that can be positive, negative, or zero"},
+            {"term": "Rational Number", "definition": "Any number that can be expressed as p/q where q ≠ 0"},
+            {"term": "Irrational Number", "definition": "A number that cannot be expressed as a simple fraction"},
+            {"term": "Real Number", "definition": "Any rational or irrational number"}
+          ],
+          "examples": [
+            {
+              "question": "Classify -3, 0, 1/2, √2, and π",
+              "answer": "-3 is an integer, 0 is a whole number, 1/2 is rational, √2 and π are irrational",
+              "explanation": "Integers include negatives, whole numbers start at 0, rationals are fractions, irrationals cannot be fractions"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Thinking all decimals are irrational",
+            "Confusing whole numbers with natural numbers",
+            "Forgetting that zero is a whole number but not a natural number"
+          ],
+          "examTips": [
+            "Always simplify fractions to lowest terms",
+            "Show all working when converting between number types"
+          ],
+          "questions": [
+            {
+              "id": "math-num-q1",
+              "question": "Which of the following is an irrational number?",
+              "options": ["1/2", "√2", "0.75", "-3"],
+              "correctAnswer": "√2",
+              "explanation": "√2 cannot be expressed as a simple fraction, making it irrational",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "History of number systems",
+            "Complex numbers",
+            "Number theory"
+          ],
+          "resources": []
+        },
+        {
+          "id": "integers",
+          "title": "Integers",
+          "summary": "Working with positive and negative whole numbers",
+          "mustKnow": [
+            "Integers include positive and negative whole numbers",
+            "Adding integers with same sign: add and keep sign",
+            "Adding integers with different signs: subtract and keep sign of larger",
+            "Multiplying/dividing integers: same signs positive, different signs negative"
+          ],
+          "keyTerms": [
+            {"term": "Integer", "definition": "Whole number that can be positive, negative, or zero"},
+            {"term": "Absolute Value", "definition": "Distance from zero on number line"},
+            {"term": "Number Line", "definition": "Visual representation of numbers"}
+          ],
+          "examples": [
+            {
+              "question": "Calculate: -5 + 3",
+              "answer": "-2",
+              "explanation": "Different signs: subtract 5 - 3 = 2, keep sign of larger (negative)"
+            },
+            {
+              "question": "Calculate: (-4) × (-3)",
+              "answer": "12",
+              "explanation": "Same signs (both negative): result is positive"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Forgetting sign rules in multiplication",
+            "Incorrect ordering on number line"
+          ],
+          "examTips": [
+            "Use a number line for addition and subtraction",
+            "Remember: negative × negative = positive"
+          ],
+          "questions": [
+            {
+              "id": "math-int-q1",
+              "question": "Calculate: (-6) + (-4)",
+              "options": ["-10", "10", "-2", "2"],
+              "correctAnswer": "-10",
+              "explanation": "Same signs: add 6 + 4 = 10, keep negative sign",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Properties of integers",
+            "Integer operations in real life"
+          ],
+          "resources": []
+        },
+        {
+          "id": "fractions",
+          "title": "Fractions",
+          "summary": "Understanding and operating with fractions",
+          "mustKnow": [
+            "Fraction represents part of a whole",
+            "Equivalent fractions have same value",
+            "Add/subtract with common denominators",
+            "Multiply: multiply numerators and denominators",
+            "Divide: multiply by reciprocal"
+          ],
+          "keyTerms": [
+            {"term": "Numerator", "definition": "Top number in a fraction"},
+            {"term": "Denominator", "definition": "Bottom number in a fraction"},
+            {"term": "Equivalent Fractions", "definition": "Fractions with same value"},
+            {"term": "Reciprocal", "definition": "Fraction flipped upside down"}
+          ],
+          "examples": [
+            {
+              "question": "Add: 1/3 + 1/4",
+              "answer": "7/12",
+              "explanation": "Common denominator: 4/12 + 3/12 = 7/12"
+            },
+            {
+              "question": "Divide: 3/4 ÷ 2/3",
+              "answer": "9/8",
+              "explanation": "Multiply by reciprocal: 3/4 × 3/2 = 9/8"
+            }
+          ],
+          "formulas": [
+            "Addition: a/b + c/d = (ad + bc)/bd",
+            "Division: a/b ÷ c/d = a/b × d/c"
+          ],
+          "commonMistakes": [
+            "Forgetting common denominator in addition",
+            "Not simplifying final answer"
+          ],
+          "examTips": [
+            "Always simplify to lowest terms",
+            "Check if answer makes sense"
+          ],
+          "questions": [
+            {
+              "id": "math-frac-q1",
+              "question": "What is 2/3 + 1/6?",
+              "options": ["5/6", "3/6", "1/2", "5/9"],
+              "correctAnswer": "5/6",
+              "explanation": "Convert: 4/6 + 1/6 = 5/6",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Complex fractions",
+            "Fractions in algebra"
+          ],
+          "resources": []
+        },
+        {
+          "id": "decimals",
+          "title": "Decimals",
+          "summary": "Understanding and operating with decimal numbers",
+          "mustKnow": [
+            "Decimals represent parts of a whole",
+            "Place value determines value",
+            "Add/subtract by aligning decimal points",
+            "Multiply by counting decimal places",
+            "Divide by moving decimal point"
+          ],
+          "keyTerms": [
+            {"term": "Decimal Point", "definition": "Separates whole numbers from fractions"},
+            {"term": "Place Value", "definition": "Value based on position"},
+            {"term": "Terminating Decimal", "definition": "Decimal that ends"},
+            {"term": "Recurring Decimal", "definition": "Decimal that repeats"}
+          ],
+          "examples": [
+            {
+              "question": "Calculate: 3.45 + 2.7",
+              "answer": "6.15",
+              "explanation": "Align decimal points: 3.45 + 2.70 = 6.15"
+            },
+            {
+              "question": "Calculate: 4.2 × 0.5",
+              "answer": "2.1",
+              "explanation": "Multiply: 42 × 5 = 210, then move decimal 2 places: 2.10"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Misaligning decimal points in addition",
+            "Incorrect decimal placement in multiplication"
+          ],
+          "examTips": [
+            "Align decimal points carefully",
+            "Estimate first to check answer"
+          ],
+          "questions": [
+            {
+              "id": "math-dec-q1",
+              "question": "Calculate: 5.6 - 2.34",
+              "options": ["3.26", "3.34", "2.26", "3.24"],
+              "correctAnswer": "3.26",
+              "explanation": "5.60 - 2.34 = 3.26",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Scientific notation",
+            "Decimal operations in programming"
+          ],
+          "resources": []
+        },
+        {
+          "id": "percentages",
+          "title": "Percentages",
+          "summary": "Working with percentages in real-world contexts",
+          "mustKnow": [
+            "Percentage means per hundred",
+            "Convert between fractions, decimals, and percentages",
+            "Find percentage of a quantity",
+            "Calculate percentage increase/decrease"
+          ],
+          "keyTerms": [
+            {"term": "Percentage", "definition": "Part per hundred"},
+            {"term": "Percentage Increase", "definition": "Rise expressed as percentage"},
+            {"term": "Percentage Decrease", "definition": "Fall expressed as percentage"}
+          ],
+          "examples": [
+            {
+              "question": "Find 25% of 80",
+              "answer": "20",
+              "explanation": "25/100 × 80 = 20"
+            },
+            {
+              "question": "Price increases from $50 to $60. Find percentage increase",
+              "answer": "20%",
+              "explanation": "(60-50)/50 × 100 = 20%"
+            }
+          ],
+          "formulas": [
+            "Percentage of quantity: (p/100) × q",
+            "Percentage change: (new - old)/old × 100"
+          ],
+          "commonMistakes": [
+            "Confusing percentage points with percentages",
+            "Wrong base in percentage change calculations"
+          ],
+          "examTips": [
+            "Always identify the base value",
+            "Check if answer is reasonable"
+          ],
+          "questions": [
+            {
+              "id": "math-pct-q1",
+              "question": "What is 15% of 200?",
+              "options": ["30", "15", "45", "20"],
+              "correctAnswer": "30",
+              "explanation": "15/100 × 200 = 30",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Compound interest",
+            "Percentage applications in finance"
+          ],
+          "resources": []
+        },
+        {
+          "id": "ratio",
+          "title": "Ratio",
+          "summary": "Comparing quantities using ratios",
+          "mustKnow": [
+            "Ratio compares two or more quantities",
+            "Simplify ratios by dividing by common factor",
+            "Divide quantities in given ratio",
+            "Express ratios in simplest form"
+          ],
+          "keyTerms": [
+            {"term": "Ratio", "definition": "Comparison of quantities"},
+            {"term": "Equivalent Ratios", "definition": "Ratios with same value"},
+            {"term": "Part-to-Part", "definition": "Ratio comparing parts"}
+          ],
+          "examples": [
+            {
+              "question": "Simplify ratio 12:18",
+              "answer": "2:3",
+              "explanation": "Divide both by 6"
+            },
+            {
+              "question": "Divide $60 in ratio 2:3",
+              "answer": "$24 and $36",
+              "explanation": "Total parts = 5, each part = $12"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Not simplifying to lowest terms",
+            "Wrong total parts in division"
+          ],
+          "examTips": [
+            "Always simplify ratios",
+            "Check that parts add up to total"
+          ],
+          "questions": [
+            {
+              "id": "math-ratio-q1",
+              "question": "Simplify the ratio 15:25",
+              "options": ["3:5", "5:3", "15:25", "1:5"],
+              "correctAnswer": "3:5",
+              "explanation": "Divide both by 5",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Rates and unit rates",
+            "Scale factors"
+          ],
+          "resources": []
+        },
+        {
+          "id": "proportion",
+          "title": "Proportion",
+          "summary": "Understanding direct and inverse proportion",
+          "mustKnow": [
+            "Direct proportion: as one increases, other increases",
+            "Inverse proportion: as one increases, other decreases",
+            "Use cross multiplication",
+            "Solve real-world proportion problems"
+          ],
+          "keyTerms": [
+            {"term": "Direct Proportion", "definition": "Quantities increase/decrease together"},
+            {"term": "Inverse Proportion", "definition": "Quantities move in opposite directions"},
+            {"term": "Cross Multiplication", "definition": "Method for solving proportions"}
+          ],
+          "examples": [
+            {
+              "question": "If 5 books cost $25, how much do 8 books cost?",
+              "answer": "$40",
+              "explanation": "5/25 = 8/x, cross multiply: 5x = 200, x = 40"
+            }
+          ],
+          "formulas": [
+            "Direct proportion: a/b = c/d",
+            "Inverse proportion: a × b = c × d"
+          ],
+          "commonMistakes": [
+            "Confusing direct and inverse proportion",
+            "Incorrect cross multiplication"
+          ],
+          "examTips": [
+            "Identify type of proportion first",
+            "Set up equation carefully"
+          ],
+          "questions": [
+            {
+              "id": "math-prop-q1",
+              "question": "If 6 workers take 8 days, how long will 4 workers take?",
+              "options": ["12 days", "10 days", "6 days", "8 days"],
+              "correctAnswer": "12 days",
+              "explanation": "Inverse proportion: 6 × 8 = 4 × x, x = 12",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Compound proportion",
+            "Real-world proportion applications"
+          ],
+          "resources": []
+        },
+        {
+          "id": "approximation",
+          "title": "Approximation",
+          "summary": "Estimating and rounding numbers",
+          "mustKnow": [
+            "Round to nearest whole number",
+            "Round to decimal places",
+            "Use estimation to check answers",
+            "Understand upper and lower bounds"
+          ],
+          "keyTerms": [
+            {"term": "Rounding", "definition": "Approximating to specified accuracy"},
+            {"term": "Estimation", "definition": "Approximate calculation"},
+            {"term": "Upper Bound", "definition": "Maximum possible value"}
+          ],
+          "examples": [
+            {
+              "question": "Round 3.456 to 2 decimal places",
+              "answer": "3.46",
+              "explanation": "Third decimal is 6, so round up"
+            },
+            {
+              "question": "Estimate 48 × 52",
+              "answer": "≈ 2500",
+              "explanation": "Round to 50 × 50 = 2500"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Incorrect rounding when digit is 5",
+            "Rounding too early in calculations"
+          ],
+          "examTips": [
+            "Look at the digit after the required place",
+            "Estimate before calculating"
+          ],
+          "questions": [
+            {
+              "id": "math-approx-q1",
+              "question": "Round 7.85 to 1 decimal place",
+              "options": ["7.9", "7.8", "8.0", "7.85"],
+              "correctAnswer": "7.9",
+              "explanation": "Second decimal is 5, round up",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Error analysis",
+            "Significant figures"
+          ],
+          "resources": []
+        },
+        {
+          "id": "significant-figures",
+          "title": "Significant Figures",
+          "summary": "Understanding precision in measurements",
+          "mustKnow": [
+            "Identify significant figures in numbers",
+            "Round to specified significant figures",
+            "Leading zeros are not significant",
+            "Zeros between digits are significant"
+          ],
+          "keyTerms": [
+            {"term": "Significant Figure", "definition": "Digit that carries meaning"},
+            {"term": "Precision", "definition": "Level of detail in measurement"}
+          ],
+          "examples": [
+            {
+              "question": "How many significant figures in 0.00345?",
+              "answer": "3 significant figures",
+              "explanation": "Leading zeros don't count, 345 are significant"
+            },
+            {
+              "question": "Round 4567 to 2 significant figures",
+              "answer": "4600",
+              "explanation": "First two digits 45, next is 6 so round up"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Counting leading zeros",
+            "Not considering trailing zeros"
+          ],
+          "examTips": [
+            "Count from first non-zero digit",
+            "Use scientific notation for clarity"
+          ],
+          "questions": [
+            {
+              "id": "math-sf-q1",
+              "question": "How many significant figures are in 0.00520?",
+              "options": ["3", "2", "5", "4"],
+              "correctAnswer": "3",
+              "explanation": "5, 2, and final 0 are significant",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Scientific notation",
+            "Measurement precision"
+          ],
+          "resources": []
+        },
+        {
+          "id": "standard-form",
+          "title": "Standard Form",
+          "summary": "Writing very large and small numbers",
+          "mustKnow": [
+            "Express numbers as a × 10ⁿ",
+            "Convert between standard and ordinary form",
+            "Perform calculations in standard form",
+            "Use for very large/small numbers"
+          ],
+          "keyTerms": [
+            {"term": "Standard Form", "definition": "a × 10ⁿ where 1 ≤ a < 10"},
+            {"term": "Exponent", "definition": "Power of 10"},
+            {"term": "Scientific Notation", "definition": "Another name for standard form"}
+          ],
+          "examples": [
+            {
+              "question": "Write 3,500,000 in standard form",
+              "answer": "3.5 × 10⁶",
+              "explanation": "Move decimal 6 places left"
+            },
+            {
+              "question": "Write 0.000042 in standard form",
+              "answer": "4.2 × 10⁻⁵",
+              "explanation": "Move decimal 5 places right"
+            }
+          ],
+          "formulas": [
+            "Standard form: a × 10ⁿ where 1 ≤ a < 10"
+          ],
+          "commonMistakes": [
+            "Wrong sign on exponent",
+            "Not keeping a between 1 and 10"
+          ],
+          "examTips": [
+            "Count decimal places moved",
+            "Check that 1 ≤ a < 10"
+          ],
+          "questions": [
+            {
+              "id": "math-sf-form-q1",
+              "question": "Write 0.0067 in standard form",
+              "options": ["6.7 × 10⁻³", "67 × 10⁻⁴", "0.67 × 10⁻²", "6.7 × 10³"],
+              "correctAnswer": "6.7 × 10⁻³",
+              "explanation": "Move decimal 3 places right",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Scientific notation in computing",
+            "Order of magnitude"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "consumer-arithmetic",
+      "title": "Consumer Arithmetic",
+      "description": "Applying mathematics to everyday financial situations",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Solve problems involving money",
+        "Calculate profit, loss, and discounts",
+        "Understand simple and compound interest",
+        "Calculate wages and bills",
+        "Perform currency conversions"
+      ],
+      "topics": [
+        {
+          "id": "money",
+          "title": "Money",
+          "summary": "Working with currency and monetary calculations",
+          "mustKnow": [
+            "Understand currency denominations",
+            "Add, subtract, multiply, and divide money",
+            "Calculate change",
+            "Round to nearest cent"
+          ],
+          "keyTerms": [
+            {"term": "Currency", "definition": "System of money"},
+            {"term": "Denomination", "definition": "Value of a currency unit"}
+          ],
+          "examples": [
+            {
+              "question": "If item costs $25.99 and you pay $30, how much change?",
+              "answer": "$4.01",
+              "explanation": "30.00 - 25.99 = 4.01"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Incorrect decimal placement",
+            "Rounding errors"
+          ],
+          "examTips": [
+            "Keep decimal points aligned",
+            "Use estimation to check"
+          ],
+          "questions": [
+            {
+              "id": "math-money-q1",
+              "question": "What is $50.00 - $37.50?",
+              "options": ["$12.50", "$13.50", "$11.50", "$12.00"],
+              "correctAnswer": "$12.50",
+              "explanation": "Simple subtraction",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Digital currencies",
+            "Exchange rates"
+          ],
+          "resources": []
+        },
+        {
+          "id": "profit-loss",
+          "title": "Profit and Loss",
+          "summary": "Calculating profit and loss in business",
+          "mustKnow": [
+            "Profit = Selling Price - Cost Price",
+            "Loss = Cost Price - Selling Price",
+            "Calculate percentage profit/loss",
+            "Understand marked price"
+          ],
+          "keyTerms": [
+            {"term": "Cost Price", "definition": "Amount paid for goods"},
+            {"term": "Selling Price", "definition": "Amount goods sold for"},
+            {"term": "Profit", "definition": "Selling price minus cost price"},
+            {"term": "Loss", "definition": "Cost price minus selling price"}
+          ],
+          "examples": [
+            {
+              "question": "Goods cost $40, sold for $60. Find profit and percentage",
+              "answer": "$20 profit, 50%",
+              "explanation": "Profit = 60 - 40 = 20, percentage = 20/40 × 100 = 50%"
+            }
+          ],
+          "formulas": [
+            "Profit = SP - CP",
+            "Percentage Profit = (SP - CP)/CP × 100"
+          ],
+          "commonMistakes": [
+            "Using selling price as base for percentage",
+            "Confusing profit margin with markup"
+          ],
+          "examTips": [
+            "Always identify cost price first",
+            "Check if percentage is reasonable"
+          ],
+          "questions": [
+            {
+              "id": "math-pl-q1",
+              "question": "Item costs $80, sold for $100. What is percentage profit?",
+              "options": ["25%", "20%", "15%", "30%"],
+              "correctAnswer": "25%",
+              "explanation": "(100-80)/80 × 100 = 25%",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Business accounting",
+            "Investment returns"
+          ],
+          "resources": []
+        },
+        {
+          "id": "discounts",
+          "title": "Discounts",
+          "summary": "Calculating discounts in shopping",
+          "mustKnow": [
+            "Discount reduces selling price",
+            "Calculate discount amount",
+            "Find discounted price",
+            "Understand successive discounts"
+          ],
+          "keyTerms": [
+            {"term": "Discount", "definition": "Reduction in price"},
+            {"term": "Marked Price", "definition": "Original price before discount"},
+            {"term": "Net Price", "definition": "Price after discount"}
+          ],
+          "examples": [
+            {
+              "question": "Item marked $50 with 20% discount. Find final price",
+              "answer": "$40",
+              "explanation": "Discount = 20% of 50 = 10, final = 50 - 10 = 40"
+            }
+          ],
+          "formulas": [
+            "Discount = (discount% / 100) × marked price",
+            "Net Price = Marked Price - Discount"
+          ],
+          "commonMistakes": [
+            "Calculating on wrong base",
+            "Not applying successive discounts correctly"
+          ],
+          "examTips": [
+            "Calculate discount first, then subtract",
+            "For successive discounts, calculate sequentially"
+          ],
+          "questions": [
+            {
+              "id": "math-disc-q1",
+              "question": "30% discount on $90 item. Final price?",
+              "options": ["$63", "$60", "$67", "$70"],
+              "correctAnswer": "$63",
+              "explanation": "Discount = 30% of 90 = 27, final = 90 - 27 = 63",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Sales and promotions",
+            "Business pricing strategies"
+          ],
+          "resources": []
+        },
+        {
+          "id": "markup",
+          "title": "Mark-up",
+          "summary": "Adding profit margin to cost price",
+          "mustKnow": [
+            "Mark-up adds profit to cost",
+            "Calculate mark-up percentage",
+            "Find selling price from cost",
+            "Understand mark-up vs profit"
+          ],
+          "keyTerms": [
+            {"term": "Mark-up", "definition": "Amount added to cost price"},
+            {"term": "Mark-up Percentage", "definition": "Mark-up as percentage of cost"}
+          ],
+          "examples": [
+            {
+              "question": "Cost price $40, mark-up 25%. Find selling price",
+              "answer": "$50",
+              "explanation": "Mark-up = 25% of 40 = 10, selling = 40 + 10 = 50"
+            }
+          ],
+          "formulas": [
+            "Selling Price = Cost Price + (Markup% × Cost Price)"
+          ],
+          "commonMistakes": [
+            "Using selling price as base",
+            "Confusing mark-up with profit"
+          ],
+          "examTips": [
+            "Always base mark-up on cost price",
+            "Check calculations"
+          ],
+          "questions": [
+            {
+              "id": "math-mark-q1",
+              "question": "Cost $60, mark-up 50%. Selling price?",
+              "options": ["$90", "$80", "$100", "$110"],
+              "correctAnswer": "$90",
+              "explanation": "Mark-up = 50% of 60 = 30, selling = 60 + 30 = 90",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Pricing strategies",
+            "Retail mathematics"
+          ],
+          "resources": []
+        },
+        {
+          "id": "taxation",
+          "title": "Taxation",
+          "summary": "Understanding and calculating taxes",
+          "mustKnow": [
+            "Understand types of taxes",
+            "Calculate sales tax/VAT",
+            "Calculate income tax",
+            "Find tax-inclusive prices"
+          ],
+          "keyTerms": [
+            {"term": "Tax", "definition": "Compulsory contribution to government"},
+            {"term": "VAT", "definition": "Value Added Tax"},
+            {"term": "Sales Tax", "definition": "Tax on purchases"}
+          ],
+          "examples": [
+            {
+              "question": "Item costs $100, VAT 15%. Find total price",
+              "answer": "$115",
+              "explanation": "VAT = 15% of 100 = 15, total = 115"
+            }
+          ],
+          "formulas": [
+            "Tax Amount = (Tax Rate/100) × Price",
+            "Total = Price + Tax"
+          ],
+          "commonMistakes": [
+            "Calculating tax on tax-inclusive price",
+            "Wrong tax rate"
+          ],
+          "examTips": [
+            "Identify tax rate clearly",
+            "Check if price includes tax"
+          ],
+          "questions": [
+            {
+              "id": "math-tax-q1",
+              "question": "$200 item with 10% sales tax. Total cost?",
+              "options": ["$220", "$210", "$205", "$225"],
+              "correctAnswer": "$220",
+              "explanation": "Tax = 10% of 200 = 20, total = 220",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Caribbean tax systems",
+            "International taxation"
+          ],
+          "resources": []
+        },
+        {
+          "id": "simple-interest",
+          "title": "Simple Interest",
+          "summary": "Calculating interest on savings and loans",
+          "mustKnow": [
+            "Understand principal, rate, and time",
+            "Calculate simple interest",
+            "Find total amount with interest",
+            "Solve for any variable"
+          ],
+          "keyTerms": [
+            {"term": "Principal", "definition": "Original amount invested/borrowed"},
+            {"term": "Rate", "definition": "Interest rate per year"},
+            {"term": "Time", "definition": "Duration in years"}
+          ],
+          "examples": [
+            {
+              "question": "Find simple interest on $500 at 5% for 3 years",
+              "answer": "$75",
+              "explanation": "SI = 500 × 5/100 × 3 = 75"
+            }
+          ],
+          "formulas": [
+            "Simple Interest = P × R × T / 100",
+            "Amount = Principal + Interest"
+          ],
+          "commonMistakes": [
+            "Forgetting to convert time to years",
+            "Using percentage incorrectly"
+          ],
+          "examTips": [
+            "Convert time to years",
+            "Write rate as decimal or percentage carefully"
+          ],
+          "questions": [
+            {
+              "id": "math-si-q1",
+              "question": "Simple interest on $1000 at 8% for 2 years?",
+              "options": ["$160", "$180", "$120", "$140"],
+              "correctAnswer": "$160",
+              "explanation": "SI = 1000 × 8/100 × 2 = 160",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Loan calculations",
+            "Investment planning"
+          ],
+          "resources": []
+        },
+        {
+          "id": "compound-interest",
+          "title": "Compound Interest",
+          "summary": "Calculating interest on accumulated interest",
+          "mustKnow": [
+            "Compound interest earns interest on interest",
+            "Use compound interest formula",
+            "Calculate for multiple periods",
+            "Compare with simple interest"
+          ],
+          "keyTerms": [
+            {"term": "Compound Interest", "definition": "Interest calculated on principal plus previous interest"},
+            {"term": "Compounding Period", "definition": "How often interest is calculated"}
+          ],
+          "examples": [
+            {
+              "question": "$1000 at 5% compounded annually for 2 years",
+              "answer": "$1102.50",
+              "explanation": "1000(1 + 0.05)² = 1102.50"
+            }
+          ],
+          "formulas": [
+            "A = P(1 + r/n)^(nt)",
+            "Compound Interest = A - P"
+          ],
+          "commonMistakes": [
+            "Using simple interest formula",
+            "Wrong compounding period"
+          ],
+          "examTips": [
+            "Identify compounding frequency",
+            "Use calculator for powers"
+          ],
+          "questions": [
+            {
+              "id": "math-ci-q1",
+              "question": "$2000 at 4% compounded annually for 2 years?",
+              "options": ["$2163.20", "$2160", "$2080", "$2100"],
+              "correctAnswer": "$2163.20",
+              "explanation": "2000(1.04)² = 2163.20",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Investment growth",
+            "Retirement planning"
+          ],
+          "resources": []
+        },
+        {
+          "id": "depreciation",
+          "title": "Depreciation",
+          "summary": "Calculating decrease in value over time",
+          "mustKnow": [
+            "Depreciation reduces value",
+            "Calculate depreciated value",
+            "Use reducing balance method",
+            "Understand straight-line depreciation"
+          ],
+          "keyTerms": [
+            {"term": "Depreciation", "definition": "Decrease in value over time"},
+            {"term": "Book Value", "definition": "Value after depreciation"}
+          ],
+          "examples": [
+            {
+              "question": "Car worth $20,000 depreciates 15% annually. Value after 1 year?",
+              "answer": "$17,000",
+              "explanation": "Depreciation = 15% of 20000 = 3000, value = 17000"
+            }
+          ],
+          "formulas": [
+            "Value = Original × (1 - r/100)^n"
+          ],
+          "commonMistakes": [
+            "Adding instead of subtracting",
+            "Wrong number of years"
+          ],
+          "examTips": [
+            "Remember depreciation decreases value",
+            "Use correct formula"
+          ],
+          "questions": [
+            {
+              "id": "math-dep-q1",
+              "question": "Machine worth $5000 depreciates 10% yearly. Value after 2 years?",
+              "options": ["$4050", "$4000", "$4500", "$4100"],
+              "correctAnswer": "$4050",
+              "explanation": "5000 × 0.9² = 4050",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Asset management",
+            "Accounting depreciation methods"
+          ],
+          "resources": []
+        },
+        {
+          "id": "hire-purchase",
+          "title": "Hire Purchase",
+          "summary": "Understanding installment payments",
+          "mustKnow": [
+            "Deposit is initial payment",
+            "Balance paid in installments",
+            "Calculate total cost",
+            "Find extra cost over cash price"
+          ],
+          "keyTerms": [
+            {"term": "Hire Purchase", "definition": "Buying by installments"},
+            {"term": "Deposit", "definition": "Initial down payment"},
+            {"term": "Installment", "definition": "Regular payment"}
+          ],
+          "examples": [
+            {
+              "question": "TV cash price $800, HP: $200 deposit + 12 × $60. Total HP price?",
+              "answer": "$920",
+              "explanation": "Total = 200 + 720 = 920"
+            }
+          ],
+          "formulas": [
+            "HP Price = Deposit + (Installments × Number)"
+          ],
+          "commonMistakes": [
+            "Forgetting deposit",
+            "Wrong number of installments"
+          ],
+          "examTips": [
+            "Calculate total installment amount first",
+            "Compare with cash price"
+          ],
+          "questions": [
+            {
+              "id": "math-hp-q1",
+              "question": "Furniture: $150 deposit + 10 × $50. Total price?",
+              "options": ["$650", "$600", "$500", "$550"],
+              "correctAnswer": "$650",
+              "explanation": "150 + 500 = 650",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Consumer loans",
+            "Installment buying"
+          ],
+          "resources": []
+        },
+        {
+          "id": "wages",
+          "title": "Wages",
+          "summary": "Calculating earnings and pay",
+          "mustKnow": [
+            "Hourly rate calculations",
+            "Overtime calculations",
+            "Weekly/monthly wages",
+            "Commission calculations"
+          ],
+          "keyTerms": [
+            {"term": "Wage", "definition": "Payment for work"},
+            {"term": "Overtime", "definition": "Extra pay for extra hours"},
+            {"term": "Commission", "definition": "Percentage of sales"}
+          ],
+          "examples": [
+            {
+              "question": "Worker earns $15/hour for 40 hours + overtime at 1.5× for 5 hours. Total?",
+              "answer": "$712.50",
+              "explanation": "Regular = 15 × 40 = 600, OT = 15 × 1.5 × 5 = 112.50"
+            }
+          ],
+          "formulas": [
+            "Wage = Rate × Hours",
+            "Overtime = Rate × Overtime Rate × OT Hours"
+          ],
+          "commonMistakes": [
+            "Forgetting overtime rate",
+            "Wrong hourly calculation"
+          ],
+          "examTips": [
+            "Identify regular and overtime separately",
+            "Check overtime rate"
+          ],
+          "questions": [
+            {
+              "id": "math-wage-q1",
+              "question": "$12/hour for 35 hours. Weekly wage?",
+              "options": ["$420", "$400", "$450", "$410"],
+              "correctAnswer": "$420",
+              "explanation": "12 × 35 = 420",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Salary structures",
+            "Labor economics"
+          ],
+          "resources": []
+        },
+        {
+          "id": "bills",
+          "title": "Bills",
+          "summary": "Understanding and calculating utility bills",
+          "mustKnow": [
+            "Read utility meters",
+            "Calculate consumption",
+            "Apply tariff rates",
+            "Calculate total bill"
+          ],
+          "keyTerms": [
+            {"term": "Tariff", "definition": "Rate charged for services"},
+            {"term": "Consumption", "definition": "Amount of service used"},
+            {"term": "Utility", "definition": "Essential service like electricity"}
+          ],
+          "examples": [
+            {
+              "question": "Electricity: 100 kWh at $0.25/kWh + $10 fixed charge. Total?",
+              "answer": "$35",
+              "explanation": "Usage = 100 × 0.25 = 25, total = 25 + 10 = 35"
+            }
+          ],
+          "formulas": [
+            "Bill = (Consumption × Rate) + Fixed Charges"
+          ],
+          "commonMistakes": [
+            "Forgetting fixed charges",
+            "Wrong tariff rate"
+          ],
+          "examTips": [
+            "Include all charges",
+            "Check meter readings"
+          ],
+          "questions": [
+            {
+              "id": "math-bill-q1",
+              "question": "Water: 50 m³ at $2/m³ + $15 service. Total?",
+              "options": ["$115", "$100", "$125", "$110"],
+              "correctAnswer": "$115",
+              "explanation": "Usage = 50 × 2 = 100, total = 100 + 15 = 115",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Utility management",
+            "Energy efficiency"
+          ],
+          "resources": []
+        },
+        {
+          "id": "currency",
+          "title": "Currency Conversion",
+          "summary": "Converting between currencies",
+          "mustKnow": [
+            "Use exchange rates",
+            "Convert between currencies",
+            "Calculate commission",
+            "Understand buying/selling rates"
+          ],
+          "keyTerms": [
+            {"term": "Exchange Rate", "definition": "Value of one currency in another"},
+            {"term": "Commission", "definition": "Fee for currency exchange"}
+          ],
+          "examples": [
+            {
+              "question": "US$1 = J$155. Convert US$100 to Jamaican dollars",
+              "answer": "J$15,500",
+              "explanation": "100 × 155 = 15,500"
+            }
+          ],
+          "formulas": [
+            "Amount = Original × Exchange Rate"
+          ],
+          "commonMistakes": [
+            "Using wrong rate direction",
+            "Forgetting commission"
+          ],
+          "examTips": [
+            "Check if rate is buy or sell",
+            "Include any fees"
+          ],
+          "questions": [
+            {
+              "id": "math-curr-q1",
+              "question": "£1 = US$1.25. Convert £200 to US dollars",
+              "options": ["$250", "$200", "$225", "$275"],
+              "correctAnswer": "$250",
+              "explanation": "200 × 1.25 = 250",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Foreign exchange markets",
+            "International trade"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "algebra",
+      "title": "Algebra",
+      "description": "Working with variables, expressions, and equations",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Simplify algebraic expressions",
+        "Solve linear equations",
+        "Factorize algebraic expressions",
+        "Solve simultaneous equations",
+        "Work with inequalities"
+      ],
+      "topics": [
+        {
+          "id": "algebraic-expressions",
+          "title": "Algebraic Expressions",
+          "summary": "Understanding and manipulating algebraic expressions",
+          "mustKnow": [
+            "Combine like terms",
+            "Expand brackets using distributive property",
+            "Factorize common factors",
+            "Substitute values into expressions"
+          ],
+          "keyTerms": [
+            {"term": "Variable", "definition": "Symbol representing unknown value"},
+            {"term": "Coefficient", "definition": "Number multiplied by variable"},
+            {"term": "Like Terms", "definition": "Terms with same variable and exponent"}
+          ],
+          "examples": [
+            {
+              "question": "Simplify: 3x + 2y - x + 4y",
+              "answer": "2x + 6y",
+              "explanation": "Combine like terms: 3x - x = 2x, 2y + 4y = 6y"
+            }
+          ],
+          "formulas": [
+            "Distributive Property: a(b + c) = ab + ac"
+          ],
+          "commonMistakes": [
+            "Forgetting to distribute to all terms",
+            "Incorrect sign when subtracting"
+          ],
+          "examTips": [
+            "Organize like terms first",
+            "Check by substituting values"
+          ],
+          "questions": [
+            {
+              "id": "math-alg-q1",
+              "question": "Simplify: 5x - 3 + 2x + 7",
+              "options": ["7x + 4", "3x + 4", "7x + 10", "3x - 4"],
+              "correctAnswer": "7x + 4",
+              "explanation": "Combine like terms: 5x + 2x = 7x, -3 + 7 = 4",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Polynomial operations",
+            "Algebraic identities"
+          ],
+          "resources": []
+        },
+        {
+          "id": "substitution",
+          "title": "Substitution",
+          "summary": "Replacing variables with values",
+          "mustKnow": [
+            "Replace variables with given values",
+            "Follow order of operations",
+            "Evaluate expressions",
+            "Substitute into formulas"
+          ],
+          "keyTerms": [
+            {"term": "Substitution", "definition": "Replacing variables with values"},
+            {"term": "Evaluation", "definition": "Finding numerical value"}
+          ],
+          "examples": [
+            {
+              "question": "If x = 3, find 2x² + 5x - 1",
+              "answer": "32",
+              "explanation": "2(9) + 15 - 1 = 18 + 15 - 1 = 32"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Forgetting to square before multiplying",
+            "Order of operations errors"
+          ],
+          "examTips": [
+            "Use brackets when substituting",
+            "Follow BODMAS"
+          ],
+          "questions": [
+            {
+              "id": "math-sub-q1",
+              "question": "If a = 4, b = -2, find 3a + 2b",
+              "options": ["8", "16", "12", "4"],
+              "correctAnswer": "8",
+              "explanation": "3(4) + 2(-2) = 12 - 4 = 8",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Function evaluation",
+            "Computer programming"
+          ],
+          "resources": []
+        },
+        {
+          "id": "simplification",
+          "title": "Simplification",
+          "summary": "Simplifying algebraic expressions",
+          "mustKnow": [
+            "Combine like terms",
+            "Use distributive property",
+            "Simplify fractions",
+            "Remove brackets"
+          ],
+          "keyTerms": [
+            {"term": "Simplify", "definition": "Write in simplest form"},
+            {"term": "Like Terms", "definition": "Terms that can be combined"}
+          ],
+          "examples": [
+            {
+              "question": "Simplify: 2(3x + 4) - 5x",
+              "answer": "x + 8",
+              "explanation": "6x + 8 - 5x = x + 8"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Not distributing correctly",
+            "Incorrect sign handling"
+          ],
+          "examTips": [
+            "Expand first, then combine",
+            "Keep track of signs"
+          ],
+          "questions": [
+            {
+              "id": "math-simp-q1",
+              "question": "Simplify: 4x + 3(x - 2)",
+              "options": ["7x - 6", "7x + 6", "4x + 3x - 2", "12x - 6"],
+              "correctAnswer": "7x - 6",
+              "explanation": "4x + 3x - 6 = 7x - 6",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Algebraic manipulation",
+            "Advanced simplification"
+          ],
+          "resources": []
+        },
+        {
+          "id": "expansion",
+          "title": "Expansion",
+          "summary": "Expanding brackets and products",
+          "mustKnow": [
+            "Expand single brackets",
+            "Expand double brackets",
+            "Use FOIL method",
+            "Expand perfect squares"
+          ],
+          "keyTerms": [
+            {"term": "Expansion", "definition": "Multiplying to remove brackets"},
+            {"term": "FOIL", "definition": "First, Outer, Inner, Last"}
+          ],
+          "examples": [
+            {
+              "question": "Expand: (x + 3)(x + 2)",
+              "answer": "x² + 5x + 6",
+              "explanation": "x² + 2x + 3x + 6 = x² + 5x + 6"
+            }
+          ],
+          "formulas": [
+            "(a + b)² = a² + 2ab + b²",
+            "(a - b)² = a² - 2ab + b²",
+            "(a + b)(a - b) = a² - b²"
+          ],
+          "commonMistakes": [
+            "Forgetting middle term",
+            "Wrong signs"
+          ],
+          "examTips": [
+            "Use FOIL method",
+            "Check by substituting values"
+          ],
+          "questions": [
+            {
+              "id": "math-exp-q1",
+              "question": "Expand: (x + 5)(x - 3)",
+              "options": ["x² + 2x - 15", "x² - 2x - 15", "x² + 8x - 15", "x² - 8x + 15"],
+              "correctAnswer": "x² + 2x - 15",
+              "explanation": "x² - 3x + 5x - 15 = x² + 2x - 15",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Binomial theorem",
+            "Polynomial expansion"
+          ],
+          "resources": []
+        },
+        {
+          "id": "factorisation",
+          "title": "Factorisation",
+          "summary": "Factorizing algebraic expressions",
+          "mustKnow": [
+            "Find common factors",
+            "Factorize quadratics",
+            "Use difference of squares",
+            "Factorize by grouping"
+          ],
+          "keyTerms": [
+            {"term": "Factorisation", "definition": "Writing as product of factors"},
+            {"term": "Common Factor", "definition": "Factor shared by all terms"}
+          ],
+          "examples": [
+            {
+              "question": "Factorize: x² + 5x + 6",
+              "answer": "(x + 2)(x + 3)",
+              "explanation": "Find two numbers that multiply to 6 and add to 5"
+            }
+          ],
+          "formulas": [
+            "a² - b² = (a + b)(a - b)",
+            "x² + (a + b)x + ab = (x + a)(x + b)"
+          ],
+          "commonMistakes": [
+            "Wrong signs in factors",
+            "Not finding correct factors"
+          ],
+          "examTips": [
+            "Check by expanding",
+            "Look for common factors first"
+          ],
+          "questions": [
+            {
+              "id": "math-fact-q1",
+              "question": "Factorize: x² - 9",
+              "options": ["(x + 3)(x - 3)", "(x + 9)(x - 1)", "(x - 3)²", "(x + 3)²"],
+              "correctAnswer": "(x + 3)(x - 3)",
+              "explanation": "Difference of squares: a² - b² = (a + b)(a - b)",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Quadratic formula",
+            "Complex factorization"
+          ],
+          "resources": []
+        },
+        {
+          "id": "equations",
+          "title": "Equations",
+          "summary": "Solving linear equations",
+          "mustKnow": [
+            "Solve one-step equations",
+            "Solve multi-step equations",
+            "Solve equations with variables on both sides",
+            "Solve equations with brackets"
+          ],
+          "keyTerms": [
+            {"term": "Equation", "definition": "Mathematical statement of equality"},
+            {"term": "Solution", "definition": "Value that makes equation true"},
+            {"term": "Variable", "definition": "Unknown value to find"}
+          ],
+          "examples": [
+            {
+              "question": "Solve: 3x + 5 = 20",
+              "answer": "x = 5",
+              "explanation": "3x = 15, x = 5"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Performing operation on one side only",
+            "Sign errors"
+          ],
+          "examTips": [
+            "Do same to both sides",
+            "Check solution in original equation"
+          ],
+          "questions": [
+            {
+              "id": "math-eq-q1",
+              "question": "Solve: 2x - 7 = 11",
+              "options": ["x = 9", "x = 8", "x = 10", "x = 7"],
+              "correctAnswer": "x = 9",
+              "explanation": "2x = 18, x = 9",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Quadratic equations",
+            "Systems of equations"
+          ],
+          "resources": []
+        },
+        {
+          "id": "inequalities",
+          "title": "Inequalities",
+          "summary": "Solving and graphing inequalities",
+          "mustKnow": [
+            "Understand inequality symbols",
+            "Solve linear inequalities",
+            "Graph on number line",
+            "Solve compound inequalities"
+          ],
+          "keyTerms": [
+            {"term": "Inequality", "definition": "Mathematical statement comparing values"},
+            {"term": "Greater Than", "definition": "> symbol"},
+            {"term": "Less Than", "definition": "< symbol"}
+          ],
+          "examples": [
+            {
+              "question": "Solve: 2x + 3 < 11",
+              "answer": "x < 4",
+              "explanation": "2x < 8, x < 4"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Forgetting to flip sign when multiplying by negative",
+            "Wrong direction of inequality"
+          ],
+          "examTips": [
+            "Flip sign when multiplying/dividing by negative",
+            "Check solution by substituting"
+          ],
+          "questions": [
+            {
+              "id": "math-ineq-q1",
+              "question": "Solve: 3x - 4 > 8",
+              "options": ["x > 4", "x < 4", "x > 6", "x < 6"],
+              "correctAnswer": "x > 4",
+              "explanation": "3x > 12, x > 4",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Quadratic inequalities",
+            "Linear programming"
+          ],
+          "resources": []
+        },
+        {
+          "id": "formulae",
+          "title": "Formulae",
+          "summary": "Working with and rearranging formulas",
+          "mustKnow": [
+            "Substitute values into formulas",
+            "Rearrange formulas",
+            "Make variable the subject",
+            "Use formulas in real contexts"
+          ],
+          "keyTerms": [
+            {"term": "Formula", "definition": "Mathematical relationship between quantities"},
+            {"term": "Subject", "definition": "Variable isolated on one side"}
+          ],
+          "examples": [
+            {
+              "question": "A = lw. If A = 24 and w = 4, find l",
+              "answer": "l = 6",
+              "explanation": "24 = l × 4, l = 6"
+            }
+          ],
+          "formulas": [
+            "Common formulas: A = lw, V = lwh, C = 2πr"
+          ],
+          "commonMistakes": [
+            "Incorrect rearrangement",
+            "Wrong substitution"
+          ],
+          "examTips": [
+            "Substitute first, then solve",
+            "Use inverse operations"
+          ],
+          "questions": [
+            {
+              "id": "math-form-q1",
+              "question": "D = rt. If D = 120 and r = 40, find t",
+              "options": ["3", "4", "5", "2"],
+              "correctAnswer": "3",
+              "explanation": "120 = 40t, t = 3",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Physics formulas",
+            "Engineering applications"
+          ],
+          "resources": []
+        },
+        {
+          "id": "algebraic-fractions",
+          "title": "Algebraic Fractions",
+          "summary": "Working with fractions containing variables",
+          "mustKnow": [
+            "Simplify algebraic fractions",
+            "Add/subtract with common denominators",
+            "Multiply/divide algebraic fractions",
+            "Solve equations with fractions"
+          ],
+          "keyTerms": [
+            {"term": "Algebraic Fraction", "definition": "Fraction with variables"},
+            {"term": "Common Denominator", "definition": "Shared denominator"}
+          ],
+          "examples": [
+            {
+              "question": "Simplify: (x/2) + (x/3)",
+              "answer": "(5x)/6",
+              "explanation": "Common denominator 6: 3x/6 + 2x/6 = 5x/6"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Forgetting common denominator",
+            "Incorrect simplification"
+          ],
+          "examTips": [
+            "Find LCM for denominators",
+            "Check by substituting"
+          ],
+          "questions": [
+            {
+              "id": "math-af-q1",
+              "question": "Simplify: (2x/3) - (x/4)",
+              "options": ["(5x)/12", "(3x)/12", "(x)/12", "(5x)/7"],
+              "correctAnswer": "(5x)/12",
+              "explanation": "8x/12 - 3x/12 = 5x/12",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Partial fractions",
+            "Rational expressions"
+          ],
+          "resources": []
+        },
+        {
+          "id": "sequences",
+          "title": "Sequences",
+          "summary": "Understanding number patterns and sequences",
+          "mustKnow": [
+            "Identify arithmetic sequences",
+            "Find nth term",
+            "Identify geometric sequences",
+            "Continue number patterns"
+          ],
+          "keyTerms": [
+            {"term": "Sequence", "definition": "Ordered list of numbers"},
+            {"term": "Common Difference", "definition": "Constant difference in arithmetic sequence"},
+            {"term": "Common Ratio", "definition": "Constant ratio in geometric sequence"}
+          ],
+          "examples": [
+            {
+              "question": "Find nth term of: 3, 7, 11, 15...",
+              "answer": "4n - 1",
+              "explanation": "Common difference = 4, nth term = 4n - 1"
+            }
+          ],
+          "formulas": [
+            "Arithmetic: aₙ = a₁ + (n-1)d",
+            "Geometric: aₙ = a₁r^(n-1)"
+          ],
+          "commonMistakes": [
+            "Wrong common difference",
+            "Incorrect nth term formula"
+          ],
+          "examTips": [
+            "Find difference first",
+            "Check formula with first term"
+          ],
+          "questions": [
+            {
+              "id": "math-seq-q1",
+              "question": "What is the next term in: 2, 5, 8, 11?",
+              "options": ["14", "13", "15", "12"],
+              "correctAnswer": "14",
+              "explanation": "Common difference = 3, so 11 + 3 = 14",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Fibonacci sequence",
+            "Mathematical series"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "relations-functions",
+      "title": "Relations and Functions",
+      "description": "Understanding relationships between variables",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand relations and functions",
+        "Identify domain and range",
+        "Graph linear functions",
+        "Calculate gradient"
+      ],
+      "topics": [
+        {
+          "id": "relations",
+          "title": "Relations",
+          "summary": "Understanding relationships between sets",
+          "mustKnow": [
+            "Relation connects two sets",
+            "Represent relations in different ways",
+            "Identify ordered pairs",
+            "Understand mapping"
+          ],
+          "keyTerms": [
+            {"term": "Relation", "definition": "Connection between two sets"},
+            {"term": "Ordered Pair", "definition": "Pair of related elements (x, y)"}
+          ],
+          "examples": [
+            {
+              "question": "Relation y = x + 2: find y when x = 3",
+              "answer": "y = 5",
+              "explanation": "Substitute: y = 3 + 2 = 5"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing relation with function",
+            "Wrong ordered pairs"
+          ],
+          "examTips": [
+            "Use mapping diagrams",
+            "Check ordered pairs"
+          ],
+          "questions": [
+            {
+              "id": "math-rel-q1",
+              "question": "If y = 2x + 1, what is y when x = 4?",
+              "options": ["9", "7", "8", "6"],
+              "correctAnswer": "9",
+              "explanation": "y = 2(4) + 1 = 9",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Set theory",
+            "Discrete mathematics"
+          ],
+          "resources": []
+        },
+        {
+          "id": "functions",
+          "title": "Functions",
+          "summary": "Understanding functions and function notation",
+          "mustKnow": [
+            "Function is special relation",
+            "Each input has one output",
+            "Use function notation f(x)",
+            "Evaluate functions"
+          ],
+          "keyTerms": [
+            {"term": "Function", "definition": "Relation with one output per input"},
+            {"term": "Domain", "definition": "All possible inputs"},
+            {"term": "Range", "definition": "All possible outputs"}
+          ],
+          "examples": [
+            {
+              "question": "If f(x) = 3x - 2, find f(4)",
+              "answer": "10",
+              "explanation": "f(4) = 3(4) - 2 = 10"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing f(x) with multiplication",
+            "Wrong substitution"
+          ],
+          "examTips": [
+            "f(x) means 'function of x'",
+            "Substitute input for x"
+          ],
+          "questions": [
+            {
+              "id": "math-func-q1",
+              "question": "If f(x) = x² + 1, find f(3)",
+              "options": ["10", "9", "7", "8"],
+              "correctAnswer": "10",
+              "explanation": "f(3) = 9 + 1 = 10",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Inverse functions",
+            "Composite functions"
+          ],
+          "resources": []
+        },
+        {
+          "id": "coordinates",
+          "title": "Coordinates",
+          "summary": "Plotting and reading coordinates",
+          "mustKnow": [
+            "Plot points on Cartesian plane",
+            "Read coordinates (x, y)",
+            "Understand quadrants",
+            "Find midpoint"
+          ],
+          "keyTerms": [
+            {"term": "Coordinate", "definition": "Pair of numbers locating a point"},
+            {"term": "Axis", "definition": "Reference line (x or y)"},
+            {"term": "Quadrant", "definition": "One of four regions"}
+          ],
+          "examples": [
+            {
+              "question": "Plot point (3, -2). Which quadrant?",
+              "answer": "Fourth quadrant",
+              "explanation": "x positive, y negative"
+            }
+          ],
+          "formulas": [
+            "Midpoint = ((x₁ + x₂)/2, (y₁ + y₂)/2)"
+          ],
+          "commonMistakes": [
+            "Reversing x and y",
+            "Wrong quadrant"
+          ],
+          "examTips": [
+            "x first, then y",
+            "Check signs for quadrant"
+          ],
+          "questions": [
+            {
+              "id": "math-coord-q1",
+              "question": "Which quadrant is (-3, 4) in?",
+              "options": ["Second", "First", "Third", "Fourth"],
+              "correctAnswer": "Second",
+              "explanation": "x negative, y positive",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "3D coordinates",
+            "Polar coordinates"
+          ],
+          "resources": []
+        },
+        {
+          "id": "linear-graphs",
+          "title": "Linear Graphs",
+          "summary": "Plotting and interpreting straight line graphs",
+          "mustKnow": [
+            "Plot points to create line",
+            "Understand y = mx + c",
+            "Find intercepts",
+            "Interpret graphs"
+          ],
+          "keyTerms": [
+            {"term": "Gradient", "definition": "Steepness of line"},
+            {"term": "Y-intercept", "definition": "Where line crosses y-axis"},
+            {"term": "X-intercept", "definition": "Where line crosses x-axis"}
+          ],
+          "examples": [
+            {
+              "question": "Plot y = 2x + 1 from x = -2 to x = 2",
+              "answer": "Points: (-2,-3), (-1,-1), (0,1), (1,3), (2,5)",
+              "explanation": "Substitute each x value"
+            }
+          ],
+          "formulas": [
+            "Linear equation: y = mx + c",
+            "Gradient = (y₂ - y₁)/(x₂ - x₁)"
+          ],
+          "commonMistakes": [
+            "Wrong gradient",
+            "Incorrect intercept"
+          ],
+          "examTips": [
+            "Plot at least 3 points",
+            "Check line is straight"
+          ],
+          "questions": [
+            {
+              "id": "math-graph-q1",
+              "question": "What is the y-intercept of y = 3x + 5?",
+              "options": ["5", "3", "-5", "-3"],
+              "correctAnswer": "5",
+              "explanation": "When x = 0, y = 5",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Graphing software",
+            "Data visualization"
+          ],
+          "resources": []
+        },
+        {
+          "id": "gradient",
+          "title": "Gradient",
+          "summary": "Calculating slope of a line",
+          "mustKnow": [
+            "Gradient is change in y over change in x",
+            "Positive gradient rises",
+            "Negative gradient falls",
+            "Calculate from two points"
+          ],
+          "keyTerms": [
+            {"term": "Gradient", "definition": "Measure of steepness"},
+            {"term": "Slope", "definition": "Same as gradient"},
+            {"term": "Rise", "definition": "Vertical change"},
+            {"term": "Run", "definition": "Horizontal change"}
+          ],
+          "examples": [
+            {
+              "question": "Find gradient between (1, 2) and (4, 8)",
+              "answer": "2",
+              "explanation": "(8 - 2)/(4 - 1) = 6/3 = 2"
+            }
+          ],
+          "formulas": [
+            "m = (y₂ - y₁)/(x₂ - x₁)"
+          ],
+          "commonMistakes": [
+            "Reversing coordinates",
+            "Wrong subtraction order"
+          ],
+          "examTips": [
+            "Use consistent order",
+            "Check sign of gradient"
+          ],
+          "questions": [
+            {
+              "id": "math-grad-q1",
+              "question": "Gradient of line through (0, 2) and (3, 8)?",
+              "options": ["2", "3", "4", "6"],
+              "correctAnswer": "2",
+              "explanation": "(8 - 2)/(3 - 0) = 6/3 = 2",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Calculus derivatives",
+            "Rate of change"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "geometry",
+      "title": "Geometry",
+      "description": "Understanding shapes, angles, and spatial relationships",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand angles and lines",
+        "Identify triangle properties",
+        "Work with quadrilaterals and polygons",
+        "Understand circle geometry",
+        "Apply congruence and similarity"
+      ],
+      "topics": [
+        {
+          "id": "lines-angles",
+          "title": "Lines and Angles",
+          "summary": "Understanding angles formed by lines",
+          "mustKnow": [
+            "Angles on straight line sum to 180°",
+            "Angles around point sum to 360°",
+            "Corresponding angles are equal",
+            "Alternate angles are equal"
+          ],
+          "keyTerms": [
+            {"term": "Acute Angle", "definition": "Less than 90°"},
+            {"term": "Obtuse Angle", "definition": "Between 90° and 180°"},
+            {"term": "Parallel Lines", "definition": "Lines that never meet"}
+          ],
+          "examples": [
+            {
+              "question": "If angle A = 55°, find supplementary angle",
+              "answer": "125°",
+              "explanation": "Supplementary angles sum to 180°: 180 - 55 = 125"
+            }
+          ],
+          "formulas": [
+            "Supplementary: a + b = 180°",
+            "Complementary: a + b = 90°"
+          ],
+          "commonMistakes": [
+            "Confusing supplementary and complementary",
+            "Wrong angle relationships"
+          ],
+          "examTips": [
+            "Identify angle relationships",
+            "Use known angles to find unknown"
+          ],
+          "questions": [
+            {
+              "id": "math-angle-q1",
+              "question": "Complement of 30° is?",
+              "options": ["60°", "150°", "90°", "120°"],
+              "correctAnswer": "60°",
+              "explanation": "Complementary angles sum to 90°: 90 - 30 = 60",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Euclidean geometry",
+            "Non-Euclidean geometry"
+          ],
+          "resources": []
+        },
+        {
+          "id": "triangles",
+          "title": "Triangles",
+          "summary": "Understanding triangle types and properties",
+          "mustKnow": [
+            "Angles in triangle sum to 180°",
+            "Identify triangle types",
+            "Apply Pythagoras theorem",
+            "Calculate area of triangle"
+          ],
+          "keyTerms": [
+            {"term": "Equilateral", "definition": "All sides equal"},
+            {"term": "Isosceles", "definition": "Two sides equal"},
+            {"term": "Scalene", "definition": "No sides equal"}
+          ],
+          "examples": [
+            {
+              "question": "Triangle has angles 50° and 70°. Find third angle",
+              "answer": "60°",
+              "explanation": "180 - 50 - 70 = 60"
+            }
+          ],
+          "formulas": [
+            "Area = ½ × base × height",
+            "Pythagoras: a² + b² = c²"
+          ],
+          "commonMistakes": [
+            "Forgetting angle sum",
+            "Wrong area formula"
+          ],
+          "examTips": [
+            "Check angle sum",
+            "Use correct formula"
+          ],
+          "questions": [
+            {
+              "id": "math-tri-q1",
+              "question": "Area of triangle with base 8cm and height 5cm?",
+              "options": ["20 cm²", "40 cm²", "13 cm²", "26 cm²"],
+              "correctAnswer": "20 cm²",
+              "explanation": "Area = ½ × 8 × 5 = 20",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Trigonometry",
+            "Triangle inequality"
+          ],
+          "resources": []
+        },
+        {
+          "id": "quadrilaterals",
+          "title": "Quadrilaterals",
+          "summary": "Understanding four-sided shapes",
+          "mustKnow": [
+            "Angles in quadrilateral sum to 360°",
+            "Identify types of quadrilaterals",
+            "Calculate areas",
+            "Understand properties"
+          ],
+          "keyTerms": [
+            {"term": "Quadrilateral", "definition": "Four-sided polygon"},
+            {"term": "Parallelogram", "definition": "Opposite sides parallel"},
+            {"term": "Trapezium", "definition": "One pair of parallel sides"}
+          ],
+          "examples": [
+            {
+              "question": "Rectangle length 8cm, width 5cm. Find area",
+              "answer": "40 cm²",
+              "explanation": "Area = length × width = 8 × 5 = 40"
+            }
+          ],
+          "formulas": [
+            "Rectangle: A = lw",
+            "Parallelogram: A = bh",
+            "Trapezium: A = ½(a + b)h"
+          ],
+          "commonMistakes": [
+            "Wrong formula for shape",
+            "Forgetting angle sum"
+          ],
+          "examTips": [
+            "Identify shape first",
+            "Use correct formula"
+          ],
+          "questions": [
+            {
+              "id": "math-quad-q1",
+              "question": "Area of square with side 6cm?",
+              "options": ["36 cm²", "24 cm²", "12 cm²", "48 cm²"],
+              "correctAnswer": "36 cm²",
+              "explanation": "Area = 6² = 36",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Properties of special quadrilaterals",
+            "Coordinate geometry"
+          ],
+          "resources": []
+        },
+        {
+          "id": "polygons",
+          "title": "Polygons",
+          "summary": "Understanding multi-sided shapes",
+          "mustKnow": [
+            "Sum of interior angles = (n-2) × 180°",
+            "Sum of exterior angles = 360°",
+            "Regular polygons have equal sides and angles",
+            "Calculate individual angles"
+          ],
+          "keyTerms": [
+            {"term": "Polygon", "definition": "Closed shape with straight sides"},
+            {"term": "Regular Polygon", "definition": "All sides and angles equal"}
+          ],
+          "examples": [
+            {
+              "question": "Find interior angle sum of hexagon",
+              "answer": "720°",
+              "explanation": "(6-2) × 180 = 720"
+            }
+          ],
+          "formulas": [
+            "Interior angle sum = (n-2) × 180°",
+            "Exterior angle = 360/n"
+          ],
+          "commonMistakes": [
+            "Wrong formula",
+            "Forgetting exterior angle sum"
+          ],
+          "examTips": [
+            "Count sides carefully",
+            "Use correct formula"
+          ],
+          "questions": [
+            {
+              "id": "math-poly-q1",
+              "question": "Interior angle sum of pentagon?",
+              "options": ["540°", "360°", "720°", "180°"],
+              "correctAnswer": "540°",
+              "explanation": "(5-2) × 180 = 540",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Tessellations",
+            "Platonic solids"
+          ],
+          "resources": []
+        },
+        {
+          "id": "circle-geometry",
+          "title": "Circle Geometry",
+          "summary": "Understanding circles and their properties",
+          "mustKnow": [
+            "Angles in same segment are equal",
+            "Angle at center is twice angle at circumference",
+            "Angle in semicircle is 90°",
+            "Tangent is perpendicular to radius"
+          ],
+          "keyTerms": [
+            {"term": "Radius", "definition": "Line from center to circle"},
+            {"term": "Diameter", "definition": "Line through center connecting two points"},
+            {"term": "Tangent", "definition": "Line touching circle at one point"}
+          ],
+          "examples": [
+            {
+              "question": "Angle at center is 80°. Find angle at circumference",
+              "answer": "40°",
+              "explanation": "Angle at circumference is half angle at center"
+            }
+          ],
+          "formulas": [
+            "Circumference = 2πr",
+            "Area = πr²"
+          ],
+          "commonMistakes": [
+            "Confusing radius and diameter",
+            "Wrong angle relationships"
+          ],
+          "examTips": [
+            "Identify angle relationship",
+            "Use circle theorems"
+          ],
+          "questions": [
+            {
+              "id": "math-circle-q1",
+              "question": "Radius 7cm. Find circumference (π = 22/7)",
+              "options": ["44 cm", "22 cm", "154 cm", "88 cm"],
+              "correctAnswer": "44 cm",
+              "explanation": "C = 2 × 22/7 × 7 = 44",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Advanced circle theorems",
+            "Analytic geometry"
+          ],
+          "resources": []
+        },
+        {
+          "id": "congruence",
+          "title": "Congruence",
+          "summary": "Understanding congruent shapes",
+          "mustKnow": [
+            "Congruent shapes are identical",
+            "Use SSS, SAS, ASA, RHS",
+            "Identify congruent triangles",
+            "Apply congruence conditions"
+          ],
+          "keyTerms": [
+            {"term": "Congruent", "definition": "Identical in shape and size"},
+            {"term": "SSS", "definition": "Three sides equal"},
+            {"term": "SAS", "definition": "Two sides and included angle equal"}
+          ],
+          "examples": [
+            {
+              "question": "Two triangles have equal sides. Are they congruent?",
+              "answer": "Yes, by SSS",
+              "explanation": "All three sides equal"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Using wrong congruence rule",
+            "Assuming similarity is congruence"
+          ],
+          "examTips": [
+            "Check all conditions",
+            "Use correct notation"
+          ],
+          "questions": [
+            {
+              "id": "math-cong-q1",
+              "question": "Two right triangles have equal hypotenuse and one leg. Congruent by?",
+              "options": ["RHS", "SAS", "SSS", "ASA"],
+              "correctAnswer": "RHS",
+              "explanation": "Right angle, Hypotenuse, Side",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Geometric proofs",
+            "Transformation geometry"
+          ],
+          "resources": []
+        },
+        {
+          "id": "similarity",
+          "title": "Similarity",
+          "summary": "Understanding similar shapes",
+          "mustKnow": [
+            "Similar shapes have same shape, different size",
+            "Corresponding angles are equal",
+            "Corresponding sides are proportional",
+            "Scale factor relates sizes"
+          ],
+          "keyTerms": [
+            {"term": "Similar", "definition": "Same shape, different size"},
+            {"term": "Scale Factor", "definition": "Ratio of corresponding sides"}
+          ],
+          "examples": [
+            {
+              "question": "Two similar triangles have sides in ratio 2:3. If smaller side is 4cm, find corresponding larger side",
+              "answer": "6 cm",
+              "explanation": "4 × 3/2 = 6"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing similarity with congruence",
+            "Wrong scale factor"
+          ],
+          "examTips": [
+            "Identify corresponding sides",
+            "Use scale factor correctly"
+          ],
+          "questions": [
+            {
+              "id": "math-sim-q1",
+              "question": "Similar triangles: sides in ratio 1:2. Larger triangle side 10cm. Corresponding smaller side?",
+              "options": ["5 cm", "10 cm", "20 cm", "15 cm"],
+              "correctAnswer": "5 cm",
+              "explanation": "10 × 1/2 = 5",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Enlargement",
+            "Map scales"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "measurement",
+      "title": "Measurement",
+      "description": "Measuring length, area, volume, and other quantities",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Measure length and perimeter",
+        "Calculate area and volume",
+        "Understand surface area",
+        "Use scale and unit conversion"
+      ],
+      "topics": [
+        {
+          "id": "length-perimeter",
+          "title": "Length and Perimeter",
+          "summary": "Measuring length and calculating perimeter",
+          "mustKnow": [
+            "Measure accurately using ruler",
+            "Calculate perimeter of shapes",
+            "Convert between length units",
+            "Find missing lengths"
+          ],
+          "keyTerms": [
+            {"term": "Perimeter", "definition": "Distance around a shape"},
+            {"term": "Length", "definition": "Measurement of distance"}
+          ],
+          "examples": [
+            {
+              "question": "Rectangle length 10cm, width 6cm. Find perimeter",
+              "answer": "32 cm",
+              "explanation": "P = 2(10 + 6) = 32"
+            }
+          ],
+          "formulas": [
+            "Rectangle: P = 2(l + w)",
+            "Square: P = 4s",
+            "Circle: C = 2πr"
+          ],
+          "commonMistakes": [
+            "Forgetting to multiply by 2",
+            "Wrong units"
+          ],
+          "examTips": [
+            "Use correct formula",
+            "Include units"
+          ],
+          "questions": [
+            {
+              "id": "math-per-q1",
+              "question": "Perimeter of square with side 9cm?",
+              "options": ["36 cm", "81 cm", "18 cm", "27 cm"],
+              "correctAnswer": "36 cm",
+              "explanation": "P = 4 × 9 = 36",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Distance measurement",
+            "Surveying"
+          ],
+          "resources": []
+        },
+        {
+          "id": "area",
+          "title": "Area",
+          "summary": "Calculating area of shapes",
+          "mustKnow": [
+            "Calculate area of rectangles, triangles, circles",
+            "Find area of compound shapes",
+            "Convert between area units",
+            "Solve real-world area problems"
+          ],
+          "keyTerms": [
+            {"term": "Area", "definition": "Amount of space inside a shape"},
+            {"term": "Square Unit", "definition": "Unit of area measurement"}
+          ],
+          "examples": [
+            {
+              "question": "Area of triangle with base 12cm and height 8cm",
+              "answer": "48 cm²",
+              "explanation": "A = ½ × 12 × 8 = 48"
+            }
+          ],
+          "formulas": [
+            "Rectangle: A = lw",
+            "Triangle: A = ½bh",
+            "Circle: A = πr²"
+          ],
+          "commonMistakes": [
+            "Using wrong formula",
+            "Forgetting units"
+          ],
+          "examTips": [
+            "Identify shape first",
+            "Double-check calculations"
+          ],
+          "questions": [
+            {
+              "id": "math-area-q1",
+              "question": "Area of circle with radius 7cm (π = 22/7)?",
+              "options": ["154 cm²", "44 cm²", "22 cm²", "308 cm²"],
+              "correctAnswer": "154 cm²",
+              "explanation": "A = 22/7 × 7² = 154",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Surface area",
+            "Land measurement"
+          ],
+          "resources": []
+        },
+        {
+          "id": "volume",
+          "title": "Volume",
+          "summary": "Calculating volume of 3D shapes",
+          "mustKnow": [
+            "Calculate volume of cuboids",
+            "Find volume of cylinders",
+            "Understand cubic units",
+            "Solve capacity problems"
+          ],
+          "keyTerms": [
+            {"term": "Volume", "definition": "Space inside 3D shape"},
+            {"term": "Capacity", "definition": "Amount a container holds"}
+          ],
+          "examples": [
+            {
+              "question": "Volume of cuboid 5cm × 3cm × 4cm",
+              "answer": "60 cm³",
+              "explanation": "V = 5 × 3 × 4 = 60"
+            }
+          ],
+          "formulas": [
+            "Cuboid: V = lwh",
+            "Cylinder: V = πr²h"
+          ],
+          "commonMistakes": [
+            "Using wrong dimensions",
+            "Forgetting cubic units"
+          ],
+          "examTips": [
+            "Identify dimensions",
+            "Use correct formula"
+          ],
+          "questions": [
+            {
+              "id": "math-vol-q1",
+              "question": "Volume of cube with side 4cm?",
+              "options": ["64 cm³", "16 cm³", "32 cm³", "48 cm³"],
+              "correctAnswer": "64 cm³",
+              "explanation": "V = 4³ = 64",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Surface area to volume ratio",
+            "Irregular shapes"
+          ],
+          "resources": []
+        },
+        {
+          "id": "surface-area",
+          "title": "Surface Area",
+          "summary": "Calculating total area of 3D shape surfaces",
+          "mustKnow": [
+            "Calculate surface area of cuboids",
+            "Find surface area of cylinders",
+            "Understand net of shapes",
+            "Solve real-world problems"
+          ],
+          "keyTerms": [
+            {"term": "Surface Area", "definition": "Total area of all faces"},
+            {"term": "Net", "definition": "Unfolded 3D shape"}
+          ],
+          "examples": [
+            {
+              "question": "Surface area of cube with side 5cm",
+              "answer": "150 cm²",
+              "explanation": "SA = 6 × 5² = 150"
+            }
+          ],
+          "formulas": [
+            "Cube: SA = 6s²",
+            "Cuboid: SA = 2(lw + lh + wh)"
+          ],
+          "commonMistakes": [
+            "Forgetting some faces",
+            "Wrong formula"
+          ],
+          "examTips": [
+            "Count all faces",
+            "Use correct formula"
+          ],
+          "questions": [
+            {
+              "id": "math-sa-q1",
+              "question": "Surface area of cuboid 4cm × 3cm × 2cm?",
+              "options": ["52 cm²", "24 cm²", "48 cm²", "26 cm²"],
+              "correctAnswer": "52 cm²",
+              "explanation": "2(12 + 8 + 6) = 52",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Optimization problems",
+            "Packaging design"
+          ],
+          "resources": []
+        },
+        {
+          "id": "scale",
+          "title": "Scale",
+          "summary": "Using scale in maps and drawings",
+          "mustKnow": [
+            "Understand scale factor",
+            "Use scale in maps",
+            "Convert between actual and map distances",
+            "Solve scale problems"
+          ],
+          "keyTerms": [
+            {"term": "Scale", "definition": "Ratio of drawing to actual"},
+            {"term": "Scale Factor", "definition": "Multiplier for dimensions"}
+          ],
+          "examples": [
+            {
+              "question": "Map scale 1:1000. Map distance 5cm. Actual distance?",
+              "answer": "5000 cm = 50 m",
+              "explanation": "5 × 1000 = 5000 cm"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong scale direction",
+            "Unit conversion errors"
+          ],
+          "examTips": [
+            "Check scale direction",
+            "Convert units"
+          ],
+          "questions": [
+            {
+              "id": "math-scale-q1",
+              "question": "Scale 1:500. Actual 250m. Map distance?",
+              "options": ["50 cm", "25 cm", "100 cm", "75 cm"],
+              "correctAnswer": "50 cm",
+              "explanation": "25000/500 = 50 cm",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Engineering drawings",
+            "Architectural scale"
+          ],
+          "resources": []
+        },
+        {
+          "id": "unit-conversion",
+          "title": "Unit Conversion",
+          "summary": "Converting between measurement units",
+          "mustKnow": [
+            "Convert metric units",
+            "Convert imperial units",
+            "Convert between systems",
+            "Use conversion factors"
+          ],
+          "keyTerms": [
+            {"term": "Unit", "definition": "Standard of measurement"},
+            {"term": "Conversion Factor", "definition": "Multiplier to convert units"}
+          ],
+          "examples": [
+            {
+              "question": "Convert 2500m to km",
+              "answer": "2.5 km",
+              "explanation": "Divide by 1000"
+            }
+          ],
+          "formulas": [
+            "1 km = 1000 m",
+            "1 kg = 1000 g",
+            "1 L = 1000 mL"
+          ],
+          "commonMistakes": [
+            "Multiplying instead of dividing",
+            "Wrong conversion factor"
+          ],
+          "examTips": [
+            "Know common conversions",
+            "Check direction"
+          ],
+          "questions": [
+            {
+              "id": "math-unit-q1",
+              "question": "Convert 3.5 kg to grams",
+              "options": ["3500 g", "350 g", "35 g", "35000 g"],
+              "correctAnswer": "3500 g",
+              "explanation": "3.5 × 1000 = 3500",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "SI units",
+            "Scientific measurement"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "trigonometry",
+      "title": "Trigonometry",
+      "description": "Understanding relationships in right-angled triangles",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand sine, cosine, and tangent",
+        "Solve right-angled triangles",
+        "Use bearings",
+        "Apply to elevation and depression"
+      ],
+      "topics": [
+        {
+          "id": "sine-cosine-tangent",
+          "title": "Sine, Cosine, and Tangent",
+          "summary": "Understanding trigonometric ratios",
+          "mustKnow": [
+            "Sin = Opposite/Hypotenuse",
+            "Cos = Adjacent/Hypotenuse",
+            "Tan = Opposite/Adjacent",
+            "Use SOH CAH TOA"
+          ],
+          "keyTerms": [
+            {"term": "Hypotenuse", "definition": "Longest side, opposite right angle"},
+            {"term": "Opposite", "definition": "Side opposite to angle"},
+            {"term": "Adjacent", "definition": "Side next to angle"}
+          ],
+          "examples": [
+            {
+              "question": "In right triangle, opposite = 3, hypotenuse = 5. Find sin θ",
+              "answer": "sin θ = 3/5 = 0.6",
+              "explanation": "Sin = Opposite/Hypotenuse"
+            }
+          ],
+          "formulas": [
+            "sin θ = O/H",
+            "cos θ = A/H",
+            "tan θ = O/A"
+          ],
+          "commonMistakes": [
+            "Mixing up sides",
+            "Using wrong ratio"
+          ],
+          "examTips": [
+            "Label sides first",
+            "Use SOH CAH TOA"
+          ],
+          "questions": [
+            {
+              "id": "math-trig-q1",
+              "question": "Adjacent = 4, Hypotenuse = 5. Find cos θ",
+              "options": ["4/5", "3/5", "5/4", "5/3"],
+              "correctAnswer": "4/5",
+              "explanation": "Cos = Adjacent/Hypotenuse = 4/5",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Trigonometric identities",
+            "Unit circle"
+          ],
+          "resources": []
+        },
+        {
+          "id": "right-triangles",
+          "title": "Right Triangles",
+          "summary": "Solving right-angled triangles",
+          "mustKnow": [
+            "Use Pythagoras theorem",
+            "Apply trigonometric ratios",
+            "Find missing sides and angles",
+            "Solve real-world problems"
+          ],
+          "keyTerms": [
+            {"term": "Pythagoras", "definition": "a² + b² = c²"},
+            {"term": "Right Angle", "definition": "90° angle"}
+          ],
+          "examples": [
+            {
+              "question": "Sides 6 and 8. Find hypotenuse",
+              "answer": "10",
+              "explanation": "√(36 + 64) = √100 = 10"
+            }
+          ],
+          "formulas": [
+            "a² + b² = c²",
+            "sin θ = O/H"
+          ],
+          "commonMistakes": [
+            "Misidentifying hypotenuse",
+            "Wrong theorem"
+          ],
+          "examTips": [
+            "Identify hypotenuse first",
+            "Use correct formula"
+          ],
+          "questions": [
+            {
+              "id": "math-rt-q1",
+              "question": "Right triangle sides 3 and 4. Hypotenuse?",
+              "options": ["5", "6", "7", "8"],
+              "correctAnswer": "5",
+              "explanation": "√(9 + 16) = √25 = 5",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "3D trigonometry",
+            "Navigation"
+          ],
+          "resources": []
+        },
+        {
+          "id": "bearings",
+          "title": "Bearings",
+          "summary": "Using bearings for navigation",
+          "mustKnow": [
+            "Bearings measured clockwise from North",
+            "Bearings use three digits",
+            "Solve bearing problems",
+            "Use trigonometry with bearings"
+          ],
+          "keyTerms": [
+            {"term": "Bearing", "definition": "Angle measured clockwise from North"},
+            {"term": "True North", "definition": "Direction to North Pole"}
+          ],
+          "examples": [
+            {
+              "question": "Ship sails 10km East then 10km North. Bearing from start?",
+              "answer": "045°",
+              "explanation": "45° from North clockwise"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Measuring from wrong direction",
+            "Not using three digits"
+          ],
+          "examTips": [
+            "Always measure from North",
+            "Use three digits (045° not 45°)"
+          ],
+          "questions": [
+            {
+              "id": "math-bear-q1",
+              "question": "Bearing of East from North?",
+              "options": ["090°", "000°", "180°", "270°"],
+              "correctAnswer": "090°",
+              "explanation": "East is 90° clockwise from North",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Navigation",
+            "Surveying"
+          ],
+          "resources": []
+        },
+        {
+          "id": "elevation-depression",
+          "title": "Angles of Elevation and Depression",
+          "summary": "Using trigonometry in real-world situations",
+          "mustKnow": [
+            "Angle of elevation is upward from horizontal",
+            "Angle of depression is downward from horizontal",
+            "Use trigonometry to solve problems",
+            "Apply to real situations"
+          ],
+          "keyTerms": [
+            {"term": "Elevation", "definition": "Angle above horizontal"},
+            {"term": "Depression", "definition": "Angle below horizontal"}
+          ],
+          "examples": [
+            {
+              "question": "Building 30m away, angle of elevation 40°. Find height",
+              "answer": "≈ 25.2 m",
+              "explanation": "h = 30 × tan 40° ≈ 25.2"
+            }
+          ],
+          "formulas": [
+            "tan θ = opposite/adjacent"
+          ],
+          "commonMistakes": [
+            "Confusing elevation and depression",
+            "Wrong trigonometric ratio"
+          ],
+          "examTips": [
+            "Draw diagram first",
+            "Identify right triangle"
+          ],
+          "questions": [
+            {
+              "id": "math-elev-q1",
+              "question": "Tree 20m away, angle of elevation 30°. Height? (tan 30° ≈ 0.577)",
+              "options": ["11.5 m", "10 m", "15 m", "12 m"],
+              "correctAnswer": "11.5 m",
+              "explanation": "20 × 0.577 ≈ 11.5",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Surveying techniques",
+            "Architecture"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "statistics",
+      "title": "Statistics",
+      "description": "Collecting, organizing, and interpreting data",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Collect and organize data",
+        "Calculate measures of central tendency",
+        "Create and interpret charts",
+        "Analyze data distributions"
+      ],
+      "topics": [
+        {
+          "id": "data-collection",
+          "title": "Data Collection",
+          "summary": "Gathering and organizing data",
+          "mustKnow": [
+            "Design surveys and questionnaires",
+            "Collect data systematically",
+            "Organize data in tables",
+            "Understand sampling methods"
+          ],
+          "keyTerms": [
+            {"term": "Data", "definition": "Facts and statistics collected"},
+            {"term": "Sample", "definition": "Subset of population"},
+            {"term": "Population", "definition": "All items being studied"}
+          ],
+          "examples": [
+            {
+              "question": "Survey of 50 students' heights. What is sample size?",
+              "answer": "50",
+              "explanation": "Sample size is number surveyed"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Biased sampling",
+            "Poor survey design"
+          ],
+          "examTips": [
+            "Use random sampling",
+            "Avoid biased questions"
+          ],
+          "questions": [
+            {
+              "id": "math-data-q1",
+              "question": "Best method to get unbiased sample?",
+              "options": ["Random sampling", "Pick friends", "Volunteers", "First 10 people"],
+              "correctAnswer": "Random sampling",
+              "explanation": "Random sampling reduces bias",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Survey methodology",
+            "Data science"
+          ],
+          "resources": []
+        },
+        {
+          "id": "frequency-tables",
+          "title": "Frequency Tables",
+          "summary": "Organizing data in frequency tables",
+          "mustKnow": [
+            "Create frequency tables",
+            "Calculate cumulative frequency",
+            "Find relative frequency",
+            "Interpret frequency data"
+          ],
+          "keyTerms": [
+            {"term": "Frequency", "definition": "Number of occurrences"},
+            {"term": "Cumulative Frequency", "definition": "Running total of frequencies"}
+          ],
+          "examples": [
+            {
+              "question": "Scores: 5,5,6,7,7,7,8. Create frequency table",
+              "answer": "5:2, 6:1, 7:3, 8:1",
+              "explanation": "Count each score"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong counting",
+            "Missing values"
+          ],
+          "examTips": [
+            "Check total frequency",
+            "Use tally marks"
+          ],
+          "questions": [
+            {
+              "id": "math-freq-q1",
+              "question": "Data: 2,2,3,4,4,4. Frequency of 4?",
+              "options": ["3", "2", "4", "1"],
+              "correctAnswer": "3",
+              "explanation": "4 appears three times",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Grouped frequency",
+            "Data visualization"
+          ],
+          "resources": []
+        },
+        {
+          "id": "mean-median-mode",
+          "title": "Mean, Median, and Mode",
+          "summary": "Measures of central tendency",
+          "mustKnow": [
+            "Mean is average",
+            "Median is middle value",
+            "Mode is most frequent",
+            "Choose appropriate measure"
+          ],
+          "keyTerms": [
+            {"term": "Mean", "definition": "Sum divided by count"},
+            {"term": "Median", "definition": "Middle value when ordered"},
+            {"term": "Mode", "definition": "Most frequent value"}
+          ],
+          "examples": [
+            {
+              "question": "Find mean of 4, 8, 6, 10, 7",
+              "answer": "7",
+              "explanation": "(4+8+6+10+7)/5 = 35/5 = 7"
+            }
+          ],
+          "formulas": [
+            "Mean = Sum of values / Number of values"
+          ],
+          "commonMistakes": [
+            "Wrong calculation",
+            "Not ordering for median"
+          ],
+          "examTips": [
+            "Order data for median",
+            "Check calculations"
+          ],
+          "questions": [
+            {
+              "id": "math-mmm-q1",
+              "question": "Median of 3, 7, 2, 9, 5?",
+              "options": ["5", "7", "3", "9"],
+              "correctAnswer": "5",
+              "explanation": "Order: 2,3,5,7,9. Middle is 5",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Standard deviation",
+            "Data distribution"
+          ],
+          "resources": []
+        },
+        {
+          "id": "range",
+          "title": "Range",
+          "summary": "Measure of spread",
+          "mustKnow": [
+            "Range = highest - lowest",
+            "Understand spread",
+            "Compare data sets",
+            "Identify outliers"
+          ],
+          "keyTerms": [
+            {"term": "Range", "definition": "Difference between highest and lowest"},
+            {"term": "Spread", "definition": "How spread out data is"}
+          ],
+          "examples": [
+            {
+              "question": "Find range of: 12, 5, 8, 20, 15",
+              "answer": "15",
+              "explanation": "20 - 5 = 15"
+            }
+          ],
+          "formulas": [
+            "Range = Maximum - Minimum"
+          ],
+          "commonMistakes": [
+            "Wrong values",
+            "Forgetting to subtract"
+          ],
+          "examTips": [
+            "Find highest and lowest first",
+            "Subtract correctly"
+          ],
+          "questions": [
+            {
+              "id": "math-range-q1",
+              "question": "Range of: 25, 10, 15, 30, 20?",
+              "options": ["20", "15", "25", "10"],
+              "correctAnswer": "20",
+              "explanation": "30 - 10 = 20",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Interquartile range",
+            "Variance"
+          ],
+          "resources": []
+        },
+        {
+          "id": "charts",
+          "title": "Charts and Graphs",
+          "summary": "Creating and interpreting charts",
+          "mustKnow": [
+            "Create bar charts",
+            "Interpret pie charts",
+            "Read line graphs",
+            "Choose appropriate chart"
+          ],
+          "keyTerms": [
+            {"term": "Bar Chart", "definition": "Chart using rectangular bars"},
+            {"term": "Pie Chart", "definition": "Circular chart divided into sectors"},
+            {"term": "Line Graph", "definition": "Graph showing trends"}
+          ],
+          "examples": [
+            {
+              "question": "Create pie chart for: A=50%, B=25%, C=25%",
+              "answer": "Angles: A=180°, B=90°, C=90°",
+              "explanation": "Multiply percentage by 3.6"
+            }
+          ],
+          "formulas": [
+            "Pie chart angle = (Value/Total) × 360°"
+          ],
+          "commonMistakes": [
+            "Wrong angles in pie chart",
+            "Incorrect scale"
+          ],
+          "examTips": [
+            "Label axes",
+            "Use appropriate scale"
+          ],
+          "questions": [
+            {
+              "id": "math-chart-q1",
+              "question": "Pie chart: 25% is what angle?",
+              "options": ["90°", "45°", "60°", "120°"],
+              "correctAnswer": "90°",
+              "explanation": "25% of 360° = 90°",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Data visualization",
+            "Statistical graphics"
+          ],
+          "resources": []
+        },
+        {
+          "id": "histograms",
+          "title": "Histograms",
+          "summary": "Understanding and creating histograms",
+          "mustKnow": [
+            "Histogram uses continuous data",
+            "Area represents frequency",
+            "Create histograms",
+            "Interpret histogram data"
+          ],
+          "keyTerms": [
+            {"term": "Histogram", "definition": "Bar chart for continuous data"},
+            {"term": "Class Interval", "definition": "Range of values"}
+          ],
+          "examples": [
+            {
+              "question": "Create histogram for test scores grouped in intervals",
+              "answer": "Draw bars for each interval with heights matching frequency",
+              "explanation": "Histogram shows distribution"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing with bar chart",
+            "Wrong interval widths"
+          ],
+          "examTips": [
+            "Use appropriate intervals",
+            "Label clearly"
+          ],
+          "questions": [
+            {
+              "id": "math-hist-q1",
+              "question": "Histogram is used for?",
+              "options": ["Continuous data", "Categorical data", "Names", "Colors"],
+              "correctAnswer": "Continuous data",
+              "explanation": "Histograms show distribution of continuous data",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Frequency density",
+            "Statistical distributions"
+          ],
+          "resources": []
+        },
+        {
+          "id": "scatter-diagrams",
+          "title": "Scatter Diagrams",
+          "summary": "Understanding relationships between variables",
+          "mustKnow": [
+            "Plot scatter diagrams",
+            "Identify correlation",
+            "Draw line of best fit",
+            "Interpret relationships"
+          ],
+          "keyTerms": [
+            {"term": "Correlation", "definition": "Relationship between variables"},
+            {"term": "Line of Best Fit", "definition": "Line showing trend"},
+            {"term": "Positive Correlation", "definition": "Both increase together"}
+          ],
+          "examples": [
+            {
+              "question": "Height and weight have positive correlation. What does this mean?",
+              "answer": "Taller people tend to weigh more",
+              "explanation": "Both variables increase together"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Misinterpreting correlation",
+            "Confusing correlation with causation"
+          ],
+          "examTips": [
+            "Describe correlation strength",
+            "Use line of best fit"
+          ],
+          "questions": [
+            {
+              "id": "math-scatter-q1",
+              "question": "As study time increases, test scores increase. This is?",
+              "options": ["Positive correlation", "Negative correlation", "No correlation", "Causation"],
+              "correctAnswer": "Positive correlation",
+              "explanation": "Both variables increase together",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Regression analysis",
+            "Statistical prediction"
+          ],
+          "resources": []
+        },
+        {
+          "id": "data-interpretation",
+          "title": "Data Interpretation",
+          "summary": "Analyzing and drawing conclusions from data",
+          "mustKnow": [
+            "Read and interpret data",
+            "Draw conclusions",
+            "Compare data sets",
+            "Evaluate data quality"
+          ],
+          "keyTerms": [
+            {"term": "Interpretation", "definition": "Explaining meaning of data"},
+            {"term": "Conclusion", "definition": "Decision based on data"}
+          ],
+          "examples": [
+            {
+              "question": "Mean score 75 with range 20. What does this tell you?",
+              "answer": "Average is 75 with moderate spread",
+              "explanation": "Most scores between 65 and 85"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Drawing wrong conclusions",
+            "Ignoring variability"
+          ],
+          "examTips": [
+            "Support conclusions with data",
+            "Consider all statistics"
+          ],
+          "questions": [
+            {
+              "id": "math-interp-q1",
+              "question": "Two classes have same mean but different ranges. Which is more consistent?",
+              "options": ["Smaller range", "Larger range", "Same", "Cannot tell"],
+              "correctAnswer": "Smaller range",
+              "explanation": "Smaller range means less spread, more consistent",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Statistical analysis",
+            "Research methods"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "probability",
+      "title": "Probability",
+      "description": "Understanding chance and likelihood",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand probability concepts",
+        "Calculate basic probability",
+        "Work with sample spaces",
+        "Understand experimental probability"
+      ],
+      "topics": [
+        {
+          "id": "sample-spaces",
+          "title": "Sample Spaces",
+          "summary": "Listing all possible outcomes",
+          "mustKnow": [
+            "Sample space is all possible outcomes",
+            "List outcomes systematically",
+            "Use tree diagrams",
+            "Count outcomes"
+          ],
+          "keyTerms": [
+            {"term": "Sample Space", "definition": "Set of all possible outcomes"},
+            {"term": "Outcome", "definition": "Result of an experiment"}
+          ],
+          "examples": [
+            {
+              "question": "Sample space for flipping two coins",
+              "answer": "HH, HT, TH, TT",
+              "explanation": "All possible combinations"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Missing outcomes",
+            "Duplicate outcomes"
+          ],
+          "examTips": [
+            "List systematically",
+            "Check for duplicates"
+          ],
+          "questions": [
+            {
+              "id": "math-ss-q1",
+              "question": "Sample space for rolling a die?",
+              "options": ["6 outcomes", "12 outcomes", "3 outcomes", "36 outcomes"],
+              "correctAnswer": "6 outcomes",
+              "explanation": "Numbers 1 to 6",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Combinatorics",
+            "Set theory"
+          ],
+          "resources": []
+        },
+        {
+          "id": "events",
+          "title": "Events",
+          "summary": "Understanding probability events",
+          "mustKnow": [
+            "Event is subset of sample space",
+            "Independent events",
+            "Mutually exclusive events",
+            "Complementary events"
+          ],
+          "keyTerms": [
+            {"term": "Event", "definition": "Outcome or set of outcomes"},
+            {"term": "Independent", "definition": "Events that don't affect each other"},
+            {"term": "Mutually Exclusive", "definition": "Events that cannot occur together"}
+          ],
+          "examples": [
+            {
+              "question": "Rolling even number on die. What is the event?",
+              "answer": "{2, 4, 6}",
+              "explanation": "Even numbers on a die"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing event types",
+            "Wrong outcomes"
+          ],
+          "examTips": [
+            "Identify outcomes clearly",
+            "Check event type"
+          ],
+          "questions": [
+            {
+              "id": "math-events-q1",
+              "question": "Getting heads OR tails on coin flip. These events are?",
+              "options": ["Mutually exclusive", "Independent", "Complementary", "All"],
+              "correctAnswer": "All",
+              "explanation": "They are mutually exclusive, complementary, and independent",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Conditional probability",
+            "Bayes theorem"
+          ],
+          "resources": []
+        },
+        {
+          "id": "basic-probability",
+          "title": "Basic Probability",
+          "summary": "Calculating probability",
+          "mustKnow": [
+            "Probability = favorable/total",
+            "Probability ranges 0 to 1",
+            "Sum of probabilities = 1",
+            "Calculate simple probabilities"
+          ],
+          "keyTerms": [
+            {"term": "Probability", "definition": "Likelihood of event occurring"},
+            {"term": "Favorable Outcome", "definition": "Outcome we want"}
+          ],
+          "examples": [
+            {
+              "question": "Probability of rolling 4 on die",
+              "answer": "1/6",
+              "explanation": "One favorable outcome out of six"
+            }
+          ],
+          "formulas": [
+            "P(Event) = Favorable outcomes / Total outcomes"
+          ],
+          "commonMistakes": [
+            "Wrong total outcomes",
+            "Counting errors"
+          ],
+          "examTips": [
+            "Count carefully",
+            "Simplify fraction"
+          ],
+          "questions": [
+            {
+              "id": "math-prob-q1",
+              "question": "Probability of drawing ace from 52 cards?",
+              "options": ["4/52", "1/52", "13/52", "2/52"],
+              "correctAnswer": "4/52",
+              "explanation": "Four aces in deck",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Advanced probability",
+            "Statistics"
+          ],
+          "resources": []
+        },
+        {
+          "id": "experimental-probability",
+          "title": "Experimental Probability",
+          "summary": "Using experiments to find probability",
+          "mustKnow": [
+            "Experimental vs theoretical probability",
+            "Calculate from experiments",
+            "Understand large sample sizes",
+            "Compare experimental and theoretical"
+          ],
+          "keyTerms": [
+            {"term": "Experimental Probability", "definition": "Based on actual trials"},
+            {"term": "Theoretical Probability", "definition": "Based on calculation"}
+          ],
+          "examples": [
+            {
+              "question": "Coin flipped 100 times, 45 heads. Experimental probability?",
+              "answer": "0.45",
+              "explanation": "45/100 = 0.45"
+            }
+          ],
+          "formulas": [
+            "Experimental Probability = Number of times event occurs / Total trials"
+          ],
+          "commonMistakes": [
+            "Confusing experimental and theoretical",
+            "Small sample size conclusions"
+          ],
+          "examTips": [
+            "More trials = more accurate",
+            "Compare with theoretical"
+          ],
+          "questions": [
+            {
+              "id": "math-exp-prob-q1",
+              "question": "Die rolled 60 times, 8 appears 15 times. Experimental probability?",
+              "options": ["15/60", "1/6", "8/60", "15/100"],
+              "correctAnswer": "15/60",
+              "explanation": "15 out of 60 trials",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Law of large numbers",
+            "Monte Carlo methods"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "vectors-matrices",
+      "title": "Vectors and Matrices",
+      "description": "Introduction to vectors and matrices where applicable",
+      "importance": "optional",
+      "difficulty": "advanced",
+      "learningObjectives": [
+        "Understand vector representation",
+        "Perform vector operations",
+        "Understand matrix basics",
+        "Apply where required by syllabus"
+      ],
+      "topics": [
+        {
+          "id": "vectors",
+          "title": "Vectors",
+          "summary": "Understanding vector quantities",
+          "mustKnow": [
+            "Vector has magnitude and direction",
+            "Represent vectors with notation",
+            "Add and subtract vectors",
+            "Multiply vectors by scalar"
+          ],
+          "keyTerms": [
+            {"term": "Vector", "definition": "Quantity with magnitude and direction"},
+            {"term": "Magnitude", "definition": "Size or length of vector"},
+            {"term": "Scalar", "definition": "Quantity with magnitude only"}
+          ],
+          "examples": [
+            {
+              "question": "Add vectors (3, 2) and (1, 4)",
+              "answer": "(4, 6)",
+              "explanation": "Add corresponding components"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing vectors with scalars",
+            "Wrong addition method"
+          ],
+          "examTips": [
+            "Check direction",
+            "Add components separately"
+          ],
+          "questions": [
+            {
+              "id": "math-vec-q1",
+              "question": "Add vectors (2, 1) and (3, 4)?",
+              "options": ["(5, 5)", "(4, 4)", "(6, 5)", "(5, 6)"],
+              "correctAnswer": "(5, 5)",
+              "explanation": "2+3=5, 1+4=5",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Vector algebra",
+            "Physics applications"
+          ],
+          "resources": []
+        },
+        {
+          "id": "matrices",
+          "title": "Matrices",
+          "summary": "Introduction to matrices",
+          "mustKnow": [
+            "Matrix is array of numbers",
+            "Identify rows and columns",
+            "Add and subtract matrices",
+            "Multiply matrices by scalar"
+          ],
+          "keyTerms": [
+            {"term": "Matrix", "definition": "Rectangular array of numbers"},
+            {"term": "Row", "definition": "Horizontal line"},
+            {"term": "Column", "definition": "Vertical line"}
+          ],
+          "examples": [
+            {
+              "question": "Add matrices [[1,2],[3,4]] + [[5,6],[7,8]]",
+              "answer": "[[6,8],[10,12]]",
+              "explanation": "Add corresponding elements"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong dimension matching",
+            "Incorrect addition"
+          ],
+          "examTips": [
+            "Check dimensions match",
+            "Add element by element"
+          ],
+          "questions": [
+            {
+              "id": "math-mat-q1",
+              "question": "Add [[1,3],[2,4]] + [[5,7],[6,8]]?",
+              "options": ["[[6,10],[8,12]]", "[[5,10],[8,12]]", "[[6,10],[7,12]]", "[[6,9],[8,12]]"],
+              "correctAnswer": "[[6,10],[8,12]]",
+              "explanation": "Add corresponding elements",
+              "difficulty": "medium",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Matrix multiplication",
+            "Linear algebra"
+          ],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

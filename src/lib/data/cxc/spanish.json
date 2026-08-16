@@ -1,0 +1,908 @@
+{
+  "id": "cxc-spanish",
+  "name": "Spanish",
+  "level": "CXC",
+  "description": "CXC CSEC Spanish - Complete cheatsheet covering vocabulary, grammar, and skills",
+  "icon": "🇪🇸",
+  "syllabusVersion": "2023",
+  "lastVerified": "2026-01-15",
+  "source": "CXC CSEC Spanish Syllabus",
+  "units": [
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "description": "Essential Spanish vocabulary for everyday situations",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Learn essential vocabulary",
+        "Use vocabulary in context",
+        "Communicate in everyday situations"
+      ],
+      "topics": [
+        {
+          "id": "greetings",
+          "title": "Greetings",
+          "summary": "Essential greetings and introductions",
+          "mustKnow": [
+            "Hola = Hello",
+            "Buenos días = Good morning",
+            "Buenas tardes = Good afternoon",
+            "Buenas noches = Good night",
+            "¿Cómo estás? = How are you?",
+            "Muy bien, gracias = Very well, thank you",
+            "Adiós = Goodbye",
+            "Hasta luego = See you later"
+          ],
+          "keyTerms": [
+            {"term": "Hola", "definition": "Hello"},
+            {"term": "Buenos días", "definition": "Good morning"},
+            {"term": "Buenas tardes", "definition": "Good afternoon"},
+            {"term": "¿Cómo estás?", "definition": "How are you?"},
+            {"term": "Adiós", "definition": "Goodbye"}
+          ],
+          "examples": [
+            {
+              "question": "How do you greet someone in the morning?",
+              "answer": "Buenos días",
+              "explanation": "Used until noon"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Using wrong greeting for time of day",
+            "Forgetting accent marks"
+          ],
+          "examTips": [
+            "Know formal vs informal greetings",
+            "Practice pronunciation"
+          ],
+          "questions": [
+            {
+              "id": "span-q1",
+              "question": "How do you say 'Good morning'?",
+              "options": ["Buenos días", "Buenas noches", "Adiós", "Hola"],
+              "correctAnswer": "Buenos días",
+              "explanation": "Buenos días = Good morning",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Formal greetings",
+            "Regional variations"
+          ],
+          "resources": []
+        },
+        {
+          "id": "personal-information",
+          "title": "Personal Information",
+          "summary": "Talking about yourself",
+          "mustKnow": [
+            "Me llamo... = My name is...",
+            "Tengo... años = I am... years old",
+            "Soy de... = I am from...",
+            "Vivo en... = I live in...",
+            "Mi cumpleaños es... = My birthday is...",
+            "Soy estudiante = I am a student",
+            "Me gusta... = I like..."
+          ],
+          "keyTerms": [
+            {"term": "Me llamo", "definition": "My name is"},
+            {"term": "Tengo", "definition": "I have"},
+            {"term": "Soy de", "definition": "I am from"},
+            {"term": "Vivo en", "definition": "I live in"}
+          ],
+          "examples": [
+            {
+              "question": "How do you say 'I am 15 years old'?",
+              "answer": "Tengo quince años",
+              "explanation": "Tener is used for age"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Using 'ser' instead of 'tener' for age",
+            "Wrong verb conjugation"
+          ],
+          "examTips": [
+            "Memorize key phrases",
+            "Practice self-introduction"
+          ],
+          "questions": [
+            {
+              "id": "span-pi-q1",
+              "question": "'Me llamo Juan' means:",
+              "options": ["My name is Juan", "I am Juan's friend", "Juan is here", "I like Juan"],
+              "correctAnswer": "My name is Juan",
+              "explanation": "Me llamo = my name is",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Describing personality",
+            "Talking about interests"
+          ],
+          "resources": []
+        },
+        {
+          "id": "family",
+          "title": "Family",
+          "summary": "Family members and relationships",
+          "mustKnow": [
+            "La familia = family",
+            "Padre = father",
+            "Madre = mother",
+            "Hermano = brother",
+            "Hermana = sister",
+            "Abuelo = grandfather",
+            "Abuela = grandmother",
+            "Hijo = son",
+            "Hija = daughter",
+            "Tío = uncle",
+            "Tía = aunt"
+          ],
+          "keyTerms": [
+            {"term": "Padre", "definition": "Father"},
+            {"term": "Madre", "definition": "Mother"},
+            {"term": "Hermano", "definition": "Brother"},
+            {"term": "Hermana", "definition": "Sister"},
+            {"term": "Abuelo", "definition": "Grandfather"}
+          ],
+          "examples": [
+            {
+              "question": "How do you say 'my sister'?",
+              "answer": "Mi hermana",
+              "explanation": "Mi = my, hermana = sister"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong gender of family members",
+            "Forgetting possessive adjectives"
+          ],
+          "examTips": [
+            "Know all family members",
+            "Practice describing family"
+          ],
+          "questions": [
+            {
+              "id": "span-fam-q1",
+              "question": "'Hermano' means:",
+              "options": ["Brother", "Sister", "Father", "Uncle"],
+              "correctAnswer": "Brother",
+              "explanation": "Hermano = brother",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Extended family",
+            "Family descriptions"
+          ],
+          "resources": []
+        },
+        {
+          "id": "school",
+          "title": "School",
+          "summary": "School vocabulary",
+          "mustKnow": [
+            "La escuela = school",
+            "El profesor = teacher (male)",
+            "La profesora = teacher (female)",
+            "El estudiante = student",
+            "La clase = class",
+            "El libro = book",
+            "El cuaderno = notebook",
+            "El lápiz = pencil",
+            "La tarea = homework",
+            "El examen = exam"
+          ],
+          "keyTerms": [
+            {"term": "Escuela", "definition": "School"},
+            {"term": "Profesor", "definition": "Teacher"},
+            {"term": "Estudiante", "definition": "Student"},
+            {"term": "Libro", "definition": "Book"},
+            {"term": "Tarea", "definition": "Homework"}
+          ],
+          "examples": [
+            {
+              "question": "How do you say 'the book'?",
+              "answer": "El libro",
+              "explanation": "El = the (masculine), libro = book"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong articles (el/la)",
+            "Gender agreement errors"
+          ],
+          "examTips": [
+            "Know classroom vocabulary",
+            "Practice with articles"
+          ],
+          "questions": [
+            {
+              "id": "span-sch-q1",
+              "question": "'La tarea' means:",
+              "options": ["Homework", "Test", "Class", "Book"],
+              "correctAnswer": "Homework",
+              "explanation": "Tarea = homework",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "School subjects",
+            "Classroom phrases"
+          ],
+          "resources": []
+        },
+        {
+          "id": "home",
+          "title": "Home",
+          "summary": "House and home vocabulary",
+          "mustKnow": [
+            "La casa = house",
+            "El cuarto = room",
+            "La cocina = kitchen",
+            "El baño = bathroom",
+            "La sala = living room",
+            "El dormitorio = bedroom",
+            "La puerta = door",
+            "La ventana = window",
+            "La mesa = table",
+            "La silla = chair"
+          ],
+          "keyTerms": [
+            {"term": "Casa", "definition": "House"},
+            {"term": "Cocina", "definition": "Kitchen"},
+            {"term": "Baño", "definition": "Bathroom"},
+            {"term": "Dormitorio", "definition": "Bedroom"},
+            {"term": "Puerta", "definition": "Door"}
+          ],
+          "examples": [
+            {
+              "question": "How do you say 'the kitchen'?",
+              "answer": "La cocina",
+              "explanation": "La = the (feminine), cocina = kitchen"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong gender of rooms",
+            "Article errors"
+          ],
+          "examTips": [
+            "Know all rooms",
+            "Practice describing your home"
+          ],
+          "questions": [
+            {
+              "id": "span-home-q1",
+              "question": "'El baño' means:",
+              "options": ["Bathroom", "Bedroom", "Kitchen", "Living room"],
+              "correctAnswer": "Bathroom",
+              "explanation": "Baño = bathroom",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Furniture vocabulary",
+            "Describing your home"
+          ],
+          "resources": []
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "summary": "Food and drink vocabulary",
+          "mustKnow": [
+            "La comida = food",
+            "El pan = bread",
+            "El arroz = rice",
+            "El pollo = chicken",
+            "La carne = meat",
+            "El pescado = fish",
+            "Las frutas = fruits",
+            "Las verduras = vegetables",
+            "El agua = water",
+            "El jugo = juice",
+            "La leche = milk"
+          ],
+          "keyTerms": [
+            {"term": "Comida", "definition": "Food"},
+            {"term": "Pan", "definition": "Bread"},
+            {"term": "Arroz", "definition": "Rice"},
+            {"term": "Pollo", "definition": "Chicken"},
+            {"term": "Agua", "definition": "Water"}
+          ],
+          "examples": [
+            {
+              "question": "How do you say 'I want water'?",
+              "answer": "Quiero agua",
+              "explanation": "Quiero = I want, agua = water"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong food gender",
+            "Article errors"
+          ],
+          "examTips": [
+            "Know food vocabulary",
+            "Practice ordering food"
+          ],
+          "questions": [
+            {
+              "id": "span-food-q1",
+              "question": "'El pan' means:",
+              "options": ["Bread", "Rice", "Meat", "Fish"],
+              "correctAnswer": "Bread",
+              "explanation": "Pan = bread",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Caribbean Spanish food",
+            "Restaurant phrases"
+          ],
+          "resources": []
+        },
+        {
+          "id": "shopping",
+          "title": "Shopping",
+          "summary": "Shopping vocabulary",
+          "mustKnow": [
+            "La tienda = store",
+            "El mercado = market",
+            "El precio = price",
+            "El dinero = money",
+            "Comprar = to buy",
+            "Vender = to sell",
+            "¿Cuánto cuesta? = How much does it cost?",
+            "Barato = cheap",
+            "Caro = expensive",
+            "La ropa = clothes"
+          ],
+          "keyTerms": [
+            {"term": "Tienda", "definition": "Store"},
+            {"term": "Precio", "definition": "Price"},
+            {"term": "Dinero", "definition": "Money"},
+            {"term": "Comprar", "definition": "To buy"},
+            {"term": "¿Cuánto cuesta?", "definition": "How much does it cost?"}
+          ],
+          "examples": [
+            {
+              "question": "How do you ask the price?",
+              "answer": "¿Cuánto cuesta?",
+              "explanation": "How much does it cost?"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong question word",
+            "Missing accent marks"
+          ],
+          "examTips": [
+            "Know shopping phrases",
+            "Practice bargaining"
+          ],
+          "questions": [
+            {
+              "id": "span-shop-q1",
+              "question": "'¿Cuánto cuesta?' means:",
+              "options": ["How much does it cost?", "Where is it?", "What time is it?", "Who is it?"],
+              "correctAnswer": "How much does it cost?",
+              "explanation": "Cuánto = how much",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Numbers and prices",
+            "Shopping phrases"
+          ],
+          "resources": []
+        },
+        {
+          "id": "travel",
+          "title": "Travel",
+          "summary": "Travel vocabulary",
+          "mustKnow": [
+            "Viajar = to travel",
+            "El viaje = trip",
+            "El avión = airplane",
+            "El tren = train",
+            "El autobús = bus",
+            "El hotel = hotel",
+            "La playa = beach",
+            "El aeropuerto = airport",
+            "El pasaporte = passport",
+            "La maleta = suitcase"
+          ],
+          "keyTerms": [
+            {"term": "Viajar", "definition": "To travel"},
+            {"term": "Avión", "definition": "Airplane"},
+            {"term": "Hotel", "definition": "Hotel"},
+            {"term": "Playa", "definition": "Beach"},
+            {"term": "Pasaporte", "definition": "Passport"}
+          ],
+          "examples": [
+            {
+              "question": "How do you say 'the beach'?",
+              "answer": "La playa",
+              "explanation": "La = the (feminine), playa = beach"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong travel terms",
+            "Gender errors"
+          ],
+          "examTips": [
+            "Know travel vocabulary",
+            "Practice travel scenarios"
+          ],
+          "questions": [
+            {
+              "id": "span-trav-q1",
+              "question": "'El avión' means:",
+              "options": ["Airplane", "Train", "Bus", "Car"],
+              "correctAnswer": "Airplane",
+              "explanation": "Avión = airplane",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Directions",
+            "Transportation"
+          ],
+          "resources": []
+        },
+        {
+          "id": "health",
+          "title": "Health",
+          "summary": "Health vocabulary",
+          "mustKnow": [
+            "La salud = health",
+            "El médico = doctor",
+            "La medicina = medicine",
+            "Estoy enfermo = I am sick",
+            "El dolor = pain",
+            "La cabeza = head",
+            "El estómago = stomach",
+            "La fiebre = fever",
+            "El hospital = hospital",
+            "La farmacia = pharmacy"
+          ],
+          "keyTerms": [
+            {"term": "Salud", "definition": "Health"},
+            {"term": "Médico", "definition": "Doctor"},
+            {"term": "Medicina", "definition": "Medicine"},
+            {"term": "Enfermo", "definition": "Sick"},
+            {"term": "Dolor", "definition": "Pain"}
+          ],
+          "examples": [
+            {
+              "question": "How do you say 'I am sick'?",
+              "answer": "Estoy enfermo",
+              "explanation": "Estoy = I am (temporary), enfermo = sick"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Using 'ser' instead of 'estar'",
+            "Wrong body parts"
+          ],
+          "examTips": [
+            "Know body parts",
+            "Practice health phrases"
+          ],
+          "questions": [
+            {
+              "id": "span-health-q1",
+              "question": "'El médico' means:",
+              "options": ["Doctor", "Medicine", "Hospital", "Nurse"],
+              "correctAnswer": "Doctor",
+              "explanation": "Médico = doctor",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Body parts",
+            "Describing symptoms"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "description": "Essential Spanish grammar",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand nouns and articles",
+        "Conjugate verbs",
+        "Form questions"
+      ],
+      "topics": [
+        {
+          "id": "nouns-articles",
+          "title": "Nouns and Articles",
+          "summary": "Gender and articles",
+          "mustKnow": [
+            "Nouns have gender: masculine (el) or feminine (la)",
+            "Most nouns ending in -o are masculine",
+            "Most nouns ending in -a are feminine",
+            "El = the (masculine singular)",
+            "La = the (feminine singular)",
+            "Los = the (masculine plural)",
+            "Las = the (feminine plural)",
+            "Un = a/an (masculine)",
+            "Una = a/an (feminine)"
+          ],
+          "keyTerms": [
+            {"term": "Gender", "definition": "Masculine or feminine"},
+            {"term": "El", "definition": "The (masculine)"},
+            {"term": "La", "definition": "The (feminine)"},
+            {"term": "Un", "definition": "A/an (masculine)"},
+            {"term": "Una", "definition": "A/an (feminine)"}
+          ],
+          "examples": [
+            {
+              "question": "'The book' is 'el libro'. 'The house' is?",
+              "answer": "La casa",
+              "explanation": "Casa is feminine, use la"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong article",
+            "Gender confusion"
+          ],
+          "examTips": [
+            "Learn gender with each noun",
+            "Practice article agreement"
+          ],
+          "questions": [
+            {
+              "id": "span-gram-q1",
+              "question": "Which is feminine?",
+              "options": ["La casa", "El libro", "El perro", "El gato"],
+              "correctAnswer": "La casa",
+              "explanation": "Casa is feminine",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Plural formation",
+            "Exceptions to gender rules"
+          ],
+          "resources": []
+        },
+        {
+          "id": "verbs-present",
+          "title": "Verbs and Present Tense",
+          "summary": "Conjugating verbs",
+          "mustKnow": [
+            "-AR verbs: hablar (to speak)",
+            "-ER verbs: comer (to eat)",
+            "-IR verbs: vivir (to live)",
+            "Yo hablo = I speak",
+            "Tú hablas = You speak",
+            "Él/Ella habla = He/She speaks",
+            "Nosotros hablamos = We speak",
+            "Ellos hablan = They speak"
+          ],
+          "keyTerms": [
+            {"term": "Verb", "definition": "Action word"},
+            {"term": "Conjugation", "definition": "Changing verb for subject"},
+            {"term": "Infinitive", "definition": "Base form of verb"}
+          ],
+          "examples": [
+            {
+              "question": "Conjugate 'hablar' for 'yo'",
+              "answer": "Hablo",
+              "explanation": "-o ending for yo"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong endings",
+            "Subject-verb disagreement"
+          ],
+          "examTips": [
+            "Memorize endings",
+            "Practice conjugation"
+          ],
+          "questions": [
+            {
+              "id": "span-verb-q1",
+              "question": "Yo _____ (hablar)",
+              "options": ["hablo", "hablas", "habla", "hablan"],
+              "correctAnswer": "hablo",
+              "explanation": "-o ending for yo",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Irregular verbs",
+            "Reflexive verbs"
+          ],
+          "resources": []
+        },
+        {
+          "id": "questions",
+          "title": "Forming Questions",
+          "summary": "Asking questions in Spanish",
+          "mustKnow": [
+            "¿Qué? = What?",
+            "¿Quién? = Who?",
+            "¿Dónde? = Where?",
+            "¿Cuándo? = When?",
+            "¿Por qué? = Why?",
+            "¿Cómo? = How?",
+            "¿Cuánto? = How much?",
+            "Use inverted question marks"
+          ],
+          "keyTerms": [
+            {"term": "¿Qué?", "definition": "What?"},
+            {"term": "¿Dónde?", "definition": "Where?"},
+            {"term": "¿Cuándo?", "definition": "When?"},
+            {"term": "¿Por qué?", "definition": "Why?"},
+            {"term": "¿Cómo?", "definition": "How?"}
+          ],
+          "examples": [
+            {
+              "question": "How do you ask 'Where are you from?'",
+              "answer": "¿De dónde eres?",
+              "explanation": "Dónde = where"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Forgetting inverted question mark",
+            "Wrong question word"
+          ],
+          "examTips": [
+            "Memorize question words",
+            "Practice forming questions"
+          ],
+          "questions": [
+            {
+              "id": "span-ques-q1",
+              "question": "'¿Dónde?' means:",
+              "options": ["Where?", "What?", "Who?", "When?"],
+              "correctAnswer": "Where?",
+              "explanation": "Dónde = where",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Question formation",
+            "Interrogative phrases"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "title": "Skills",
+      "description": "Language skills for exams",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Develop listening skills",
+        "Improve reading comprehension",
+        "Practice writing",
+        "Build speaking confidence"
+      ],
+      "topics": [
+        {
+          "id": "listening",
+          "title": "Listening Skills",
+          "summary": "Understanding spoken Spanish",
+          "mustKnow": [
+            "Listen for key words",
+            "Identify context",
+            "Understand main ideas",
+            "Note important details",
+            "Practice with audio materials"
+          ],
+          "keyTerms": [
+            {"term": "Listening", "definition": "Understanding spoken language"},
+            {"term": "Context", "definition": "Surrounding information"}
+          ],
+          "examples": [
+            {
+              "question": "Listen for greetings first",
+              "answer": "Identify the situation",
+              "explanation": "Context helps understanding"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Trying to understand every word",
+            "Missing context clues"
+          ],
+          "examTips": [
+            "Focus on key words",
+            "Use context"
+          ],
+          "questions": [
+            {
+              "id": "span-lis-q1",
+              "question": "Best listening strategy:",
+              "options": ["Focus on key words", "Understand every word", "Ignore context", "Give up"],
+              "correctAnswer": "Focus on key words",
+              "explanation": "Key words convey meaning",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Spanish podcasts",
+            "Listening exercises"
+          ],
+          "resources": []
+        },
+        {
+          "id": "reading",
+          "title": "Reading Skills",
+          "summary": "Understanding written Spanish",
+          "mustKnow": [
+            "Read for main idea",
+            "Identify key vocabulary",
+            "Use context clues",
+            "Answer comprehension questions",
+            "Practice with texts"
+          ],
+          "keyTerms": [
+            {"term": "Reading", "definition": "Understanding written language"},
+            {"term": "Main Idea", "definition": "Central message"}
+          ],
+          "examples": [
+            {
+              "question": "Read passage and find main idea",
+              "answer": "What is it about?",
+              "explanation": "Focus on the topic"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Translating every word",
+            "Missing main idea"
+          ],
+          "examTips": [
+            "Skim first",
+            "Read questions before text"
+          ],
+          "questions": [
+            {
+              "id": "span-read-q1",
+              "question": "Best reading strategy:",
+              "options": ["Read questions first", "Translate all words", "Skip text", "Guess only"],
+              "correctAnswer": "Read questions first",
+              "explanation": "Questions guide reading",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Spanish texts",
+            "Reading practice"
+          ],
+          "resources": []
+        },
+        {
+          "id": "writing",
+          "title": "Writing Skills",
+          "summary": "Writing in Spanish",
+          "mustKnow": [
+            "Plan before writing",
+            "Use correct grammar",
+            "Include vocabulary learned",
+            "Check for errors",
+            "Write clear sentences"
+          ],
+          "keyTerms": [
+            {"term": "Writing", "definition": "Producing written language"},
+            {"term": "Planning", "definition": "Organizing before writing"}
+          ],
+          "examples": [
+            {
+              "question": "Write about your family",
+              "answer": "Use family vocabulary, describe members",
+              "explanation": "Apply learned vocabulary"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Grammar errors",
+            "Poor organization"
+          ],
+          "examTips": [
+            "Plan first",
+            "Use known vocabulary"
+          ],
+          "questions": [
+            {
+              "id": "span-writ-q1",
+              "question": "First step in writing:",
+              "options": ["Plan", "Write immediately", "Check errors", "Submit"],
+              "correctAnswer": "Plan",
+              "explanation": "Plan before writing",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Writing practice",
+            "Essay structure"
+          ],
+          "resources": []
+        },
+        {
+          "id": "speaking",
+          "title": "Speaking Skills",
+          "summary": "Speaking Spanish confidently",
+          "mustKnow": [
+            "Practice pronunciation",
+            "Use learned phrases",
+            "Speak clearly",
+            "Don't fear mistakes",
+            "Practice regularly"
+          ],
+          "keyTerms": [
+            {"term": "Speaking", "definition": "Producing spoken language"},
+            {"term": "Pronunciation", "definition": "How words sound"}
+          ],
+          "examples": [
+            {
+              "question": "Introduce yourself in Spanish",
+              "answer": "Me llamo..., tengo... años",
+              "explanation": "Use learned phrases"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Fear of mistakes",
+            "Wrong pronunciation"
+          ],
+          "examTips": [
+            "Practice daily",
+            "Use simple phrases"
+          ],
+          "questions": [
+            {
+              "id": "span-speak-q1",
+              "question": "Best way to improve speaking:",
+              "options": ["Practice regularly", "Never speak", "Only read", "Only listen"],
+              "correctAnswer": "Practice regularly",
+              "explanation": "Practice improves speaking",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Conversation practice",
+            "Pronunciation guides"
+          ],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

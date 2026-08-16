@@ -1,0 +1,827 @@
+{
+  "id": "cxc-physics",
+  "name": "Physics",
+  "level": "CXC",
+  "description": "CXC CSEC Physics - Complete cheatsheet covering all physics topics",
+  "icon": "⚡",
+  "syllabusVersion": "2023",
+  "lastVerified": "2026-01-15",
+  "source": "CXC CSEC Physics Syllabus",
+  "units": [
+    {
+      "id": "measurement",
+      "title": "Measurement",
+      "description": "Understanding measurements and units",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand measurement",
+        "Know SI units",
+        "Use measuring instruments"
+      ],
+      "topics": [
+        {
+          "id": "units",
+          "title": "Measurement and Units",
+          "summary": "Quantifying physical quantities",
+          "mustKnow": [
+            "Length: meter (m)",
+            "Mass: kilogram (kg)",
+            "Time: second (s)",
+            "Temperature: Kelvin (K)",
+            "Current: ampere (A)",
+            "Prefixes: kilo (10³), centi (10⁻²), milli (10⁻³)"
+          ],
+          "keyTerms": [
+            {"term": "SI Unit", "definition": "Standard international unit"},
+            {"term": "Prefix", "definition": "Multiplier for units"},
+            {"term": "Measurement", "definition": "Quantifying a quantity"}
+          ],
+          "examples": [
+            {
+              "question": "Convert 2.5 km to meters",
+              "answer": "2500 m",
+              "explanation": "2.5 × 1000 = 2500"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong conversions",
+            "Missing units"
+          ],
+          "examTips": [
+            "Memorize SI units",
+            "Practice conversions"
+          ],
+          "questions": [
+            {
+              "id": "phys-q1",
+              "question": "SI unit of mass:",
+              "options": ["Kilogram", "Gram", "Pound", "Ounce"],
+              "correctAnswer": "Kilogram",
+              "explanation": "kg is SI unit",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Measurement uncertainty",
+            "Scientific notation"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "motion",
+      "title": "Motion",
+      "description": "Understanding movement",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand motion concepts",
+        "Calculate speed, velocity, acceleration"
+      ],
+      "topics": [
+        {
+          "id": "scalars-vectors",
+          "title": "Scalars and Vectors",
+          "summary": "Types of quantities",
+          "mustKnow": [
+            "Scalar: magnitude only (speed, distance, mass)",
+            "Vector: magnitude and direction (velocity, displacement, force)",
+            "Distance: total path length (scalar)",
+            "Displacement: straight line from start to end (vector)",
+            "Speed: distance/time (scalar)",
+            "Velocity: displacement/time (vector)"
+          ],
+          "keyTerms": [
+            {"term": "Scalar", "definition": "Magnitude only"},
+            {"term": "Vector", "definition": "Magnitude and direction"},
+            {"term": "Distance", "definition": "Total path length"},
+            {"term": "Displacement", "definition": "Straight line from start to end"}
+          ],
+          "examples": [
+            {
+              "question": "Speed is what type?",
+              "answer": "Scalar",
+              "explanation": "Magnitude only"
+            }
+          ],
+          "formulas": [
+            "Speed = Distance / Time",
+            "Velocity = Displacement / Time"
+          ],
+          "commonMistakes": [
+            "Confusing scalar and vector",
+            "Wrong distance vs displacement"
+          ],
+          "examTips": [
+            "Know scalar and vector examples",
+            "Distinguish distance and displacement"
+          ],
+          "questions": [
+            {
+              "id": "phys-sv-q1",
+              "question": "Which is a vector?",
+              "options": ["Velocity", "Speed", "Distance", "Mass"],
+              "correctAnswer": "Velocity",
+              "explanation": "Velocity has direction",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Vector addition",
+            "Relative motion"
+          ],
+          "resources": []
+        },
+        {
+          "id": "motion-calculations",
+          "title": "Motion Calculations",
+          "summary": "Calculating motion",
+          "mustKnow": [
+            "Speed = distance / time",
+            "Velocity = displacement / time",
+            "Acceleration = change in velocity / time",
+            "v = u + at",
+            "s = ut + ½at²",
+            "v² = u² + 2as"
+          ],
+          "keyTerms": [
+            {"term": "Speed", "definition": "Distance per time"},
+            {"term": "Velocity", "definition": "Displacement per time"},
+            {"term": "Acceleration", "definition": "Change in velocity per time"}
+          ],
+          "examples": [
+            {
+              "question": "Car travels 100m in 5s. Speed?",
+              "answer": "20 m/s",
+              "explanation": "100/5 = 20"
+            }
+          ],
+          "formulas": [
+            "Speed = d/t",
+            "Acceleration = (v-u)/t",
+            "v = u + at",
+            "s = ut + ½at²",
+            "v² = u² + 2as"
+          ],
+          "commonMistakes": [
+            "Wrong formula",
+            "Unit errors"
+          ],
+          "examTips": [
+            "Memorize equations",
+            "Show workings"
+          ],
+          "questions": [
+            {
+              "id": "phys-mot-q1",
+              "question": "Speed = 50m / 10s = ?",
+              "options": ["5 m/s", "50 m/s", "500 m/s", "0.2 m/s"],
+              "correctAnswer": "5 m/s",
+              "explanation": "50/10 = 5",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Projectile motion",
+            "Circular motion"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "forces",
+      "title": "Forces",
+      "description": "Understanding forces",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand force types",
+        "Apply Newton's laws",
+        "Calculate momentum"
+      ],
+      "topics": [
+        {
+          "id": "newtons-laws",
+          "title": "Newton's Laws",
+          "summary": "Laws of motion",
+          "mustKnow": [
+            "First law: object stays at rest/motion unless acted on",
+            "Second law: F = ma",
+            "Third law: action = reaction",
+            "Force: push or pull",
+            "Friction: opposes motion",
+            "Gravity: pulls objects down"
+          ],
+          "keyTerms": [
+            {"term": "Force", "definition": "Push or pull"},
+            {"term": "Friction", "definition": "Opposes motion"},
+            {"term": "Gravity", "definition": "Attraction to Earth"},
+            {"term": "Inertia", "definition": "Resistance to change in motion"}
+          ],
+          "examples": [
+            {
+              "question": "Pushing a wall, wall pushes back. Which law?",
+              "answer": "Third law",
+              "explanation": "Action = reaction"
+            }
+          ],
+          "formulas": [
+            "F = ma",
+            "Weight = mg",
+            "W = Fd"
+          ],
+          "commonMistakes": [
+            "Wrong law application",
+            "Missing friction"
+          ],
+          "examTips": [
+            "Memorize laws",
+            "Apply correctly"
+          ],
+          "questions": [
+            {
+              "id": "phys-nl-q1",
+              "question": "F = ?",
+              "options": ["ma", "mv", "m/s", "mgh"],
+              "correctAnswer": "ma",
+              "explanation": "Force = mass × acceleration",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Circular motion",
+            "Gravitation"
+          ],
+          "resources": []
+        },
+        {
+          "id": "momentum",
+          "title": "Momentum",
+          "summary": "Mass in motion",
+          "mustKnow": [
+            "Momentum = mass × velocity",
+            "p = mv",
+            "Conservation: total momentum before = after collision",
+            "Impulse = change in momentum",
+            "Impulse = force × time",
+            "Units: kg m/s"
+          ],
+          "keyTerms": [
+            {"term": "Momentum", "definition": "Mass × velocity"},
+            {"term": "Impulse", "definition": "Change in momentum"},
+            {"term": "Conservation", "definition": "Momentum is conserved"}
+          ],
+          "examples": [
+            {
+              "question": "2 kg ball moving at 3 m/s. Momentum?",
+              "answer": "6 kg m/s",
+              "explanation": "p = mv = 2 × 3 = 6"
+            }
+          ],
+          "formulas": [
+            "p = mv",
+            "Impulse = Ft = Δp"
+          ],
+          "commonMistakes": [
+            "Wrong momentum formula",
+            "Missing conservation"
+          ],
+          "examTips": [
+            "Memorize formula",
+            "Apply conservation"
+          ],
+          "questions": [
+            {
+              "id": "phys-mom-q1",
+              "question": "Momentum = ?",
+              "options": ["mv", "ma", "mgh", "Fd"],
+              "correctAnswer": "mv",
+              "explanation": "Momentum = mass × velocity",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Collisions",
+            "Rocket propulsion"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "energy",
+      "title": "Energy",
+      "description": "Understanding energy",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand energy types",
+        "Calculate work and power"
+      ],
+      "topics": [
+        {
+          "id": "energy-work-power",
+          "title": "Energy, Work, and Power",
+          "summary": "Energy and its transfer",
+          "mustKnow": [
+            "Energy: ability to do work",
+            "Kinetic energy = ½mv²",
+            "Potential energy = mgh",
+            "Work = force × distance",
+            "Power = work / time",
+            "Conservation of energy: energy cannot be created or destroyed"
+          ],
+          "keyTerms": [
+            {"term": "Kinetic Energy", "definition": "Energy of motion"},
+            {"term": "Potential Energy", "definition": "Stored energy"},
+            {"term": "Work", "definition": "Force × distance"},
+            {"term": "Power", "definition": "Work per time"}
+          ],
+          "examples": [
+            {
+              "question": "2 kg mass at 5m height. PE?",
+              "answer": "100 J",
+              "explanation": "PE = mgh = 2 × 10 × 5 = 100"
+            }
+          ],
+          "formulas": [
+            "KE = ½mv²",
+            "PE = mgh",
+            "Work = Fd",
+            "Power = W/t"
+          ],
+          "commonMistakes": [
+            "Wrong formulas",
+            "Unit errors"
+          ],
+          "examTips": [
+            "Memorize all energy formulas",
+            "Apply conservation"
+          ],
+          "questions": [
+            {
+              "id": "phys-en-q1",
+              "question": "Kinetic energy = ?",
+              "options": ["½mv²", "mgh", "Fd", "ma"],
+              "correctAnswer": "½mv²",
+              "explanation": "KE = ½mv²",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Energy efficiency",
+            "Renewable energy"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "pressure-density",
+      "title": "Pressure and Density",
+      "description": "Understanding pressure and density",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Calculate pressure",
+        "Calculate density"
+      ],
+      "topics": [
+        {
+          "id": "pressure-density",
+          "title": "Pressure and Density",
+          "summary": "Force distribution and mass per volume",
+          "mustKnow": [
+            "Pressure = Force / Area",
+            "Unit: Pascal (Pa) or N/m²",
+            "Density = Mass / Volume",
+            "Unit: kg/m³",
+            "Pressure in liquids = ρgh",
+            "Atmospheric pressure: 101,325 Pa"
+          ],
+          "keyTerms": [
+            {"term": "Pressure", "definition": "Force per area"},
+            {"term": "Density", "definition": "Mass per volume"},
+            {"term": "Pascal", "definition": "Unit of pressure"}
+          ],
+          "examples": [
+            {
+              "question": "10 kg mass, volume 2 m³. Density?",
+              "answer": "5 kg/m³",
+              "explanation": "Density = 10/2 = 5"
+            }
+          ],
+          "formulas": [
+            "Pressure = F/A",
+            "Density = m/V",
+            "Liquid pressure = ρgh"
+          ],
+          "commonMistakes": [
+            "Wrong formulas",
+            "Unit errors"
+          ],
+          "examTips": [
+            "Memorize formulas",
+            "Use correct units"
+          ],
+          "questions": [
+            {
+              "id": "phys-pd-q1",
+              "question": "Pressure = ?",
+              "options": ["F/A", "F×A", "A/F", "F+d"],
+              "correctAnswer": "F/A",
+              "explanation": "Pressure = force per area",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Hydraulics",
+            "Buoyancy"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "thermal-physics",
+      "title": "Thermal Physics",
+      "description": "Understanding heat and temperature",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand heat transfer",
+        "Know temperature scales"
+      ],
+      "topics": [
+        {
+          "id": "heat-temperature",
+          "title": "Heat and Temperature",
+          "summary": "Thermal energy",
+          "mustKnow": [
+            "Heat: thermal energy transfer",
+            "Temperature: measure of hotness",
+            "Heat transfer: conduction, convection, radiation",
+            "Conduction: through solids",
+            "Convection: through fluids",
+            "Radiation: through space",
+            "Specific heat capacity: energy to raise 1kg by 1°C"
+          ],
+          "keyTerms": [
+            {"term": "Heat", "definition": "Thermal energy transfer"},
+            {"term": "Temperature", "definition": "Measure of hotness"},
+            {"term": "Conduction", "definition": "Heat through solids"},
+            {"term": "Convection", "definition": "Heat through fluids"},
+            {"term": "Radiation", "definition": "Heat through space"}
+          ],
+          "examples": [
+            {
+              "question": "Heat from Sun to Earth is?",
+              "answer": "Radiation",
+              "explanation": "Through space"
+            }
+          ],
+          "formulas": [
+            "Q = mcΔT"
+          ],
+          "commonMistakes": [
+            "Confusing heat and temperature",
+            "Wrong transfer methods"
+          ],
+          "examTips": [
+            "Know heat transfer methods",
+            "Distinguish heat and temperature"
+          ],
+          "questions": [
+            {
+              "id": "phys-heat-q1",
+              "question": "Heat through solids is:",
+              "options": ["Conduction", "Convection", "Radiation", "All"],
+              "correctAnswer": "Conduction",
+              "explanation": "Conduction through solids",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Thermodynamics",
+            "Heat engines"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "waves",
+      "title": "Waves",
+      "description": "Understanding waves",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand wave properties",
+        "Know sound and light"
+      ],
+      "topics": [
+        {
+          "id": "wave-properties",
+          "title": "Waves",
+          "summary": "Energy transfer through waves",
+          "mustKnow": [
+            "Wave: transfers energy without transferring matter",
+            "Transverse: particles perpendicular (light)",
+            "Longitudinal: particles parallel (sound)",
+            "Wavelength: distance between peaks",
+            "Frequency: waves per second (Hz)",
+            "Wave speed = frequency × wavelength",
+            "v = fλ"
+          ],
+          "keyTerms": [
+            {"term": "Wave", "definition": "Energy transfer"},
+            {"term": "Wavelength", "definition": "Distance between peaks"},
+            {"term": "Frequency", "definition": "Waves per second"},
+            {"term": "Amplitude", "definition": "Maximum displacement"}
+          ],
+          "examples": [
+            {
+              "question": "Wave with frequency 2 Hz, wavelength 3m. Speed?",
+              "answer": "6 m/s",
+              "explanation": "v = fλ = 2 × 3 = 6"
+            }
+          ],
+          "formulas": [
+            "v = fλ"
+          ],
+          "commonMistakes": [
+            "Wrong wave types",
+            "Missing formula"
+          ],
+          "examTips": [
+            "Memorize v = fλ",
+            "Know wave types"
+          ],
+          "questions": [
+            {
+              "id": "phys-wave-q1",
+              "question": "Wave speed = ?",
+              "options": ["fλ", "f/λ", "λ/f", "f+λ"],
+              "correctAnswer": "fλ",
+              "explanation": "Speed = frequency × wavelength",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Electromagnetic spectrum",
+            "Wave interference"
+          ],
+          "resources": []
+        },
+        {
+          "id": "sound-light",
+          "title": "Sound and Light",
+          "summary": "Wave phenomena",
+          "mustKnow": [
+            "Sound: longitudinal wave, needs medium",
+            "Speed of sound: 340 m/s in air",
+            "Light: transverse wave, no medium needed",
+            "Speed of light: 3 × 10⁸ m/s",
+            "Reflection: bouncing off surfaces",
+            "Refraction: bending when entering new medium"
+          ],
+          "keyTerms": [
+            {"term": "Reflection", "definition": "Bouncing off surfaces"},
+            {"term": "Refraction", "definition": "Bending in new medium"},
+            {"term": "Medium", "definition": "Material wave travels through"}
+          ],
+          "examples": [
+            {
+              "question": "Light bending in water is?",
+              "answer": "Refraction",
+              "explanation": "Bending when entering new medium"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing reflection and refraction",
+            "Wrong speeds"
+          ],
+          "examTips": [
+            "Know speeds",
+            "Distinguish reflection and refraction"
+          ],
+          "questions": [
+            {
+              "id": "phys-sl-q1",
+              "question": "Speed of light is:",
+              "options": ["3 × 10⁸ m/s", "340 m/s", "3 × 10⁶ m/s", "1500 m/s"],
+              "correctAnswer": "3 × 10⁸ m/s",
+              "explanation": "Light speed is 3 × 10⁸ m/s",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Optics",
+            "Acoustics"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "electricity",
+      "title": "Electricity",
+      "description": "Understanding electricity",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand electricity",
+        "Apply Ohm's law",
+        "Know circuits"
+      ],
+      "topics": [
+        {
+          "id": "electricity-basics",
+          "title": "Electricity",
+          "summary": "Flow of electric charge",
+          "mustKnow": [
+            "Current: flow of charge (amperes)",
+            "Voltage: potential difference (volts)",
+            "Resistance: opposition to current (ohms)",
+            "Ohm's law: V = IR",
+            "Series circuit: one path",
+            "Parallel circuit: multiple paths"
+          ],
+          "keyTerms": [
+            {"term": "Current", "definition": "Flow of charge"},
+            {"term": "Voltage", "definition": "Potential difference"},
+            {"term": "Resistance", "definition": "Opposition to current"},
+            {"term": "Series", "definition": "One path"},
+            {"term": "Parallel", "definition": "Multiple paths"}
+          ],
+          "examples": [
+            {
+              "question": "V = 12V, I = 3A. R?",
+              "answer": "4 Ω",
+              "explanation": "R = V/I = 12/3 = 4"
+            }
+          ],
+          "formulas": [
+            "V = IR",
+            "P = VI",
+            "R(series) = R₁ + R₂",
+            "1/R(parallel) = 1/R₁ + 1/R₂"
+          ],
+          "commonMistakes": [
+            "Wrong Ohm's law",
+            "Confusing series and parallel"
+          ],
+          "examTips": [
+            "Memorize formulas",
+            "Know circuit types"
+          ],
+          "questions": [
+            {
+              "id": "phys-elec-q1",
+              "question": "Ohm's law: V = ?",
+              "options": ["IR", "I/R", "R/I", "I+R"],
+              "correctAnswer": "IR",
+              "explanation": "V = IR",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Circuit analysis",
+            "Electronics"
+          ],
+          "resources": []
+        },
+        {
+          "id": "magnetism",
+          "title": "Magnetism",
+          "summary": "Magnetic forces",
+          "mustKnow": [
+            "Magnet: has north and south poles",
+            "Like poles repel, unlike poles attract",
+            "Magnetic field: area around magnet",
+            "Electromagnet: magnet from electricity",
+            "Uses: motors, generators, speakers"
+          ],
+          "keyTerms": [
+            {"term": "Magnet", "definition": "Has north and south poles"},
+            {"term": "Magnetic Field", "definition": "Area around magnet"},
+            {"term": "Electromagnet", "definition": "Magnet from electricity"}
+          ],
+          "examples": [
+            {
+              "question": "North and south poles?",
+              "answer": "Attract",
+              "explanation": "Unlike poles attract"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong pole interactions",
+            "Missing electromagnet"
+          ],
+          "examTips": [
+            "Know pole rules",
+            "Understand electromagnets"
+          ],
+          "questions": [
+            {
+              "id": "phys-mag-q1",
+              "question": "Like poles:",
+              "options": ["Repel", "Attract", "No effect", "Cancel"],
+              "correctAnswer": "Repel",
+              "explanation": "Like poles repel",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Electromagnetic induction",
+            "Transformers"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "atomic-physics",
+      "title": "Atomic Physics",
+      "description": "Understanding atoms and radioactivity",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand atomic structure",
+        "Know radioactivity"
+      ],
+      "topics": [
+        {
+          "id": "radioactivity",
+          "title": "Radioactivity",
+          "summary": "Nuclear radiation",
+          "mustKnow": [
+            "Radioactivity: emission from unstable nuclei",
+            "Alpha: helium nucleus, low penetration",
+            "Beta: electron, medium penetration",
+            "Gamma: electromagnetic, high penetration",
+            "Half-life: time for half to decay",
+            "Uses: medicine, power, dating"
+          ],
+          "keyTerms": [
+            {"term": "Radioactivity", "definition": "Emission from unstable nuclei"},
+            {"term": "Alpha", "definition": "Helium nucleus"},
+            {"term": "Beta", "definition": "Electron"},
+            {"term": "Gamma", "definition": "Electromagnetic radiation"},
+            {"term": "Half-life", "definition": "Time for half to decay"}
+          ],
+          "examples": [
+            {
+              "question": "Highest penetration is?",
+              "answer": "Gamma",
+              "explanation": "Gamma has highest penetration"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong radiation types",
+            "Missing half-life"
+          ],
+          "examTips": [
+            "Know radiation types",
+            "Understand half-life"
+          ],
+          "questions": [
+            {
+              "id": "phys-radio-q1",
+              "question": "Lowest penetration is:",
+              "options": ["Alpha", "Beta", "Gamma", "All same"],
+              "correctAnswer": "Alpha",
+              "explanation": "Alpha has lowest penetration",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Nuclear energy",
+            "Radiation safety"
+          ],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

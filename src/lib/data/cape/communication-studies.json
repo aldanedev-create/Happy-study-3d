@@ -1,0 +1,734 @@
+{
+  "id": "cape-communication-studies",
+  "name": "Communication Studies",
+  "level": "CAPE",
+  "description": "CAPE Communication Studies - Complete cheatsheet covering communication theory and practice",
+  "icon": "💬",
+  "syllabusVersion": "2023",
+  "lastVerified": "2026-01-15",
+  "source": "CXC CAPE Communication Studies Syllabus",
+  "studyGuide": {
+    "passStrategy": "Know the central definitions, communication models, and examples for every unit; then answer the short practice questions without notes.",
+    "masteryStrategy": "For top marks, compare theories, apply them to Caribbean contexts, and plan clear evidence-based extended responses.",
+    "notePrompt": "Make one comparison table for each theory: definition, purpose, strength, limitation, and Caribbean example."
+  },
+  "units": [
+    {
+      "id": "communication-basics",
+      "title": "Communication",
+      "description": "Understanding communication fundamentals",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Define communication",
+        "Understand communication types",
+        "Identify communication elements"
+      ],
+      "topics": [
+        {
+          "id": "what-is-communication",
+          "title": "What is Communication?",
+          "summary": "The process of sharing meaning",
+          "mustKnow": [
+            "Communication: process of sharing meaning",
+            "Sender: person sending message",
+            "Receiver: person receiving message",
+            "Message: information being shared",
+            "Channel: medium of transmission",
+            "Feedback: receiver's response",
+            "Noise: interference with message"
+          ],
+          "keyTerms": [
+            {"term": "Communication", "definition": "Process of sharing meaning"},
+            {"term": "Sender", "definition": "Person sending message"},
+            {"term": "Receiver", "definition": "Person receiving message"},
+            {"term": "Channel", "definition": "Medium of transmission"},
+            {"term": "Feedback", "definition": "Receiver's response"},
+            {"term": "Noise", "definition": "Interference with message"}
+          ],
+          "examples": [
+            {
+              "question": "Teacher explains lesson to students. Who is sender?",
+              "answer": "Teacher",
+              "explanation": "Teacher sends the message"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Missing feedback element",
+            "Ignoring noise"
+          ],
+          "examTips": [
+            "Know all communication elements",
+            "Explain the process"
+          ],
+          "questions": [
+            {
+              "id": "comm-q1",
+              "question": "Response from receiver is:",
+              "options": ["Feedback", "Noise", "Channel", "Message"],
+              "correctAnswer": "Feedback",
+              "explanation": "Feedback is receiver's response",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Communication models",
+            "Communication theory"
+          ],
+          "resources": []
+        },
+        {
+          "id": "communication-process",
+          "title": "Communication Process",
+          "summary": "How communication works",
+          "mustKnow": [
+            "Process: sender → message → channel → receiver → feedback",
+            "Encoding: putting thoughts into words",
+            "Decoding: interpreting the message",
+            "Context: situation of communication",
+            "Barriers: obstacles to communication",
+            "Effective communication: message understood correctly"
+          ],
+          "keyTerms": [
+            {"term": "Encoding", "definition": "Putting thoughts into words"},
+            {"term": "Decoding", "definition": "Interpreting the message"},
+            {"term": "Context", "definition": "Situation of communication"},
+            {"term": "Barrier", "definition": "Obstacle to communication"}
+          ],
+          "examples": [
+            {
+              "question": "Putting thoughts into words is?",
+              "answer": "Encoding",
+              "explanation": "Encoding converts thoughts to words"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing encoding and decoding",
+            "Missing barriers"
+          ],
+          "examTips": [
+            "Know the process",
+            "Identify barriers"
+          ],
+          "questions": [
+            {
+              "id": "comm-proc-q1",
+              "question": "Interpreting a message is:",
+              "options": ["Decoding", "Encoding", "Channeling", "Feedback"],
+              "correctAnswer": "Decoding",
+              "explanation": "Decoding interprets message",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Shannon-Weaver model",
+            "Transactional model"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "language",
+      "title": "Language",
+      "description": "Understanding language in communication",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand language types",
+        "Know Caribbean language context"
+      ],
+      "topics": [
+        {
+          "id": "language-types",
+          "title": "Language and Communication",
+          "summary": "Role of language in communication",
+          "mustKnow": [
+            "Language: system of symbols for communication",
+            "Verbal: spoken and written",
+            "Non-verbal: body language, gestures",
+            "Register: level of formality",
+            "Dialect: regional variety",
+            "Creole: Caribbean language varieties"
+          ],
+          "keyTerms": [
+            {"term": "Language", "definition": "System of symbols for communication"},
+            {"term": "Verbal", "definition": "Spoken and written"},
+            {"term": "Non-verbal", "definition": "Body language, gestures"},
+            {"term": "Register", "definition": "Level of formality"},
+            {"term": "Dialect", "definition": "Regional variety"},
+            {"term": "Creole", "definition": "Caribbean language variety"}
+          ],
+          "examples": [
+            {
+              "question": "Jamaican Patois is what?",
+              "answer": "Creole",
+              "explanation": "Caribbean language variety"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing dialect and creole",
+            "Missing non-verbal"
+          ],
+          "examTips": [
+            "Know language types",
+            "Understand Caribbean context"
+          ],
+          "questions": [
+            {
+              "id": "comm-lang-q1",
+              "question": "Body language is:",
+              "options": ["Non-verbal", "Verbal", "Written", "Formal"],
+              "correctAnswer": "Non-verbal",
+              "explanation": "Body language = non-verbal",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Caribbean linguistics",
+            "Language variation"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "communication-types",
+      "title": "Communication Types",
+      "description": "Different forms of communication",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand oral, written, visual communication",
+        "Know when to use each type"
+      ],
+      "topics": [
+        {
+          "id": "oral-communication",
+          "title": "Oral Communication",
+          "summary": "Spoken communication",
+          "mustKnow": [
+            "Oral: spoken communication",
+            "Types: speeches, conversations, presentations",
+            "Skills: clarity, tone, pace",
+            "Advantages: immediate feedback",
+            "Disadvantages: no permanent record",
+            "Used in meetings, interviews, phone calls"
+          ],
+          "keyTerms": [
+            {"term": "Oral", "definition": "Spoken communication"},
+            {"term": "Speech", "definition": "Formal spoken presentation"},
+            {"term": "Tone", "definition": "Emotional quality of voice"}
+          ],
+          "examples": [
+            {
+              "question": "Phone conversation is what type?",
+              "answer": "Oral communication",
+              "explanation": "Spoken communication"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Missing advantages",
+            "Not knowing skills"
+          ],
+          "examTips": [
+            "Know advantages and disadvantages",
+            "Explain skills"
+          ],
+          "questions": [
+            {
+              "id": "comm-oral-q1",
+              "question": "Immediate feedback is advantage of:",
+              "options": ["Oral communication", "Written communication", "Visual communication", "All"],
+              "correctAnswer": "Oral communication",
+              "explanation": "Oral allows immediate response",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Public speaking",
+            "Interpersonal communication"
+          ],
+          "resources": []
+        },
+        {
+          "id": "written-communication",
+          "title": "Written Communication",
+          "summary": "Written form of communication",
+          "mustKnow": [
+            "Written: communication in writing",
+            "Types: letters, emails, reports, memos",
+            "Skills: clarity, organization, grammar",
+            "Advantages: permanent record",
+            "Disadvantages: no immediate feedback",
+            "Used for formal communication"
+          ],
+          "keyTerms": [
+            {"term": "Written", "definition": "Communication in writing"},
+            {"term": "Letter", "definition": "Formal written message"},
+            {"term": "Report", "definition": "Detailed written document"}
+          ],
+          "examples": [
+            {
+              "question": "Business report is what type?",
+              "answer": "Written communication",
+              "explanation": "In writing"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Missing advantages",
+            "Poor writing skills"
+          ],
+          "examTips": [
+            "Know when to use written",
+            "Explain advantages"
+          ],
+          "questions": [
+            {
+              "id": "comm-writ-q1",
+              "question": "Permanent record is advantage of:",
+              "options": ["Written communication", "Oral communication", "Visual communication", "All"],
+              "correctAnswer": "Written communication",
+              "explanation": "Written has permanent record",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Business writing",
+            "Academic writing"
+          ],
+          "resources": []
+        },
+        {
+          "id": "visual-communication",
+          "title": "Visual Communication",
+          "summary": "Using visuals to communicate",
+          "mustKnow": [
+            "Visual: communication through images",
+            "Types: charts, graphs, posters, videos",
+            "Skills: design, clarity",
+            "Advantages: quick understanding",
+            "Disadvantages: can be misinterpreted",
+            "Used in presentations, advertisements"
+          ],
+          "keyTerms": [
+            {"term": "Visual", "definition": "Communication through images"},
+            {"term": "Chart", "definition": "Visual data representation"},
+            {"term": "Poster", "definition": "Visual display"}
+          ],
+          "examples": [
+            {
+              "question": "Pie chart showing data is?",
+              "answer": "Visual communication",
+              "explanation": "Uses images"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Missing types",
+            "Not knowing advantages"
+          ],
+          "examTips": [
+            "Know visual types",
+            "Explain when to use"
+          ],
+          "questions": [
+            {
+              "id": "comm-vis-q1",
+              "question": "Quick understanding is advantage of:",
+              "options": ["Visual communication", "Oral only", "Written only", "None"],
+              "correctAnswer": "Visual communication",
+              "explanation": "Visuals are quickly understood",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Graphic design",
+            "Data visualization"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "argument-persuasion",
+      "title": "Argument and Persuasion",
+      "description": "Convincing others",
+      "importance": "must-know",
+      "difficulty": "advanced",
+      "learningObjectives": [
+        "Understand argumentation",
+        "Know persuasive techniques"
+      ],
+      "topics": [
+        {
+          "id": "argument",
+          "title": "Argument",
+          "summary": "Presenting a case with evidence",
+          "mustKnow": [
+            "Argument: claim supported by evidence",
+            "Claim: main point",
+            "Evidence: supporting facts",
+            "Reasoning: connecting evidence to claim",
+            "Counterargument: opposing view",
+            "Rebuttal: response to counterargument"
+          ],
+          "keyTerms": [
+            {"term": "Argument", "definition": "Claim with evidence"},
+            {"term": "Claim", "definition": "Main point"},
+            {"term": "Evidence", "definition": "Supporting facts"},
+            {"term": "Counterargument", "definition": "Opposing view"}
+          ],
+          "examples": [
+            {
+              "question": "School should start later because students need sleep. What is the claim?",
+              "answer": "School should start later",
+              "explanation": "Main point being argued"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "No evidence",
+            "Missing counterargument"
+          ],
+          "examTips": [
+            "Use evidence",
+            "Address counterarguments"
+          ],
+          "questions": [
+            {
+              "id": "comm-arg-q1",
+              "question": "Opposing view is:",
+              "options": ["Counterargument", "Claim", "Evidence", "Rebuttal"],
+              "correctAnswer": "Counterargument",
+              "explanation": "Opposing view = counterargument",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Rhetoric",
+            "Debate techniques"
+          ],
+          "resources": []
+        },
+        {
+          "id": "persuasion",
+          "title": "Persuasion",
+          "summary": "Convincing others to agree",
+          "mustKnow": [
+            "Persuasion: convincing others",
+            "Ethos: appeal to credibility",
+            "Pathos: appeal to emotions",
+            "Logos: appeal to logic",
+            "Rhetorical devices: repetition, rhetorical questions",
+            "Call to action: urge action"
+          ],
+          "keyTerms": [
+            {"term": "Persuasion", "definition": "Convincing others"},
+            {"term": "Ethos", "definition": "Appeal to credibility"},
+            {"term": "Pathos", "definition": "Appeal to emotions"},
+            {"term": "Logos", "definition": "Appeal to logic"}
+          ],
+          "examples": [
+            {
+              "question": "Using statistics to convince is?",
+              "answer": "Logos",
+              "explanation": "Appeal to logic"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing ethos, pathos, logos",
+            "Missing call to action"
+          ],
+          "examTips": [
+            "Know all appeals",
+            "Use rhetorical devices"
+          ],
+          "questions": [
+            {
+              "id": "comm-pers-q1",
+              "question": "Appeal to emotions is:",
+              "options": ["Pathos", "Ethos", "Logos", "All"],
+              "correctAnswer": "Pathos",
+              "explanation": "Pathos = emotions",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Persuasive techniques",
+            "Advertising"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "title": "Research",
+      "description": "Finding and using information",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand research methods",
+        "Identify information sources"
+      ],
+      "topics": [
+        {
+          "id": "research-methods",
+          "title": "Research and Information Sources",
+          "summary": "Finding reliable information",
+          "mustKnow": [
+            "Research: systematic investigation",
+            "Primary sources: original information",
+            "Secondary sources: interpretation of primary",
+            "Library: books, journals",
+            "Internet: websites, databases",
+            "Evaluate sources: credibility, relevance, currency"
+          ],
+          "keyTerms": [
+            {"term": "Research", "definition": "Systematic investigation"},
+            {"term": "Primary Source", "definition": "Original information"},
+            {"term": "Secondary Source", "definition": "Interpretation of primary"}
+          ],
+          "examples": [
+            {
+              "question": "Interview is what type of source?",
+              "answer": "Primary",
+              "explanation": "Original information"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing source types",
+            "Not evaluating sources"
+          ],
+          "examTips": [
+            "Know source types",
+            "Evaluate sources"
+          ],
+          "questions": [
+            {
+              "id": "comm-res-q1",
+              "question": "Original information is:",
+              "options": ["Primary source", "Secondary source", "Tertiary source", "No source"],
+              "correctAnswer": "Primary source",
+              "explanation": "Primary = original",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Research methodology",
+            "Academic writing"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "media-technology",
+      "title": "Media and Technology",
+      "description": "Communication through media",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Understand media types",
+        "Know technology's role"
+      ],
+      "topics": [
+        {
+          "id": "media-types",
+          "title": "Media and Technology",
+          "summary": "Communication through media",
+          "mustKnow": [
+            "Media: channels of communication",
+            "Traditional: newspapers, radio, TV",
+            "New media: social media, websites",
+            "Technology: enables communication",
+            "Digital communication: email, messaging",
+            "Social media: Facebook, Instagram, Twitter"
+          ],
+          "keyTerms": [
+            {"term": "Media", "definition": "Communication channels"},
+            {"term": "Traditional Media", "definition": "Newspapers, radio, TV"},
+            {"term": "New Media", "definition": "Social media, websites"},
+            {"term": "Digital", "definition": "Electronic communication"}
+          ],
+          "examples": [
+            {
+              "question": "Instagram is what type?",
+              "answer": "New media (social media)",
+              "explanation": "Digital platform"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing media types",
+            "Missing technology role"
+          ],
+          "examTips": [
+            "Know media types",
+            "Explain technology impact"
+          ],
+          "questions": [
+            {
+              "id": "comm-media-q1",
+              "question": "Newspaper is:",
+              "options": ["Traditional media", "New media", "Social media", "Digital only"],
+              "correctAnswer": "Traditional media",
+              "explanation": "Newspaper = traditional",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Digital literacy",
+            "Media studies"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "presentation",
+      "title": "Presentation",
+      "description": "Presenting information effectively",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Prepare presentations",
+        "Deliver effectively"
+      ],
+      "topics": [
+        {
+          "id": "presentation-skills",
+          "title": "Presentation Skills",
+          "summary": "Effective presentation",
+          "mustKnow": [
+            "Plan: organize content",
+            "Structure: introduction, body, conclusion",
+            "Visual aids: slides, charts",
+            "Delivery: clear voice, eye contact",
+            "Audience awareness: engage listeners",
+            "Practice: improves delivery"
+          ],
+          "keyTerms": [
+            {"term": "Presentation", "definition": "Formal sharing of information"},
+            {"term": "Visual Aids", "definition": "Slides, charts, props"},
+            {"term": "Delivery", "definition": "How you present"}
+          ],
+          "examples": [
+            {
+              "question": "Using slides in presentation is?",
+              "answer": "Visual aids",
+              "explanation": "Slides support presentation"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Poor preparation",
+            "Reading from slides"
+          ],
+          "examTips": [
+            "Plan thoroughly",
+            "Practice delivery"
+          ],
+          "questions": [
+            {
+              "id": "comm-pres-q1",
+              "question": "Slides and charts are:",
+              "options": ["Visual aids", "Written communication", "Oral only", "No aids"],
+              "correctAnswer": "Visual aids",
+              "explanation": "Visual aids support presentation",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Public speaking",
+            "Presentation design"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "critical-thinking",
+      "title": "Critical Thinking",
+      "description": "Analyzing and evaluating information",
+      "importance": "must-know",
+      "difficulty": "advanced",
+      "learningObjectives": [
+        "Understand critical thinking",
+        "Apply analysis skills"
+      ],
+      "topics": [
+        {
+          "id": "critical-thinking",
+          "title": "Critical Thinking",
+          "summary": "Analyzing information objectively",
+          "mustKnow": [
+            "Critical thinking: objective analysis",
+            "Analyze: break down information",
+            "Evaluate: judge quality",
+            "Infer: draw conclusions",
+            "Interpret: explain meaning",
+            "Question assumptions"
+          ],
+          "keyTerms": [
+            {"term": "Critical Thinking", "definition": "Objective analysis"},
+            {"term": "Analysis", "definition": "Breaking down information"},
+            {"term": "Evaluation", "definition": "Judging quality"},
+            {"term": "Inference", "definition": "Drawing conclusions"}
+          ],
+          "examples": [
+            {
+              "question": "Judging the quality of an argument is?",
+              "answer": "Evaluation",
+              "explanation": "Judging quality"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Accepting without question",
+            "Missing analysis"
+          ],
+          "examTips": [
+            "Question everything",
+            "Support with evidence"
+          ],
+          "questions": [
+            {
+              "id": "comm-ct-q1",
+              "question": "Objective analysis is:",
+              "options": ["Critical thinking", "Acceptance", "Memorization", "Repetition"],
+              "correctAnswer": "Critical thinking",
+              "explanation": "Critical thinking analyzes objectively",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Logic",
+            "Analytical skills"
+          ],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

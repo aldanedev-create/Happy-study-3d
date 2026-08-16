@@ -1,0 +1,851 @@
+{
+  "id": "cape-computer-science",
+  "name": "Computer Science",
+  "level": "CAPE",
+  "description": "CAPE Computer Science - Complete comprehensive coverage of Unit 1 and Unit 2",
+  "icon": "💻",
+  "syllabusVersion": "2023",
+  "lastVerified": "2026-01-15",
+  "source": "CXC CAPE Computer Science Syllabus",
+  "units": [
+    {
+      "id": "unit-1",
+      "title": "Unit 1",
+      "description": "Computer Science Fundamentals and Programming",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "topics": [
+        {
+          "id": "cs-fundamentals",
+          "title": "Computer Science Fundamentals",
+          "summary": "Core computer science concepts",
+          "mustKnow": [
+            "Computer science: study of computation",
+            "Problem solving: systematic approach",
+            "Computational thinking: decomposition, pattern recognition, abstraction, algorithms",
+            "Algorithm: step-by-step solution",
+            "Pseudocode: informal algorithm description",
+            "Flowchart: visual algorithm representation"
+          ],
+          "keyTerms": [
+            {"term": "Computer Science", "definition": "Study of computation"},
+            {"term": "Algorithm", "definition": "Step-by-step solution"},
+            {"term": "Pseudocode", "definition": "Informal description"},
+            {"term": "Flowchart", "definition": "Visual representation"},
+            {"term": "Decomposition", "definition": "Breaking problems down"},
+            {"term": "Abstraction", "definition": "Focusing on important"}
+          ],
+          "examples": [
+            {
+              "question": "Step-by-step solution is?",
+              "answer": "Algorithm",
+              "explanation": "Algorithm is procedure"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing pseudocode and flowchart",
+            "Missing computational thinking"
+          ],
+          "examTips": [
+            "Write clear algorithms",
+            "Draw flowcharts"
+          ],
+          "questions": [
+            {
+              "id": "cs-q1",
+              "question": "Step-by-step solution:",
+              "options": ["Algorithm", "Program", "Variable", "Loop"],
+              "correctAnswer": "Algorithm",
+              "explanation": "Algorithm is step-by-step",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Algorithm design",
+            "Problem solving"
+          ],
+          "resources": []
+        },
+        {
+          "id": "programming-basics",
+          "title": "Programming Fundamentals",
+          "summary": "Variables, data types, operators",
+          "mustKnow": [
+            "Variable: named storage location",
+            "Constant: value doesn't change",
+            "Data types: integer, real, char, string, boolean",
+            "Operators: arithmetic, comparison, logical",
+            "Input: getting data",
+            "Output: displaying data",
+            "Assignment: giving value to variable"
+          ],
+          "keyTerms": [
+            {"term": "Variable", "definition": "Named storage"},
+            {"term": "Constant", "definition": "Fixed value"},
+            {"term": "Data Type", "definition": "Value category"},
+            {"term": "Operator", "definition": "Performs operation"},
+            {"term": "Assignment", "definition": "Give value"}
+          ],
+          "examples": [
+            {
+              "question": "Declare a variable",
+              "answer": "DECLARE age AS INTEGER",
+              "explanation": "Pseudocode variable declaration"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong data types",
+            "Missing declarations"
+          ],
+          "examTips": [
+            "Know all data types",
+            "Practice pseudocode"
+          ],
+          "questions": [
+            {
+              "id": "cs-pb-q1",
+              "question": "Named storage location:",
+              "options": ["Variable", "Constant", "Operator", "Loop"],
+              "correctAnswer": "Variable",
+              "explanation": "Variable stores data",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Programming languages",
+            "Pseudocode practice"
+          ],
+          "resources": []
+        },
+        {
+          "id": "selection-iteration",
+          "title": "Selection and Iteration",
+          "summary": "Control structures",
+          "mustKnow": [
+            "Selection: decision making",
+            "IF-THEN: simple condition",
+            "IF-THEN-ELSE: two alternatives",
+            "CASE: multiple alternatives",
+            "Iteration: repetition",
+            "FOR loop: known count",
+            "WHILE loop: condition-based",
+            "REPEAT-UNTIL: post-test loop"
+          ],
+          "keyTerms": [
+            {"term": "Selection", "definition": "Decision making"},
+            {"term": "Iteration", "definition": "Repetition"},
+            {"term": "IF-THEN", "definition": "Simple condition"},
+            {"term": "FOR loop", "definition": "Known count"},
+            {"term": "WHILE loop", "definition": "Condition-based"},
+            {"term": "REPEAT-UNTIL", "definition": "Post-test loop"}
+          ],
+          "examples": [
+            {
+              "question": "IF age >= 18 THEN... is?",
+              "answer": "Selection (IF-THEN)",
+              "explanation": "Decision making"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong loop type",
+            "Missing conditions"
+          ],
+          "examTips": [
+            "Know all structures",
+            "Practice pseudocode"
+          ],
+          "questions": [
+            {
+              "id": "cs-si-q1",
+              "question": "Decision making is:",
+              "options": ["Selection", "Iteration", "Assignment", "Declaration"],
+              "correctAnswer": "Selection",
+              "explanation": "Selection makes decisions",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Nested structures",
+            "Control flow"
+          ],
+          "resources": []
+        },
+        {
+          "id": "functions-arrays",
+          "title": "Functions and Arrays",
+          "summary": "Modular programming and data structures",
+          "mustKnow": [
+            "Function: reusable code block",
+            "Procedure: function without return",
+            "Parameters: function inputs",
+            "Array: collection of same type",
+            "Array index: position (starts at 0 or 1)",
+            "String: character array",
+            "Record: different types combined",
+            "File: external data storage"
+          ],
+          "keyTerms": [
+            {"term": "Function", "definition": "Reusable code"},
+            {"term": "Procedure", "definition": "No return value"},
+            {"term": "Array", "definition": "Same type collection"},
+            {"term": "String", "definition": "Character array"},
+            {"term": "Record", "definition": "Different types"},
+            {"term": "File", "definition": "External storage"}
+          ],
+          "examples": [
+            {
+              "question": "Collection of same type?",
+              "answer": "Array",
+              "explanation": "Same data type"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong array indexing",
+            "Confusing function and procedure"
+          ],
+          "examTips": [
+            "Know data structures",
+            "Practice functions"
+          ],
+          "questions": [
+            {
+              "id": "cs-fa-q1",
+              "question": "Collection of same type:",
+              "options": ["Array", "Record", "File", "Variable"],
+              "correctAnswer": "Array",
+              "explanation": "Array is same type",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Multi-dimensional arrays",
+            "File handling"
+          ],
+          "resources": []
+        },
+        {
+          "id": "data-representation",
+          "title": "Data Representation",
+          "summary": "How computers store data",
+          "mustKnow": [
+            "Binary: base 2 (0 and 1)",
+            "Decimal: base 10 (0-9)",
+            "Hexadecimal: base 16 (0-9, A-F)",
+            "Bit: smallest unit (0 or 1)",
+            "Byte: 8 bits",
+            "ASCII: character encoding",
+            "Unicode: extended encoding",
+            "Binary to decimal: sum of powers of 2",
+            "Decimal to binary: divide by 2"
+          ],
+          "keyTerms": [
+            {"term": "Binary", "definition": "Base 2"},
+            {"term": "Decimal", "definition": "Base 10"},
+            {"term": "Hexadecimal", "definition": "Base 16"},
+            {"term": "Bit", "definition": "Smallest unit"},
+            {"term": "Byte", "definition": "8 bits"},
+            {"term": "ASCII", "definition": "Character encoding"}
+          ],
+          "examples": [
+            {
+              "question": "Convert binary 1010 to decimal",
+              "answer": "10",
+              "explanation": "8+0+2+0 = 10"
+            },
+            {
+              "question": "Convert decimal 15 to binary",
+              "answer": "1111",
+              "explanation": "8+4+2+1 = 15"
+            }
+          ],
+          "formulas": [
+            "Binary to decimal: sum of digits × 2^position",
+            "Decimal to binary: divide by 2, collect remainders"
+          ],
+          "commonMistakes": [
+            "Wrong conversion",
+            "Confusing bases"
+          ],
+          "examTips": [
+            "Practice conversions",
+            "Know ASCII"
+          ],
+          "questions": [
+            {
+              "id": "cs-dr-q1",
+              "question": "Binary 1111 in decimal:",
+              "options": ["15", "14", "16", "12"],
+              "correctAnswer": "15",
+              "explanation": "8+4+2+1 = 15",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Number systems",
+            "Data encoding"
+          ],
+          "resources": []
+        },
+        {
+          "id": "computer-systems",
+          "title": "Computer Systems",
+          "summary": "Hardware components",
+          "mustKnow": [
+            "CPU: Central Processing Unit (brain)",
+            "ALU: Arithmetic Logic Unit",
+            "Control Unit: coordinates",
+            "RAM: temporary memory",
+            "ROM: permanent memory",
+            "Storage: hard drive, SSD",
+            "Input: keyboard, mouse",
+            "Output: monitor, printer",
+            "Operating system: manages resources"
+          ],
+          "keyTerms": [
+            {"term": "CPU", "definition": "Central Processing Unit"},
+            {"term": "ALU", "definition": "Arithmetic Logic Unit"},
+            {"term": "RAM", "definition": "Temporary memory"},
+            {"term": "ROM", "definition": "Permanent memory"},
+            {"term": "OS", "definition": "Operating System"}
+          ],
+          "examples": [
+            {
+              "question": "Brain of computer is?",
+              "answer": "CPU",
+              "explanation": "Central Processing Unit"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing RAM and ROM",
+            "Missing components"
+          ],
+          "examTips": [
+            "Know all components",
+            "Understand functions"
+          ],
+          "questions": [
+            {
+              "id": "cs-cs-q1",
+              "question": "Temporary memory:",
+              "options": ["RAM", "ROM", "CPU", "ALU"],
+              "correctAnswer": "RAM",
+              "explanation": "RAM is temporary",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Computer architecture",
+            "Von Neumann"
+          ],
+          "resources": []
+        },
+        {
+          "id": "networks",
+          "title": "Networks",
+          "summary": "Connected computers",
+          "mustKnow": [
+            "Network: connected computers",
+            "LAN: Local Area Network",
+            "WAN: Wide Area Network",
+            "Router: connects networks",
+            "Switch: connects devices",
+            "Protocol: communication rules",
+            "TCP/IP: internet protocol",
+            "Internet: global network"
+          ],
+          "keyTerms": [
+            {"term": "LAN", "definition": "Local network"},
+            {"term": "WAN", "definition": "Wide network"},
+            {"term": "Router", "definition": "Connects networks"},
+            {"term": "Protocol", "definition": "Communication rules"},
+            {"term": "TCP/IP", "definition": "Internet protocol"}
+          ],
+          "examples": [
+            {
+              "question": "School network is?",
+              "answer": "LAN",
+              "explanation": "Local area"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing LAN and WAN",
+            "Missing devices"
+          ],
+          "examTips": [
+            "Know network types",
+            "Understand protocols"
+          ],
+          "questions": [
+            {
+              "id": "cs-net-q1",
+              "question": "Global network:",
+              "options": ["Internet", "LAN", "Intranet", "Extranet"],
+              "correctAnswer": "Internet",
+              "explanation": "Internet is global",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Network security",
+            "Cloud computing"
+          ],
+          "resources": []
+        },
+        {
+          "id": "databases",
+          "title": "Databases",
+          "summary": "Data storage and management",
+          "mustKnow": [
+            "Database: organized data",
+            "Table: rows and columns",
+            "Record: single row",
+            "Field: single column",
+            "Primary key: unique identifier",
+            "Foreign key: links tables",
+            "SQL: query language",
+            "SELECT: retrieve data"
+          ],
+          "keyTerms": [
+            {"term": "Database", "definition": "Organized data"},
+            {"term": "Table", "definition": "Rows and columns"},
+            {"term": "Primary Key", "definition": "Unique identifier"},
+            {"term": "Foreign Key", "definition": "Links tables"},
+            {"term": "SQL", "definition": "Query language"}
+          ],
+          "examples": [
+            {
+              "question": "Unique identifier is?",
+              "answer": "Primary key",
+              "explanation": "Uniquely identifies records"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong keys",
+            "Confusing record and field"
+          ],
+          "examTips": [
+            "Know database terms",
+            "Write SQL"
+          ],
+          "questions": [
+            {
+              "id": "cs-db-q1",
+              "question": "Single row is:",
+              "options": ["Record", "Field", "Table", "Key"],
+              "correctAnswer": "Record",
+              "explanation": "Record is row",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "SQL queries",
+            "Database design"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "unit-2",
+      "title": "Unit 2",
+      "description": "Advanced Programming and Software Engineering",
+      "importance": "must-know",
+      "difficulty": "advanced",
+      "topics": [
+        {
+          "id": "oop",
+          "title": "Object-Oriented Programming",
+          "summary": "Classes and objects",
+          "mustKnow": [
+            "OOP: programming paradigm",
+            "Class: blueprint",
+            "Object: instance of class",
+            "Inheritance: child inherits parent",
+            "Polymorphism: many forms",
+            "Encapsulation: data hiding",
+            "Attributes: properties",
+            "Methods: functions in class"
+          ],
+          "keyTerms": [
+            {"term": "Class", "definition": "Blueprint"},
+            {"term": "Object", "definition": "Class instance"},
+            {"term": "Inheritance", "definition": "Child inherits"},
+            {"term": "Polymorphism", "definition": "Many forms"},
+            {"term": "Encapsulation", "definition": "Data hiding"},
+            {"term": "Method", "definition": "Class function"}
+          ],
+          "examples": [
+            {
+              "question": "Blueprint for objects?",
+              "answer": "Class",
+              "explanation": "Class is blueprint"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing class and object",
+            "Missing OOP concepts"
+          ],
+          "examTips": [
+            "Know all OOP concepts",
+            "Practice implementation"
+          ],
+          "questions": [
+            {
+              "id": "cs-oop-q1",
+              "question": "Class instance:",
+              "options": ["Object", "Class", "Method", "Attribute"],
+              "correctAnswer": "Object",
+              "explanation": "Object is instance",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Design patterns",
+            "OOP languages"
+          ],
+          "resources": []
+        },
+        {
+          "id": "data-structures",
+          "title": "Data Structures",
+          "summary": "Organizing data",
+          "mustKnow": [
+            "Array: fixed size, indexed",
+            "List: dynamic size",
+            "Stack: LIFO (Last In First Out)",
+            "Queue: FIFO (First In First Out)",
+            "Tree: hierarchical",
+            "Graph: nodes and edges",
+            "Push: add to stack",
+            "Pop: remove from stack"
+          ],
+          "keyTerms": [
+            {"term": "Array", "definition": "Fixed size"},
+            {"term": "List", "definition": "Dynamic size"},
+            {"term": "Stack", "definition": "LIFO"},
+            {"term": "Queue", "definition": "FIFO"},
+            {"term": "Tree", "definition": "Hierarchical"},
+            {"term": "Graph", "definition": "Nodes and edges"}
+          ],
+          "examples": [
+            {
+              "question": "LIFO structure?",
+              "answer": "Stack",
+              "explanation": "Last In First Out"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing stack and queue",
+            "Wrong operations"
+          ],
+          "examTips": [
+            "Know all structures",
+            "Understand operations"
+          ],
+          "questions": [
+            {
+              "id": "cs-ds-q1",
+              "question": "FIFO structure:",
+              "options": ["Queue", "Stack", "Tree", "Array"],
+              "correctAnswer": "Queue",
+              "explanation": "First In First Out",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Advanced structures",
+            "Algorithms"
+          ],
+          "resources": []
+        },
+        {
+          "id": "algorithms",
+          "title": "Algorithms",
+          "summary": "Searching and sorting",
+          "mustKnow": [
+            "Linear search: sequential",
+            "Binary search: divide and conquer",
+            "Bubble sort: adjacent swaps",
+            "Selection sort: find minimum",
+            "Insertion sort: build sorted",
+            "Recursion: function calls itself",
+            "Big O: efficiency notation",
+            "O(n): linear, O(log n): logarithmic, O(n²): quadratic"
+          ],
+          "keyTerms": [
+            {"term": "Linear Search", "definition": "Sequential"},
+            {"term": "Binary Search", "definition": "Divide and conquer"},
+            {"term": "Bubble Sort", "definition": "Adjacent swaps"},
+            {"term": "Recursion", "definition": "Function calls itself"},
+            {"term": "Big O", "definition": "Efficiency notation"}
+          ],
+          "examples": [
+            {
+              "question": "Divide and conquer search?",
+              "answer": "Binary search",
+              "explanation": "Halves search space"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong algorithm choice",
+            "Incorrect complexity"
+          ],
+          "examTips": [
+            "Know all algorithms",
+            "Analyze complexity"
+          ],
+          "questions": [
+            {
+              "id": "cs-alg-q1",
+              "question": "O(log n) is:",
+              "options": ["Logarithmic", "Linear", "Quadratic", "Constant"],
+              "correctAnswer": "Logarithmic",
+              "explanation": "Logarithmic complexity",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Algorithm design",
+            "Optimization"
+          ],
+          "resources": []
+        },
+        {
+          "id": "software-engineering",
+          "title": "Software Engineering",
+          "summary": "Building software",
+          "mustKnow": [
+            "Requirements: what software must do",
+            "Analysis: understand requirements",
+            "Design: blueprint",
+            "Implementation: coding",
+            "Testing: verify correctness",
+            "Documentation: instructions",
+            "SDLC: development process",
+            "Agile: iterative development"
+          ],
+          "keyTerms": [
+            {"term": "Requirements", "definition": "Software needs"},
+            {"term": "Design", "definition": "Blueprint"},
+            {"term": "Testing", "definition": "Verify correctness"},
+            {"term": "SDLC", "definition": "Development process"},
+            {"term": "Agile", "definition": "Iterative development"}
+          ],
+          "examples": [
+            {
+              "question": "Development process is?",
+              "answer": "SDLC",
+              "explanation": "Software Development Life Cycle"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Skipping phases",
+            "Poor documentation"
+          ],
+          "examTips": [
+            "Know all phases",
+            "Explain SDLC"
+          ],
+          "questions": [
+            {
+              "id": "cs-se-q1",
+              "question": "Blueprint phase:",
+              "options": ["Design", "Requirements", "Testing", "Documentation"],
+              "correctAnswer": "Design",
+              "explanation": "Design is blueprint",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Design patterns",
+            "Project management"
+          ],
+          "resources": []
+        },
+        {
+          "id": "hci",
+          "title": "Human-Computer Interaction",
+          "summary": "User interface design",
+          "mustKnow": [
+            "HCI: user interaction with computers",
+            "Usability: easy to use",
+            "Accessibility: usable by all",
+            "Interface design: visual layout",
+            "User experience (UX): overall feel",
+            "Good design: intuitive, consistent"
+          ],
+          "keyTerms": [
+            {"term": "HCI", "definition": "Human-Computer Interaction"},
+            {"term": "Usability", "definition": "Easy to use"},
+            {"term": "Accessibility", "definition": "Usable by all"},
+            {"term": "UX", "definition": "User experience"},
+            {"term": "Interface", "definition": "Visual layout"}
+          ],
+          "examples": [
+            {
+              "question": "Easy to use is?",
+              "answer": "Usability",
+              "explanation": "User-friendly"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing usability and UX",
+            "Missing accessibility"
+          ],
+          "examTips": [
+            "Know HCI concepts",
+            "Explain good design"
+          ],
+          "questions": [
+            {
+              "id": "cs-hci-q1",
+              "question": "Usable by all is:",
+              "options": ["Accessibility", "Usability", "UX", "Interface"],
+              "correctAnswer": "Accessibility",
+              "explanation": "Accessibility for all",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "UI/UX design",
+            "Usability testing"
+          ],
+          "resources": []
+        },
+        {
+          "id": "web-technologies",
+          "title": "Web Technologies",
+          "summary": "Building web applications",
+          "mustKnow": [
+            "HTML: structure",
+            "CSS: styling",
+            "JavaScript: interactivity",
+            "Web application: software on web",
+            "API: application interface",
+            "Client: user's device",
+            "Server: hosts application",
+            "HTTP: web protocol"
+          ],
+          "keyTerms": [
+            {"term": "HTML", "definition": "Structure"},
+            {"term": "CSS", "definition": "Styling"},
+            {"term": "JavaScript", "definition": "Interactivity"},
+            {"term": "API", "definition": "Interface"},
+            {"term": "Client", "definition": "User device"},
+            {"term": "Server", "definition": "Hosts app"}
+          ],
+          "examples": [
+            {
+              "question": "Structure of webpage?",
+              "answer": "HTML",
+              "explanation": "HTML structures content"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing client and server",
+            "Wrong technologies"
+          ],
+          "examTips": [
+            "Know all technologies",
+            "Understand client-server"
+          ],
+          "questions": [
+            {
+              "id": "cs-web-q1",
+              "question": "Styling webpages:",
+              "options": ["CSS", "HTML", "JavaScript", "API"],
+              "correctAnswer": "CSS",
+              "explanation": "CSS styles",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Web development",
+            "Full-stack"
+          ],
+          "resources": []
+        },
+        {
+          "id": "project-development",
+          "title": "Project Development",
+          "summary": "Building complete projects",
+          "mustKnow": [
+            "Planning: define scope",
+            "Requirements: what needed",
+            "Design: blueprint",
+            "Implementation: coding",
+            "Testing: verify",
+            "Documentation: instructions",
+            "Evaluation: assess success"
+          ],
+          "keyTerms": [
+            {"term": "Planning", "definition": "Define scope"},
+            {"term": "Requirements", "definition": "What needed"},
+            {"term": "Design", "definition": "Blueprint"},
+            {"term": "Implementation", "definition": "Coding"},
+            {"term": "Evaluation", "definition": "Assess success"}
+          ],
+          "examples": [
+            {
+              "question": "First project phase?",
+              "answer": "Planning",
+              "explanation": "Define what to build"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Skipping planning",
+            "Poor documentation"
+          ],
+          "examTips": [
+            "Follow all phases",
+            "Document everything"
+          ],
+          "questions": [
+            {
+              "id": "cs-pd-q1",
+              "question": "First phase:",
+              "options": ["Planning", "Design", "Implementation", "Testing"],
+              "correctAnswer": "Planning",
+              "explanation": "Plan first",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Project management",
+            "Software development"
+          ],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

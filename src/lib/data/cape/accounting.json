@@ -1,0 +1,418 @@
+{
+  "id": "cape-accounting",
+  "name": "Accounting",
+  "level": "CAPE",
+  "description": "CAPE Accounting - Complete cheatsheet covering Unit 1 and Unit 2",
+  "icon": "📊",
+  "syllabusVersion": "2023",
+  "lastVerified": "2026-01-15",
+  "source": "CXC CAPE Accounting Syllabus",
+  "units": [
+    {
+      "id": "unit-1",
+      "title": "Unit 1",
+      "description": "Financial Accounting",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "topics": [
+        {
+          "id": "accounting-principles",
+          "title": "Accounting Principles and Concepts",
+          "summary": "Rules governing accounting",
+          "mustKnow": [
+            "Going concern: business continues",
+            "Accruals: record when incurred",
+            "Consistency: same methods",
+            "Prudence: don't overstate",
+            "Materiality: significant items",
+            "Business entity: separate from owner",
+            "Matching: expenses match revenue",
+            "Historical cost: record at cost"
+          ],
+          "keyTerms": [
+            {"term": "Going Concern", "definition": "Business continues"},
+            {"term": "Accruals", "definition": "Record when incurred"},
+            {"term": "Consistency", "definition": "Same methods"},
+            {"term": "Prudence", "definition": "Don't overstate"},
+            {"term": "Materiality", "definition": "Significant items"},
+            {"term": "Business Entity", "definition": "Separate from owner"}
+          ],
+          "examples": [
+            {
+              "question": "Recording expenses when incurred is?",
+              "answer": "Accruals",
+              "explanation": "Not when paid"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing concepts",
+            "Missing application"
+          ],
+          "examTips": [
+            "Memorize all concepts",
+            "Apply to situations"
+          ],
+          "questions": [
+            {
+              "id": "acc-q1",
+              "question": "Business separate from owner:",
+              "options": ["Business entity", "Going concern", "Accruals", "Prudence"],
+              "correctAnswer": "Business entity",
+              "explanation": "Business entity concept",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "IAS/IFRS",
+            "Accounting standards"
+          ],
+          "resources": []
+        },
+        {
+          "id": "double-entry",
+          "title": "Double Entry",
+          "summary": "Recording transactions",
+          "mustKnow": [
+            "Double entry: every transaction has two effects",
+            "Debit: left side",
+            "Credit: right side",
+            "Assets increase with debit",
+            "Liabilities increase with credit",
+            "Equity increases with credit",
+            "Debits must equal credits",
+            "DEAD CLIC: Debit Expenses Assets Drawings, Credit Liabilities Income Capital"
+          ],
+          "keyTerms": [
+            {"term": "Double Entry", "definition": "Two effects per transaction"},
+            {"term": "Debit", "definition": "Left side"},
+            {"term": "Credit", "definition": "Right side"},
+            {"term": "DEAD CLIC", "definition": "Debit/credit rule"}
+          ],
+          "examples": [
+            {
+              "question": "Buy equipment for cash",
+              "answer": "Debit Equipment, Credit Cash",
+              "explanation": "Equipment up, Cash down"
+            }
+          ],
+          "formulas": [
+            "Assets = Liabilities + Owner's Equity"
+          ],
+          "commonMistakes": [
+            "Wrong debit/credit",
+            "Not balancing"
+          ],
+          "examTips": [
+            "Use DEAD CLIC",
+            "Check debits = credits"
+          ],
+          "questions": [
+            {
+              "id": "acc-de-q1",
+              "question": "Assets increase with:",
+              "options": ["Debit", "Credit", "Both", "Neither"],
+              "correctAnswer": "Debit",
+              "explanation": "Assets increase with debit",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Journal entries",
+            "Ledger accounts"
+          ],
+          "resources": []
+        },
+        {
+          "id": "financial-statements",
+          "title": "Financial Statements",
+          "summary": "Income statement and balance sheet",
+          "mustKnow": [
+            "Income statement: shows profit/loss",
+            "Gross profit = Sales - Cost of Sales",
+            "Net profit = Gross profit - Expenses",
+            "Balance sheet: shows financial position",
+            "Assets = Liabilities + Owner's Equity",
+            "Current assets: within one year",
+            "Non-current assets: long-term",
+            "Current liabilities: due within one year",
+            "Non-current liabilities: long-term"
+          ],
+          "keyTerms": [
+            {"term": "Income Statement", "definition": "Profit/loss"},
+            {"term": "Gross Profit", "definition": "Sales - Cost of Sales"},
+            {"term": "Net Profit", "definition": "Gross profit - Expenses"},
+            {"term": "Balance Sheet", "definition": "Financial position"},
+            {"term": "Current Asset", "definition": "Within one year"},
+            {"term": "Non-current Asset", "definition": "Long-term"}
+          ],
+          "examples": [
+            {
+              "question": "Sales $100,000, COGS $60,000. Gross profit?",
+              "answer": "$40,000",
+              "explanation": "100,000 - 60,000 = 40,000"
+            }
+          ],
+          "formulas": [
+            "Gross Profit = Sales - Cost of Sales",
+            "Net Profit = Gross Profit - Expenses",
+            "Assets = Liabilities + Owner's Equity"
+          ],
+          "commonMistakes": [
+            "Wrong classification",
+            "Incorrect calculations"
+          ],
+          "examTips": [
+            "Classify accounts carefully",
+            "Show all workings"
+          ],
+          "questions": [
+            {
+              "id": "acc-fs-q1",
+              "question": "Gross profit is:",
+              "options": ["Sales - Cost of Sales", "Sales - Expenses", "Revenue - All costs", "Profit - Tax"],
+              "correctAnswer": "Sales - Cost of Sales",
+              "explanation": "Gross profit formula",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Cash flow statements",
+            "Financial analysis"
+          ],
+          "resources": []
+        },
+        {
+          "id": "partnership-company",
+          "title": "Partnership and Company Accounts",
+          "summary": "Special entity accounting",
+          "mustKnow": [
+            "Partnership: 2+ owners",
+            "Partnership agreement: profit sharing",
+            "Capital accounts: permanent investments",
+            "Current accounts: temporary",
+            "Company: separate legal entity",
+            "Share capital: from shares",
+            "Dividends: profits to shareholders",
+            "Limited liability"
+          ],
+          "keyTerms": [
+            {"term": "Partnership", "definition": "2+ owners"},
+            {"term": "Company", "definition": "Separate legal entity"},
+            {"term": "Share Capital", "definition": "From shares"},
+            {"term": "Dividend", "definition": "Profit distribution"}
+          ],
+          "examples": [
+            {
+              "question": "Profits paid to shareholders?",
+              "answer": "Dividends",
+              "explanation": "Profit distribution"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong profit sharing",
+            "Confusing entities"
+          ],
+          "examTips": [
+            "Know entity types",
+            "Understand profit sharing"
+          ],
+          "questions": [
+            {
+              "id": "acc-pc-q1",
+              "question": "Profits to shareholders are:",
+              "options": ["Dividends", "Interest", "Rent", "Wages"],
+              "correctAnswer": "Dividends",
+              "explanation": "Dividends are profit distribution",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Company reporting",
+            "Stock markets"
+          ],
+          "resources": []
+        },
+        {
+          "id": "accounting-ratios",
+          "title": "Accounting Ratios",
+          "summary": "Analyzing financial performance",
+          "mustKnow": [
+            "Profitability: GP%, NP%, ROE",
+            "Liquidity: Current ratio, Quick ratio",
+            "Efficiency: Inventory turnover, Receivables days",
+            "Leverage: Debt to equity",
+            "Gross profit % = (GP/Sales) × 100",
+            "Net profit % = (NP/Sales) × 100",
+            "Current ratio = CA/CL",
+            "Quick ratio = (CA-Inventory)/CL"
+          ],
+          "keyTerms": [
+            {"term": "Profitability", "definition": "Profit generation"},
+            {"term": "Liquidity", "definition": "Short-term solvency"},
+            {"term": "Efficiency", "definition": "Resource use"},
+            {"term": "Leverage", "definition": "Debt level"},
+            {"term": "ROE", "definition": "Return on Equity"}
+          ],
+          "examples": [
+            {
+              "question": "GP $30,000, Sales $100,000. GP%?",
+              "answer": "30%",
+              "explanation": "(30,000/100,000) × 100 = 30%"
+            }
+          ],
+          "formulas": [
+            "GP% = (GP/Sales) × 100",
+            "NP% = (NP/Sales) × 100",
+            "Current ratio = CA/CL",
+            "Quick ratio = (CA-Inventory)/CL"
+          ],
+          "commonMistakes": [
+            "Wrong formulas",
+            "Incorrect interpretation"
+          ],
+          "examTips": [
+            "Memorize formulas",
+            "Explain what ratios mean"
+          ],
+          "questions": [
+            {
+              "id": "acc-ratio-q1",
+              "question": "Current ratio measures:",
+              "options": ["Liquidity", "Profitability", "Efficiency", "Leverage"],
+              "correctAnswer": "Liquidity",
+              "explanation": "Short-term solvency",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Financial analysis",
+            "Investment decisions"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "unit-2",
+      "title": "Unit 2",
+      "description": "Management and Cost Accounting",
+      "importance": "must-know",
+      "difficulty": "advanced",
+      "topics": [
+        {
+          "id": "management-accounting",
+          "title": "Management Accounting",
+          "summary": "Internal decision-making",
+          "mustKnow": [
+            "Management accounting: internal information",
+            "Cost accounting: tracking costs",
+            "Budgeting: financial planning",
+            "Standard costing: expected costs",
+            "Variance analysis: actual vs standard",
+            "Marginal costing: variable costs only",
+            "Decision making: relevant costs"
+          ],
+          "keyTerms": [
+            {"term": "Management Accounting", "definition": "Internal information"},
+            {"term": "Cost Accounting", "definition": "Track costs"},
+            {"term": "Budget", "definition": "Financial plan"},
+            {"term": "Variance", "definition": "Actual vs standard"},
+            {"term": "Marginal Cost", "definition": "Variable cost"}
+          ],
+          "examples": [
+            {
+              "question": "Internal decision information is?",
+              "answer": "Management accounting",
+              "explanation": "For internal use"
+            }
+          ],
+          "formulas": [
+            "Variance = Actual - Standard"
+          ],
+          "commonMistakes": [
+            "Confusing with financial accounting",
+            "Wrong costing methods"
+          ],
+          "examTips": [
+            "Know difference from financial accounting",
+            "Calculate variances"
+          ],
+          "questions": [
+            {
+              "id": "acc-ma-q1",
+              "question": "For internal decision making:",
+              "options": ["Management accounting", "Financial accounting", "Tax accounting", "Auditing"],
+              "correctAnswer": "Management accounting",
+              "explanation": "Internal use",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Costing methods",
+            "Performance measurement"
+          ],
+          "resources": []
+        },
+        {
+          "id": "budgeting",
+          "title": "Budgeting",
+          "summary": "Financial planning",
+          "mustKnow": [
+            "Budget: financial plan",
+            "Types: cash, sales, production, master",
+            "Flexible budget: adjusts to activity",
+            "Zero-based: justify all expenses",
+            "Budgetary control: compare actual",
+            "Variance: favorable or adverse"
+          ],
+          "keyTerms": [
+            {"term": "Budget", "definition": "Financial plan"},
+            {"term": "Flexible Budget", "definition": "Adjusts to activity"},
+            {"term": "Zero-based", "definition": "Justify all expenses"},
+            {"term": "Variance", "definition": "Actual vs budget"}
+          ],
+          "examples": [
+            {
+              "question": "Budget that adjusts to activity?",
+              "answer": "Flexible budget",
+              "explanation": "Changes with output"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong budget types",
+            "Missing variance"
+          ],
+          "examTips": [
+            "Know all budget types",
+            "Calculate variances"
+          ],
+          "questions": [
+            {
+              "id": "acc-bud-q1",
+              "question": "Justify all expenses is:",
+              "options": ["Zero-based budgeting", "Flexible budgeting", "Cash budgeting", "Master budgeting"],
+              "correctAnswer": "Zero-based budgeting",
+              "explanation": "Start from zero",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Budgetary control",
+            "Performance management"
+          ],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

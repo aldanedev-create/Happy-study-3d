@@ -1,0 +1,1729 @@
+{
+  "id": "cxc-english-a",
+  "name": "English A",
+  "level": "CXC",
+  "description": "CXC CSEC English A - Reading, Language, Writing, Communication, and Research",
+  "icon": "📖",
+  "syllabusVersion": "2023",
+  "lastVerified": "2026-01-15",
+  "source": "CXC CSEC English A Syllabus",
+  "units": [
+    {
+      "id": "reading",
+      "title": "Reading",
+      "description": "Understanding and analyzing written texts",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand what you read",
+        "Find main ideas and details",
+        "Make inferences",
+        "Understand purpose and tone"
+      ],
+      "topics": [
+        {
+          "id": "comprehension",
+          "title": "Comprehension",
+          "summary": "Understanding what you read",
+          "mustKnow": [
+            "Read carefully to understand the text",
+            "Identify what the passage is about",
+            "Answer questions based on the text",
+            "Use evidence from the passage"
+          ],
+          "keyTerms": [
+            {"term": "Comprehension", "definition": "Understanding what you read"},
+            {"term": "Passage", "definition": "A piece of writing"},
+            {"term": "Text", "definition": "Written material"}
+          ],
+          "examples": [
+            {
+              "question": "Read a short passage and answer questions about it",
+              "answer": "Answers must come from the text",
+              "explanation": "Always look back at the passage to find answers"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Answering from memory instead of the text",
+            "Not reading the question carefully"
+          ],
+          "examTips": [
+            "Read the passage twice",
+            "Underline key information",
+            "Answer based on the text"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-comp-q1",
+              "question": "What should you do first when answering comprehension questions?",
+              "options": [
+                "Read the passage carefully",
+                "Write the answer immediately",
+                "Skip to the questions",
+                "Guess the answers"
+              ],
+              "correctAnswer": "Read the passage carefully",
+              "explanation": "You must understand the passage before answering",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Reading strategies",
+            "Speed reading techniques"
+          ],
+          "resources": []
+        },
+        {
+          "id": "main-ideas",
+          "title": "Main Ideas",
+          "summary": "Finding the central message",
+          "mustKnow": [
+            "Main idea is what the passage is about",
+            "Usually found in the first or last sentence",
+            "Supporting details explain the main idea",
+            "Look for repeated ideas"
+          ],
+          "keyTerms": [
+            {"term": "Main Idea", "definition": "The central point of a passage"},
+            {"term": "Topic Sentence", "definition": "Sentence that states the main idea"},
+            {"term": "Supporting Details", "definition": "Information that explains the main idea"}
+          ],
+          "examples": [
+            {
+              "question": "A passage about the benefits of exercise. What is the main idea?",
+              "answer": "Exercise is good for your health",
+              "explanation": "All details support this central point"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Choosing a detail instead of the main idea",
+            "Making the main idea too broad or too narrow"
+          ],
+          "examTips": [
+            "Ask: What is this passage mainly about?",
+            "Look at the first and last sentences"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-main-q1",
+              "question": "The main idea of a passage is:",
+              "options": [
+                "What the passage is mainly about",
+                "The first sentence only",
+                "A minor detail",
+                "The longest paragraph"
+              ],
+              "correctAnswer": "What the passage is mainly about",
+              "explanation": "Main idea is the central message",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Summarizing techniques",
+            "Note-taking strategies"
+          ],
+          "resources": []
+        },
+        {
+          "id": "supporting-details",
+          "title": "Supporting Details",
+          "summary": "Finding information that supports the main idea",
+          "mustKnow": [
+            "Details explain or prove the main idea",
+            "Look for facts, examples, and reasons",
+            "Distinguish between major and minor details",
+            "Use details to answer questions"
+          ],
+          "keyTerms": [
+            {"term": "Supporting Details", "definition": "Information that explains the main idea"},
+            {"term": "Evidence", "definition": "Facts or examples that support a point"},
+            {"term": "Example", "definition": "Specific instance that illustrates a point"}
+          ],
+          "examples": [
+            {
+              "question": "Main idea: Smoking is harmful. What are supporting details?",
+              "answer": "Causes cancer, damages lungs, expensive",
+              "explanation": "These details support why smoking is harmful"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing details with main idea",
+            "Missing important details"
+          ],
+          "examTips": [
+            "Look for specific examples",
+            "Identify facts that support the main point"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-details-q1",
+              "question": "Supporting details are used to:",
+              "options": [
+                "Explain the main idea",
+                "Confuse the reader",
+                "Make the passage longer",
+                "Add unnecessary information"
+              ],
+              "correctAnswer": "Explain the main idea",
+              "explanation": "Details support and explain the main point",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Paragraph structure",
+            "Essay organization"
+          ],
+          "resources": []
+        },
+        {
+          "id": "inference",
+          "title": "Inference",
+          "summary": "Reading between the lines",
+          "mustKnow": [
+            "Inference is understanding what's not directly stated",
+            "Use clues from the text",
+            "Combine text clues with your knowledge",
+            "Make logical conclusions"
+          ],
+          "keyTerms": [
+            {"term": "Inference", "definition": "Conclusion based on evidence"},
+            {"term": "Implied", "definition": "Suggested but not directly stated"},
+            {"term": "Clue", "definition": "Hint in the text"}
+          ],
+          "examples": [
+            {
+              "question": "The sky was dark and people carried umbrellas. What can you infer?",
+              "answer": "It might rain",
+              "explanation": "Dark sky and umbrellas suggest rain"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Making inferences without evidence",
+            "Confusing inference with facts"
+          ],
+          "examTips": [
+            "Look for clues in the text",
+            "Use evidence to support your inference"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-infer-q1",
+              "question": "She shivered and pulled her coat tighter. What can you infer?",
+              "options": [
+                "She is cold",
+                "She is happy",
+                "She is tired",
+                "She is hungry"
+              ],
+              "correctAnswer": "She is cold",
+              "explanation": "Shivering and pulling coat tighter suggests cold",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Critical thinking",
+            "Reading between the lines"
+          ],
+          "resources": []
+        },
+        {
+          "id": "context",
+          "title": "Context",
+          "summary": "Using context to understand words",
+          "mustKnow": [
+            "Use surrounding words to understand meaning",
+            "Look for context clues",
+            "Identify synonyms and antonyms",
+            "Understand words in context"
+          ],
+          "keyTerms": [
+            {"term": "Context", "definition": "Words surrounding an unknown word"},
+            {"term": "Context Clue", "definition": "Hint in text about word meaning"},
+            {"term": "Synonym", "definition": "Word with same meaning"}
+          ],
+          "examples": [
+            {
+              "question": "The arduous climb was difficult and exhausting. What does arduous mean?",
+              "answer": "Difficult",
+              "explanation": "Context clue: difficult and exhausting"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Ignoring context clues",
+            "Guessing without evidence"
+          ],
+          "examTips": [
+            "Read the whole sentence",
+            "Look for definition clues"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-context-q1",
+              "question": "The benevolent woman gave money to charity. Benevolent means:",
+              "options": [
+                "Kind and generous",
+                "Angry and mean",
+                "Poor and needy",
+                "Young and energetic"
+              ],
+              "correctAnswer": "Kind and generous",
+              "explanation": "Giving to charity suggests kindness",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Vocabulary building",
+            "Word origins"
+          ],
+          "resources": []
+        },
+        {
+          "id": "purpose",
+          "title": "Author's Purpose",
+          "summary": "Understanding why the author wrote the text",
+          "mustKnow": [
+            "Authors write to inform, persuade, or entertain",
+            "Identify the purpose from the text",
+            "Look at the type of writing",
+            "Understand the author's goal"
+          ],
+          "keyTerms": [
+            {"term": "Purpose", "definition": "Reason for writing"},
+            {"term": "Inform", "definition": "To give information"},
+            {"term": "Persuade", "definition": "To convince"},
+            {"term": "Entertain", "definition": "To amuse or interest"}
+          ],
+          "examples": [
+            {
+              "question": "A news article about climate change. What is the purpose?",
+              "answer": "To inform",
+              "explanation": "News articles give information"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing purpose with main idea",
+            "Not identifying the author's goal"
+          ],
+          "examTips": [
+            "Ask: Why did the author write this?",
+            "Look at the type of text"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-purpose-q1",
+              "question": "An advertisement trying to sell a product has what purpose?",
+              "options": [
+                "To persuade",
+                "To inform",
+                "To entertain",
+                "To describe"
+              ],
+              "correctAnswer": "To persuade",
+              "explanation": "Advertisements try to convince you to buy",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Rhetorical analysis",
+            "Media literacy"
+          ],
+          "resources": []
+        },
+        {
+          "id": "audience",
+          "title": "Audience",
+          "summary": "Understanding who the text is for",
+          "mustKnow": [
+            "Audience is who the text is written for",
+            "Identify the target audience",
+            "Language changes based on audience",
+            "Understand audience needs"
+          ],
+          "keyTerms": [
+            {"term": "Audience", "definition": "People the text is intended for"},
+            {"term": "Target Audience", "definition": "Specific group the text aims at"}
+          ],
+          "examples": [
+            {
+              "question": "A children's book uses simple words. Who is the audience?",
+              "answer": "Children",
+              "explanation": "Simple language suggests young readers"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Not identifying the right audience",
+            "Ignoring language clues"
+          ],
+          "examTips": [
+            "Look at vocabulary level",
+            "Consider the subject matter"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-audience-q1",
+              "question": "A medical journal uses technical terms. The audience is:",
+              "options": [
+                "Medical professionals",
+                "Children",
+                "General public",
+                "Students only"
+              ],
+              "correctAnswer": "Medical professionals",
+              "explanation": "Technical terms suggest expert audience",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Audience analysis",
+            "Communication skills"
+          ],
+          "resources": []
+        },
+        {
+          "id": "tone",
+          "title": "Tone",
+          "summary": "Understanding the author's attitude",
+          "mustKnow": [
+            "Tone is the author's attitude",
+            "Identify tone through word choice",
+            "Recognize different tones",
+            "Tone affects meaning"
+          ],
+          "keyTerms": [
+            {"term": "Tone", "definition": "Author's attitude toward subject"},
+            {"term": "Formal Tone", "definition": "Serious and professional"},
+            {"term": "Informal Tone", "definition": "Casual and friendly"}
+          ],
+          "examples": [
+            {
+              "question": "The author uses words like 'terrible' and 'disaster'. What is the tone?",
+              "answer": "Negative or critical",
+              "explanation": "Negative words show negative attitude"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing tone with mood",
+            "Missing tone clues"
+          ],
+          "examTips": [
+            "Look at word choice",
+            "Consider the author's feelings"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-tone-q1",
+              "question": "Words like 'wonderful' and 'amazing' suggest what tone?",
+              "options": [
+                "Positive",
+                "Negative",
+                "Neutral",
+                "Angry"
+              ],
+              "correctAnswer": "Positive",
+              "explanation": "Positive words show positive attitude",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Stylistic analysis",
+            "Author's voice"
+          ],
+          "resources": []
+        },
+        {
+          "id": "mood",
+          "title": "Mood",
+          "summary": "Understanding the feeling created in the reader",
+          "mustKnow": [
+            "Mood is the feeling the text creates",
+            "Setting affects mood",
+            "Word choice creates mood",
+            "Mood affects reader's emotions"
+          ],
+          "keyTerms": [
+            {"term": "Mood", "definition": "Feeling created in the reader"},
+            {"term": "Atmosphere", "definition": "Overall feeling of a text"}
+          ],
+          "examples": [
+            {
+              "question": "Dark, stormy night in a story creates what mood?",
+              "answer": "Suspenseful or scary",
+              "explanation": "Dark and stormy suggests danger"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing mood with tone",
+            "Ignoring setting and description"
+          ],
+          "examTips": [
+            "How does the text make you feel?",
+            "Look at descriptive words"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-mood-q1",
+              "question": "Sunny day, birds singing, children laughing. What mood?",
+              "options": [
+                "Happy",
+                "Sad",
+                "Scary",
+                "Angry"
+              ],
+              "correctAnswer": "Happy",
+              "explanation": "Positive descriptions create happy mood",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Literary atmosphere",
+            "Creative writing techniques"
+          ],
+          "resources": []
+        },
+        {
+          "id": "argument",
+          "title": "Argument",
+          "summary": "Understanding arguments in texts",
+          "mustKnow": [
+            "Argument presents a claim with support",
+            "Identify the claim",
+            "Recognize evidence and reasons",
+            "Evaluate argument strength"
+          ],
+          "keyTerms": [
+            {"term": "Argument", "definition": "Claim supported by evidence"},
+            {"term": "Claim", "definition": "Main point being argued"},
+            {"term": "Evidence", "definition": "Support for the claim"}
+          ],
+          "examples": [
+            {
+              "question": "School should start later because students need more sleep. What is the claim?",
+              "answer": "School should start later",
+              "explanation": "This is the main point being argued"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing claim with evidence",
+            "Not recognizing arguments"
+          ],
+          "examTips": [
+            "Find the main claim first",
+            "Look for supporting reasons"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-arg-q1",
+              "question": "What makes a strong argument?",
+              "options": [
+                "Clear claim with good evidence",
+                "Loud statements",
+                "Emotional language only",
+                "Personal opinions only"
+              ],
+              "correctAnswer": "Clear claim with good evidence",
+              "explanation": "Strong arguments need support",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Debate techniques",
+            "Persuasive writing"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "language",
+      "title": "Language",
+      "description": "Understanding grammar and language use",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Use correct grammar",
+        "Understand sentence structure",
+        "Identify parts of speech",
+        "Use correct punctuation"
+      ],
+      "topics": [
+        {
+          "id": "grammar",
+          "title": "Grammar",
+          "summary": "Rules for correct language use",
+          "mustKnow": [
+            "Grammar is the rules of language",
+            "Use correct word order",
+            "Follow subject-verb agreement",
+            "Use correct forms"
+          ],
+          "keyTerms": [
+            {"term": "Grammar", "definition": "Rules for language use"},
+            {"term": "Subject", "definition": "Who or what the sentence is about"},
+            {"term": "Verb", "definition": "Action or state word"}
+          ],
+          "examples": [
+            {
+              "question": "Correct: 'She goes to school' or 'She go to school'?",
+              "answer": "She goes to school",
+              "explanation": "Subject 'she' needs verb 'goes'"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Subject-verb agreement errors",
+            "Wrong verb tense"
+          ],
+          "examTips": [
+            "Check subject-verb agreement",
+            "Read sentence aloud"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-gram-q1",
+              "question": "Which is correct?",
+              "options": [
+                "They are happy",
+                "They is happy",
+                "They be happy",
+                "They am happy"
+              ],
+              "correctAnswer": "They are happy",
+              "explanation": "'They' takes plural verb 'are'",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Advanced grammar",
+            "Grammar rules"
+          ],
+          "resources": []
+        },
+        {
+          "id": "sentence-structure",
+          "title": "Sentence Structure",
+          "summary": "Building correct sentences",
+          "mustKnow": [
+            "Sentence has subject and verb",
+            "Simple sentences have one idea",
+            "Compound sentences join two ideas",
+            "Complex sentences have main and dependent clauses"
+          ],
+          "keyTerms": [
+            {"term": "Sentence", "definition": "Complete thought with subject and verb"},
+            {"term": "Clause", "definition": "Group of words with subject and verb"},
+            {"term": "Phrase", "definition": "Group of words without subject and verb"}
+          ],
+          "examples": [
+            {
+              "question": "Identify the subject and verb: 'The dog barks loudly'",
+              "answer": "Subject: dog, Verb: barks",
+              "explanation": "Dog is who, barks is the action"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Sentence fragments",
+            "Run-on sentences"
+          ],
+          "examTips": [
+            "Check for subject and verb",
+            "Avoid run-on sentences"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-sent-q1",
+              "question": "Which is a complete sentence?",
+              "options": [
+                "The cat sleeps",
+                "The cat",
+                "Sleeping cat",
+                "Cat sleeping on"
+              ],
+              "correctAnswer": "The cat sleeps",
+              "explanation": "Has subject 'cat' and verb 'sleeps'",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Sentence variety",
+            "Writing style"
+          ],
+          "resources": []
+        },
+        {
+          "id": "parts-of-speech",
+          "title": "Parts of Speech",
+          "summary": "Understanding word types",
+          "mustKnow": [
+            "Nouns name people, places, things",
+            "Verbs show action or state",
+            "Adjectives describe nouns",
+            "Adverbs describe verbs",
+            "Pronouns replace nouns"
+          ],
+          "keyTerms": [
+            {"term": "Noun", "definition": "Names a person, place, or thing"},
+            {"term": "Verb", "definition": "Shows action or state"},
+            {"term": "Adjective", "definition": "Describes a noun"},
+            {"term": "Adverb", "definition": "Describes a verb"},
+            {"term": "Pronoun", "definition": "Replaces a noun"}
+          ],
+          "examples": [
+            {
+              "question": "Identify parts of speech: 'The quick brown fox jumps'",
+              "answer": "The (article), quick (adjective), brown (adjective), fox (noun), jumps (verb)",
+              "explanation": "Each word has a function"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Confusing adjectives and adverbs",
+            "Misidentifying pronouns"
+          ],
+          "examTips": [
+            "Ask what function the word serves",
+            "Look at word endings"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-pos-q1",
+              "question": "'Beautiful' is what part of speech?",
+              "options": [
+                "Adjective",
+                "Noun",
+                "Verb",
+                "Adverb"
+              ],
+              "correctAnswer": "Adjective",
+              "explanation": "It describes a noun",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Advanced grammar",
+            "Linguistics"
+          ],
+          "resources": []
+        },
+        {
+          "id": "agreement",
+          "title": "Agreement",
+          "summary": "Making subjects and verbs agree",
+          "mustKnow": [
+            "Singular subjects take singular verbs",
+            "Plural subjects take plural verbs",
+            "Pronouns must agree with antecedents",
+            "Check agreement in sentences"
+          ],
+          "keyTerms": [
+            {"term": "Agreement", "definition": "Matching in number and person"},
+            {"term": "Singular", "definition": "One"},
+            {"term": "Plural", "definition": "More than one"}
+          ],
+          "examples": [
+            {
+              "question": "Correct: 'The boy runs' or 'The boy run'?",
+              "answer": "The boy runs",
+              "explanation": "Singular subject 'boy' needs singular verb 'runs'"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Subject-verb disagreement",
+            "Pronoun-antecedent errors"
+          ],
+          "examTips": [
+            "Identify the subject first",
+            "Check if subject is singular or plural"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-agree-q1",
+              "question": "Which is correct?",
+              "options": [
+                "The students study",
+                "The students studies",
+                "The student study",
+                "The students studying"
+              ],
+              "correctAnswer": "The students study",
+              "explanation": "Plural subject needs plural verb",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Advanced agreement rules",
+            "Collective nouns"
+          ],
+          "resources": []
+        },
+        {
+          "id": "tenses",
+          "title": "Tenses",
+          "summary": "Using correct verb tenses",
+          "mustKnow": [
+            "Present tense for now",
+            "Past tense for before",
+            "Future tense for later",
+            "Use consistent tense"
+          ],
+          "keyTerms": [
+            {"term": "Tense", "definition": "Time of action"},
+            {"term": "Present", "definition": "Happening now"},
+            {"term": "Past", "definition": "Already happened"},
+            {"term": "Future", "definition": "Will happen"}
+          ],
+          "examples": [
+            {
+              "question": "Change to past: 'I walk to school'",
+              "answer": "I walked to school",
+              "explanation": "Add -ed for regular past tense"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Mixing tenses",
+            "Wrong past tense forms"
+          ],
+          "examTips": [
+            "Keep tense consistent",
+            "Learn irregular verbs"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-tense-q1",
+              "question": "Past tense of 'go'?",
+              "options": [
+                "Went",
+                "Goed",
+                "Gone",
+                "Going"
+              ],
+              "correctAnswer": "Went",
+              "explanation": "'Go' is irregular verb",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Perfect tenses",
+            "Irregular verbs"
+          ],
+          "resources": []
+        },
+        {
+          "id": "vocabulary",
+          "title": "Vocabulary",
+          "summary": "Building and using words",
+          "mustKnow": [
+            "Learn new words regularly",
+            "Use context to understand words",
+            "Choose precise words",
+            "Avoid repetition"
+          ],
+          "keyTerms": [
+            {"term": "Vocabulary", "definition": "Words you know and use"},
+            {"term": "Synonym", "definition": "Word with similar meaning"},
+            {"term": "Antonym", "definition": "Word with opposite meaning"}
+          ],
+          "examples": [
+            {
+              "question": "Find synonym for 'happy'",
+              "answer": "Joyful, glad, pleased",
+              "explanation": "These words have similar meanings"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Using wrong word",
+            "Confusing similar words"
+          ],
+          "examTips": [
+            "Read widely to build vocabulary",
+            "Learn word families"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-vocab-q1",
+              "question": "Antonym of 'difficult'?",
+              "options": [
+                "Easy",
+                "Hard",
+                "Complex",
+                "Challenging"
+              ],
+              "correctAnswer": "Easy",
+              "explanation": "Easy is opposite of difficult",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Word roots",
+            "Vocabulary building strategies"
+          ],
+          "resources": []
+        },
+        {
+          "id": "punctuation",
+          "title": "Punctuation",
+          "summary": "Using punctuation marks correctly",
+          "mustKnow": [
+            "Period ends sentences",
+            "Comma separates items",
+            "Question mark for questions",
+            "Apostrophe shows possession",
+            "Quotation marks for speech"
+          ],
+          "keyTerms": [
+            {"term": "Period", "definition": "Ends a statement"},
+            {"term": "Comma", "definition": "Separates items or clauses"},
+            {"term": "Apostrophe", "definition": "Shows possession or contraction"}
+          ],
+          "examples": [
+            {
+              "question": "Add punctuation: 'where are you going'",
+              "answer": "Where are you going?",
+              "explanation": "Question needs question mark"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Missing punctuation",
+            "Overusing commas"
+          ],
+          "examTips": [
+            "Read aloud to hear pauses",
+            "Check sentence endings"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-punct-q1",
+              "question": "Which is correct?",
+              "options": [
+                "It's raining outside.",
+                "Its raining outside.",
+                "Its' raining outside.",
+                "It raining outside."
+              ],
+              "correctAnswer": "It's raining outside.",
+              "explanation": "It's = it is, needs apostrophe",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Advanced punctuation",
+            "Style guides"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "title": "Writing",
+      "description": "Creating different types of writing",
+      "importance": "must-know",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Write different types of essays",
+        "Structure writing clearly",
+        "Use appropriate language",
+        "Develop ideas effectively"
+      ],
+      "topics": [
+        {
+          "id": "argumentative-writing",
+          "title": "Argumentative Writing",
+          "summary": "Writing to argue a point",
+          "mustKnow": [
+            "Take a clear position",
+            "Support with reasons and evidence",
+            "Address counterarguments",
+            "Conclude strongly"
+          ],
+          "keyTerms": [
+            {"term": "Argumentative", "definition": "Presenting and defending a position"},
+            {"term": "Thesis", "definition": "Main argument"},
+            {"term": "Counterargument", "definition": "Opposing view"}
+          ],
+          "examples": [
+            {
+              "question": "Write argument: Should homework be banned?",
+              "answer": "Take position, give reasons, address opposition",
+              "explanation": "Structure: introduction, body paragraphs, conclusion"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Not taking clear position",
+            "Weak evidence"
+          ],
+          "examTips": [
+            "State position clearly",
+            "Use strong evidence"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-arg-w-q1",
+              "question": "What should an argumentative essay include?",
+              "options": [
+                "Clear thesis with evidence",
+                "Personal stories only",
+                "No clear position",
+                "Emotional appeals only"
+              ],
+              "correctAnswer": "Clear thesis with evidence",
+              "explanation": "Arguments need clear position and support",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Debate techniques",
+            "Persuasive strategies"
+          ],
+          "resources": []
+        },
+        {
+          "id": "persuasive-writing",
+          "title": "Persuasive Writing",
+          "summary": "Writing to convince readers",
+          "mustKnow": [
+            "Use persuasive techniques",
+            "Appeal to emotions and logic",
+            "Use rhetorical questions",
+            "Call to action"
+          ],
+          "keyTerms": [
+            {"term": "Persuasive", "definition": "Convincing others"},
+            {"term": "Rhetorical Question", "definition": "Question not needing answer"},
+            {"term": "Call to Action", "definition": "Urging reader to act"}
+          ],
+          "examples": [
+            {
+              "question": "Persuade readers to recycle",
+              "answer": "Use facts, emotional appeals, call to action",
+              "explanation": "Combine logic and emotion"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Too aggressive tone",
+            "No clear call to action"
+          ],
+          "examTips": [
+            "Know your audience",
+            "End with call to action"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-pers-q1",
+              "question": "What is a rhetorical question?",
+              "options": [
+                "Question not needing answer",
+                "Question with one answer",
+                "Multiple choice question",
+                "Impossible question"
+              ],
+              "correctAnswer": "Question not needing answer",
+              "explanation": "Used for effect, not information",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Advertising techniques",
+            "Speech writing"
+          ],
+          "resources": []
+        },
+        {
+          "id": "expository-writing",
+          "title": "Expository Writing",
+          "summary": "Writing to explain or inform",
+          "mustKnow": [
+            "Explain clearly and logically",
+            "Use facts and examples",
+            "Organize information",
+            "Stay objective"
+          ],
+          "keyTerms": [
+            {"term": "Expository", "definition": "Explaining or informing"},
+            {"term": "Objective", "definition": "Based on facts, not opinions"}
+          ],
+          "examples": [
+            {
+              "question": "Explain how photosynthesis works",
+              "answer": "Step-by-step explanation with facts",
+              "explanation": "Clear, organized information"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Adding opinions",
+            "Disorganized information"
+          ],
+          "examTips": [
+            "Organize logically",
+            "Use clear examples"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-exp-q1",
+              "question": "Expository writing aims to:",
+              "options": [
+                "Explain or inform",
+                "Persuade",
+                "Entertain only",
+                "Confuse readers"
+              ],
+              "correctAnswer": "Explain or inform",
+              "explanation": "Expository means to explain",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Technical writing",
+            "Instructional writing"
+          ],
+          "resources": []
+        },
+        {
+          "id": "narrative-writing",
+          "title": "Narrative Writing",
+          "summary": "Writing to tell a story",
+          "mustKnow": [
+            "Include characters and setting",
+            "Have clear plot",
+            "Use descriptive language",
+            "Build to climax"
+          ],
+          "keyTerms": [
+            {"term": "Narrative", "definition": "Story telling"},
+            {"term": "Plot", "definition": "Sequence of events"},
+            {"term": "Climax", "definition": "Highest point of tension"}
+          ],
+          "examples": [
+            {
+              "question": "Write about a memorable day",
+              "answer": "Use characters, setting, plot, climax",
+              "explanation": "Story elements create engaging narrative"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "No clear plot",
+            "Weak descriptions"
+          ],
+          "examTips": [
+            "Plan the plot first",
+            "Use vivid descriptions"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-narr-q1",
+              "question": "Essential elements of narrative writing include:",
+              "options": [
+                "Characters, setting, plot",
+                "Facts and statistics",
+                "Arguments and evidence",
+                "Instructions"
+              ],
+              "correctAnswer": "Characters, setting, plot",
+              "explanation": "These are story elements",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Creative writing",
+            "Story structure"
+          ],
+          "resources": []
+        },
+        {
+          "id": "descriptive-writing",
+          "title": "Descriptive Writing",
+          "summary": "Writing to create vivid pictures",
+          "mustKnow": [
+            "Use sensory details",
+            "Include sight, sound, smell, taste, touch",
+            "Use figurative language",
+            "Create vivid images"
+          ],
+          "keyTerms": [
+            {"term": "Descriptive", "definition": "Creating vivid pictures"},
+            {"term": "Sensory Details", "definition": "Appealing to the senses"},
+            {"term": "Figurative Language", "definition": "Creative language like metaphors"}
+          ],
+          "examples": [
+            {
+              "question": "Describe a beach at sunset",
+              "answer": "Use colors, sounds, smells, feelings",
+              "explanation": "Sensory details create vivid image"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Only visual descriptions",
+            "Vague language"
+          ],
+          "examTips": [
+            "Use all five senses",
+            "Be specific and vivid"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-desc-q1",
+              "question": "Sensory details appeal to:",
+              "options": [
+                "The five senses",
+                "Logic only",
+                "Emotions only",
+                "Opinions"
+              ],
+              "correctAnswer": "The five senses",
+              "explanation": "Sight, sound, smell, taste, touch",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Poetry techniques",
+            "Creative writing"
+          ],
+          "resources": []
+        },
+        {
+          "id": "informative-writing",
+          "title": "Informative Writing",
+          "summary": "Writing to provide information",
+          "mustKnow": [
+            "Present facts clearly",
+            "Organize logically",
+            "Use headings and lists",
+            "Stay objective"
+          ],
+          "keyTerms": [
+            {"term": "Informative", "definition": "Providing information"},
+            {"term": "Fact", "definition": "True statement"},
+            {"term": "Objective", "definition": "Not based on opinion"}
+          ],
+          "examples": [
+            {
+              "question": "Write about Caribbean history",
+              "answer": "Present facts in organized way",
+              "explanation": "Clear, factual information"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Adding opinions",
+            "Poor organization"
+          ],
+          "examTips": [
+            "Stick to facts",
+            "Organize clearly"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-info-q1",
+              "question": "Informative writing should be:",
+              "options": [
+                "Factual and clear",
+                "Opinionated",
+                "Emotional",
+                "Confusing"
+              ],
+              "correctAnswer": "Factual and clear",
+              "explanation": "Purpose is to inform",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Journalism",
+            "Report writing"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "communication",
+      "title": "Communication",
+      "description": "Understanding effective communication",
+      "importance": "must-know",
+      "difficulty": "beginner",
+      "learningObjectives": [
+        "Understand audience and purpose",
+        "Use appropriate register",
+        "Distinguish formal and informal language",
+        "Communicate effectively"
+      ],
+      "topics": [
+        {
+          "id": "audience-purpose",
+          "title": "Audience and Purpose",
+          "summary": "Understanding who and why we communicate",
+          "mustKnow": [
+            "Audience affects language choice",
+            "Purpose affects communication style",
+            "Match language to audience",
+            "Consider context"
+          ],
+          "keyTerms": [
+            {"term": "Audience", "definition": "Who you are communicating with"},
+            {"term": "Purpose", "definition": "Why you are communicating"}
+          ],
+          "examples": [
+            {
+              "question": "Explaining to a child vs explaining to a doctor",
+              "answer": "Use simpler language for child",
+              "explanation": "Audience affects language choice"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Using wrong language for audience",
+            "Unclear purpose"
+          ],
+          "examTips": [
+            "Identify audience first",
+            "Be clear about purpose"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-comm-q1",
+              "question": "Language should match:",
+              "options": [
+                "The audience and purpose",
+                "Your mood only",
+                "The weather",
+                "Random choice"
+              ],
+              "correctAnswer": "The audience and purpose",
+              "explanation": "Communication adapts to context",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Communication theory",
+            "Public speaking"
+          ],
+          "resources": []
+        },
+        {
+          "id": "register",
+          "title": "Register",
+          "summary": "Using appropriate language style",
+          "mustKnow": [
+            "Register is language style",
+            "Formal register for official contexts",
+            "Informal register for casual contexts",
+            "Choose register based on situation"
+          ],
+          "keyTerms": [
+            {"term": "Register", "definition": "Style of language used"},
+            {"term": "Formal Register", "definition": "Official, professional language"},
+            {"term": "Informal Register", "definition": "Casual, friendly language"}
+          ],
+          "examples": [
+            {
+              "question": "Job interview vs talking to friends",
+              "answer": "Formal register for interview, informal for friends",
+              "explanation": "Situation determines register"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Wrong register for situation",
+            "Mixing formal and informal"
+          ],
+          "examTips": [
+            "Consider the situation",
+            "Match register to context"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-reg-q1",
+              "question": "A job application should use:",
+              "options": [
+                "Formal register",
+                "Informal register",
+                "Slang",
+                "Casual language"
+              ],
+              "correctAnswer": "Formal register",
+              "explanation": "Job applications require formal language",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Sociolinguistics",
+            "Language varieties"
+          ],
+          "resources": []
+        },
+        {
+          "id": "formal-language",
+          "title": "Formal Language",
+          "summary": "Using professional language",
+          "mustKnow": [
+            "Use complete sentences",
+            "Avoid contractions",
+            "Use professional vocabulary",
+            "Be polite and respectful"
+          ],
+          "keyTerms": [
+            {"term": "Formal Language", "definition": "Professional, official language"},
+            {"term": "Contraction", "definition": "Shortened form like don't, can't"}
+          ],
+          "examples": [
+            {
+              "question": "Change to formal: 'Hey, what's up?'",
+              "answer": "Good morning, how are you?",
+              "explanation": "Formal language is polite and complete"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Using slang in formal contexts",
+            "Incomplete sentences"
+          ],
+          "examTips": [
+            "Avoid contractions",
+            "Use polite phrases"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-formal-q1",
+              "question": "Which is formal?",
+              "options": [
+                "I am writing to inquire",
+                "Hey, what's up?",
+                "Gimme that",
+                "Yeah, sure"
+              ],
+              "correctAnswer": "I am writing to inquire",
+              "explanation": "Complete sentence, professional tone",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Business communication",
+            "Academic writing"
+          ],
+          "resources": []
+        },
+        {
+          "id": "informal-language",
+          "title": "Informal Language",
+          "summary": "Using casual language",
+          "mustKnow": [
+            "Use contractions",
+            "Casual vocabulary acceptable",
+            "Friendly tone",
+            "Appropriate for friends and family"
+          ],
+          "keyTerms": [
+            {"term": "Informal Language", "definition": "Casual, friendly language"},
+            {"term": "Slang", "definition": "Very casual words and phrases"}
+          ],
+          "examples": [
+            {
+              "question": "Change to informal: 'I am going to the store'",
+              "answer": "I'm going to the store",
+              "explanation": "Contraction makes it informal"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Using informal language in formal contexts",
+            "Inappropriate slang"
+          ],
+          "examTips": [
+            "Know when informal is appropriate",
+            "Avoid slang in formal writing"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-informal-q1",
+              "question": "Informal language is appropriate for:",
+              "options": [
+                "Texting friends",
+                "Job interviews",
+                "Academic essays",
+                "Business letters"
+              ],
+              "correctAnswer": "Texting friends",
+              "explanation": "Informal is for casual situations",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Social communication",
+            "Digital communication"
+          ],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "title": "Research",
+      "description": "Finding and using information",
+      "importance": "important",
+      "difficulty": "intermediate",
+      "learningObjectives": [
+        "Find reliable sources",
+        "Summarize information",
+        "Paraphrase effectively",
+        "Evaluate information quality"
+      ],
+      "topics": [
+        {
+          "id": "sources",
+          "title": "Sources",
+          "summary": "Finding reliable information",
+          "mustKnow": [
+            "Use reliable sources",
+            "Check source credibility",
+            "Use variety of sources",
+            "Cite sources properly"
+          ],
+          "keyTerms": [
+            {"term": "Source", "definition": "Where information comes from"},
+            {"term": "Credible", "definition": "Trustworthy and reliable"},
+            {"term": "Citation", "definition": "Reference to a source"}
+          ],
+          "examples": [
+            {
+              "question": "Which is more reliable: academic journal or random blog?",
+              "answer": "Academic journal",
+              "explanation": "Peer-reviewed and authoritative"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Using unreliable sources",
+            "Not citing sources"
+          ],
+          "examTips": [
+            "Check source authority",
+            "Use academic sources"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-src-q1",
+              "question": "Most reliable source?",
+              "options": [
+                "Academic journal",
+                "Random blog",
+                "Social media post",
+                "Rumor"
+              ],
+              "correctAnswer": "Academic journal",
+              "explanation": "Peer-reviewed and authoritative",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Research methods",
+            "Academic writing"
+          ],
+          "resources": []
+        },
+        {
+          "id": "summarising",
+          "title": "Summarising",
+          "summary": "Condensing information",
+          "mustKnow": [
+            "Summary is shorter than original",
+            "Include main points only",
+            "Use your own words",
+            "Keep the original meaning"
+          ],
+          "keyTerms": [
+            {"term": "Summary", "definition": "Short version of longer text"},
+            {"term": "Condense", "definition": "Make shorter"}
+          ],
+          "examples": [
+            {
+              "question": "Summarize a long article in 50 words",
+              "answer": "Include only main ideas",
+              "explanation": "Summary captures essential points"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Copying original text",
+            "Including too many details"
+          ],
+          "examTips": [
+            "Identify main ideas",
+            "Use your own words"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-sum-q1",
+              "question": "A summary should be:",
+              "options": [
+                "Shorter than original",
+                "Same length as original",
+                "Longer than original",
+                "Word for word copy"
+              ],
+              "correctAnswer": "Shorter than original",
+              "explanation": "Summaries condense information",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Note-taking",
+            "Study skills"
+          ],
+          "resources": []
+        },
+        {
+          "id": "paraphrasing",
+          "title": "Paraphrasing",
+          "summary": "Rewriting in your own words",
+          "mustKnow": [
+            "Paraphrase keeps original meaning",
+            "Use different words and structure",
+            "Cite the source",
+            "Avoid plagiarism"
+          ],
+          "keyTerms": [
+            {"term": "Paraphrase", "definition": "Rewrite in your own words"},
+            {"term": "Plagiarism", "definition": "Using others' work without credit"}
+          ],
+          "examples": [
+            {
+              "question": "Paraphrase: 'The quick brown fox jumps over the lazy dog'",
+              "answer": "A fast brown fox leaps across a sleepy dog",
+              "explanation": "Same meaning, different words"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Changing only one or two words",
+            "Not citing source"
+          ],
+          "examTips": [
+            "Read, understand, then write",
+            "Change structure and words"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-para-q1",
+              "question": "Paraphrasing means:",
+              "options": [
+                "Rewriting in your own words",
+                "Copying exactly",
+                "Making text longer",
+                "Adding opinions"
+              ],
+              "correctAnswer": "Rewriting in your own words",
+              "explanation": "Paraphrase keeps meaning but changes words",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Academic integrity",
+            "Writing skills"
+          ],
+          "resources": []
+        },
+        {
+          "id": "evaluating-information",
+          "title": "Evaluating Information",
+          "summary": "Judging information quality",
+          "mustKnow": [
+            "Check source reliability",
+            "Identify bias",
+            "Verify facts",
+            "Use current information"
+          ],
+          "keyTerms": [
+            {"term": "Bias", "definition": "Prejudice in favor of one side"},
+            {"term": "Verify", "definition": "Check if true"},
+            {"term": "Reliable", "definition": "Can be trusted"}
+          ],
+          "examples": [
+            {
+              "question": "Website from 1999 about computers. Is it reliable?",
+              "answer": "No, outdated",
+              "explanation": "Technology changes quickly"
+            }
+          ],
+          "formulas": [],
+          "commonMistakes": [
+            "Not checking dates",
+            "Ignoring bias"
+          ],
+          "examTips": [
+            "Check publication date",
+            "Consider source bias"
+          ],
+          "questions": [
+            {
+              "id": "eng-a-eval-q1",
+              "question": "When evaluating information, you should:",
+              "options": [
+                "Check source and date",
+                "Accept everything",
+                "Ignore bias",
+                "Skip verification"
+              ],
+              "correctAnswer": "Check source and date",
+              "explanation": "Reliable information needs verification",
+              "difficulty": "easy",
+              "type": "multiple-choice"
+            }
+          ],
+          "furtherResearch": [
+            "Critical thinking",
+            "Media literacy"
+          ],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}
