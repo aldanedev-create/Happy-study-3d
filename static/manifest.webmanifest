@@ -40,6 +40,44 @@
       "purpose": "maskable"
     }
   ],
+
+  "screenshots": [
+    {
+      "src": "/store-screenshots/home.png",
+      "sizes": "1440x900",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Happy Study desktop learning workspace"
+    },
+    {
+      "src": "/store-screenshots/cxc.png",
+      "sizes": "1440x900",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "CXC and CSEC exam preparation subjects"
+    },
+    {
+      "src": "/store-screenshots/software-engineering.png",
+      "sizes": "1440x900",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Software engineering learning pathway"
+    },
+    {
+      "src": "/store-screenshots/camera-studio.png",
+      "sizes": "1440x1100",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Camera Studio for recording study demonstrations"
+    },
+    {
+      "src": "/store-screenshots/screen-studio.png",
+      "sizes": "1440x1100",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Screen Studio for recording and editing lessons"
+    }
+  ],
   
   "shortcuts": [
     {
